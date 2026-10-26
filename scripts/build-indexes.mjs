@@ -242,6 +242,23 @@ function buildLayersIndex() {
       ? Number(directives.order)
       : 999;
 
+    let group = directives.group;
+    if (!group) {
+      if ((directives.type || 'Text') === 'FillWithColor') {
+        const isAllRegions = sampleTargets.size > 0 &&
+          Array.from(sampleTargets).every((k) => /^[A-Z]{2}(::[A-Za-z0-9_-]+)*$/.test(k));
+        group = isAllRegions ? 'fill-region' : 'ext-object';
+      } else if ((directives.type || 'Text') === 'ExtObject') {
+        group = 'ext-object';
+      } else {
+        if (directives.effectiveRange === 'International' || sampleTargets.size > 25) {
+          group = 'global-label';
+        } else {
+          group = 'area-label';
+        }
+      }
+    }
+
     const layerMeta = {
       id,
       filename,
@@ -250,6 +267,7 @@ function buildLayersIndex() {
       nameEn: directives.nameEn || filename,
       shortBadge: directives.shortBadge || null,
       type: directives.type || 'Text',
+      group,
       order: orderNum,
       accentColor: directives.accentColor || directives['default-color'] || null,
       defaultColor: directives['default-color'] || directives.accentColor || null,
@@ -270,9 +288,17 @@ function buildLayersIndex() {
   // Sort by order ascending
   layersList.sort((a, b) => a.order - b.order);
 
+  const groups = {
+    fillRegion: layersList.filter((l) => l.group === 'fill-region'),
+    extObject: layersList.filter((l) => l.group === 'ext-object'),
+    globalLabel: layersList.filter((l) => l.group === 'global-label'),
+    areaLabel: layersList.filter((l) => l.group === 'area-label')
+  };
+
   return {
     files: csvFiles.map(relPath),
     totalLayers: layersList.length,
+    groups,
     layers: layersList,
     byFilename,
     byId

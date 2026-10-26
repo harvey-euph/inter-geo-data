@@ -1,6 +1,7 @@
 // country-code.csv
 // @id: callingCode
 // @order: 2
+// @group: global-label
 // @loadedTiming: on-demand
 // @effectiveRange: International
 // @type: Text

@@ -1,6 +1,7 @@
 // india-scripts.csv
 // @id: indiaScripts
 // @order: 7
+// @group: area-label
 // @loadedTiming: on-demand
 // @effectiveRange: Nationwide:IN|LK|BD
 // @type: Text

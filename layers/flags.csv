@@ -1,6 +1,7 @@
 // flags.csv
 // @id: flag
 // @order: 1
+// @group: global-label
 // @loadedTiming: on-demand
 // @effectiveRange: International
 // @type: Text

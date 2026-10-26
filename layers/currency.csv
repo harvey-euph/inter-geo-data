@@ -1,6 +1,7 @@
 // currency.csv
 // @id: currency
 // @order: 4
+// @group: global-label
 // @loadedTiming: on-demand
 // @effectiveRange: International
 // @type: Text
