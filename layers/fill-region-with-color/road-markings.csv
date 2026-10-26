@@ -5,7 +5,7 @@
 // @type: FillWithColor
 // @nameZh: 道路標線 (邊線/中線)
 // @nameEn: Road Markings (Edge / Center)
-// @shortBadge: 🛣️ 標線
+// @shortBadge: 🛣️ 道路標線
 // @default-color: #334155
 // @descriptionZh: 顯示各國外側邊線與中央分向線顏色組合（格式：外邊線色:中央線色，如白邊+黃中線、全白標線、黃邊+白中線等）
 // @legend: #f59e0b: 外圈白邊線 + 中心黃線
