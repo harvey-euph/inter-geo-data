@@ -1,11 +1,11 @@
 // driving-side.csv
 // @id: drivingSide
-// @order: 8
+// @order: 2
 // @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 行駛方向 (左右行)
 // @nameEn: Driving Side
-// @shortBadge: 🚦 方向
+// @shortBadge: 🚦 道路行駛方向
 // @default-color: #1e2430
 // @descriptionZh: 全球各國道路通行方向（靠左行駛 #f59e0b 與靠右行駛 #3b82f6，無街景或未收錄 #1e2430）制度分布
 // @legend: #f59e0b: 靠左行駛 (Left-hand Drive)

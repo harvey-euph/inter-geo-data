@@ -8,6 +8,6 @@
 // @nameZh: 基礎底圖
 // @nameEn: Base Map
 // @shortBadge: 🌍 世界
-// @default-color: #232a38
+// @default-color: #38bdf8
 // @descriptionZh: 全球陸地基礎底圖輪廓
 regionId, color, label
