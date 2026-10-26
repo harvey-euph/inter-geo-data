@@ -1,0 +1,46 @@
+name: Generate and Publish Data Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+      - 'info/**'
+      - 'layers/**'
+      - 'images/**'
+      - 'scripts/**'
+      - '.github/workflows/generate-index.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build Index Files
+        run: |
+          node scripts/build-indexes.mjs --out-dir dist-index
+
+      - name: Publish to index branch
+        run: |
+          cd dist-index
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b index
+          git add -A
+          git commit -m "Auto-generate index [skip ci]"
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push -f origin index
