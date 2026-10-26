@@ -285,32 +285,45 @@ function buildLayersIndex() {
 function buildDataIndex() {
   const dataDir = path.join(REPO_ROOT, 'data');
   if (!fs.existsSync(dataDir)) {
-    return { files: [], counts: {}, l2Countries: [], l3ByCountry: {}, roadsByCountry: {} };
+    return { files: [], counts: {}, l2Countries: [], childrenByParent: {}, extByCountry: {} };
   }
 
   const allFiles = walkDir(dataDir).filter((f) => f.endsWith('.fgb')).map(relPath).sort();
 
   const l2Countries = [];
-  const l3ByCountry = {};
+  const childrenByParent = {};
+  const extByCountry = {};
   const roadsByCountry = {};
   let rootCountryFile = null;
 
   for (const file of allFiles) {
-    const base = path.basename(file, '.fgb');
+    const parts = file.split('/');
+    const filename = parts[parts.length - 1];
+    const base = path.basename(filename, '.fgb');
+
     if (file === 'data/COUNTRY.fgb' || file === 'data/countries-110m.fgb') {
       rootCountryFile = file;
-    } else if (file.startsWith('data/l2/') || (!file.includes('/', 5) && !file.includes('-'))) {
-      // e.g. data/l2/JP.fgb or data/JP.fgb
-      l2Countries.push(base);
-    } else if (file.startsWith('data/l3/')) {
-      // e.g. data/l3/JP/1.fgb or data/l3/UG/UG.fgb
-      const parts = file.split('/');
-      const countryIso = parts[2];
-      if (!l3ByCountry[countryIso]) l3ByCountry[countryIso] = [];
-      l3ByCountry[countryIso].push(file);
-    } else if (file.startsWith('data/roads/') || file.includes('-roads')) {
-      // e.g. data/roads/JP.fgb
-      roadsByCountry[base] = file;
+    } else if (parts.length === 2) {
+      // Direct child of data/: either XX.fgb or XX-ZZ.fgb
+      if (base.includes('-')) {
+        // e.g. JP-roads.fgb or TW-powerpoles.fgb
+        const [iso, ...rest] = base.split('-');
+        const extType = rest.join('-');
+        if (!extByCountry[iso]) extByCountry[iso] = {};
+        extByCountry[iso][extType] = file;
+        if (extType === 'roads') {
+          roadsByCountry[iso] = file;
+        }
+      } else {
+        // e.g. JP.fgb, US.fgb (Country Admin-1 subdivisions)
+        l2Countries.push(base);
+      }
+    } else {
+      // Deeper hierarchy: e.g. data/JP/1.fgb or data/US/US-CA.fgb or data/A/B/C.fgb
+      const parentDirParts = parts.slice(1, -1);
+      const parentKey = parentDirParts.join('::');
+      if (!childrenByParent[parentKey]) childrenByParent[parentKey] = [];
+      childrenByParent[parentKey].push(file);
     }
   }
 
@@ -321,12 +334,15 @@ function buildDataIndex() {
     counts: {
       total: allFiles.length,
       l2: l2Countries.length,
-      l3Countries: Object.keys(l3ByCountry).length,
-      roads: Object.keys(roadsByCountry).length
+      subdivisionParents: Object.keys(childrenByParent).length,
+      roads: Object.keys(roadsByCountry).length,
+      extObjects: Object.keys(extByCountry).length
     },
     l2Countries,
-    l3ByCountry,
+    childrenByParent,
+    subdivisionsByCountry: childrenByParent,
     roadsByCountry,
+    extByCountry,
     files: allFiles
   };
 }
