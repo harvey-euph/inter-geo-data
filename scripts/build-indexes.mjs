@@ -285,6 +285,8 @@ function buildLayersIndex() {
       loadedTiming: directives.loadedTiming || 'on-demand',
       focusTarget: directives.focusTarget || null,
       goto: directives.goto || null,
+      fgb: directives.fgb || null,
+      innerGrid: directives.innerGrid || null,
       legend: legendDirectives.length > 0 ? legendDirectives : null,
       rowCount: dataRowCount,
       targetKeys: Array.from(sampleTargets)
