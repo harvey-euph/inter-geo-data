@@ -10,6 +10,7 @@
 // @shortBadge: 🕉️ 南亞文字
 // @accentColor: #f472b6
 // @descriptionZh: 顯示印度各邦、斯里蘭卡與孟加拉的專屬書寫文字與代表字特徵（如泰米爾文 தமிழ்、僧伽羅文 සිංහල、馬拉雅拉姆文 മലയാളം、孟加拉文 বাংলা 等）
+// @goto: lat=22&lon=79&ratio=4
 
 // Neighboring South Asian Countries (Sri Lanka & Bangladesh)
 regionId, value, label

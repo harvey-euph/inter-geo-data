@@ -11,7 +11,7 @@
 // @accentColor: #38bdf8
 // @default-color: #38bdf8
 // @descriptionZh: 歐洲各國行人穿越道（斑馬線）告示牌特徵（斑馬線條數、走向、標誌形狀與外框顏色）
-// @goto: lat=50.0&lon=15.0&ratio=0.15
+// @goto: lat=50&lon=16&ratio=4
 iso2, image, nameZh, nameEn, stripes, direction, shape, descriptionZh
 DE, images/crossing/de.svg, 德國, Germany, 4, left, blue_square, "標準 StVO 350-10 標誌：藍底白三角，行人向左行，4 條粗斑馬線。與西歐多數 5 條國家區隔的關鍵特徵。"
 ES, images/crossing/es.svg, 西班牙, Spain, 8, left, blue_square, "西班牙 S-13 標誌：全歐洲斑馬線條數最多的設計（共 8 條），行人朝左邁步。"
