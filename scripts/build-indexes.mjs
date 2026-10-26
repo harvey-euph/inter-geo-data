@@ -212,6 +212,7 @@ function buildLayersIndex() {
     const lines = content.split(/\r?\n/);
 
     const directives = {};
+    const legendDirectives = [];
     let dataRowCount = 0;
     const sampleTargets = new Set();
 
@@ -224,7 +225,15 @@ function buildLayersIndex() {
         if (directiveMatch) {
           const key = directiveMatch[1];
           const val = directiveMatch[2].trim();
-          directives[key] = val;
+          if (key === 'legend') {
+            const sep = val.includes(':') ? ':' : ',';
+            const parts = val.split(sep);
+            const color = parts[0].trim();
+            const labelZh = parts.slice(1).join(sep).trim();
+            legendDirectives.push({ key: color, color, labelZh });
+          } else {
+            directives[key] = val;
+          }
         }
         continue;
       }
@@ -276,6 +285,7 @@ function buildLayersIndex() {
       loadedTiming: directives.loadedTiming || 'on-demand',
       focusTarget: directives.focusTarget || null,
       goto: directives.goto || null,
+      legend: legendDirectives.length > 0 ? legendDirectives : null,
       rowCount: dataRowCount,
       targetKeys: Array.from(sampleTargets)
     };
