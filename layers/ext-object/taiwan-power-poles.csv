@@ -32,6 +32,8 @@
 // @legend: #0284c7: U (蘭嶼鄉海域)
 // @legend: #475569: V (鵝鑾鼻以南海峽)
 // @legend: #334155: W (台東東南海域)
+// @goto: lat=23.5&lon=121&ratio=50
+
 id, color, nameZh, nameEn, examplePoleCode, subdivisions, description
 TW-powerpoles::A, #0ea5e9, 新竹北沿海 / 富貴角海邊, Hsinchu North Coast / Fuguijiao, A0590 AA12, "新竹市北側海線、新北富貴角極北海岸", 台灣極西北海岸角與新竹外海
 TW-powerpoles::B, #3b82f6, 大台北 / 基隆 / 北桃園, Greater Taipei / Keelung / North Taoyuan, B8230 AA93, "台北市、新北市、基隆市、桃園市北部", 大台北都會區、基隆市及桃園大園/蘆竹/龜山
