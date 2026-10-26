@@ -196,10 +196,9 @@ function buildLayersIndex() {
     return { files: [], layers: [], byFilename: {}, byId: {} };
   }
 
-  const csvFiles = fs.readdirSync(layersDir)
+  const csvFiles = walkDir(layersDir)
     .filter((f) => f.endsWith('.csv'))
-    .sort()
-    .map((f) => path.join(layersDir, f));
+    .sort();
 
   const layersList = [];
   const byFilename = {};
@@ -213,6 +212,7 @@ function buildLayersIndex() {
 
     const directives = {};
     const legendDirectives = [];
+    let headerColumns = null;
     let dataRowCount = 0;
     const sampleTargets = new Set();
 
@@ -238,9 +238,22 @@ function buildLayersIndex() {
         continue;
       }
 
-      // Non-comment line = data row
+      // Non-comment line = header row or data row
+      const rawCols = line.split(',').map((c) => c.trim().replace(/^"|"$/g, ''));
+      const firstCol = rawCols[0];
+      const normFirst = firstCol.toLowerCase().replace(/[\s_-]+/g, '');
+
+      // Check for column header line
+      if (!headerColumns && (
+        normFirst === 'regionid' || normFirst === 'region' ||
+        normFirst === 'iso2' || normFirst === 'id' || normFirst === 'key' || normFirst === 'code' ||
+        rawCols.some((c) => ['color', 'value', 'label', 'namezh', 'examplepolecode'].includes(c.toLowerCase().replace(/[\s_-]+/g, '')))
+      )) {
+        headerColumns = rawCols;
+        continue;
+      }
+
       dataRowCount++;
-      const firstCol = line.split(',')[0].trim();
       if (firstCol && firstCol.length < 30) {
         sampleTargets.add(firstCol);
       }
@@ -252,8 +265,20 @@ function buildLayersIndex() {
       : 999;
 
     let group = directives.group;
+    if (group === 'fill-region-with-color') {
+      group = 'fill-region';
+    }
     if (!group) {
-      if ((directives.type || 'Text') === 'FillWithColor') {
+      const parentDir = path.basename(path.dirname(filePath));
+      if (parentDir === 'fill-region-with-color' || parentDir === 'fill-region') {
+        group = 'fill-region';
+      } else if (parentDir === 'ext-object') {
+        group = 'ext-object';
+      } else if (parentDir === 'global-label') {
+        group = 'global-label';
+      } else if (parentDir === 'area-label') {
+        group = 'area-label';
+      } else if ((directives.type || 'Text') === 'FillWithColor') {
         const isAllRegions = sampleTargets.size === 0 ||
           Array.from(sampleTargets).every((k) => /^[A-Z]{2}(::[A-Za-z0-9_-]+)*$/.test(k));
         group = isAllRegions ? 'fill-region' : 'ext-object';
@@ -288,6 +313,7 @@ function buildLayersIndex() {
       fgb: directives.fgb || null,
       innerGrid: directives.innerGrid || null,
       legend: legendDirectives.length > 0 ? legendDirectives : null,
+      columns: headerColumns || [],
       rowCount: dataRowCount,
       targetKeys: Array.from(sampleTargets)
     };

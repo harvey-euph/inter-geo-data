@@ -12,6 +12,7 @@
 // @descriptionZh: 顯示各國國家頂級網域名稱（ccTLD，如 .tw、.jp、.uk、.us 等）
 
 // Asia
+iso2, value, label
 TW, .tw
 JP, .jp
 KR, .kr

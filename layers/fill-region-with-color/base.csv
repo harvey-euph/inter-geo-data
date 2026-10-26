@@ -1,7 +1,7 @@
 // base.csv
 // @id: base
 // @order: 0
-// @group: fill-region
+// @group: fill-region-with-color
 // @loadedTiming: init
 // @effectiveRange: International
 // @type: FillWithColor
@@ -10,3 +10,4 @@
 // @shortBadge: 🗺️ 底圖
 // @default-color: #232a38
 // @descriptionZh: 全球陸地基礎底圖輪廓
+regionId, color, label

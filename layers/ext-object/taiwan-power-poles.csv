@@ -1,0 +1,57 @@
+// taiwan-power-poles.csv
+// @id: taiwan-power-poles
+// @order: 20
+// @group: ext-object
+// @effectiveRange: Nationwide:TW
+// @type: ExtObject
+// @fgb: data/TW-powerpoles.fgb
+// @nameZh: 台灣電力座標格
+// @nameEn: Taiwan Taipower Grid
+// @shortBadge: ⚡ 台電
+// @accentColor: #f59e0b
+// @default-color: rgba(245, 158, 11, 0.22)
+// @innerGrid: percentage
+// @descriptionZh: 台灣電力公司電線桿與配電箱之 80km×50km 分區圖號座標網格
+// @legend: #0ea5e9: A (新竹北沿海 / 富貴角海邊)
+// @legend: #3b82f6: B (大台北 / 基隆 / 北桃園)
+// @legend: #6366f1: C (東北角 / 三貂角海域)
+// @legend: #10b981: D (桃竹苗海線 / 通霄苑裡)
+// @legend: #8b5cf6: E (桃竹苗山線 / 宜蘭山區)
+// @legend: #06b6d4: F (宜蘭平原 / 蘇澳沿海)
+// @legend: #f59e0b: G (台中市 / 彰化北 / 南投西)
+// @legend: #d97706: H (南投合歡山 / 花蓮太魯閣)
+// @legend: #14b8a6: J (澎湖北 / 雲林麥寮外海)
+// @legend: #84cc16: K (彰化南 / 雲林 / 嘉義西)
+// @legend: #ec4899: L (花蓮市 / 吉安 / 中央山脈中段)
+// @legend: #22d3ee: M (澎湖南 / 馬公 / 台南海線)
+// @legend: #eab308: N (嘉義阿里山 / 台南市 / 北高雄)
+// @legend: #f43f5e: O (花蓮南 / 台東北 / 成功玉里)
+// @legend: #64748b: P (高雄西南外海)
+// @legend: #ef4444: Q (高雄都會區 / 屏東北 / 旗山美濃)
+// @legend: #a855f7: R (台東市 / 卑南 / 綠島)
+// @legend: #f97316: T (屏東南 / 恆春半島 / 墾丁)
+// @legend: #0284c7: U (蘭嶼鄉海域)
+// @legend: #475569: V (鵝鑾鼻以南海峽)
+// @legend: #334155: W (台東東南海域)
+id, color, nameZh, nameEn, examplePoleCode, subdivisions, description
+A, #0ea5e9, 新竹北沿海 / 富貴角海邊, Hsinchu North Coast / Fuguijiao, A0590 AA12, "新竹市北側海線、新北富貴角極北海岸", 台灣極西北海岸角與新竹外海
+B, #3b82f6, 大台北 / 基隆 / 北桃園, Greater Taipei / Keelung / North Taoyuan, B8230 AA93, "台北市、新北市、基隆市、桃園市北部", 大台北都會區、基隆市及桃園大園/蘆竹/龜山
+C, #6366f1, 東北角 / 三貂角海域, Northeast Cape / Sandiaojiao, C1045 AB01, "新北貢寮三貂角、龜山島東北外海", 台灣本島極東三貂角陸地與東部海域
+D, #10b981, 桃竹苗海線 / 通霄苑裡, Taoyuan / Hsinchu / Miaoli Coast, D2450 CA32, "桃園觀音/新屋、新竹竹北/新豐、苗栗竹南/後龍/通霄", 桃竹苗濱海走廊、西濱快速道路沿線
+E, #8b5cf6, 桃竹苗山線 / 宜蘭山區, Taoyuan / Hsinchu / Miaoli Hills & Yilan Mountains, E4560 DE54, "桃園中壢/龍潭、新竹竹東/關西/五峰、苗栗大湖/三義、新北烏來", 桃竹苗客家山莊、雪霸山脈北段與雪山山脈
+F, #06b6d4, 宜蘭平原 / 蘇澳沿海, Yilan Plain / Suao Coast, F3020 BC87, "宜蘭市、羅東鎮、頭城鎮、蘇澳鎮", 蘭陽平原水田、蘇花公路起點與蘇澳港
+G, #f59e0b, 台中市 / 彰化北 / 南投西, Taichung / North Changhua / West Nantou, G3540 EA21, "台中市全境、彰化市/鹿港、南投市/草屯", 大台中盆地、清泉崗、彰化北部農田與八卦台地
+H, #d97706, 南投合歡山 / 花蓮太魯閣, Nantou Hehuanshan / Hualien Taroko, H5050 DD11, "南投埔里/仁愛/合歡山、花蓮秀林/天祥/太魯閣", 台灣屋脊中央山脈、中橫公路與合歡山
+J, #14b8a6, 澎湖北 / 雲林麥寮外海, North Penghu / Yunlin Offshore, J4030 CC20, "澎湖白沙/西嶼/吉貝、雲林六輕台西沿海", 澎湖群島北部島嶼及濁水溪出海口海域
+K, #84cc16, 彰化南 / 雲林 / 嘉義西, South Changhua / Yunlin / West Chiayi, K6520 BD88, "彰化員林/二林、雲林斗六/虎尾/北港、嘉義朴子/太保", 嘉南平原糧倉北部、濁水溪南岸農田
+L, #ec4899, 花蓮市 / 吉安 / 中央山脈中段, Hualien City / Ji-an / Central Range, L4025 AA15, "花蓮市、吉安鄉、壽豐鄉、萬榮鄉", 花蓮核心縱谷平原、花東海岸台 11 線北端
+M, #22d3ee, 澎湖南 / 馬公 / 台南海線, South Penghu / Magong / Tainan Offshore, M2580 CB90, "澎湖馬公市/湖西/望安/七美、台南七股/北門海線", 澎湖馬公本島與七美嶼、台南鹽田潟湖區
+N, #eab308, 嘉義阿里山 / 台南市 / 北高雄, Chiayi Alishan / Tainan City / North Kaohsiung, N5230 EA45, "嘉義阿里山/中埔、台南市安南/永康/新營、高雄湖內/茄萣", 文化古都台南市區、嘉義阿里山公路森林
+O, #f43f5e, 花蓮南 / 台東北 / 成功玉里, South Hualien / North Taitung / Yuli / Chenggong, O3570 DA23, "花蓮光復/玉里/富里、台東長濱/成功/池上/關山", 花東縱谷池上關山米鄉、成功三仙台海岸
+P, #64748b, 高雄西南外海, Kaohsiung Southwest Offshore, P1010 AA01, "台灣海峽南部漁場", 高雄港外錨泊區海域
+Q, #ef4444, 高雄都會區 / 屏東北 / 旗山美濃, Kaohsiung Metro / North Pingtung / Qishan Meinong, Q4060 BB33, "高雄市苓雅/三民/鳳山/旗山/美濃、屏東市/潮州/里港", 大高雄都會中心區、愛河、屏東平原高屏溪沿線
+R, #a855f7, 台東市 / 卑南 / 綠島, Taitung City / Beinan / Green Island, R1998 EE79, "台東市、卑南鄉、太麻里鄉、綠島鄉", 台東黑森林卑南溪口、太麻里金針山與綠島
+T, #f97316, 屏東南 / 恆春半島 / 墾丁, South Pingtung / Hengchun / Kenting, T3050 CD44, "屏東枋寮/枋山/車城/恆春/滿州、小琉球", 國境之南恆春古城、墾丁國家公園與佳鵝公路
+U, #0284c7, 蘭嶼鄉海域, Orchid Island (Lanyu), U1580 AA05, "台東縣蘭嶼鄉", 達悟族拼板舟故鄉蘭嶼與東清灣
+V, #475569, 鵝鑾鼻以南海峽, South of Eluanbi / Bashi Channel, V2020 AA01, "巴士海峽北部海域", 台灣本島極南鵝鑾鼻燈塔南方巴士海峽
+W, #334155, 台東東南海域, Southeast Offshore Basin, W1010 AA01, "太平洋深海盆地", 蘭嶼南方太平洋航道海域

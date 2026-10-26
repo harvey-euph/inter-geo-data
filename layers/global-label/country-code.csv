@@ -12,6 +12,7 @@
 // @descriptionZh: 顯示全球各國國際電話區號（如 +886、+81、+1、+44 等）
 
 // Asia
+iso2, value, label
 TW, +886
 JP, +81
 KR, +82

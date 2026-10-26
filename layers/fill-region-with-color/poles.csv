@@ -1,7 +1,7 @@
 // poles.csv
 // @id: poles
 // @order: 13
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 電線桿特色 (洞洞桿 / 斑馬條紋)
 // @nameEn: Utility Poles
@@ -14,6 +14,7 @@
 // @legend: #64748b: 一般水泥或金屬桿
 // @legend: #1e2430: 無街景或未收錄
 
+iso2, color, label
 TW, #eab308, 桿底黃黑斜紋防撞漆 (台灣)
 JP, #eab308, 桿底黃黑斜紋防撞漆 (日本)
 KR, #64748b, 一般水泥或金屬桿 (南韓)

@@ -1,7 +1,7 @@
 // driving-side.csv
 // @id: drivingSide
 // @order: 8
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 行駛方向 (左右行)
 // @nameEn: Driving Side
@@ -13,6 +13,7 @@
 // @legend: #1e2430: 無街景或未收錄
 
 // Left-hand Drive (靠左行駛)
+iso2, color, label
 JP, #f59e0b, 靠左行駛 (日本)
 TH, #f59e0b, 靠左行駛 (泰國)
 MY, #f59e0b, 靠左行駛 (馬來西亞)

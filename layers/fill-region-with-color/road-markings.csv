@@ -1,7 +1,7 @@
 // road-markings.csv
 // @id: roadMarkings
 // @order: 10
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 道路標線 (邊線/中線)
 // @nameEn: Road Markings (Edge / Center)
@@ -14,6 +14,7 @@
 // @legend: #334155: 其他或無標線道路
 
 // White Outer + Yellow Center (美洲多數、台灣、日本、紐西蘭、東南亞)
+iso2, color, label
 US, #f1f5f9:#f59e0b, 左右白邊線 + 中央雙黃線
 CA, #f1f5f9:#f59e0b, 左右白邊線 + 中央雙黃線
 TW, #f1f5f9:#f59e0b, 左右白邊線 (15cm) + 中央雙黃實線/單黃虛線

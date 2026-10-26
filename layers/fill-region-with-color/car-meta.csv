@@ -1,7 +1,7 @@
 // car-meta.csv
 // @id: carMeta
 // @order: 12
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 街景拍攝車與設備特徵
 // @nameEn: Street View Car Meta
@@ -17,6 +17,7 @@
 // @legend: #262f3f: 標準一般街景車
 // @legend: #1e2430: 無街景或未收錄
 
+iso2, color, label
 TW, #262f3f, 標準一般街景車 (台灣)
 JP, #8b5cf6, 低視角鏡頭 Low Cam (日本)
 KR, #262f3f, 標準一般街景車 (南韓)

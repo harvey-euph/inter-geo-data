@@ -12,6 +12,7 @@
 // @descriptionZh: 顯示各國最具辨識度的專屬字母或書寫特徵（如冰島 Ð Þ、捷克 Ř Ů、波蘭 Ł Ą、土耳其 Ğ İ、越南 Đ Ơ Ư 等）
 
 // Nordic & Baltic
+iso2, value, label
 IS, Ð ð Þ þ Æ
 DK, Æ Ø Å
 NO, Æ Ø Å

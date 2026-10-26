@@ -12,6 +12,7 @@
 // @descriptionZh: 顯示全球各國國旗符號（可與國碼、網域或貨幣並列顯示，如 🇹🇼 +886）
 
 // Asia
+iso2, value, label
 TW, 🇹🇼
 JP, 🇯🇵
 KR, 🇰🇷

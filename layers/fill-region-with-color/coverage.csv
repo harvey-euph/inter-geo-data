@@ -1,7 +1,7 @@
 // coverage.csv
 // @id: coverage
 // @order: 9
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 街景全覽
 // @nameEn: Street View Coverage
@@ -13,6 +13,7 @@
 // @legend: #1e2430: 無街景或未收錄
 
 // Official Coverage (官方覆蓋)
+iso2, color, label
 TW, #38bdf8, 官方街景覆蓋 (台灣)
 JP, #38bdf8, 官方街景覆蓋 (日本)
 KR, #38bdf8, 官方街景覆蓋 (南韓)

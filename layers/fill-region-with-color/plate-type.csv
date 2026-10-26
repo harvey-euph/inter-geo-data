@@ -1,7 +1,7 @@
 // plate-type.csv
 // @id: plateType
 // @order: 11
-// @group: fill-region
+// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 車牌特徵 (顏色與邊條)
 // @nameEn: License Plates
@@ -17,6 +17,7 @@
 // @legend: #64748b: 一般白牌或其他
 // @legend: #1e2430: 無街景或未收錄
 
+iso2, color, label
 TW, #64748b, 一般白牌 (台灣)
 JP, #fbbf24, 輕型車黃牌 (日本)
 KR, #64748b, 一般白牌 (南韓)
