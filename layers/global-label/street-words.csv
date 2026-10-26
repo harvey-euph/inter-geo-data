@@ -1,7 +1,7 @@
 // street-words.csv
 // @id: streetWords
 // @order: 6
-// @group: area-label
+// @group: global-label
 // @loadedTiming: on-demand
 // @effectiveRange: International
 // @type: Text
