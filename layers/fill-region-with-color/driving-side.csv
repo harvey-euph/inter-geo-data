@@ -3,7 +3,7 @@
 // @order: 2
 // @group: fill-region-with-color
 // @type: FillWithColor
-// @nameZh: 行駛方向 (左右行)
+// @nameZh: 行駛方向
 // @nameEn: Driving Side
 // @shortBadge: 🚦 道路行駛方向
 // @default-color: #1e2430
