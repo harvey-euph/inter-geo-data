@@ -6,8 +6,8 @@
 // @nameZh: 街景全覽
 // @nameEn: Street View Coverage
 // @shortBadge: 🌍 街景
-// @default-color: #38bdf8
-// @descriptionZh: 顯示全球具備 Google 街景官方車載覆蓋之國家（官方覆蓋 #38bdf8，有限/少數覆蓋 #64748b）
+// @default-color: #1e2430
+// @descriptionZh: 顯示全球具備 Google 街景官方車載覆蓋之國家（官方覆蓋 #38bdf8，有限/少數覆蓋 #64748b，無街景或未收錄 #1e2430）
 
 // Official Coverage (官方覆蓋)
 TW, #38bdf8, 官方街景覆蓋 (台灣)

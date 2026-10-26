@@ -245,7 +245,7 @@ function buildLayersIndex() {
     let group = directives.group;
     if (!group) {
       if ((directives.type || 'Text') === 'FillWithColor') {
-        const isAllRegions = sampleTargets.size > 0 &&
+        const isAllRegions = sampleTargets.size === 0 ||
           Array.from(sampleTargets).every((k) => /^[A-Z]{2}(::[A-Za-z0-9_-]+)*$/.test(k));
         group = isAllRegions ? 'fill-region' : 'ext-object';
       } else if ((directives.type || 'Text') === 'ExtObject') {

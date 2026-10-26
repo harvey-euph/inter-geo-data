@@ -6,8 +6,8 @@
 // @nameZh: 行駛方向 (左右行)
 // @nameEn: Driving Side
 // @shortBadge: 🚦 方向
-// @default-color: #3b82f6
-// @descriptionZh: 全球各國道路通行方向（靠左行駛 #f59e0b 與靠右行駛 #3b82f6）制度分布
+// @default-color: #1e2430
+// @descriptionZh: 全球各國道路通行方向（靠左行駛 #f59e0b 與靠右行駛 #3b82f6，無街景或未收錄 #1e2430）制度分布
 
 // Left-hand Drive (靠左行駛)
 JP, #f59e0b, 靠左行駛 (日本)

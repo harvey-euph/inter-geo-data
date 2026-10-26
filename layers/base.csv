@@ -1,0 +1,12 @@
+// base.csv
+// @id: base
+// @order: 0
+// @group: fill-region
+// @loadedTiming: init
+// @effectiveRange: International
+// @type: FillWithColor
+// @nameZh: 基礎底圖
+// @nameEn: Base Map
+// @shortBadge: 🗺️ 底圖
+// @default-color: #232a38
+// @descriptionZh: 全球陸地基礎底圖輪廓
