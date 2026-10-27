@@ -272,23 +272,21 @@ function buildLayersIndex() {
       const parentDir = path.basename(path.dirname(filePath));
       if (parentDir === 'fill-region-with-color' || parentDir === 'fill-region') {
         group = 'fill-region';
-      } else if (parentDir === 'ext-object') {
-        group = 'ext-object';
+      } else if (parentDir === 'area-feature') {
+        group = 'area-feature';
       } else if (parentDir === 'global-label') {
         group = 'global-label';
-      } else if (parentDir === 'area-label') {
-        group = 'area-label';
       } else if ((directives.type || 'Text') === 'FillWithColor') {
         const isAllRegions = sampleTargets.size === 0 ||
           Array.from(sampleTargets).every((k) => /^[A-Z]{2}(::[A-Za-z0-9_-]+)*$/.test(k));
-        group = isAllRegions ? 'fill-region' : 'ext-object';
+        group = isAllRegions ? 'fill-region' : 'area-feature';
       } else if ((directives.type || 'Text') === 'ExtObject') {
-        group = 'ext-object';
+        group = 'area-feature';
       } else {
-        if (directives.effectiveRange === 'International' || sampleTargets.size > 25) {
+        if (relativeFile.includes('global-label')) {
           group = 'global-label';
         } else {
-          group = 'area-label';
+          group = 'area-feature';
         }
       }
     }
@@ -328,9 +326,8 @@ function buildLayersIndex() {
 
   const groups = {
     fillRegion: layersList.filter((l) => l.group === 'fill-region'),
-    extObject: layersList.filter((l) => l.group === 'ext-object'),
     globalLabel: layersList.filter((l) => l.group === 'global-label'),
-    areaLabel: layersList.filter((l) => l.group === 'area-label')
+    areaFeature: layersList.filter((l) => l.group === 'area-feature')
   };
 
   return {
