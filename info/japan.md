@@ -3,7 +3,7 @@
 - targets: JP-01, JP-1, Hokkaido, 北海道
 - icon: 🗾
 - accent: #38bdf8
-- tags: 北海道地方, 首府 札幌市
+- tags: 北海道地方, 首府 札幌市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -37,7 +37,7 @@
 - targets: JP-02, JP-2, Aomori, 青森縣, 青森県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 青森市
+- tags: 東北地方, 首府 青森市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -62,7 +62,7 @@
 - targets: JP-03, JP-3, Iwate, 岩手縣, 岩手県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 盛岡市
+- tags: 東北地方, 首府 盛岡市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -86,7 +86,7 @@
 - targets: JP-04, JP-4, Miyagi, 宮城縣, 宮城県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 仙台市
+- tags: 東北地方, 首府 仙台市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -109,7 +109,7 @@
 - targets: JP-05, JP-5, Akita, 秋田縣, 秋田県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 秋田市
+- tags: 東北地方, 首府 秋田市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -131,7 +131,7 @@
 - targets: JP-06, JP-6, Yamagata, 山形縣, 山形県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 山形市
+- tags: 東北地方, 首府 山形市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -154,7 +154,7 @@
 - targets: JP-07, JP-7, Fukushima, 福島縣, 福島県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 東北地方, 首府 福島市
+- tags: 東北地方, 首府 福島市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -180,7 +180,7 @@
 - targets: JP-08, JP-8, Ibaraki, 茨城縣, 茨城県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 水戶市
+- tags: 關東地方, 首府 水戶市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -204,7 +204,7 @@
 - targets: JP-09, JP-9, Tochigi, 栃木縣, 栃木県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 宇都宮市
+- tags: 關東地方, 首府 宇都宮市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -228,7 +228,7 @@
 - targets: JP-10, Gunma, 群馬縣, 群馬県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 前橋市
+- tags: 關東地方, 首府 前橋市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -252,7 +252,7 @@
 - targets: JP-11, Saitama, 埼玉縣, 埼玉県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 埼玉市
+- tags: 關東地方, 首府 埼玉市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -278,7 +278,7 @@
 - targets: JP-12, Chiba, 千葉縣, 千葉県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 千葉市
+- tags: 關東地方, 首府 千葉市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -309,7 +309,7 @@
 - targets: JP-13, Tokyo, 東京都
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 新宿區
+- tags: 關東地方, 首府 新宿區, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -340,7 +340,7 @@
 - targets: JP-14, Kanagawa, 神奈川縣, 神奈川県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 關東地方, 首府 橫濱市
+- tags: 關東地方, 首府 橫濱市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -365,7 +365,7 @@
 - targets: JP-15, Niigata, 新潟縣, 新潟県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 新潟市
+- tags: 中部地方, 首府 新潟市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -389,7 +389,7 @@
 - targets: JP-16, Toyama, 富山縣, 富山県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 富山市
+- tags: 中部地方, 首府 富山市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -411,7 +411,7 @@
 - targets: JP-17, Ishikawa, 石川縣, 石川県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 金澤市
+- tags: 中部地方, 首府 金澤市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -434,7 +434,7 @@
 - targets: JP-18, Fukui, 福井縣, 福井県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 福井市
+- tags: 中部地方, 首府 福井市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -456,7 +456,7 @@
 - targets: JP-19, Yamanashi, 山梨縣, 山梨県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 甲府市
+- tags: 中部地方, 首府 甲府市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -479,7 +479,7 @@
 - targets: JP-20, Nagano, 長野縣, 長野県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 長野市
+- tags: 中部地方, 首府 長野市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -503,7 +503,7 @@
 - targets: JP-21, Gifu, 岐阜縣, 岐阜県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 岐阜市
+- tags: 中部地方, 首府 岐阜市, admin, 日本都道府縣, ski, 滑雪與雪景, 豪雪地帶
 - priority: 25
 - type: subdivision
 
@@ -526,7 +526,7 @@
 - targets: JP-22, Shizuoka, 靜岡縣, 静岡県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 靜岡市
+- tags: 中部地方, 首府 靜岡市, admin, 日本都道府縣, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -552,7 +552,7 @@
 - targets: JP-23, Aichi, 愛知縣, 愛知県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中部地方, 首府 名古屋市
+- tags: 中部地方, 首府 名古屋市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -580,7 +580,7 @@
 - targets: JP-24, Mie, 三重縣, 三重県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 津市
+- tags: 近畿地方, 首府 津市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -605,7 +605,7 @@
 - targets: JP-25, Shiga, 滋賀縣, 滋賀県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 大津市
+- tags: 近畿地方, 首府 大津市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -627,7 +627,7 @@
 - targets: JP-26, Kyoto, 京都府
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 京都市
+- tags: 近畿地方, 首府 京都市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -649,7 +649,7 @@
 - targets: JP-27, Osaka, 大阪府
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 大阪市
+- tags: 近畿地方, 首府 大阪市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -674,7 +674,7 @@
 - targets: JP-28, Hyogo, 兵庫縣, 兵庫県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 神戶市
+- tags: 近畿地方, 首府 神戶市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -697,7 +697,7 @@
 - targets: JP-29, Nara, 奈良縣, 奈良県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 奈良市
+- tags: 近畿地方, 首府 奈良市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -720,7 +720,7 @@
 - targets: JP-30, Wakayama, 和歌山縣, 和歌山県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 近畿地方, 首府 和歌山市
+- tags: 近畿地方, 首府 和歌山市, admin, 日本都道府縣, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -742,7 +742,7 @@
 - targets: JP-31, Tottori, 鳥取縣, 鳥取県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中國地方, 首府 鳥取市
+- tags: 中國地方, 首府 鳥取市, admin, 日本都道府縣, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -764,7 +764,7 @@
 - targets: JP-32, Shimane, 島根縣, 島根県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中國地方, 首府 松江市
+- tags: 中國地方, 首府 松江市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -787,7 +787,7 @@
 - targets: JP-33, Okayama, 岡山縣, 岡山県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中國地方, 首府 岡山市
+- tags: 中國地方, 首府 岡山市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -810,7 +810,7 @@
 - targets: JP-34, Hiroshima, 廣島縣, 広島県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中國地方, 首府 廣島市
+- tags: 中國地方, 首府 廣島市, admin, 日本都道府縣, culture, 文化歷史
 - priority: 25
 - type: subdivision
 
@@ -833,7 +833,7 @@
 - targets: JP-35, Yamaguchi, 山口縣, 山口県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 中國地方, 首府 山口市
+- tags: 中國地方, 首府 山口市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -856,7 +856,7 @@
 - targets: JP-36, Tokushima, 德島縣, 徳島県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 四國地方, 首府 德島市
+- tags: 四國地方, 首府 德島市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -878,7 +878,7 @@
 - targets: JP-37, Kagawa, 香川縣, 香川県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 四國地方, 首府 高松市
+- tags: 四國地方, 首府 高松市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -900,7 +900,7 @@
 - targets: JP-38, Ehime, 愛媛縣, 愛媛県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 四國地方, 首府 松山市
+- tags: 四國地方, 首府 松山市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -922,7 +922,7 @@
 - targets: JP-39, Kochi, 高知縣, 高知県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 四國地方, 首府 高知市
+- tags: 四國地方, 首府 高知市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -944,7 +944,7 @@
 - targets: JP-40, Fukuoka, 福岡縣, 福岡県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 福岡市
+- tags: 九州地方, 首府 福岡市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -969,7 +969,7 @@
 - targets: JP-41, Saga, 佐賀縣, 佐賀県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 佐賀市
+- tags: 九州地方, 首府 佐賀市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -991,7 +991,7 @@
 - targets: JP-42, Nagasaki, 長崎縣, 長崎県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 長崎市
+- tags: 九州地方, 首府 長崎市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -1014,7 +1014,7 @@
 - targets: JP-43, Kumamoto, 熊本縣, 熊本県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 熊本市
+- tags: 九州地方, 首府 熊本市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -1036,7 +1036,7 @@
 - targets: JP-44, Oita, 大分縣, 大分県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 大分市
+- tags: 九州地方, 首府 大分市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -1058,7 +1058,7 @@
 - targets: JP-45, Miyazaki, 宮崎縣, 宮崎県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 宮崎市
+- tags: 九州地方, 首府 宮崎市, admin, 日本都道府縣
 - priority: 25
 - type: subdivision
 
@@ -1080,7 +1080,7 @@
 - targets: JP-46, Kagoshima, 鹿兒島縣, 鹿児島県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 鹿兒島市
+- tags: 九州地方, 首府 鹿兒島市, admin, 日本都道府縣, nature, 自然地景
 - priority: 25
 - type: subdivision
 
@@ -1103,7 +1103,7 @@
 - targets: JP::47, Okinawa, 沖繩縣, 沖縄県
 - icon: 🗾
 - accent: #38bdf8
-- tags: 九州地方, 首府 那霸市
+- tags: 九州地方, 首府 那霸市, admin, 日本都道府縣, nature, 自然地景
 - priority: 25
 - type: subdivision
 

@@ -4,7 +4,7 @@
 - targets: PA
 - icon: 🇵🇦
 - accent: #3b82f6
-- tags: 巴拿馬, 西班牙語
+- tags: 巴拿馬, 西班牙語, language, 語言文字
 
 - **Español**:
   - El rápido zorro marrón salta sobre el perro perezoso.
@@ -19,7 +19,7 @@
 - targets: JP
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 日語
+- tags: 日本, 日語, language, 語言文字
 
 - **日本語**:
   - すばしっこい茶色の狐がのろまな犬を飛び越える。
@@ -34,7 +34,7 @@
 - targets: KR
 - icon: 🇰🇷
 - accent: #3b82f6
-- tags: 韓國, 韓語
+- tags: 韓國, 韓語, language, 語言文字
 
 - **한국어**:
   - 빠른 갈색 여우가 게으른 개를 뛰어넘는다.
@@ -49,7 +49,7 @@
 - targets: TW
 - icon: 🇹🇼
 - accent: #ef4444
-- tags: 台灣, 繁體中文
+- tags: 台灣, 繁體中文, language, 語言文字
 
 - **繁體中文**:
   - 敏捷的棕色狐狸跳過懶惰的狗。
@@ -64,7 +64,7 @@
 - targets: HK
 - icon: 🇭🇰
 - accent: #ef4444
-- tags: 香港, 繁體中文, 英語
+- tags: 香港, 繁體中文, 英語, language, 語言文字
 
 - **繁體中文**:
   - 敏捷的棕色狐狸跳過懶惰的狗。
@@ -82,7 +82,7 @@
 - targets: MO
 - icon: 🇲🇴
 - accent: #22c55e
-- tags: 澳門, 繁體中文, 葡萄牙語
+- tags: 澳門, 繁體中文, 葡萄牙語, language, 語言文字
 
 - **繁體中文**:
   - 敏捷的棕色狐狸跳過懶惰的狗。
@@ -100,7 +100,7 @@
 - targets: TH
 - icon: 🇹🇭
 - accent: #f97316
-- tags: 泰國, 泰語
+- tags: 泰國, 泰語, language, 語言文字
 
 - **ภาษาไทย**:
   - สุนัขจิ้งจอกสีน้ำตาลที่ว่องไวกระโดดข้ามสุนัขขี้เกียจ
@@ -115,7 +115,7 @@
 - targets: VN
 - icon: 🇻🇳
 - accent: #ef4444
-- tags: 越南, 越南語
+- tags: 越南, 越南語, language, 語言文字
 
 - **Tiếng Việt**:
   - Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng.
@@ -130,7 +130,7 @@
 - targets: ID
 - icon: 🇮🇩
 - accent: #ef4444
-- tags: 印尼, 印尼語
+- tags: 印尼, 印尼語, language, 語言文字
 
 - **Bahasa Indonesia**:
   - Rubah cokelat yang cepat melompati anjing yang malas.
@@ -145,7 +145,7 @@
 - targets: MY
 - icon: 🇲🇾
 - accent: #fbbf24
-- tags: 馬來西亞, 馬來語, 英語, 華語
+- tags: 馬來西亞, 馬來語, 英語, 華語, language, 語言文字
 
 - **Bahasa Melayu**:
   - Rubah perang yang pantas melompati anjing yang malas.
@@ -167,7 +167,7 @@
 - targets: SG
 - icon: 🇸🇬
 - accent: #ef4444
-- tags: 新加坡, 英語, 華語, 馬來語, 淡米爾語
+- tags: 新加坡, 英語, 華語, 馬來語, 淡米爾語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -193,7 +193,7 @@
 - targets: PH
 - icon: 🇵🇭
 - accent: #3b82f6
-- tags: 菲律賓, 英語, 菲律賓語
+- tags: 菲律賓, 英語, 菲律賓語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -211,7 +211,7 @@
 - targets: KH
 - icon: 🇰🇭
 - accent: #3b82f6
-- tags: 柬埔寨, 高棉語
+- tags: 柬埔寨, 高棉語, language, 語言文字
 
 - **ភាសាខ្មែរ**:
   - កញ្ជ្រោងពណ៌ត្នោតរហ័សលោតពីលើឆ្កែខ្ជិល។
@@ -226,7 +226,7 @@
 - targets: LA
 - icon: 🇱🇦
 - accent: #ef4444
-- tags: 寮國, 寮語
+- tags: 寮國, 寮語, language, 語言文字
 
 - **ພາສາລາວ**:
   - ສຸນັກຈິ້ງຈອກສີນ້ຳຕານທີ່ວ່ອງໄວກະໂດດຂ້າມສຸນັກຂີ້ເຄັນ.
@@ -241,7 +241,7 @@
 - targets: BD
 - icon: 🇧🇩
 - accent: #22c55e
-- tags: 孟加拉, 孟加拉語
+- tags: 孟加拉, 孟加拉語, language, 語言文字
 
 - **বাংলা**:
   - দ্রুত বাদামী শিয়াল অলস কুকুরের উপর লাফ দেয়।
@@ -256,7 +256,7 @@
 - targets: LK
 - icon: 🇱🇰
 - accent: #fbbf24
-- tags: 斯里蘭卡, 僧伽羅語, 泰米爾語
+- tags: 斯里蘭卡, 僧伽羅語, 泰米爾語, language, 語言文字
 
 - **සිංහල**:
   - වේගවත් දුඹුරු නරියා අලස සුනඛයා මත පනී.
@@ -274,7 +274,7 @@
 - targets: NP
 - icon: 🇳🇵
 - accent: #ef4444
-- tags: 尼泊爾, 尼泊爾語
+- tags: 尼泊爾, 尼泊爾語, language, 語言文字
 
 - **नेपाली**:
   - छिटो खैरो फ्याउरो अल्छी कुकुरमाथि उफ्रन्छ।
@@ -289,7 +289,7 @@
 - targets: BT
 - icon: 🇧🇹
 - accent: #fbbf24
-- tags: 不丹, 宗喀語
+- tags: 不丹, 宗喀語, language, 語言文字
 
 - **རྫོང་ཁ**:
   - མགྱོགས་པོའི་ཁམ་པ་ཝ་ཡིས་ལེ་ལོ་ཅན་གྱི་ཁྱིའི་སྟེང་དུ་མཆོང་།
@@ -304,7 +304,7 @@
 - targets: MN
 - icon: 🇲🇳
 - accent: #3b82f6
-- tags: 蒙古, 蒙古語
+- tags: 蒙古, 蒙古語, language, 語言文字
 
 - **Монгол**:
   - Хурдан бор үнэг залхуу нохойг дээгүүр үсэрнэ.
@@ -319,7 +319,7 @@
 - targets: KZ
 - icon: 🇰🇿
 - accent: #3b82f6
-- tags: 哈薩克, 哈薩克語, 俄語
+- tags: 哈薩克, 哈薩克語, 俄語, language, 語言文字
 
 - **Қазақша**:
   - Жылдам қоңыр түлкі жалқау иттің үстінен секіреді.
@@ -337,7 +337,7 @@
 - targets: GE
 - icon: 🇬🇪
 - accent: #ef4444
-- tags: 喬治亞, 喬治亞語
+- tags: 喬治亞, 喬治亞語, language, 語言文字
 
 - **ქართული**:
   - სწრაფი ყავისფერი მელა ხტება ზარმაცი ძაღლის თავზე.
@@ -352,7 +352,7 @@
 - targets: TR
 - icon: 🇹🇷
 - accent: #ef4444
-- tags: 土耳其, 土耳其語
+- tags: 土耳其, 土耳其語, language, 語言文字
 
 - **Türkçe**:
   - Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
@@ -367,7 +367,7 @@
 - targets: IL
 - icon: 🇮🇱
 - accent: #3b82f6
-- tags: 以色列, 希伯來語, 阿拉伯語
+- tags: 以色列, 希伯來語, 阿拉伯語, language, 語言文字
 
 - **עברית**:
   - השועל החום המהיר קופץ מעל הכלב העצלן.
@@ -387,7 +387,7 @@
 - targets: AE
 - icon: 🇦🇪
 - accent: #3b82f6
-- tags: 阿聯酋, 阿拉伯語, 英語
+- tags: 阿聯酋, 阿拉伯語, 英語, language, 語言文字
 
 - **العربية**:
   - الثعلب البني السريع يقفز فوق الكلب الكسول.
@@ -405,7 +405,7 @@
 - targets: QA
 - icon: 🇶🇦
 - accent: #8b5cf6
-- tags: 卡達, 阿拉伯語
+- tags: 卡達, 阿拉伯語, language, 語言文字
 
 - **العربية**:
   - الثعلب البني السريع يقفز فوق الكلب الكسول.
@@ -420,7 +420,7 @@
 - targets: OM
 - icon: 🇴🇲
 - accent: #ef4444
-- tags: 阿曼, 阿拉伯語
+- tags: 阿曼, 阿拉伯語, language, 語言文字
 
 - **العربية**:
   - الثعلب البني السريع يقفز فوق الكلب الكسول.
@@ -435,7 +435,7 @@
 - targets: KW
 - icon: 🇰🇼
 - accent: #22c55e
-- tags: 科威特, 阿拉伯語
+- tags: 科威特, 阿拉伯語, language, 語言文字
 
 - **العربية**:
   - الثعلب البني السريع يقفز فوق الكلب الكسول.
@@ -450,7 +450,7 @@
 - targets: IN::AP
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 安得拉邦, 泰盧固語
+- tags: 印度, 安得拉邦, 泰盧固語, language, 語言文字
 
 - **తెలుగు**:
   - త్వరితమైన గోధుమ రంగు నక్క సోమరితనం గల కుక్కపై దూకుతుంది.
@@ -465,7 +465,7 @@
 - targets: IN::KA
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 卡納塔卡, 坎納達語
+- tags: 印度, 卡納塔卡, 坎納達語, language, 語言文字
 
 - **ಕನ್ನಡ**:
   - ವೇಗದ ಕಂದು ನರಿ ಸೋಮಾರಿ ನಾಯಿಯ ಮೇಲೆ ಹಾರುತ್ತದೆ.
@@ -480,7 +480,7 @@
 - targets: IN::TN
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 泰米爾納德, 泰米爾語
+- tags: 印度, 泰米爾納德, 泰米爾語, language, 語言文字
 
 - **தமிழ்**:
   - விரைவான பழுப்பு நரி சோம்பேறி நாயின் மேல் குதிக்கிறது.
@@ -495,7 +495,7 @@
 - targets: IN::KL
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 喀拉拉, 馬拉雅拉姆語
+- tags: 印度, 喀拉拉, 馬拉雅拉姆語, language, 語言文字
 
 - **മലയാളം**:
   - വേഗതയുള്ള തവിട്ടുനിറമുള്ള കുറുക്കൻ മടിയനായ നായയുടെ മുകളിലൂടെ ചാടുന്നു.
@@ -510,7 +510,7 @@
 - targets: IN::WB
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 西孟加拉, 孟加拉語
+- tags: 印度, 西孟加拉, 孟加拉語, language, 語言文字
 
 - **বাংলা**:
   - দ্রুত বাদামী শিয়াল অলস কুকুরের উপর লাফ দেয়।
@@ -525,7 +525,7 @@
 - targets: IN::MH
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 馬哈拉施特拉, 馬拉地語
+- tags: 印度, 馬哈拉施特拉, 馬拉地語, language, 語言文字
 
 - **मराठी**:
   - वेगवान तपकिरी कोल्हा आळशी कुत्र्यावर उडी मारतो.
@@ -540,7 +540,7 @@
 - targets: IN::GJ
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 古吉拉特, 古吉拉特語
+- tags: 印度, 古吉拉特, 古吉拉特語, language, 語言文字
 
 - **ગુજરાતી**:
   - ઝડપી બદામી રંગનો શિયાળ આળસુ કૂતરા પર કૂદકો મારે છે.
@@ -555,7 +555,7 @@
 - targets: IN::PB
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 旁遮普, 旁遮普語
+- tags: 印度, 旁遮普, 旁遮普語, language, 語言文字
 
 - **ਪੰਜਾਬੀ**:
   - ਤੇਜ਼ ਭੂਰਾ ਲੂੰਬੜੀ ਆਲਸੀ ਕੁੱਤੇ ਉੱਤੇ ਛਾਲ ਮਾਰਦੀ ਹੈ।
@@ -570,7 +570,7 @@
 - targets: IN::UP, IN::MP, IN::RJ, IN::BR, IN::JH, IN::CT, IN::HR, IN::UK, IN::HP
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 印地語
+- tags: 印度, 印地語, language, 語言文字
 
 - **हिन्दी**:
   - तेज़ भूरी लोमड़ी आलसी कुत्ते के ऊपर कूदती है।
@@ -585,7 +585,7 @@
 - targets: IN::SK
 - icon: 🇮🇳
 - accent: #f97316
-- tags: 印度, 錫金, 尼泊爾語, 英語
+- tags: 印度, 錫金, 尼泊爾語, 英語, language, 語言文字
 
 - **नेपाली**:
   - छिटो खैरो फ्याउरो अल्छी कुकुरमाथि उफ्रन्छ।
@@ -603,7 +603,7 @@
 - targets: RU
 - icon: 🇷🇺
 - accent: #3b82f6
-- tags: 俄羅斯, 俄語
+- tags: 俄羅斯, 俄語, language, 語言文字
 
 - **Русский**:
   - Быстрая коричневая лиса прыгает через ленивую собаку.
@@ -618,7 +618,7 @@
 - targets: UA
 - icon: 🇺🇦
 - accent: #fbbf24
-- tags: 烏克蘭, 烏克蘭語
+- tags: 烏克蘭, 烏克蘭語, language, 語言文字
 
 - **Українська**:
   - Швидка коричнева лисиця стрибає через лінивого собаку.
@@ -633,7 +633,7 @@
 - targets: GR
 - icon: 🇬🇷
 - accent: #3b82f6
-- tags: 希臘, 希臘語
+- tags: 希臘, 希臘語, language, 語言文字
 
 - **Ελληνικά**:
   - Η γρήγορη καφέ αλεπού πηδά πάνω από τον τεμπέλη σκύλο.
@@ -648,7 +648,7 @@
 - targets: BG
 - icon: 🇧🇬
 - accent: #22c55e
-- tags: 保加利亞, 保加利亞語
+- tags: 保加利亞, 保加利亞語, language, 語言文字
 
 - **Български**:
   - Бързата кафява лисица прескача мързеливото куче.
@@ -663,7 +663,7 @@
 - targets: RS
 - icon: 🇷🇸
 - accent: #ef4444
-- tags: 塞爾維亞, 塞爾維亞語
+- tags: 塞爾維亞, 塞爾維亞語, language, 語言文字
 
 - **Српски**:
   - Брза смеђа лисица скаче преко лењог пса.
@@ -678,7 +678,7 @@
 - targets: MK
 - icon: 🇲🇰
 - accent: #ef4444
-- tags: 北馬其頓, 馬其頓語
+- tags: 北馬其頓, 馬其頓語, language, 語言文字
 
 - **Македонски**:
   - Брзата кафеава лисица скока преку мрзливиот пес.
@@ -693,7 +693,7 @@
 - targets: ME
 - icon: 🇲🇪
 - accent: #ef4444
-- tags: 蒙特內哥羅, 蒙特內哥羅語
+- tags: 蒙特內哥羅, 蒙特內哥羅語, language, 語言文字
 
 - **Crnogorski**:
   - Brza smeđa lisica skače preko lijenog psa.
@@ -708,7 +708,7 @@
 - targets: BA
 - icon: 🇧🇦
 - accent: #fbbf24
-- tags: 波黑, 波士尼亞語, 克羅埃西亞語, 塞爾維亞語
+- tags: 波黑, 波士尼亞語, 克羅埃西亞語, 塞爾維亞語, language, 語言文字
 
 - **Bosanski / Hrvatski / Srpski**:
   - Brza smeđa lisica skače preko lijenog psa.
@@ -723,7 +723,7 @@
 - targets: XK
 - icon: 🇽🇰
 - accent: #3b82f6
-- tags: 科索沃, 阿爾巴尼亞語, 塞爾維亞語
+- tags: 科索沃, 阿爾巴尼亞語, 塞爾維亞語, language, 語言文字
 
 - **Shqip**:
   - Dhelpra e shpejtë kafe kërcen mbi qenin dembel.
@@ -741,7 +741,7 @@
 - targets: AL
 - icon: 🇦🇱
 - accent: #ef4444
-- tags: 阿爾巴尼亞, 阿爾巴尼亞語
+- tags: 阿爾巴尼亞, 阿爾巴尼亞語, language, 語言文字
 
 - **Shqip**:
   - Dhelpra e shpejtë kafe kërcen mbi qenin dembel.
@@ -756,7 +756,7 @@
 - targets: EE
 - icon: 🇪🇪
 - accent: #3b82f6
-- tags: 愛沙尼亞, 愛沙尼亞語
+- tags: 愛沙尼亞, 愛沙尼亞語, language, 語言文字
 
 - **Eesti**:
   - Kiire pruun rebane hüppab laisa koera kohal.
@@ -771,7 +771,7 @@
 - targets: LV
 - icon: 🇱🇻
 - accent: #ef4444
-- tags: 拉脫維亞, 拉脫維亞語
+- tags: 拉脫維亞, 拉脫維亞語, language, 語言文字
 
 - **Latviešu**:
   - Ātrā brūnā lapsa lec pāri slinkajam sunim.
@@ -786,7 +786,7 @@
 - targets: LT
 - icon: 🇱🇹
 - accent: #22c55e
-- tags: 立陶宛, 立陶宛語
+- tags: 立陶宛, 立陶宛語, language, 語言文字
 
 - **Lietuvių**:
   - Greita ruda lapė šoka per tingų šunį.
@@ -801,7 +801,7 @@
 - targets: NA
 - icon: 🇳🇦
 - accent: #3b82f6
-- tags: 納米比亞, 英語, 阿非利堪斯語
+- tags: 納米比亞, 英語, 阿非利堪斯語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -818,7 +818,7 @@
 - targets: BW
 - icon: 🇧🇼
 - accent: #3b82f6
-- tags: 波札那, 英語, 茨瓦納語
+- tags: 波札那, 英語, 茨瓦納語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -836,7 +836,7 @@
 - targets: LS
 - icon: 🇱🇸
 - accent: #3b82f6
-- tags: 賴索托, 英語, 塞索托語
+- tags: 賴索托, 英語, 塞索托語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -854,7 +854,7 @@
 - targets: SZ
 - icon: 🇸🇿
 - accent: #3b82f6
-- tags: 史瓦帝尼, 英語, 史瓦帝語
+- tags: 史瓦帝尼, 英語, 史瓦帝語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -872,7 +872,7 @@
 - targets: KE
 - icon: 🇰🇪
 - accent: #3b82f6
-- tags: 肯亞, 英語, 斯瓦希里語
+- tags: 肯亞, 英語, 斯瓦希里語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -890,7 +890,7 @@
 - targets: UG
 - icon: 🇺🇬
 - accent: #fbbf24
-- tags: 烏干達, 英語, 斯瓦希里語
+- tags: 烏干達, 英語, 斯瓦希里語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -907,7 +907,7 @@
 - targets: RW
 - icon: 🇷🇼
 - accent: #3b82f6
-- tags: 盧安達, 英語, 盧安達語, 法語
+- tags: 盧安達, 英語, 盧安達語, 法語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -927,7 +927,7 @@
 - targets: GH
 - icon: 🇬🇭
 - accent: #fbbf24
-- tags: 加納, 英語
+- tags: 加納, 英語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -942,7 +942,7 @@
 - targets: NG
 - icon: 🇳🇬
 - accent: #22c55e
-- tags: 奈及利亞, 英語
+- tags: 奈及利亞, 英語, language, 語言文字
 
 - **English**:
   - The quick brown fox jumps over the lazy dog.
@@ -957,7 +957,7 @@
 - targets: SN
 - icon: 🇸🇳
 - accent: #22c55e
-- tags: 塞內加爾, 法語, 沃洛夫語
+- tags: 塞內加爾, 法語, 沃洛夫語, language, 語言文字
 
 - **Français**:
   - Le renard brun rapide saute par-dessus le chien paresseux.
@@ -974,7 +974,7 @@
 - targets: TN
 - icon: 🇹🇳
 - accent: #ef4444
-- tags: 突尼西亞, 阿拉伯語, 法語
+- tags: 突尼西亞, 阿拉伯語, 法語, language, 語言文字
 
 - **العربية**:
   - الثعلب البني السريع يقفز فوق الكلب الكسول.
@@ -991,7 +991,7 @@
 - targets: ST
 - icon: 🇸🇹
 - accent: #22c55e
-- tags: 聖多美, 葡萄牙語
+- tags: 聖多美, 葡萄牙語, language, 語言文字
 
 - **Português**:
   - A rápida raposa marrom pula sobre o cão preguiçoso.
@@ -1006,7 +1006,7 @@
 - targets: AD
 - icon: 🇦🇩
 - accent: #3b82f6
-- tags: 安道爾, 加泰隆尼亞語
+- tags: 安道爾, 加泰隆尼亞語, language, 語言文字
 
 - **Català**:
   - La ràpida guineu marró salta sobre el gos mandrós.
@@ -1021,7 +1021,7 @@
 - targets: MC
 - icon: 🇲🇨
 - accent: #ef4444
-- tags: 摩納哥, 法語
+- tags: 摩納哥, 法語, language, 語言文字
 
 - **Français**:
   - Le renard brun rapide saute par-dessus le chien paresseux.
@@ -1035,7 +1035,7 @@
 - targets: SM
 - icon: 🇸🇲
 - accent: #3b82f6
-- tags: 聖馬利諾, 義大利語
+- tags: 聖馬利諾, 義大利語, language, 語言文字
 
 - **Italiano**:
   - La veloce volpe marrone salta sopra il cane pigro.
@@ -1049,7 +1049,7 @@
 - targets: LI
 - icon: 🇱🇮
 - accent: #ef4444
-- tags: 列支敦斯登, 德語
+- tags: 列支敦斯登, 德語, language, 語言文字
 
 - **Deutsch**:
   - Der schnelle braune Fuchs springt über den faulen Hund.
@@ -1063,7 +1063,7 @@
 - targets: MT
 - icon: 🇲🇹
 - accent: #ef4444
-- tags: 馬爾他, 馬爾他語, 英語
+- tags: 馬爾他, 馬爾他語, 英語, language, 語言文字
 
 - **Malti**:
   - Il-volpi kannella mgħaġġel jaqbeż fuq il-kelb ghidan.
@@ -1080,7 +1080,7 @@
 - targets: CY
 - icon: 🇨🇾
 - accent: #fbbf24
-- tags: 賽普勒斯, 希臘語, 土耳其語
+- tags: 賽普勒斯, 希臘語, 土耳其語, language, 語言文字
 
 - **Ελληνικά**:
   - Η γρήγορη καφέ αλεπού πηδά πάνω από τον τεμπέλη σκύλο.
@@ -1096,7 +1096,7 @@
 - targets: FO
 - icon: 🇫🇴
 - accent: #3b82f6
-- tags: 法羅群島, 法羅語
+- tags: 法羅群島, 法羅語, language, 語言文字
 
 - **Føroyskt**:
   - Tann skjóta brúna revurin hoppar yvir hin latna hundin.
@@ -1110,7 +1110,7 @@
 - targets: AX
 - icon: 🇦🇽
 - accent: #3b82f6
-- tags: 奧蘭群島, 瑞典語
+- tags: 奧蘭群島, 瑞典語, language, 語言文字
 
 - **Svenska**:
   - Den snabba bruna räven hoppar över den lata hunden.
@@ -1124,7 +1124,7 @@
 - targets: US
 - icon: 🇺🇸
 - accent: #3b82f6
-- tags: 美國, 英語
+- tags: 美國, 英語, language, 語言文字
 
 - **English**:
   - Y’all come back now, ya hear?
@@ -1139,7 +1139,7 @@
 - targets: CA
 - icon: 🇨🇦
 - accent: #ef4444
-- tags: 加拿大, 英語, 法語
+- tags: 加拿大, 英語, 法語, language, 語言文字
 
 - **English**:
   - It’s a toque, not a beanie, and the loonie is a dollar coin.
@@ -1157,7 +1157,7 @@
 - targets: MX
 - icon: 🇲🇽
 - accent: #84cc16
-- tags: 墨西哥, 西班牙語
+- tags: 墨西哥, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Órale! Las tortas ahogadas son típicas de Guadalajara.
@@ -1172,7 +1172,7 @@
 - targets: GT
 - icon: 🇬🇹
 - accent: #3b82f6
-- tags: 瓜地馬拉, 西班牙語
+- tags: 瓜地馬拉, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Púchica! En Antigua Guatemala las calles empedradas son famosas.
@@ -1187,7 +1187,7 @@
 - targets: CR
 - icon: 🇨🇷
 - accent: #3b82f6
-- tags: 哥斯大黎加, 西班牙語
+- tags: 哥斯大黎加, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Pura vida! Así saludan los ticos en todo el país.
@@ -1202,7 +1202,7 @@
 - targets: PA
 - icon: 🇵🇦
 - accent: #3b82f6
-- tags: 巴拿馬, 西班牙語
+- tags: 巴拿馬, 西班牙語, language, 語言文字
 
 - **Español**:
   - El Canal de Panamá se ve desde varias carreteras cercanas.
@@ -1217,7 +1217,7 @@
 - targets: DO
 - icon: 🇩🇴
 - accent: #3b82f6
-- tags: 多明尼加, 西班牙語
+- tags: 多明尼加, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Dígame! En Santo Domingo se dice «PARE» en los letreros.
@@ -1232,7 +1232,7 @@
 - targets: PR
 - icon: 🇵🇷
 - accent: #ef4444
-- tags: 波多黎各, 西班牙語, 英語
+- tags: 波多黎各, 西班牙語, 英語, language, 語言文字
 
 - **Español**:
   - ¡Wepa! En San Juan se mezcla el español con el inglés.
@@ -1249,7 +1249,7 @@
 - targets: BR
 - icon: 🇧🇷
 - accent: #22c55e
-- tags: 巴西, 葡萄牙語
+- tags: 巴西, 葡萄牙語, language, 語言文字
 
 - **Português**:
   - Ôxe! Em Recife se fala com sotaque bem nordestino.
@@ -1264,7 +1264,7 @@
 - targets: AR
 - icon: 🇦🇷
 - accent: #60a5fa
-- tags: 阿根廷, 西班牙語
+- tags: 阿根廷, 西班牙語, language, 語言文字
 
 - **Español**:
   - Che, boludo, en Buenos Aires se usa el voseo: «vos tenés».
@@ -1279,7 +1279,7 @@
 - targets: CL
 - icon: 🇨🇱
 - accent: #ef4444
-- tags: 智利, 西班牙語
+- tags: 智利, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Bacán! En Santiago se dice «po» al final de muchas frases.
@@ -1294,7 +1294,7 @@
 - targets: PE
 - icon: 🇵🇪
 - accent: #dc2626
-- tags: 秘魯, 西班牙語, 克丘亞語
+- tags: 秘魯, 西班牙語, 克丘亞語, language, 語言文字
 
 - **Español**:
   - ¡Causa! En Lima se come ceviche y se dice «pata» al amigo.
@@ -1311,7 +1311,7 @@
 - targets: CO
 - icon: 🇨🇴
 - accent: #fbbf24
-- tags: 哥倫比亞, 西班牙語
+- tags: 哥倫比亞, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Qué chimba! En Medellín se habla con acento paisa.
@@ -1326,7 +1326,7 @@
 - targets: EC
 - icon: 🇪🇨
 - accent: #fbbf24
-- tags: 厄瓜多, 西班牙語
+- tags: 厄瓜多, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Qué bestia! En Quito se siente la altura y el frío andino.
@@ -1341,7 +1341,7 @@
 - targets: UY
 - icon: 🇺🇾
 - accent: #3b82f6
-- tags: 烏拉圭, 西班牙語
+- tags: 烏拉圭, 西班牙語, language, 語言文字
 
 - **Español**:
   - ¡Bo! En Montevideo se usa mucho el «vos» y el mate.
@@ -1356,7 +1356,7 @@
 - targets: PY
 - icon: 🇵🇾
 - accent: #ef4444
-- tags: 巴拉圭, 西班牙語, 瓜拉尼語
+- tags: 巴拉圭, 西班牙語, 瓜拉尼語, language, 語言文字
 
 - **Español**:
   - ¡Nde! En Asunción se mezcla el español con el guaraní.
@@ -1373,7 +1373,7 @@
 - targets: BO
 - icon: 🇧🇴
 - accent: #ef4444
-- tags: 玻利維亞, 西班牙語, 克丘亞語, 艾馬拉語
+- tags: 玻利維亞, 西班牙語, 克丘亞語, 艾馬拉語, language, 語言文字
 
 - **Español**:
   - ¡Jallalla! En La Paz se siente la altura y el frío.
@@ -1391,7 +1391,7 @@
 - targets: FR
 - icon: 🇫🇷
 - accent: #3b82f6
-- tags: 法國, 法語
+- tags: 法國, 法語, language, 語言文字
 
 - **Français**:
   - Sur l’autoroute on voit les panneaux «STOP» et «CÉDEZ LE PASSAGE».
@@ -1406,7 +1406,7 @@
 - targets: BE
 - icon: 🇧🇪
 - accent: #ef4444
-- tags: 比利時, 荷蘭語, 法語, 德語
+- tags: 比利時, 荷蘭語, 法語, 德語, language, 語言文字
 
 - **Nederlands**:
   - In Vlaanderen zegt men «alstublieft» en eet men frieten met mayonaise.
@@ -1425,7 +1425,7 @@
 - targets: CH
 - icon: 🇨🇭
 - accent: #ef4444
-- tags: 瑞士, 德語, 法語, 義大利語, 羅曼什語
+- tags: 瑞士, 德語, 法語, 義大利語, 羅曼什語, language, 語言文字
 
 - **Deutsch**:
   - Grüezi! In der Schweiz zahlt man mit dem Franken.
@@ -1444,7 +1444,7 @@
 - targets: LU
 - icon: 🇱🇺
 - accent: #3b82f6
-- tags: 盧森堡, 盧森堡語, 法語, 德語
+- tags: 盧森堡, 盧森堡語, 法語, 德語, language, 語言文字
 
 - **Lëtzebuergesch**:
   - Moien! Zu Lëtzebuerg schwätzt een dacks dräi Sproochen.
@@ -1461,7 +1461,7 @@
 - targets: DE
 - icon: 🇩🇪
 - accent: #ef4444
-- tags: 德國, 德語
+- tags: 德國, 德語, language, 語言文字
 
 - **Deutsch**:
   - Auf der Autobahn gibt es oft kein Tempolimit.
@@ -1476,7 +1476,7 @@
 - targets: AT
 - icon: 🇦🇹
 - accent: #ef4444
-- tags: 奧地利, 德語
+- tags: 奧地利, 德語, language, 語言文字
 
 - **Deutsch**:
   - Servus! In Österreich sagt man «Grüß Gott» und trinkt Melange.
@@ -1490,7 +1490,7 @@
 - targets: NL
 - icon: 🇳🇱
 - accent: #f97316
-- tags: 荷蘭, 荷蘭語
+- tags: 荷蘭, 荷蘭語, language, 語言文字
 
 - **Nederlands**:
   - Fietsen is heilig en de polders liggen overal.
@@ -1505,7 +1505,7 @@
 - targets: GB
 - icon: 🇬🇧
 - accent: #3b82f6
-- tags: 英國, 英語
+- tags: 英國, 英語, language, 語言文字
 
 - **English**:
   - Mind the gap! The queue forms on the left side of the road.
@@ -1520,7 +1520,7 @@
 - targets: IE
 - icon: 🇮🇪
 - accent: #22c55e
-- tags: 愛爾蘭, 英語, 愛爾蘭語
+- tags: 愛爾蘭, 英語, 愛爾蘭語, language, 語言文字
 
 - **English**:
   - It’s grand weather for a pint of Guinness in Dublin.
@@ -1537,7 +1537,7 @@
 - targets: PT
 - icon: 🇵🇹
 - accent: #22c55e
-- tags: 葡萄牙, 葡萄牙語
+- tags: 葡萄牙, 葡萄牙語, language, 語言文字
 
 - **Português**:
   - Olá! Em Lisboa come-se pastéis de nata e fala-se com sotaque.
@@ -1552,7 +1552,7 @@
 - targets: ES
 - icon: 🇪🇸
 - accent: #ef4444
-- tags: 西班牙, 西班牙語, 加泰隆尼亞語, 巴斯克語, 加利西亞語
+- tags: 西班牙, 西班牙語, 加泰隆尼亞語, 巴斯克語, 加利西亞語, language, 語言文字
 
 - **Español**:
   - ¡Olé! En Madrid se come tortilla y se dice «vale».
@@ -1575,7 +1575,7 @@
 - targets: IT
 - icon: 🇮🇹
 - accent: #22c55e
-- tags: 義大利, 義大利語
+- tags: 義大利, 義大利語, language, 語言文字
 
 - **Italiano**:
   - Ciao! A Roma si mangia pasta e si dice «prego».
@@ -1590,7 +1590,7 @@
 - targets: SE
 - icon: 🇸🇪
 - accent: #3b82f6
-- tags: 瑞典, 瑞典語
+- tags: 瑞典, 瑞典語, language, 語言文字
 
 - **Svenska**:
   - Hej! I Sverige dricker man fika och äter kanelbullar.
@@ -1604,7 +1604,7 @@
 - targets: NO
 - icon: 🇳🇴
 - accent: #ef4444
-- tags: 挪威, 挪威語
+- tags: 挪威, 挪威語, language, 語言文字
 
 - **Norsk**:
   - Hei! I Norge spiser man brunost og sier «takk for maten».
@@ -1618,7 +1618,7 @@
 - targets: DK
 - icon: 🇩🇰
 - accent: #ef4444
-- tags: 丹麥, 丹麥語
+- tags: 丹麥, 丹麥語, language, 語言文字
 
 - **Dansk**:
   - Hej! I Danmark spiser man smørrebrød og cykler overalt.
@@ -1632,7 +1632,7 @@
 - targets: FI
 - icon: 🇫🇮
 - accent: #3b82f6
-- tags: 芬蘭, 芬蘭語, 瑞典語
+- tags: 芬蘭, 芬蘭語, 瑞典語, language, 語言文字
 
 - **Suomi**:
   - Hei! Suomessa juodaan kahvia ja saunotaan.
@@ -1648,7 +1648,7 @@
 - targets: IS
 - icon: 🇮🇸
 - accent: #3b82f6
-- tags: 冰島, 冰島語
+- tags: 冰島, 冰島語, language, 語言文字
 
 - **Íslenska**:
   - Halló! Á Íslandi borðar maður skyr og keyrir á malbiki.
@@ -1662,7 +1662,7 @@
 - targets: PL
 - icon: 🇵🇱
 - accent: #ef4444
-- tags: 波蘭, 波蘭語
+- tags: 波蘭, 波蘭語, language, 語言文字
 
 - **Polski**:
   - Cześć! W Polsce je się pierogi i mówi się «dziękuję».
@@ -1676,7 +1676,7 @@
 - targets: CZ
 - icon: 🇨🇿
 - accent: #3b82f6
-- tags: 捷克, 捷克語
+- tags: 捷克, 捷克語, language, 語言文字
 
 - **Čeština**:
   - Ahoj! V Česku se pije pivo a říká se «děkuji».
@@ -1690,7 +1690,7 @@
 - targets: SK
 - icon: 🇸🇰
 - accent: #3b82f6
-- tags: 斯洛伐克, 斯洛伐克語
+- tags: 斯洛伐克, 斯洛伐克語, language, 語言文字
 
 - **Slovenčina**:
   - Ahoj! Na Slovensku sa pije pivo a hovorí sa «ďakujem».
@@ -1704,7 +1704,7 @@
 - targets: HU
 - icon: 🇭🇺
 - accent: #ef4444
-- tags: 匈牙利, 匈牙利語
+- tags: 匈牙利, 匈牙利語, language, 語言文字
 
 - **Magyar**:
   - Szia! Magyarországon gulyást esznek és «köszönöm»-öt mondanak.
@@ -1718,7 +1718,7 @@
 - targets: RO
 - icon: 🇷🇴
 - accent: #fbbf24
-- tags: 羅馬尼亞, 羅馬尼亞語
+- tags: 羅馬尼亞, 羅馬尼亞語, language, 語言文字
 
 - **Română**:
   - Bună! În România se mănâncă sarmale și se spune «mulțumesc».
@@ -1732,7 +1732,7 @@
 - targets: HR
 - icon: 🇭🇷
 - accent: #ef4444
-- tags: 克羅埃西亞, 克羅埃西亞語
+- tags: 克羅埃西亞, 克羅埃西亞語, language, 語言文字
 
 - **Hrvatski**:
   - Bok! U Hrvatskoj se jede ćevapi i kaže se «hvala».
@@ -1746,7 +1746,7 @@
 - targets: SI
 - icon: 🇸🇮
 - accent: #3b82f6
-- tags: 斯洛維尼亞, 斯洛維尼亞語
+- tags: 斯洛維尼亞, 斯洛維尼亞語, language, 語言文字
 
 - **Slovenščina**:
   - Živijo! V Sloveniji se je kranjske klobase in reče «hvala».
@@ -1760,7 +1760,7 @@
 - targets: AU
 - icon: 🇦🇺
 - accent: #22c55e
-- tags: 澳洲, 英語
+- tags: 澳洲, 英語, language, 語言文字
 
 - **English**:
   - G’day mate! Watch out for kangaroos on the outback roads.
@@ -1775,7 +1775,7 @@
 - targets: NZ
 - icon: 🇳🇿
 - accent: #ef4444
-- tags: 紐西蘭, 英語, 毛利語
+- tags: 紐西蘭, 英語, 毛利語, language, 語言文字
 
 - **English**:
   - Kia ora! Watch for sheep on the winding South Island roads.
@@ -1792,7 +1792,7 @@
 - targets: ZA
 - icon: 🇿🇦
 - accent: #22c55e
-- tags: 南非, 英語, 阿非利堪斯語, 祖魯語
+- tags: 南非, 英語, 阿非利堪斯語, 祖魯語, language, 語言文字
 
 - **English**:
   - Howzit! In South Africa you might see a bakkie on the road.
@@ -1811,7 +1811,7 @@
 - targets: JP::47
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 沖繩, 沖繩語, 日語
+- tags: 沖繩, 沖繩語, 日語, language, 語言文字
 
 - **うちなーぐち（沖縄語）**:
   - はいさい！沖縄ぬ人や「なんくるないさ」んでぃ言やびーん。
@@ -1825,7 +1825,7 @@
 - targets: JP::01
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 北海道, 方言
+- tags: 日本, 北海道, 方言, language, 語言文字
 
 - **北海道弁**:
   - なまら寒いべさ、今日は。
@@ -1839,7 +1839,7 @@
 - targets: JP::02
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 青森, 津軽弁, 東北弁
+- tags: 日本, 青森, 津軽弁, 東北弁, language, 語言文字
 
 - **津軽弁／東北弁**:
   - わ、なもだべ？今日は寒くてかなわねぇ。
@@ -1853,7 +1853,7 @@
 - targets: JP::04
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 宮城, 仙台弁
+- tags: 日本, 宮城, 仙台弁, language, 語言文字
 
 - **仙台弁**:
   - おばんです。今日はずいぶん寒くなったすねぇ。
@@ -1867,7 +1867,7 @@
 - targets: JP::26
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 京都, 京言葉, 関西弁
+- tags: 日本, 京都, 京言葉, 関西弁, language, 語言文字
 
 - **京言葉**:
   - おいでやす。今日はええお天気どすえ。
@@ -1881,7 +1881,7 @@
 - targets: JP::27
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 大阪, 大阪弁, 関西弁
+- tags: 日本, 大阪, 大阪弁, 関西弁, language, 語言文字
 
 - **大阪弁**:
   - なんでやねん！めっちゃおもろいがな。
@@ -1895,7 +1895,7 @@
 - targets: JP::28
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 兵庫, 関西弁
+- tags: 日本, 兵庫, 関西弁, language, 語言文字
 
 - **関西弁（兵庫）**:
   - まいど！今日はええ天気やなぁ。
@@ -1909,7 +1909,7 @@
 - targets: JP::34
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 広島, 広島弁
+- tags: 日本, 広島, 広島弁, language, 語言文字
 
 - **広島弁**:
   - ほいじゃあ、今日はなんか食べん？
@@ -1923,7 +1923,7 @@
 - targets: JP::40
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 福岡, 博多弁
+- tags: 日本, 福岡, 博多弁, language, 語言文字
 
 - **博多弁**:
   - よしよし、今日はとれんばい。
@@ -1937,7 +1937,7 @@
 - targets: JP::46
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 鹿児島, 薩摩弁
+- tags: 日本, 鹿児島, 薩摩弁, language, 語言文字
 
 - **薩摩弁**:
   - おいどんは鹿児島ん人間じゃっど。
@@ -1951,7 +1951,7 @@
 - targets: JP::25
 - icon: 🇯🇵
 - accent: #ef4444
-- tags: 日本, 滋賀, 関西弁, 近江弁
+- tags: 日本, 滋賀, 関西弁, 近江弁, language, 語言文字
 
 - **近江弁／関西弁**:
   - 今日はびわ湖がきれいどすなぁ。
@@ -1965,7 +1965,7 @@
 - targets: US::HI
 - icon: 🇺🇸
 - accent: #3b82f6
-- tags: 美國, 夏威夷, 夏威夷語, 英語
+- tags: 美國, 夏威夷, 夏威夷語, 英語, language, 語言文字
 
 - **ʻŌlelo Hawaiʻi（夏威夷語）**:
   - Aloha! E komo mai i Hawaiʻi.

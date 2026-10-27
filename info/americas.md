@@ -3,7 +3,7 @@
 - targets: PE
 - icon: 🥟
 - accent: #fbbf24
-- tags: 秘魯文化, 美食歷史, 華工移民史
+- tags: culture, 文化歷史, 美食歷史, 秘魯文化, 華工移民史
 
 - **【街頭普及現象】** 在秘魯街道經常可見紅黃招牌或霓虹燈寫著「**CHIFA**」（僅利馬市區就有超過 6,000 家，各城鎮隨處可見）。
 - **歷史淵源**：1849 年至 1874 年間，約 10 萬名廣東華工（苦力）被招募至秘魯沿海從事甘蔗、棉花莊園及鳥糞礦（Guano）苦役。契約結束脫離苦力後，華人定居利馬建立拉丁美洲最古老唐人街 (Barrio Chino)，並開設融合粵菜烹調與秘魯在地食材的平民餐館。
@@ -15,7 +15,7 @@
 - targets: CA, CA-QC, CA-NB
 - icon: 🛑
 - accent: #f87171
-- tags: 交通標誌, 語言法案, 跨區比較
+- tags: infrastructure, language, signs, 交通標誌, 語言法案, 跨區比較
 - comparison: CA-QC, CA-NB
 
 - **【三種停標誌省份分佈】**
@@ -30,7 +30,7 @@
 - targets: BR
 - icon: 📡
 - accent: #4ade80
-- tags: 物理緯度, 赤道仰角, 衛星天線
+- tags: nature, infrastructure, basics, 物理緯度, 赤道仰角, 衛星天線
 
 - **【家戶普及的衛星天線】** 在巴西的民宅前院、屋頂或圍牆邊，常見大型金屬網狀衛星天線（當地稱 *Antenas Parabólicas*），用以接收免費衛星電視訊號。
 - **物理原理（赤道同步衛星）**：巴西接收電視訊號之通訊衛星定軌於**赤道正上方**（緯度 0°）。因為巴西全境皆在南半球，所有衛星小耳朵**皆面朝正北方 (North)** 對準赤道。
@@ -46,7 +46,7 @@
 - targets: AR, BO, BR, CL, CO, EC, GY, PY, PE, SR, UY, VE
 - icon: 🌎
 - accent: #16a34a
-- tags: 南美洲, GeoGuessr, 辨別
+- tags: basics, language, nature, 南美洲, GeoGuessr, 辨別, 基礎必備
 
 - **語言快速區分**：
  - **葡萄牙語** → 巴西（唯一）
@@ -77,7 +77,7 @@
 - targets: AR, UY, CL
 - icon: 🇦🇷
 - accent: #3b82f6
-- tags: 阿根廷, 烏拉圭, 智利, 易混淆
+- tags: basics, nature, 阿根廷, 烏拉圭, 智利, 易混淆
 
 - **阿根廷**：
  - 車牌：黑底白字（舊）或白底黑字＋藍帶，常有省分縮寫
@@ -103,7 +103,7 @@
 - targets: CO, EC, PE
 - icon: 🇨🇴
 - accent: #f59e0b
-- tags: 哥倫比亞, 厄瓜多, 秘魯, 安地斯
+- tags: basics, nature, 哥倫比亞, 厄瓜多, 秘魯, 安地斯
 
 - **哥倫比亞**：
  - 車牌：黃底黑字最常見
@@ -129,7 +129,7 @@
 - targets: BR
 - icon: 🇧🇷
 - accent: #22c55e
-- tags: 巴西, 葡萄牙語
+- tags: basics, language, 巴西, 葡萄牙語
 
 - **語言**：
  - 所有路牌、店招幾乎全是葡萄牙語（não、rua、avenida、praça）
@@ -150,7 +150,7 @@
 - targets: BO, PY
 - icon: 🇧🇴
 - accent: #dc2626
-- tags: 玻利維亞, 巴拉圭, 易混淆
+- tags: basics, nature, 玻利維亞, 巴拉圭, 易混淆
 
 - **玻利維亞**：
  - 車牌：白底紅字或紅邊，較舊款常見

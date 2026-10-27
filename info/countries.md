@@ -3,7 +3,7 @@
 - targets: TW
 - icon: 🇹🇼
 - accent: #38bdf8
-- tags: 東亞, 靠右行駛, 官方街景
+- tags: 東亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -33,7 +33,7 @@
 - targets: JP
 - icon: 🇯🇵
 - accent: #38bdf8
-- tags: 東亞, 靠左行駛, 官方街景
+- tags: 東亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -61,7 +61,7 @@
 - targets: KR
 - icon: 🇰🇷
 - accent: #38bdf8
-- tags: 東亞, 靠右行駛, 官方街景
+- tags: 東亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -88,7 +88,7 @@
 - targets: PH
 - icon: 🇵🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景
+- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -111,7 +111,7 @@
 - targets: TH
 - icon: 🇹🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景
+- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -139,7 +139,7 @@
 - targets: KH
 - icon: 🇰🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景
+- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -167,7 +167,7 @@
 - targets: VN
 - icon: 🇻🇳
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景
+- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -195,7 +195,7 @@
 - targets: LA
 - icon: 🇱🇦
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景
+- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -223,7 +223,7 @@
 - targets: MY
 - icon: 🇲🇾
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景
+- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -246,7 +246,7 @@
 - targets: ID
 - icon: 🇮🇩
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景
+- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -269,7 +269,7 @@
 - targets: SG
 - icon: 🇸🇬
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景
+- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -292,7 +292,7 @@
 - targets: HK
 - icon: 🇭🇰
 - accent: #38bdf8
-- tags: 東亞, 靠左行駛, 官方街景
+- tags: 東亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -315,7 +315,7 @@
 - targets: MN
 - icon: 🇲🇳
 - accent: #38bdf8
-- tags: 東亞/中亞, 靠右行駛, 官方街景
+- tags: 東亞/中亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -343,7 +343,7 @@
 - targets: KG
 - icon: 🇰🇬
 - accent: #38bdf8
-- tags: 中亞, 靠右行駛, 官方街景
+- tags: 中亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -366,7 +366,7 @@
 - targets: KZ
 - icon: 🇰🇿
 - accent: #38bdf8
-- tags: 中亞, 靠右行駛, 官方街景
+- tags: 中亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -389,7 +389,7 @@
 - targets: IN
 - icon: 🇮🇳
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景
+- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -412,7 +412,7 @@
 - targets: BD
 - icon: 🇧🇩
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景
+- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -435,7 +435,7 @@
 - targets: BT
 - icon: 🇧🇹
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景
+- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -458,7 +458,7 @@
 - targets: LK
 - icon: 🇱🇰
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景
+- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -481,7 +481,7 @@
 - targets: IL
 - icon: 🇮🇱
 - accent: #38bdf8
-- tags: 西亞/中東, 靠右行駛, 官方街景
+- tags: 西亞/中東, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -509,7 +509,7 @@
 - targets: AE
 - icon: 🇦🇪
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景
+- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -537,7 +537,7 @@
 - targets: JO
 - icon: 🇯🇴
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景
+- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -560,7 +560,7 @@
 - targets: QA
 - icon: 🇶🇦
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景
+- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -580,7 +580,7 @@
 - targets: OM
 - icon: 🇴🇲
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景
+- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -600,7 +600,7 @@
 - targets: RU
 - icon: 🇷🇺
 - accent: #38bdf8
-- tags: 東歐/北亞, 靠右行駛, 官方街景
+- tags: 東歐/北亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -628,7 +628,7 @@
 - targets: UA
 - icon: 🇺🇦
 - accent: #38bdf8
-- tags: 東歐, 靠右行駛, 官方街景
+- tags: 東歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -656,7 +656,7 @@
 - targets: GB
 - icon: 🇬🇧
 - accent: #38bdf8
-- tags: 西歐, 靠左行駛, 官方街景
+- tags: 西歐, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -679,7 +679,7 @@
 - targets: IE
 - icon: 🇮🇪
 - accent: #38bdf8
-- tags: 西歐, 靠左行駛, 官方街景
+- tags: 西歐, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -702,7 +702,7 @@
 - targets: FR
 - icon: 🇫🇷
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景
+- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -725,7 +725,7 @@
 - targets: DE
 - icon: 🇩🇪
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -748,7 +748,7 @@
 - targets: NL
 - icon: 🇳🇱
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景
+- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -771,7 +771,7 @@
 - targets: BE
 - icon: 🇧🇪
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景
+- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -794,7 +794,7 @@
 - targets: LU
 - icon: 🇱🇺
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景
+- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -814,7 +814,7 @@
 - targets: AT
 - icon: 🇦🇹
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -836,7 +836,7 @@
 - targets: CH
 - icon: 🇨🇭
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -859,7 +859,7 @@
 - targets: IT
 - icon: 🇮🇹
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景
+- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -882,7 +882,7 @@
 - targets: ES
 - icon: 🇪🇸
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景
+- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -905,7 +905,7 @@
 - targets: PT
 - icon: 🇵🇹
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景
+- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -928,7 +928,7 @@
 - targets: PL
 - icon: 🇵🇱
 - accent: #38bdf8
-- tags: 中東歐, 靠右行駛, 官方街景
+- tags: 中東歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -956,7 +956,7 @@
 - targets: CZ
 - icon: 🇨🇿
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -984,7 +984,7 @@
 - targets: SK
 - icon: 🇸🇰
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1006,7 +1006,7 @@
 - targets: HU
 - icon: 🇭🇺
 - accent: #38bdf8
-- tags: 中東歐, 靠右行駛, 官方街景
+- tags: 中東歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1034,7 +1034,7 @@
 - targets: RO
 - icon: 🇷🇴
 - accent: #38bdf8
-- tags: 東南歐, 靠右行駛, 官方街景
+- tags: 東南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1062,7 +1062,7 @@
 - targets: BG
 - icon: 🇧🇬
 - accent: #38bdf8
-- tags: 東南歐, 靠右行駛, 官方街景
+- tags: 東南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1089,7 +1089,7 @@
 - targets: HR
 - icon: 🇭🇷
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景
+- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1111,7 +1111,7 @@
 - targets: SI
 - icon: 🇸🇮
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景
+- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1133,7 +1133,7 @@
 - targets: RS
 - icon: 🇷🇸
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景
+- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1160,7 +1160,7 @@
 - targets: ME
 - icon: 🇲🇪
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景
+- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1182,7 +1182,7 @@
 - targets: MK
 - icon: 🇲🇰
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景
+- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1207,7 +1207,7 @@
 - targets: AL
 - icon: 🇦🇱
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景
+- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1230,7 +1230,7 @@
 - targets: GR
 - icon: 🇬🇷
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景
+- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1258,7 +1258,7 @@
 - targets: CY
 - icon: 🇨🇾
 - accent: #38bdf8
-- tags: 南歐/地中海, 靠左行駛, 官方街景
+- tags: 南歐/地中海, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1281,7 +1281,7 @@
 - targets: MT
 - icon: 🇲🇹
 - accent: #38bdf8
-- tags: 南歐/地中海, 靠左行駛, 官方街景
+- tags: 南歐/地中海, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1304,7 +1304,7 @@
 - targets: TR
 - icon: 🇹🇷
 - accent: #38bdf8
-- tags: 南歐/西亞, 靠右行駛, 官方街景
+- tags: 南歐/西亞, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1332,7 +1332,7 @@
 - targets: DK
 - icon: 🇩🇰
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景
+- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1355,7 +1355,7 @@
 - targets: NO
 - icon: 🇳🇴
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景
+- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -1383,7 +1383,7 @@
 - targets: SE
 - icon: 🇸🇪
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景
+- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -1411,7 +1411,7 @@
 - targets: FI
 - icon: 🇫🇮
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景
+- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -1439,7 +1439,7 @@
 - targets: IS
 - icon: 🇮🇸
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景
+- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -1467,7 +1467,7 @@
 - targets: EE
 - icon: 🇪🇪
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景
+- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1490,7 +1490,7 @@
 - targets: LV
 - icon: 🇱🇻
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景
+- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1513,7 +1513,7 @@
 - targets: LT
 - icon: 🇱🇹
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景
+- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1536,7 +1536,7 @@
 - targets: GL
 - icon: 🇬🇱
 - accent: #38bdf8
-- tags: 北極圈, 靠右行駛, 官方街景
+- tags: 北極圈, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1557,7 +1557,7 @@
 - targets: US
 - icon: 🇺🇸
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景
+- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1580,7 +1580,7 @@
 - targets: CA
 - icon: 🇨🇦
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景
+- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
 - priority: 1
 - type: country
 
@@ -1603,7 +1603,7 @@
 - targets: MX
 - icon: 🇲🇽
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景
+- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1626,7 +1626,7 @@
 - targets: GT
 - icon: 🇬🇹
 - accent: #38bdf8
-- tags: 中美洲, 靠右行駛, 官方街景
+- tags: 中美洲, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1649,7 +1649,7 @@
 - targets: PA
 - icon: 🇵🇦
 - accent: #38bdf8
-- tags: 中美洲, 靠右行駛, 官方街景
+- tags: 中美洲, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1670,7 +1670,7 @@
 - targets: DO
 - icon: 🇩🇴
 - accent: #38bdf8
-- tags: 加勒比海, 靠右行駛, 官方街景
+- tags: 加勒比海, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1690,7 +1690,7 @@
 - targets: PR
 - icon: 🇵🇷
 - accent: #38bdf8
-- tags: 加勒比海, 靠右行駛, 官方街景
+- tags: 加勒比海, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1710,7 +1710,7 @@
 - targets: CO
 - icon: 🇨🇴
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1733,7 +1733,7 @@
 - targets: EC
 - icon: 🇪🇨
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1755,7 +1755,7 @@
 - targets: PE
 - icon: 🇵🇪
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1778,7 +1778,7 @@
 - targets: BO
 - icon: 🇧🇴
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1798,7 +1798,7 @@
 - targets: BR
 - icon: 🇧🇷
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1821,7 +1821,7 @@
 - targets: AR
 - icon: 🇦🇷
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1844,7 +1844,7 @@
 - targets: CL
 - icon: 🇨🇱
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1867,7 +1867,7 @@
 - targets: UY
 - icon: 🇺🇾
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景
+- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1888,7 +1888,7 @@
 - targets: AU
 - icon: 🇦🇺
 - accent: #38bdf8
-- tags: 大洋洲, 靠左行駛, 官方街景
+- tags: 大洋洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1911,7 +1911,7 @@
 - targets: NZ
 - icon: 🇳🇿
 - accent: #38bdf8
-- tags: 大洋洲, 靠左行駛, 官方街景
+- tags: 大洋洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1934,7 +1934,7 @@
 - targets: ZA
 - icon: 🇿🇦
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景
+- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1957,7 +1957,7 @@
 - targets: KE
 - icon: 🇰🇪
 - accent: #38bdf8
-- tags: 東非, 靠左行駛, 官方街景
+- tags: 東非, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -1980,7 +1980,7 @@
 - targets: UG
 - icon: 🇺🇬
 - accent: #38bdf8
-- tags: 東非, 靠左行駛, 官方街景
+- tags: 東非, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2000,7 +2000,7 @@
 - targets: RW
 - icon: 🇷🇼
 - accent: #38bdf8
-- tags: 東非, 靠右行駛, 官方街景
+- tags: 東非, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2020,7 +2020,7 @@
 - targets: GH
 - icon: 🇬🇭
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景
+- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2043,7 +2043,7 @@
 - targets: NG
 - icon: 🇳🇬
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景
+- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2066,7 +2066,7 @@
 - targets: SN
 - icon: 🇸🇳
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景
+- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2089,7 +2089,7 @@
 - targets: BW
 - icon: 🇧🇼
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景
+- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2112,7 +2112,7 @@
 - targets: SZ
 - icon: 🇸🇿
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景
+- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2132,7 +2132,7 @@
 - targets: LS
 - icon: 🇱🇸
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景
+- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 
@@ -2152,7 +2152,7 @@
 - targets: TN
 - icon: 🇹🇳
 - accent: #38bdf8
-- tags: 北非, 靠右行駛, 官方街景
+- tags: 北非, 靠右行駛, 官方街景, basics, 基礎必備
 - priority: 1
 - type: country
 

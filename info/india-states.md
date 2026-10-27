@@ -3,7 +3,7 @@
 - targets: IN::MH
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 孟買 (Mumbai)
+- tags: 印度文字, 首府 孟買 (Mumbai), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -22,7 +22,7 @@
 - targets: IN::GJ
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 甘地訥格爾 (Gandhinagar)
+- tags: 印度文字, 首府 甘地訥格爾 (Gandhinagar), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -39,7 +39,7 @@
 - targets: IN::GA
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 帕納吉 (Panaji)
+- tags: 印度文字, 首府 帕納吉 (Panaji), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -55,7 +55,7 @@
 - targets: IN::MP
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 博帕爾 (Bhopal)
+- tags: 印度文字, 首府 博帕爾 (Bhopal), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -71,7 +71,7 @@
 - targets: IN::CT
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 賴普爾 (Raipur)
+- tags: 印度文字, 首府 賴普爾 (Raipur), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -87,7 +87,7 @@
 - targets: IN::TN
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 清奈 (Chennai)
+- tags: 印度文字, 首府 清奈 (Chennai), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -104,7 +104,7 @@
 - targets: IN::KL
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 錫魯萬納塔普拉姆 (Thiruvananthapuram)
+- tags: 印度文字, 首府 錫魯萬納塔普拉姆 (Thiruvananthapuram), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -121,7 +121,7 @@
 - targets: IN::KA
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 邦加羅爾 (Bengaluru)
+- tags: 印度文字, 首府 邦加羅爾 (Bengaluru), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -138,7 +138,7 @@
 - targets: IN::AP
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 阿馬拉瓦蒂 (Amaravati)
+- tags: 印度文字, 首府 阿馬拉瓦蒂 (Amaravati), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -155,7 +155,7 @@
 - targets: IN::TG
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 海德拉巴 (Hyderabad)
+- tags: 印度文字, 首府 海德拉巴 (Hyderabad), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -172,7 +172,7 @@
 - targets: IN::WB
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 加爾各答 (Kolkata)
+- tags: 印度文字, 首府 加爾各答 (Kolkata), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -189,7 +189,7 @@
 - targets: IN::AS
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 迪斯普爾 (Dispur)
+- tags: 印度文字, 首府 迪斯普爾 (Dispur), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -206,7 +206,7 @@
 - targets: IN::OR
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 布巴內什瓦爾 (Bhubaneswar)
+- tags: 印度文字, 首府 布巴內什瓦爾 (Bhubaneswar), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -223,7 +223,7 @@
 - targets: IN::BR
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 巴特那 (Patna)
+- tags: 印度文字, 首府 巴特那 (Patna), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -239,7 +239,7 @@
 - targets: IN::JH
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 蘭契 (Ranchi)
+- tags: 印度文字, 首府 蘭契 (Ranchi), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -255,7 +255,7 @@
 - targets: IN::SK
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 甘托克 (Gangtok)
+- tags: 印度文字, 首府 甘托克 (Gangtok), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -271,7 +271,7 @@
 - targets: IN::TR
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 阿加爾塔拉 (Agartala)
+- tags: 印度文字, 首府 阿加爾塔拉 (Agartala), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -287,7 +287,7 @@
 - targets: IN::ML
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 錫隆 (Shillong)
+- tags: 印度文字, 首府 錫隆 (Shillong), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -303,7 +303,7 @@
 - targets: IN::NL
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 科希馬 (Kohima)
+- tags: 印度文字, 首府 科希馬 (Kohima), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -319,7 +319,7 @@
 - targets: IN::MZ
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 艾藻爾 (Aizawl)
+- tags: 印度文字, 首府 艾藻爾 (Aizawl), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -335,7 +335,7 @@
 - targets: IN::MN
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 因帕爾 (Imphal)
+- tags: 印度文字, 首府 因帕爾 (Imphal), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -351,7 +351,7 @@
 - targets: IN::AR
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 伊塔那葛 (Itanagar)
+- tags: 印度文字, 首府 伊塔那葛 (Itanagar), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -367,7 +367,7 @@
 - targets: IN::PB
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 昌迪加爾 (Chandigarh)
+- tags: 印度文字, 首府 昌迪加爾 (Chandigarh), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -384,7 +384,7 @@
 - targets: IN::HR
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 昌迪加爾 (Chandigarh)
+- tags: 印度文字, 首府 昌迪加爾 (Chandigarh), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -400,7 +400,7 @@
 - targets: IN::RJ
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 齋浦爾 (Jaipur)
+- tags: 印度文字, 首府 齋浦爾 (Jaipur), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -416,7 +416,7 @@
 - targets: IN::UP
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 勒克瑙 (Lucknow)
+- tags: 印度文字, 首府 勒克瑙 (Lucknow), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -432,7 +432,7 @@
 - targets: IN::UT
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 德拉敦 (Dehradun)
+- tags: 印度文字, 首府 德拉敦 (Dehradun), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -448,7 +448,7 @@
 - targets: IN::HP
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 西姆拉 (Shimla)
+- tags: 印度文字, 首府 西姆拉 (Shimla), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -464,7 +464,7 @@
 - targets: IN::JK
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 斯利那加 / 查謨 (Srinagar / Jammu)
+- tags: 印度文字, 首府 斯利那加 / 查謨 (Srinagar / Jammu), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -480,7 +480,7 @@
 - targets: IN::LA
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 列城 (Leh)
+- tags: 印度文字, 首府 列城 (Leh), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -496,7 +496,7 @@
 - targets: IN::DL
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 新德里 (New Delhi)
+- tags: 印度文字, 首府 新德里 (New Delhi), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -512,7 +512,7 @@
 - targets: IN::CH
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 昌迪加爾 (Chandigarh)
+- tags: 印度文字, 首府 昌迪加爾 (Chandigarh), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -528,7 +528,7 @@
 - targets: IN::PY
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 本地治里 (Puducherry)
+- tags: 印度文字, 首府 本地治里 (Puducherry), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -544,7 +544,7 @@
 - targets: IN::AN
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 布萊爾港 (Port Blair)
+- tags: 印度文字, 首府 布萊爾港 (Port Blair), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -560,7 +560,7 @@
 - targets: IN::LD
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 卡瓦拉蒂 (Kavaratti)
+- tags: 印度文字, 首府 卡瓦拉蒂 (Kavaratti), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
@@ -576,7 +576,7 @@
 - targets: IN::DH
 - icon: 🇮🇳
 - accent: #c084fc
-- tags: 印度文字, 首府 達曼 (Daman)
+- tags: 印度文字, 首府 達曼 (Daman), language, admin, 地方行政
 - priority: 5
 - type: subdivision
 
