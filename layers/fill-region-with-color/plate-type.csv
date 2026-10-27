@@ -8,13 +8,13 @@
 // @shortBadge: 🪪 車牌
 // @default-color: #1e2430
 // @descriptionZh: 依各國普通自用小客車最常見之車牌底色與特徵標記（一般白牌、歐洲藍條白牌、前後雙黃牌、前白後黃、黑底白字牌等）
-// @legend: #f1f5f9: 一般白牌 (White Plate: 美加/台韓/日澳/拉美多國)
-// @legend: #38bdf8: 歐洲藍條白牌 (Euroband Blue Strip: 歐盟/挪威/土耳其)
-// @legend: #eab308: 前後雙黃牌 (Double Yellow: 荷蘭/盧森堡/以色列/哥倫比亞/寮國)
-// @legend: #f97316: 前白後黃 (Front White, Rear Yellow: 英國/香港/肯亞/烏干達/波札那)
-// @legend: #334155: 黑底白字牌 (Black Plate: 馬來西亞/印尼/突尼西亞)
-// @legend: #ef4444: 紅底牌或紅條 (Red Plate / Red Strip: 不丹/吉爾吉斯)
-// @legend: #1e2430: 無街景或未收錄
+// @legend: #f1f5f9: 一般白牌 (美加/台韓/日澳/拉美多國)
+// @legend: #38bdf8: 歐洲藍條白牌 (歐盟/挪威/土耳其)
+// @legend: #eab308: 前後雙黃牌 (荷蘭/盧森堡/以色列/哥倫比亞/寮國)
+// @legend: #f97316: 前白後黃 (英國/香港/肯亞/烏干達/波札那)
+// @legend: #334155: 黑底白字牌 (馬來西亞/印尼/突尼西亞)
+// @legend: #ef4444: 紅底牌或紅條 (不丹/吉爾吉斯)
+// @legend: #1e2430: 無街景 / 未收錄 / 混亂
 
 iso2, color, label
 TW, #f1f5f9, 一般白牌 (台灣)

@@ -8,9 +8,8 @@
 // @shortBadge: 🛣️ 道路標線
 // @default-color: #334155
 // @descriptionZh: 顯示各國外側邊線與中央分向線顏色組合（格式：外邊線色:中央線色，如白邊+黃中線、全白標線、黃邊+白中線等）
-// @legend: #f59e0b: 外圈白邊線 + 中心黃線
-// @legend: #f1f5f9: 外圈白邊線 + 中心白線
-// @legend: #eab308: 外圈黃邊線 + 中心白線
+// @legend: #f59e0b: 黃線
+// @legend: #f1f5f9: 白線
 // @legend: #334155: 其他或無標線道路
 
 // White Outer + Yellow Center (美洲多數、台灣、日本、紐西蘭、東南亞)
