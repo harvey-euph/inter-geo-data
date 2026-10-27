@@ -190,6 +190,36 @@ function buildInfoIndex() {
 // -------------------------------------------------------------
 // 2. Build Layers Index (layers/*.csv)
 // -------------------------------------------------------------
+function splitCsvLine(line) {
+  const cells = [];
+  let current = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuotes) {
+      if (ch === '"') {
+        if (i + 1 < line.length && line[i + 1] === '"') {
+          current += '"';
+          i++;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        current += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ',') {
+      cells.push(current.trim());
+      current = '';
+    } else {
+      current += ch;
+    }
+  }
+  cells.push(current.trim());
+  return cells;
+}
+
 function buildLayersIndex() {
   const layersDir = path.join(REPO_ROOT, 'layers');
   if (!fs.existsSync(layersDir)) {
@@ -239,7 +269,7 @@ function buildLayersIndex() {
       }
 
       // Non-comment line = header row or data row
-      const rawCols = line.split(',').map((c) => c.trim().replace(/^"|"$/g, ''));
+      const rawCols = splitCsvLine(line).map((c) => c.trim().replace(/^"|"$/g, ''));
       const firstCol = rawCols[0];
       const normFirst = firstCol.toLowerCase().replace(/[\s_-]+/g, '');
 
@@ -247,7 +277,7 @@ function buildLayersIndex() {
       if (!headerColumns && (
         normFirst === 'regionid' || normFirst === 'region' ||
         normFirst === 'iso2' || normFirst === 'id' || normFirst === 'key' || normFirst === 'code' ||
-        rawCols.some((c) => ['color', 'value', 'label', 'namezh', 'examplepolecode'].includes(c.toLowerCase().replace(/[\s_-]+/g, '')))
+        rawCols.some((c) => ['color', 'value', 'label', 'namezh', 'examplepolecode', 'areacode', 'ddd'].includes(c.toLowerCase().replace(/[\s_-]+/g, '')))
       )) {
         headerColumns = rawCols;
         continue;
