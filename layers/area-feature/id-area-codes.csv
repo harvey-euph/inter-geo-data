@@ -4,7 +4,7 @@
 // @group: area-feature
 // @loadedTiming: on-demand
 // @effectiveRange: Nationwide:ID
-// @type: Text
+// @type: ExtObject
 // @nameZh: 印尼電話區域碼
 // @nameEn: Indonesia Area Codes
 // @shortBadge: 📞 ID 區碼
@@ -13,21 +13,21 @@
 // @goto: lat=-2&lon=118&ratio=4.5
 
 regionId, code, value, label
-ID::JK, 021, JK · 021, 雅加達首都特區 (Jakarta)
-ID::JB, 022, JB · 022, 西爪哇省 / 萬隆 (West Java / Bandung)
-ID::JI, 031, JI · 031, 東爪哇省 / 泗水 (East Java / Surabaya)
-ID::JT, 024, JT · 024, 中爪哇省 / 三寶瓏 (Central Java / Semarang)
-ID::YO, 0274, YO · 0274, 日惹特區 (Yogyakarta)
-ID::SU, 061, SU · 061, 北蘇門答臘省 / 棉蘭 (North Sumatra / Medan)
-ID::BA, 0361, BA · 0361, 峇里省 / 登巴薩 (Bali / Denpasar)
-ID::SN, 0411, SN · 0411, 南蘇拉威西省 / 望加錫 (South Sulawesi / Makassar)
-ID::SS, 0711, SS · 0711, 南蘇門答臘省 / 巨港 (South Sumatra / Palembang)
-ID::SB, 0751, SB · 0751, 西蘇門答臘省 / 巴東 (West Sumatra / Padang)
-ID::RI, 0761, RI · 0761, 廖內省 / 北干巴魯 (Riau / Pekanbaru)
-ID::KR, 0778, KR · 0778, 廖內群島省 / 巴淡島 (Riau Islands / Batam)
-ID::KI, 0542, KI · 0542, 東加里曼丹省 / 巴厘巴板 (East Kalimantan / Balikpapan)
-ID::KS, 0511, KS · 0511, 南加里曼丹省 / 馬辰 (South Kalimantan / Banjarmasin)
-ID::SA, 0431, SA · 0431, 北蘇拉威西省 / 萬鴉老 (North Sulawesi / Manado)
-ID::NB, 0370, NB · 0370, 西努沙登加拉省 / 龍目島 (West Nusa Tenggara / Lombok)
-ID::NT, 0380, NT · 0380, 東努沙登加拉省 / 古邦 (East Nusa Tenggara / Kupang)
-ID::PA, 0967, PA · 0967, 巴布亞省 / 查亞普拉 (Papua / Jayapura)
+ID::JK, 021, 021, 雅加達首都特區 (Jakarta)
+ID::JB, 022, 022, 西爪哇省 / 萬隆 (West Java / Bandung)
+ID::JI, 031, 031, 東爪哇省 / 泗水 (East Java / Surabaya)
+ID::JT, 024, 024, 中爪哇省 / 三寶瓏 (Central Java / Semarang)
+ID::YO, 0274, 0274, 日惹特區 (Yogyakarta)
+ID::SU, 061, 061, 北蘇門答臘省 / 棉蘭 (North Sumatra / Medan)
+ID::BA, 0361, 0361, 峇里省 / 登巴薩 (Bali / Denpasar)
+ID::SN, 0411, 0411, 南蘇拉威西省 / 望加錫 (South Sulawesi / Makassar)
+ID::SS, 0711, 0711, 南蘇門答臘省 / 巨港 (South Sumatra / Palembang)
+ID::SB, 0751, 0751, 西蘇門答臘省 / 巴東 (West Sumatra / Padang)
+ID::RI, 0761, 0761, 廖內省 / 北干巴魯 (Riau / Pekanbaru)
+ID::KR, 0778, 0778, 廖內群島省 / 巴淡島 (Riau Islands / Batam)
+ID::KI, 0542, 0542, 東加里曼丹省 / 巴厘巴板 (East Kalimantan / Balikpapan)
+ID::KS, 0511, 0511, 南加里曼丹省 / 馬辰 (South Kalimantan / Banjarmasin)
+ID::SA, 0431, 0431, 北蘇拉威西省 / 萬鴉老 (North Sulawesi / Manado)
+ID::NB, 0370, 0370, 西努沙登加拉省 / 龍目島 (West Nusa Tenggara / Lombok)
+ID::NT, 0380, 0380, 東努沙登加拉省 / 古邦 (East Nusa Tenggara / Kupang)
+ID::PA, 0967, 0967, 巴布亞省 / 查亞普拉 (Papua / Jayapura)

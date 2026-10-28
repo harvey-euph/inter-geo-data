@@ -4,7 +4,7 @@
 // @group: area-feature
 // @loadedTiming: on-demand
 // @effectiveRange: Nationwide:TH
-// @type: Text
+// @type: ExtObject
 // @nameZh: 泰國電話區號
 // @nameEn: Thailand Regional Area Codes
 // @shortBadge: 📞 TH 區碼
@@ -13,23 +13,23 @@
 // @goto: lat=15&lon=101&ratio=6.5
 
 regionId, code, value, label
-TH::10, 02, 10 · 02, 曼谷都會區 (Bangkok)
-TH::50, 053, 50 · 053, 清邁府 (Chiang Mai)
-TH::57, 053, 57 · 053, 清萊府 (Chiang Rai)
-TH::20, 038, 20 · 038, 春武里府 / 芭達雅 (Chonburi / Pattaya)
-TH::21, 038, 21 · 038, 羅勇府 (Rayong)
-TH::30, 044, 30 · 044, 呵叻府 (Nakhon Ratchasima)
-TH::83, 076, 83 · 076, 普吉府 (Phuket)
-TH::90, 074, 90 · 074, 宋卡府 / 合艾 (Songkhla / Hat Yai)
-TH::40, 043, 40 · 043, 孔敬府 (Khon Kaen)
-TH::52, 054, 52 · 054, 南邦府 (Lampang)
-TH::84, 077, 84 · 077, 素叻他尼府 / 蘇美島 (Surat Thani / Koh Samui)
-TH::77, 077, 77 · 077, 春蓬府 (Chumphon)
-TH::70, 032, 70 · 032, 叻丕府 (Ratchaburi)
-TH::76, 032, 76 · 032, 碧差汶府 (Phetchaburi)
-TH::73, 034, 73 · 034, 佛統府 (Nakhon Pathom)
-TH::14, 035, 14 · 035, 大城府 / 阿瑜陀耶 (Ayutthaya)
-TH::65, 055, 65 · 055, 彭世洛府 (Phitsanulok)
-TH::60, 056, 60 · 056, 那空沙旺府 (Nakhon Sawan)
-TH::41, 042, 41 · 042, 烏隆他尼府 (Udon Thani)
-TH::34, 045, 34 · 045, 烏汶府 (Ubon Ratchathani)
+TH::10, 02, 02, 曼谷都會區 (Bangkok)
+TH::50, 053, 053, 清邁府 (Chiang Mai)
+TH::57, 053, 053, 清萊府 (Chiang Rai)
+TH::20, 038, 038, 春武里府 / 芭達雅 (Chonburi / Pattaya)
+TH::21, 038, 038, 羅勇府 (Rayong)
+TH::30, 044, 044, 呵叻府 (Nakhon Ratchasima)
+TH::83, 076, 076, 普吉府 (Phuket)
+TH::90, 074, 074, 宋卡府 / 合艾 (Songkhla / Hat Yai)
+TH::40, 043, 043, 孔敬府 (Khon Kaen)
+TH::52, 054, 054, 南邦府 (Lampang)
+TH::84, 077, 077, 素叻他尼府 / 蘇美島 (Surat Thani / Koh Samui)
+TH::77, 077, 077, 春蓬府 (Chumphon)
+TH::70, 032, 032, 叻丕府 (Ratchaburi)
+TH::76, 032, 032, 碧差汶府 (Phetchaburi)
+TH::73, 034, 034, 佛統府 (Nakhon Pathom)
+TH::14, 035, 035, 大城府 / 阿瑜陀耶 (Ayutthaya)
+TH::65, 055, 055, 彭世洛府 (Phitsanulok)
+TH::60, 056, 056, 那空沙旺府 (Nakhon Sawan)
+TH::41, 042, 042, 烏隆他尼府 (Udon Thani)
+TH::34, 045, 045, 烏汶府 (Ubon Ratchathani)

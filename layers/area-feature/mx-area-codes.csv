@@ -4,7 +4,7 @@
 // @group: area-feature
 // @loadedTiming: on-demand
 // @effectiveRange: Nationwide:MX
-// @type: Text
+// @type: ExtObject
 // @nameZh: 墨西哥 LADA 電話區號
 // @nameEn: Mexico LADA Area Codes
 // @shortBadge: 📞 MX 區碼
@@ -13,22 +13,22 @@
 // @goto: lat=23&lon=-102&ratio=5.0
 
 regionId, code, value, label
-MX::CMX, 55, CMX · 55, 墨西哥城 (CDMX)
-MX::MEX, 55/722, MEX · 55/722, 墨西哥州 (State of Mexico)
-MX::JAL, 33, JAL · 33, 哈利斯科州 / 瓜達拉哈拉 (Jalisco / Guadalajara)
-MX::NLE, 81, NLE · 81, 新萊昂州 / 蒙特雷 (Nuevo León / Monterrey)
-MX::PUE, 222, PUE · 222, 普埃布拉州 (Puebla)
-MX::QUE, 442, QUE · 442, 克雷塔羅州 (Querétaro)
-MX::ROO, 998, ROO · 998, 金塔納羅奧州 / 坎昆 (Quintana Roo / Cancún)
-MX::BCN, 664, BCN · 664, 下加利福尼亞州 / 提華納 (Baja California / Tijuana)
-MX::YUC, 999, YUC · 999, 猶加敦州 / 梅里達 (Yucatán / Mérida)
-MX::GUA, 477, GUA · 477, 瓜納華托州 / 萊昂 (Guanajuato / León)
-MX::CHH, 656/614, CHH · 656/614, 奇瓦瓦州 (Chihuahua)
-MX::SLP, 444, SLP · 444, 聖路易斯波托西州 (San Luis Potosí)
-MX::MOR, 777, MOR · 777, 莫雷洛斯州 / 庫埃納瓦卡 (Morelos / Cuernavaca)
-MX::GRO, 744, GRO · 744, 格雷羅州 / 阿卡普爾科 (Guerrero / Acapulco)
-MX::CHP, 961, CHP · 961, 恰帕斯州 (Chiapas)
-MX::OAX, 951, OAX · 951, 瓦哈卡州 (Oaxaca)
-MX::SIN, 667, SIN · 667, 錫那羅亞州 / 庫利亞坎 (Sinaloa / Culiacán)
-MX::SON, 662, SON · 662, 索諾拉州 (Sonora)
-MX::VER, 229, VER · 229, 維拉克魯斯州 (Veracruz)
+MX::CMX, 55, 55, 墨西哥城 (CDMX)
+MX::MEX, 55/722, 55/722, 墨西哥州 (State of Mexico)
+MX::JAL, 33, 33, 哈利斯科州 / 瓜達拉哈拉 (Jalisco / Guadalajara)
+MX::NLE, 81, 81, 新萊昂州 / 蒙特雷 (Nuevo León / Monterrey)
+MX::PUE, 222, 222, 普埃布拉州 (Puebla)
+MX::QUE, 442, 442, 克雷塔羅州 (Querétaro)
+MX::ROO, 998, 998, 金塔納羅奧州 / 坎昆 (Quintana Roo / Cancún)
+MX::BCN, 664, 664, 下加利福尼亞州 / 提華納 (Baja California / Tijuana)
+MX::YUC, 999, 999, 猶加敦州 / 梅里達 (Yucatán / Mérida)
+MX::GUA, 477, 477, 瓜納華托州 / 萊昂 (Guanajuato / León)
+MX::CHH, 656/614, 656/614, 奇瓦瓦州 (Chihuahua)
+MX::SLP, 444, 444, 聖路易斯波托西州 (San Luis Potosí)
+MX::MOR, 777, 777, 莫雷洛斯州 / 庫埃納瓦卡 (Morelos / Cuernavaca)
+MX::GRO, 744, 744, 格雷羅州 / 阿卡普爾科 (Guerrero / Acapulco)
+MX::CHP, 961, 961, 恰帕斯州 (Chiapas)
+MX::OAX, 951, 951, 瓦哈卡州 (Oaxaca)
+MX::SIN, 667, 667, 錫那羅亞州 / 庫利亞坎 (Sinaloa / Culiacán)
+MX::SON, 662, 662, 索諾拉州 (Sonora)
+MX::VER, 229, 229, 維拉克魯斯州 (Veracruz)

@@ -1,0 +1,40 @@
+// nationwide-capital.csv
+// @id: nationwide-capital
+// @order: 15
+// @group: area-feature
+// @loadedTiming: on-demand
+// @effectiveRange: International
+// @type: FillWithColor
+// @nameZh: 首都所在區域
+// @nameEn: Capital Subdivision
+// @shortBadge: 👑 首都
+// @accentColor: #f59e0b
+// @default-color: #1e2430
+// @descriptionZh: 特別凸顯標記各國首都所在之一級行政區（如東京、華盛頓DC、巴西利亞、巴黎大區、德里、柏林等）
+
+regionId, color, capitalNameZh, capitalNameEn, subdivisionNameZh, geoGuessrMetaZh
+US::DC, #f59e0b, 華盛頓特區, "Washington, D.C.", 哥倫比亞特區, "美國聯邦直轄首都特區，車牌印有「End Taxation Without Representation」，路牌帶有象徵性星條標誌。"
+JP::13, #f59e0b, 東京, Tokyo, 東京都, "日本首都，市外局番電話為「03」，JIS 代碼 13，車牌地名包含品川、練馬、足立、八王子等。"
+BR::DF, #f59e0b, 巴西利亞, Brasília, 聯邦區, "巴西聯邦首都直轄區，位於戈亞斯州境內高原，城市規劃呈飛機形狀，DDD 區碼為 61。"
+FR::IDF, #f59e0b, 巴黎, Paris, 法蘭西島大區, "法國首都所在地，包含巴黎市（75省）與周邊近郊環省，電話區域碼 01。"
+GB::ENG, #f59e0b, 倫敦, London, 英格蘭, "英國首都所在地大倫敦（Greater London），STD 區碼 020，經典紅色雙層巴士與黑色計程車。"
+DE::BE, #f59e0b, 柏林, Berlin, 柏林直轄市, "德國首都暨聯邦州，車牌地名代碼「B」，市內有著著名的布蘭登堡門與柏林電視塔。"
+IT::LAZ, #f59e0b, 羅馬, Rome, 拉齊奧大區, "義大利首都所在地，包含梵蒂岡城國，羅馬電話區碼 06，歷史古蹟羅馬競技場所在地。"
+ES::MD, #f59e0b, 馬德里, Madrid, 馬德里自治區, "西班牙首都兼單省自治區，位於伊比利半島正中心，市標為熊與楊梅樹。"
+IN::DL, #f59e0b, 新德里, New Delhi, 德里國家首都轄區, "印度首都與聯邦直轄區（NCT），印地文與英文雙語並用，車牌代碼 DL。"
+AU::ACT, #f59e0b, 坎培拉, Canberra, 澳洲首都領地, "澳洲規劃型聯邦首都領地（ACT），車牌常印有「CANBERRA - THE NATION'S CAPITAL」，STD 區碼 02。"
+CA::ON, #f59e0b, 渥太華, Ottawa, 安大略省, "加拿大聯邦首都，位於安大略省東部與魁北克交界處，國會山莊所在地。"
+MX::CMX, #f59e0b, 墨西哥城, Mexico City, 墨西哥城直轄市, "墨西哥聯邦政府所在地（前稱 DF，現為 CDMX），長途電話區碼 55。"
+AR::C, #f59e0b, 布宜諾斯艾利斯, Buenos Aires, 布宜諾斯艾利斯自治市, "阿根廷自治聯邦首都（CABA），電話區號 011，車牌以 A/B/C/D 開頭的舊制或新南錐體格式。"
+RU::MOW, #f59e0b, 莫斯科, Moscow, 莫斯科直轄市, "俄羅斯聯邦直轄首都，克里姆林宮與紅場所在地，電話區號 495 與 499，車牌行政區代碼 77/97/99/177/197/199/777/797。"
+TH::10, #f59e0b, 曼谷, Bangkok, 曼谷特別行政區, "泰國首都，車牌以泰文字母開頭無前綴府號，市內高架捷運 BTS/MRT 密集，電話區號 02。"
+ID::JK, #f59e0b, 雅加達, Jakarta, 雅加達首都特區, "印尼首都（DKI Jakarta），車牌代碼「B」，電話區號 021，爪哇島西北岸金融中樞。"
+TW::TPE, #f59e0b, 台北, Taipei, 台北市, "台灣首都政經中樞，電話區域碼 02，門牌帶有綠白行政區徽與中英雙語路標。"
+KR::11, #f59e0b, 首爾, Seoul, 首爾特別市, "韓國特別市首都，漢江貫穿，車牌地名首爾（舊制）或純數字（新制），市內地鐵路網極其發達。"
+PL::MZ, #f59e0b, 華沙, Warsaw, 馬佐夫舍省, "波蘭首都，維斯瓦河畔，車牌以「W」開頭（如 WI, WB, WN），國家博物館與華沙老城所在地。"
+SE::AB, #f59e0b, 斯德哥爾摩, Stockholm, 斯德哥爾摩省, "瑞典首都，十四座島嶼組成的水上之都，郵遞區號以 10x-19x 開頭。"
+NO::03, #f59e0b, 奧斯陸, Oslo, 奧斯陸郡, "挪威首都，車牌字母前綴多為「AA~CD」，奧斯陸峽灣頂端的核心政經中心。"
+FI::01, #f59e0b, 赫爾辛基, Helsinki, 新地區 (Uusimaa), "芬蘭首都，波羅的海女兒，白色大教堂地標，街道名均標有芬蘭語與瑞典語雙語。"
+PE::LMA, #f59e0b, 利馬, Lima, 利馬大都會省, "秘魯首都自治省，太平洋岸乾旱沙漠氣候，黃黑相間防撞柱與密集黃色計程車。"
+CL::RM, #f59e0b, 聖地牙哥, Santiago, 聖地牙哥首都大區, "智利首都，安地斯山脈腳下，全國人口與經濟核心，現代化高架收費高速公路。"
+CO::DC, #f59e0b, 波哥大, Bogotá, 波哥大首都特區, "哥倫比亞首都直轄特區，安地斯高海拔盆地，經典黃色計程車車門側面印有車牌號碼。"

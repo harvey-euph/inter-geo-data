@@ -420,6 +420,14 @@ function buildDataIndex() {
 
   l2Countries.sort();
 
+  const l2ManifestFile = path.join(REPO_ROOT, 'data', 'l2-manifest.json');
+  const l3ManifestFile = path.join(REPO_ROOT, 'data', 'l3-manifest.json');
+  const roadsManifestFile = path.join(REPO_ROOT, 'data', 'roads-manifest.json');
+
+  const l2Manifest = fs.existsSync(l2ManifestFile) ? JSON.parse(fs.readFileSync(l2ManifestFile, 'utf-8')) : [];
+  const l3Manifest = fs.existsSync(l3ManifestFile) ? JSON.parse(fs.readFileSync(l3ManifestFile, 'utf-8')) : [];
+  const roadsManifest = fs.existsSync(roadsManifestFile) ? JSON.parse(fs.readFileSync(roadsManifestFile, 'utf-8')) : {};
+
   return {
     root: rootCountryFile,
     counts: {
@@ -434,7 +442,153 @@ function buildDataIndex() {
     subdivisionsByCountry: childrenByParent,
     roadsByCountry,
     extByCountry,
+    l2Manifest,
+    l3Manifest,
+    roadsManifest,
     files: allFiles
+  };
+}
+
+// -------------------------------------------------------------
+// 3.5 Build Countries Index (data/countries.csv)
+// -------------------------------------------------------------
+function parseCsvRows(csvText) {
+  const rows = [];
+  const len = csvText.length;
+  let currentRow = [];
+  let currentField = '';
+  let inQuotes = false;
+  let i = 0;
+
+  while (i < len) {
+    const char = csvText[i];
+
+    if (char === '"') {
+      if (inQuotes && i + 1 < len && csvText[i + 1] === '"') {
+        currentField += '"';
+        i += 2;
+        continue;
+      }
+      inQuotes = !inQuotes;
+      i++;
+      continue;
+    }
+
+    if (char === ',' && !inQuotes) {
+      currentRow.push(currentField);
+      currentField = '';
+      i++;
+      continue;
+    }
+
+    if ((char === '\n' || char === '\r') && !inQuotes) {
+      if (char === '\r' && i + 1 < len && csvText[i + 1] === '\n') {
+        i++;
+      }
+      currentRow.push(currentField);
+      currentField = '';
+      if (currentRow.length > 1 || (currentRow.length === 1 && currentRow[0].trim().length > 0)) {
+        rows.push(currentRow);
+      }
+      currentRow = [];
+      i++;
+      continue;
+    }
+
+    currentField += char;
+    i++;
+  }
+
+  if (currentField.length > 0 || currentRow.length > 0) {
+    currentRow.push(currentField);
+    if (currentRow.length > 1 || (currentRow.length === 1 && currentRow[0].trim().length > 0)) {
+      rows.push(currentRow);
+    }
+  }
+
+  return rows;
+}
+
+function parseCountriesCsv(csvText) {
+  const rows = parseCsvRows(csvText);
+  if (rows.length < 2) return [];
+
+  const headers = rows[0].map((h) => h.trim());
+  const arrayFields = new Set([
+    'cameraGens',
+    'roadLines',
+    'carMeta',
+    'poleTypes',
+    'keyHints',
+    'confusedWith'
+  ]);
+  const countries = [];
+
+  for (let r = 1; r < rows.length; r++) {
+    const row = rows[r];
+    if (!row[0] || row[0].startsWith('//')) continue;
+
+    const rawObj = {};
+    for (let c = 0; c < headers.length; c++) {
+      const header = headers[c];
+      const val = row[c] !== undefined ? row[c].trim() : '';
+
+      if (arrayFields.has(header)) {
+        rawObj[header] = val
+          ? val.split(';').map((s) => s.trim()).filter(Boolean)
+          : [];
+      } else {
+        rawObj[header] = val;
+      }
+    }
+
+    countries.push({
+      id: String(rawObj.id || ''),
+      iso2: String(rawObj.iso2 || '').toUpperCase(),
+      iso3: String(rawObj.iso3 || '').toUpperCase(),
+      name: String(rawObj.name || ''),
+      nameZh: String(rawObj.nameZh || ''),
+      flag: String(rawObj.flag || ''),
+      continent: rawObj.continent || 'Asia',
+      region: String(rawObj.region || ''),
+      drivingSide: rawObj.drivingSide || 'right',
+      coverage: rawObj.coverage || 'official',
+      cameraGens: rawObj.cameraGens || [],
+      plateType: rawObj.plateType || 'white',
+      plateDesc: String(rawObj.plateDesc || ''),
+      roadLines: rawObj.roadLines || [],
+      roadLinesDesc: String(rawObj.roadLinesDesc || ''),
+      carMeta: rawObj.carMeta || [],
+      carMetaDesc: String(rawObj.carMetaDesc || ''),
+      poleTypes: rawObj.poleTypes || [],
+      poleDesc: rawObj.poleDesc ? String(rawObj.poleDesc) : undefined,
+      bollardDesc: rawObj.bollardDesc ? String(rawObj.bollardDesc) : undefined,
+      language: String(rawObj.language || ''),
+      tld: String(rawObj.tld || ''),
+      callingCode: rawObj.callingCode ? String(rawObj.callingCode) : undefined,
+      keyHints: rawObj.keyHints || [],
+      confusedWith: rawObj.confusedWith || []
+    });
+  }
+
+  return countries;
+}
+
+function buildCountriesIndex() {
+  const countriesCsvFile = path.join(REPO_ROOT, 'data', 'countries.csv');
+  const centroidsFile = path.join(REPO_ROOT, 'data', 'centroids.json');
+
+  if (!fs.existsSync(countriesCsvFile)) {
+    return { total: 0, countries: [], centroids: {} };
+  }
+
+  const countries = parseCountriesCsv(fs.readFileSync(countriesCsvFile, 'utf-8'));
+  const centroids = fs.existsSync(centroidsFile) ? JSON.parse(fs.readFileSync(centroidsFile, 'utf-8')) : {};
+
+  return {
+    total: countries.length,
+    countries,
+    centroids
   };
 }
 
@@ -496,6 +650,10 @@ console.log('Generating Images index...');
 const imagesIndex = buildImagesIndex();
 fs.writeFileSync(path.join(outputDir, 'images-index.json'), JSON.stringify(imagesIndex, null, 2), 'utf-8');
 
+console.log('Generating Countries index...');
+const countriesIndex = buildCountriesIndex();
+fs.writeFileSync(path.join(outputDir, 'countries-index.json'), JSON.stringify(countriesIndex, null, 2), 'utf-8');
+
 // Build Master Root index
 const masterIndex = {
   version: '1.0.0',
@@ -505,13 +663,15 @@ const masterIndex = {
     layers: 'layers-index.json',
     info: 'info-index.json',
     infoTargets: 'info-targets.json',
-    images: 'images-index.json'
+    images: 'images-index.json',
+    countries: 'countries-index.json'
   },
   summary: {
     fgbFiles: dataIndex.counts.total,
     layers: layersIndex.totalLayers,
     infoCards: infoIndex.totalCards,
-    images: imagesIndex.count
+    images: imagesIndex.count,
+    countries: countriesIndex.total
   }
 };
 fs.writeFileSync(path.join(outputDir, 'index.json'), JSON.stringify(masterIndex, null, 2), 'utf-8');
@@ -523,3 +683,4 @@ console.log(`- info-targets.json (${Object.keys(infoIndex.targets).length} targe
 console.log(`- layers-index.json (${layersIndex.totalLayers} layers)`);
 console.log(`- data-index.json (${dataIndex.counts.total} FGB files)`);
 console.log(`- images-index.json (${imagesIndex.count} image assets)`);
+console.log(`- countries-index.json (${countriesIndex.total} countries)`);
