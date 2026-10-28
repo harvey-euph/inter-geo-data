@@ -1,7 +1,7 @@
 
 # 哈薩克人行道
-- id: test-img-display
-- targets: TW
+- id: kz-pedestrian
+- targets: KZ
 - tags: 測試
 - display: true
 - image: https://raw.githubusercontent.com/harvey-euph/inter-geo-data/refs/heads/main/images/tmp/kz.png
