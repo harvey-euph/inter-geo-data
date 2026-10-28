@@ -12,3 +12,4 @@
 
 - **測試** 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
   - **雪場位置**：![喔喔|banner*2](https://harvey-euph.github.io/assets/img/avatar.jpg)
+  - ![streetview|ratio=16:10|阿斯塔納街景](51.1283, 71.4305) 
