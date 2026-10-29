@@ -1,9 +1,6 @@
 // pedestrian-crossing.csv
 // @id: pedestrian-crossing
 // @order: 25
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: International
 // @type: Image
 // @nameZh: 歐洲行人過路標誌
 // @nameEn: European Pedestrian Crossing Signs

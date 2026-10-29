@@ -1,34 +1,32 @@
 // ru-area-codes.csv
 // @id: ru-area-codes
 // @order: 24
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:RU
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 俄羅斯城市電話區碼
 // @nameEn: Russia City Dialing Codes
 // @shortBadge: 📞 RU 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 俄羅斯各主要城市與聯邦主體之電話撥號區號
 // @goto: lat=60&lon=90&ratio=2.5
 
-regionId, code, value, label
-RU::MOW, "495, 499", "495, 499", 莫斯科 (Moscow)
-RU::MOS, 496, 496, 莫斯科州 (Moscow Oblast)
-RU::SPE, 812, 812, 聖彼得堡 (Saint Petersburg)
-RU::LEN, 813, 813, 列寧格勒州 (Leningrad Oblast)
-RU::TA, 843, 843, 韃靼斯坦共和國 / 喀山 (Tatarstan / Kazan)
-RU::SVE, 343, 343, 斯維爾德洛夫斯克州 / 葉卡捷琳堡 (Sverdlovsk)
-RU::NVS, 383, 383, 新西伯利亞州 (Novosibirsk)
-RU::NIZ, 831, 831, 下諾夫哥羅德州 (Nizhny Novgorod)
-RU::KDA, 861, 861, 克拉斯諾達爾邊疆區 (Krasnodar)
-RU::ROS, 863, 863, 羅斯托夫州 (Rostov)
-RU::SAM, 846, 846, 薩馬拉州 (Samara)
-RU::KYA, 391, 391, 克拉斯諾亞爾斯克邊疆區 (Krasnoyarsk)
-RU::CHE, 351, 351, 車里雅賓斯克州 (Chelyabinsk)
-RU::VGG, 8442, 8442, 伏爾加格勒州 (Volgograd)
-RU::OMS, 3812, 3812, 鄂木斯克州 (Omsk)
-RU::BA, 347, 347, 巴什科爾托斯坦共和國 / 烏法 (Bashkortostan / Ufa)
-RU::PER, 342, 342, 彼爾姆邊疆區 (Perm)
-RU::PRI, 423, 423, 濱海邊疆區 / 海參崴 (Primorsky / Vladivostok)
-RU::KHA, 4212, 4212, 哈巴羅夫斯克邊疆區 / 伯力 (Khabarovsk)
+regionId, text, label
+RU::MOW, "495, 499", 莫斯科 (Moscow)
+RU::MOS, 496, 莫斯科州 (Moscow Oblast)
+RU::SPE, 812, 聖彼得堡 (Saint Petersburg)
+RU::LEN, 813, 列寧格勒州 (Leningrad Oblast)
+RU::TA, 843, 韃靼斯坦共和國 / 喀山 (Tatarstan / Kazan)
+RU::SVE, 343, 斯維爾德洛夫斯克州 / 葉卡捷琳堡 (Sverdlovsk)
+RU::NVS, 383, 新西伯利亞州 (Novosibirsk)
+RU::NIZ, 831, 下諾夫哥羅德州 (Nizhny Novgorod)
+RU::KDA, 861, 克拉斯諾達爾邊疆區 (Krasnodar)
+RU::ROS, 863, 羅斯托夫州 (Rostov)
+RU::SAM, 846, 薩馬拉州 (Samara)
+RU::KYA, 391, 克拉斯諾亞爾斯克邊疆區 (Krasnoyarsk)
+RU::CHE, 351, 車里雅賓斯克州 (Chelyabinsk)
+RU::VGG, 8442, 伏爾加格勒州 (Volgograd)
+RU::OMS, 3812, 鄂木斯克州 (Omsk)
+RU::BA, 347, 巴什科爾托斯坦共和國 / 烏法 (Bashkortostan / Ufa)
+RU::PER, 342, 彼爾姆邊疆區 (Perm)
+RU::PRI, 423, 濱海邊疆區 / 海參崴 (Primorsky / Vladivostok)
+RU::KHA, 4212, 哈巴羅夫斯克邊疆區 / 伯力 (Khabarovsk)

@@ -1,42 +1,40 @@
 // br-ddd-codes.csv
 // @id: br-ddd-codes
 // @order: 20
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:BR
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 巴西 DDD 區碼
 // @nameEn: Brazil DDD Area Codes
 // @shortBadge: 📞 BR 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 巴西各州 2 位數 DDD 電話區碼（1x~9x 順時針螺旋數字分佈）
 // @goto: lat=-14&lon=-51&ratio=4.5
 
-regionId, code, value, label
-BR::SP, 11~19, 11~19, 聖保羅州 (São Paulo)
-BR::RJ, "21, 22, 24", "21, 22, 24", 里約熱內盧州 (Rio de Janeiro)
-BR::ES, "27, 28", "27, 28", 聖埃斯皮里圖州 (Espírito Santo)
-BR::MG, 31~38, 31~38, 米納斯吉拉斯州 (Minas Gerais)
-BR::PR, 41~46, 41~46, 巴拉那州 (Paraná)
-BR::SC, 47~49, 47~49, 聖卡塔琳娜州 (Santa Catarina)
-BR::RS, 51~55, 51~55, 南里奧格蘭德州 (Rio Grande do Sul)
-BR::DF, 61, 61, 聯邦區 / 巴西利亞 (Distrito Federal)
-BR::GO, "62, 64", "62, 64", 戈亞斯州 (Goiás)
-BR::TO, 63, 63, 托坎廷斯州 (Tocantins)
-BR::MT, "65, 66", "65, 66", 馬托格羅索州 (Mato Grosso)
-BR::MS, 67, 67, 南馬托格羅索州 (Mato Grosso do Sul)
-BR::AC, 68, 68, 阿克里州 (Acre)
-BR::RO, 69, 69, 朗多尼亞州 (Rondônia)
-BR::BA, 71~77, 71~77, 巴伊亞州 (Bahia)
-BR::SE, 79, 79, 塞爾希培州 (Sergipe)
-BR::PE, "81, 87", "81, 87", 伯南布哥州 (Pernambuco)
-BR::AL, 82, 82, 阿拉戈斯州 (Alagoas)
-BR::PB, 83, 83, 帕拉伊巴州 (Paraíba)
-BR::RN, 84, 84, 北里奧格蘭德州 (Rio Grande do Norte)
-BR::CE, "85, 88", "85, 88", 塞阿拉州 (Ceará)
-BR::PI, "86, 89", "86, 89", 皮奧伊州 (Piauí)
-BR::PA, "91, 93, 94", "91, 93, 94", 帕拉州 (Pará)
-BR::AM, "92, 97", "92, 97", 亞馬遜州 (Amazonas)
-BR::RR, 95, 95, 羅賴馬州 (Roraima)
-BR::AP, 96, 96, 阿馬帕州 (Amapá)
-BR::MA, "98, 99", "98, 99", 馬拉尼昂州 (Maranhão)
+regionId, text, label
+BR::SP, 11~19, 聖保羅州 (São Paulo)
+BR::RJ, "21, 22, 24", 里約熱內盧州 (Rio de Janeiro)
+BR::ES, "27, 28", 聖埃斯皮里圖州 (Espírito Santo)
+BR::MG, 31~38, 米納斯吉拉斯州 (Minas Gerais)
+BR::PR, 41~46, 巴拉那州 (Paraná)
+BR::SC, 47~49, 聖卡塔琳娜州 (Santa Catarina)
+BR::RS, 51~55, 南里奧格蘭德州 (Rio Grande do Sul)
+BR::DF, 61, 聯邦區 / 巴西利亞 (Distrito Federal)
+BR::GO, "62, 64", 戈亞斯州 (Goiás)
+BR::TO, 63, 托坎廷斯州 (Tocantins)
+BR::MT, "65, 66", 馬托格羅索州 (Mato Grosso)
+BR::MS, 67, 南馬托格羅索州 (Mato Grosso do Sul)
+BR::AC, 68, 阿克里州 (Acre)
+BR::RO, 69, 朗多尼亞州 (Rondônia)
+BR::BA, 71~77, 巴伊亞州 (Bahia)
+BR::SE, 79, 塞爾希培州 (Sergipe)
+BR::PE, "81, 87", 伯南布哥州 (Pernambuco)
+BR::AL, 82, 阿拉戈斯州 (Alagoas)
+BR::PB, 83, 帕拉伊巴州 (Paraíba)
+BR::RN, 84, 北里奧格蘭德州 (Rio Grande do Norte)
+BR::CE, "85, 88", 塞阿拉州 (Ceará)
+BR::PI, "86, 89", 皮奧伊州 (Piauí)
+BR::PA, "91, 93, 94", 帕拉州 (Pará)
+BR::AM, "92, 97", 亞馬遜州 (Amazonas)
+BR::RR, 95, 羅賴馬州 (Roraima)
+BR::AP, 96, 阿馬帕州 (Amapá)
+BR::MA, "98, 99", 馬拉尼昂州 (Maranhão)

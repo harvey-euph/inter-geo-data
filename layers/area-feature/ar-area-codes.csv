@@ -1,29 +1,27 @@
 // ar-area-codes.csv
 // @id: ar-area-codes
 // @order: 28
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:AR
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 阿根廷城際電話區碼
 // @nameEn: Argentina Interurban Area Codes
 // @shortBadge: 📞 AR 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 阿根廷各省主要都會區城際電話區碼
 // @goto: lat=-38&lon=-64&ratio=4.0
 
-regionId, code, value, label
-AR::C, 011, 011, 布宜諾斯艾利斯自治市 (CABA)
-AR::B, 0221, 0221, 布宜諾斯艾利斯省 / 拉普拉塔 (Buenos Aires / La Plata)
-AR::X, 0351, 0351, 哥多華省 (Córdoba)
-AR::S, 0341, 0341, 聖塔菲省 / 羅薩里奧 (Santa Fe / Rosario)
-AR::M, 0261, 0261, 門多薩省 (Mendoza)
-AR::T, 0381, 0381, 圖庫曼省 (Tucumán)
-AR::A, 0387, 0387, 薩爾塔省 (Salta)
-AR::Q, 0299, 0299, 內烏肯省 (Neuquén)
-AR::W, 0379, 0379, 科連特斯省 (Corrientes)
-AR::H, 0362, 0362, 查科省 (Chaco)
-AR::J, 0264, 0264, 聖胡安省 (San Juan)
-AR::Y, 0388, 0388, 胡胡伊省 (Jujuy)
-AR::Z, 02966, 02966, 聖克魯斯省 / 里奧加耶戈斯 (Santa Cruz / Río Gallegos)
-AR::V, 02901, 02901, 火地島 / 烏斯懷亞 (Tierra del Fuego / Ushuaia)
+regionId, text, label
+AR::C, 011, 布宜諾斯艾利斯自治市 (CABA)
+AR::B, 0221, 布宜諾斯艾利斯省 / 拉普拉塔 (Buenos Aires / La Plata)
+AR::X, 0351, 哥多華省 (Córdoba)
+AR::S, 0341, 聖塔菲省 / 羅薩里奧 (Santa Fe / Rosario)
+AR::M, 0261, 門多薩省 (Mendoza)
+AR::T, 0381, 圖庫曼省 (Tucumán)
+AR::A, 0387, 薩爾塔省 (Salta)
+AR::Q, 0299, 內烏肯省 (Neuquén)
+AR::W, 0379, 科連特斯省 (Corrientes)
+AR::H, 0362, 查科省 (Chaco)
+AR::J, 0264, 聖胡安省 (San Juan)
+AR::Y, 0388, 胡胡伊省 (Jujuy)
+AR::Z, 02966, 聖克魯斯省 / 里奧加耶戈斯 (Santa Cruz / Río Gallegos)
+AR::V, 02901, 火地島 / 烏斯懷亞 (Tierra del Fuego / Ushuaia)

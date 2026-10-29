@@ -1,7 +1,6 @@
 // plate-type.csv
 // @id: plateType
 // @order: 11
-// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 車牌特徵 (底色與邊條)
 // @nameEn: License Plates

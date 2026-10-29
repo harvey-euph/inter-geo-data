@@ -1,10 +1,7 @@
 // india-scripts.csv
 // @id: indiaScripts
 // @order: 7
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:IN|LK|BD
-// @type: Text
+// @type: TextWithStyle
 // @nameZh: 南亞文字特徵 (印/斯/孟)
 // @nameEn: South Asia Scripts (IN/LK/BD)
 // @shortBadge: 🕉️ 南亞文字
@@ -13,7 +10,7 @@
 // @goto: lat=20&lon=80&ratio=8.000
 
 // Neighboring South Asian Countries (Sri Lanka & Bangladesh)
-regionId, value, label
+regionId, text, label
 LK, සිංහල (අ ආ ඇ) / தமிழ்
 BD, বাংলা (ক খ গ)
 

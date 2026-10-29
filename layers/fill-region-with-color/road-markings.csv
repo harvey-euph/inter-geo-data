@@ -1,7 +1,6 @@
 // road-markings.csv
 // @id: roadMarkings
 // @order: 3
-// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 道路標線 (邊線/中線)
 // @nameEn: Road Markings (Edge / Center)

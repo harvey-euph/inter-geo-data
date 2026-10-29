@@ -1,10 +1,7 @@
 // street-words.csv
 // @id: streetWords
 // @order: 6
-// @group: global-label
-// @loadedTiming: on-demand
-// @effectiveRange: International
-// @type: Text
+// @type: TextWithStyle
 // @nameZh: 路牌「街/路」用詞
 // @nameEn: Street / Road Sign Words
 // @shortBadge: 🪧 街路詞
@@ -12,7 +9,7 @@
 // @descriptionZh: 顯示各國路牌上「街 / 路 / 大道 / 巷」的當地縮寫與用詞（如 Jl.、Jln、ul.、utca、iela、g.、tn、-vej、-gatan、-tie 等）
 
 // Nordic & Baltic (高辨識度後綴)
-iso2, value, label
+iso2, text, label
 IS, -vegur / -gata / -braut
 DK, -vej / -gade / -vænget
 NO, -vei (-veien) / -gate (-gata)

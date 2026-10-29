@@ -1,10 +1,7 @@
 // currency.csv
 // @id: currency
 // @order: 4
-// @group: global-label
-// @loadedTiming: on-demand
-// @effectiveRange: International
-// @type: Text
+// @type: TextWithStyle
 // @nameZh: 當地金錢單位
 // @nameEn: Currency Symbol
 // @shortBadge: 💰 貨幣
@@ -12,7 +9,7 @@
 // @descriptionZh: 顯示各國街景招牌、菜單與價格牌常見的當地金錢單位標示（如 Rp.、RM、R$、S/、zł、Kč、฿、₱、$ 等）
 
 // Asia
-iso2, value, label
+iso2, text, label
 TW, NT$ / 元
 JP, ¥ / 円
 KR, ₩ / 원

@@ -1,28 +1,26 @@
 // fr-area-codes.csv
 // @id: fr-area-codes
 // @order: 23
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:FR
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 法國電話區域碼
 // @nameEn: France Regional Area Codes
 // @shortBadge: 📞 FR 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 法國本土 5 大電信分區電話號碼（01 至 05）
 // @goto: lat=46.5&lon=3.5&ratio=12
 
-regionId, code, value, label
-FR::IDF, 01, 01, 法蘭西島大區 (Île-de-France)
-FR::BRE, 02, 02, 布列塔尼大區 (Bretagne)
-FR::NOR, 02, 02, 諾曼第大區 (Normandie)
-FR::PDL, 02, 02, 羅亞爾河地區 (Pays de la Loire)
-FR::CVL, 02, 02, 中央-羅亞爾河谷 (Centre-Val de Loire)
-FR::HDF, 03, 03, 上法蘭西大區 (Hauts-de-France)
-FR::GES, 03, 03, 大東部大區 (Grand Est)
-FR::BFC, 03, 03, 勃艮第-弗朗什-孔泰 (Bourgogne-Franche-Comté)
-FR::ARA, 04, 04, 奧弗涅-隆-阿爾卑斯 (Auvergne-Rhône-Alpes)
-FR::PAC, 04, 04, 普羅旺斯-阿爾卑斯-蔚藍海岸 (Provence-Alpes-Côte d'Azur)
-FR::COR, 04, 04, 科西嘉 (Corse)
-FR::NAQ, 05, 05, 新亞奎丹大區 (Nouvelle-Aquitaine)
-FR::OCC, 05, 05, 奧克西塔尼大區 (Occitanie)
+regionId, text, label
+FR::IDF, 01, 法蘭西島大區 (Île-de-France)
+FR::BRE, 02, 布列塔尼大區 (Bretagne)
+FR::NOR, 02, 諾曼第大區 (Normandie)
+FR::PDL, 02, 羅亞爾河地區 (Pays de la Loire)
+FR::CVL, 02, 中央-羅亞爾河谷 (Centre-Val de Loire)
+FR::HDF, 03, 上法蘭西大區 (Hauts-de-France)
+FR::GES, 03, 大東部大區 (Grand Est)
+FR::BFC, 03, 勃艮第-弗朗什-孔泰 (Bourgogne-Franche-Comté)
+FR::ARA, 04, 奧弗涅-隆-阿爾卑斯 (Auvergne-Rhône-Alpes)
+FR::PAC, 04, 普羅旺斯-阿爾卑斯-蔚藍海岸 (Provence-Alpes-Côte d'Azur)
+FR::COR, 04, 科西嘉 (Corse)
+FR::NAQ, 05, 新亞奎丹大區 (Nouvelle-Aquitaine)
+FR::OCC, 05, 奧克西塔尼大區 (Occitanie)

@@ -1,10 +1,7 @@
 // flags.csv
 // @id: flag
 // @order: 1
-// @group: global-label
-// @loadedTiming: on-demand
-// @effectiveRange: International
-// @type: Text
+// @type: TextWithStyle
 // @nameZh: 國旗
 // @nameEn: National Flag
 // @shortBadge: 🏳️ 國旗
@@ -12,7 +9,7 @@
 // @descriptionZh: 顯示全球各國國旗符號（可與國碼、網域或貨幣並列顯示，如 🇹🇼 +886）
 
 // Asia
-iso2, value, label
+iso2, text, label
 TW, 🇹🇼
 JP, 🇯🇵
 KR, 🇰🇷

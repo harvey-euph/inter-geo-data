@@ -1,23 +1,21 @@
 // au-area-codes.csv
 // @id: au-area-codes
 // @order: 22
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:AU
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 澳洲區域電話號碼
 // @nameEn: Australia STD Area Codes
 // @shortBadge: 📞 AU 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 澳洲各州與領地 1 位數 STD 區域號碼（02, 03, 07, 08）
 // @goto: lat=-25&lon=134&ratio=4.5
 
-regionId, code, value, label
-AU::NSW, 02, 02, 新南威爾斯州 (New South Wales)
-AU::ACT, 02, 02, 澳洲首都領地 (Australian Capital Territory)
-AU::VIC, 03, 03, 維多利亞州 (Victoria)
-AU::TAS, 03, 03, 塔斯馬尼亞州 (Tasmania)
-AU::QLD, 07, 07, 昆士蘭州 (Queensland)
-AU::WA, 08, 08, 西澳州 (Western Australia)
-AU::SA, 08, 08, 南澳州 (South Australia)
-AU::NT, 08, 08, 北領地 (Northern Territory)
+regionId, text, label
+AU::NSW, 02, 新南威爾斯州 (New South Wales)
+AU::ACT, 02, 澳洲首都領地 (Australian Capital Territory)
+AU::VIC, 03, 維多利亞州 (Victoria)
+AU::TAS, 03, 塔斯馬尼亞州 (Tasmania)
+AU::QLD, 07, 昆士蘭州 (Queensland)
+AU::WA, 08, 西澳州 (Western Australia)
+AU::SA, 08, 南澳州 (South Australia)
+AU::NT, 08, 北領地 (Northern Territory)

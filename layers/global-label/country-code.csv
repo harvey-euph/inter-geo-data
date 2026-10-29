@@ -1,10 +1,7 @@
 // country-code.csv
 // @id: callingCode
 // @order: 2
-// @group: global-label
-// @loadedTiming: on-demand
-// @effectiveRange: International
-// @type: Text
+// @type: TextWithStyle
 // @nameZh: 電話國碼
 // @nameEn: Calling Code
 // @shortBadge: 📞 國碼
@@ -12,7 +9,7 @@
 // @descriptionZh: 顯示全球各國國際電話區號（如 +886、+81、+1、+44 等）
 
 // Asia
-iso2, value, label
+iso2, text, label
 TW, +886
 JP, +81
 KR, +82

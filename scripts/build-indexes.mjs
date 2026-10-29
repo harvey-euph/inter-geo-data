@@ -294,31 +294,22 @@ function buildLayersIndex() {
       ? Number(directives.order)
       : 999;
 
-    let group = directives.group;
-    if (group === 'fill-region-with-color') {
+    // Group is determined purely by the directory structure under layers/
+    const parentDir = path.basename(path.dirname(filePath));
+    let group = 'area-feature';
+    if (parentDir === 'fill-region-with-color' || parentDir === 'fill-region') {
       group = 'fill-region';
+    } else if (parentDir === 'global-label') {
+      group = 'global-label';
+    } else if (parentDir === 'area-feature') {
+      group = 'area-feature';
+    } else if (parentDir && parentDir !== 'layers') {
+      group = parentDir;
     }
-    if (!group) {
-      const parentDir = path.basename(path.dirname(filePath));
-      if (parentDir === 'fill-region-with-color' || parentDir === 'fill-region') {
-        group = 'fill-region';
-      } else if (parentDir === 'area-feature') {
-        group = 'area-feature';
-      } else if (parentDir === 'global-label') {
-        group = 'global-label';
-      } else if ((directives.type || 'Text') === 'FillWithColor') {
-        const isAllRegions = sampleTargets.size === 0 ||
-          Array.from(sampleTargets).every((k) => /^[A-Z]{2}(::[A-Za-z0-9_-]+)*$/.test(k));
-        group = isAllRegions ? 'fill-region' : 'area-feature';
-      } else if ((directives.type || 'Text') === 'ExtObject') {
-        group = 'area-feature';
-      } else {
-        if (relativeFile.includes('global-label')) {
-          group = 'global-label';
-        } else {
-          group = 'area-feature';
-        }
-      }
+
+    let type = directives.type;
+    if (!type || type === 'Text' || type === 'ExtObject') {
+      type = group === 'fill-region' ? 'FillWithColor' : 'TextWithStyle';
     }
 
     const layerMeta = {
@@ -328,15 +319,13 @@ function buildLayersIndex() {
       nameZh: directives.nameZh || filename,
       nameEn: directives.nameEn || filename,
       shortBadge: directives.shortBadge || null,
-      type: directives.type || 'Text',
+      type,
       group,
       order: orderNum,
       accentColor: directives.accentColor || directives['default-color'] || null,
       defaultColor: directives['default-color'] || directives.accentColor || null,
+      defaultStyle: directives.defaultStyle || directives['default-style'] || null,
       descriptionZh: directives.descriptionZh || null,
-      effectiveRange: directives.effectiveRange || null,
-      loadedTiming: directives.loadedTiming || 'on-demand',
-      focusTarget: directives.focusTarget || null,
       goto: directives.goto || null,
       fgb: directives.fgb || null,
       innerGrid: directives.innerGrid || null,

@@ -1,19 +1,17 @@
 // gb-area-codes.csv
 // @id: gb-area-codes
 // @order: 29
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: Nationwide:GB
-// @type: ExtObject
+// @type: TextWithStyle
 // @nameZh: 英國構成國電話區碼
 // @nameEn: UK STD Area Codes
 // @shortBadge: 📞 GB 區碼
 // @accentColor: #10b981
+// @defaultStyle: badge
 // @descriptionZh: 英國各構成國與主要都會區 STD 電話號碼
 // @goto: lat=54.5&lon=-2.5&ratio=6.0
 
-regionId, code, value, label
-GB::ENG, 020/0121, 020/0121, 英格蘭 (London 020 / Birmingham 0121 / Manchester 0161)
-GB::SCT, 0141/0131, 0141/0131, 蘇格蘭 (Glasgow 0141 / Edinburgh 0131)
-GB::WLS, 029, 029, 威爾斯 (Cardiff 029)
-GB::NIR, 028, 028, 北愛爾蘭 (Belfast 028)
+regionId, text, label
+GB::ENG, 020/0121, 英格蘭 (London 020 / Birmingham 0121 / Manchester 0161)
+GB::SCT, 0141/0131, 蘇格蘭 (Glasgow 0141 / Edinburgh 0131)
+GB::WLS, 029, 威爾斯 (Cardiff 029)
+GB::NIR, 028, 北愛爾蘭 (Belfast 028)

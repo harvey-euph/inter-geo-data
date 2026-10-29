@@ -1,7 +1,6 @@
 // coverage.csv
 // @id: coverage
 // @order: 1
-// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 街景覆蓋範圍
 // @nameEn: Street View Coverage

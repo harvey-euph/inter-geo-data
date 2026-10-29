@@ -69,14 +69,13 @@ inter-geo-data/
 
 ## 3. CSV 圖層撰寫規範與 Directive 體系 (CSV Layer Directives)
 
-圖層統一以 CSV 格式編寫於 `layers/` 旗下目錄。每個 CSV 檔案以頭部雙斜線 `//` 聲明圖層設定：
+圖層統一以 CSV 格式編寫於 `layers/` 旗下 3 大分類目錄。每個 CSV 檔案以頭部雙斜線 `//` 聲明圖層設定：
 
 ```csv
 // @id: driving-side
 // @nameZh: 行駛方向
 // @nameEn: Driving Side
 // @shortBadge: 🚦 方向
-// @group: fill-region
 // @type: FillWithColor
 // @default-color: #1e2430
 // @order: 8
@@ -84,7 +83,7 @@ inter-geo-data/
 // @legend: #f59e0b: 靠左行駛 (Left-hand Drive)
 // @legend: #3b82f6: 靠右行駛 (Right-hand Drive)
 // @legend: #1e2430: 無街景或未收錄
-region-id,value,label
+regionId,value,label
 JP,#f59e0b,靠左
 GB,#f59e0b,靠左
 TW,#3b82f6,靠右
@@ -93,33 +92,62 @@ US,#3b82f6,靠右
 
 ### Directive 標頭字典
 
+> [!NOTE]
+> 1. **分類群組無需手動指定**：群組完全依據檔案在 `layers/` 下的目錄結構自動推導（`fill-region-with-color/` $\rightarrow$ `fill-region`、`global-label/` $\rightarrow$ `global-label`、`area-feature/` $\rightarrow$ `area-feature`），已全面廢除 `@group` 指令。
+> 2. **視角與觀看範圍由 `@goto` 全權決定**：相機跳轉與聚焦範圍僅看 `@goto` 指令；若無 `@goto` 則不移動相機，已全面廢除 `@effectiveRange` 指令。
+> 3. **全物件永遠 On-demand 按需載入**：所有空間幾何與圖層數據皆於使用者啟用或進入可視範圍時才動態載入，已全面廢除 `@loadedTiming` 指令。
+
 | 標頭指令 | 必要性 | 說明 | 範例 |
 | --- | :---: | --- | --- |
-| `@id` | **必要** | 圖層唯一識別代碼（kebab-case） | `// @id: pedestrian-crossing` |
-| `@nameZh` | **必要** | 中文圖層名稱 | `// @nameZh: 行人穿越道告示` |
-| `@nameEn` | 選填 | 英文圖層名稱 | `// @nameEn: Pedestrian Crossing Sign` |
-| `@shortBadge` | 選填 | 簡短圖示徽章（顯示於選擇器與圖例標籤） | `// @shortBadge: 🚸 行人` |
-| `@group` | **必要** | 圖層所屬分類群組（見下方說明） | `fill-region` / `global-label` / `area-feature` |
-| `@type` | **必要** | 渲染管線類型 | `FillWithColor` / `GlobalLabel` / `AreaFeature` |
+| `@id` | **必要** | 圖層唯一識別代碼（kebab-case） | `// @id: taiwan-power-poles` |
+| `@nameZh` | **必要** | 中文圖層名稱 | `// @nameZh: 台灣電力座標` |
+| `@nameEn` | 選填 | 英文圖層名稱 | `// @nameEn: Taiwan Power Grid` |
+| `@shortBadge` | 選填 | 簡短圖示徽章（顯示於選擇器與圖例標籤） | `// @shortBadge: ⚡ 電桿` |
+| `@type` | **必要** | 物件附加渲染類型（見下方 `@type` 幾何物件模型） | `FillWithColor` / `TextWithStyle` / `Image` |
+| `@goto` | 選填 | 啟用圖層時相機導航目標座標與縮放倍率 | `// @goto: lat=23.7&lon=120.95&ratio=0.82` |
+| `@defaultStyle` | 選填 | `TextWithStyle` 類型之預設文字樣式關鍵字或 CSS 樣式 | `// @defaultStyle: badge` 或 `// @defaultStyle: grid-letter` |
 | `@default-color` | 選填 | 未收錄區域之預設底色（Hex） | `// @default-color: #1e2430` |
+| `@accentColor` | 選填 | 圖層強調色（Hex） | `// @accentColor: #06b6d4` |
 | `@order` | 選填 | 於分類面板中的排序權重（數字越小越靠前） | `// @order: 1` |
 | `@descriptionZh` | 選填 | 於圖例與 Tooltip 中呈現之詳述 | `// @descriptionZh: 全球道路標線特色...` |
 | `@legend` | 選填 | 圖例對應項目（可重複多行宣告） | `// @legend: #f59e0b: 靠左行駛` |
 
-### 3 大圖層分類群組
+### `@type` 空間物件與裝飾模型
+
+CSV 的**第一個欄位永遠代表一個空間幾何物件 (`FGBObject`)**，它可以是：
+- **2D 物件**：全球國家邊界（ISO-2 如 `TW`、`US`）或行政區邊界（如 `US::CA`、`JP::13`）。
+- **1D 物件**：公路、鐵路或航線（如 `US-roads::I-95`）。
+- **0D 物件**：單點位置、散點特徵（如電力設施、標誌樁點）。
+
+`@type` 代表的是在該空間物件上要套用或裝飾什麼內容：
+
+1. **`FillWithColor` (物件著色)**：
+   - 適用於 2D 面、1D 線、0D 點，在物件上直接填入顏色。
+   - 支援格式：標準 Hex 色碼（`#3b82f6`）、含透明度之 8 碼 Hex 色碼（`#3b82f688`）、雙色標線格式（`#邊線色:#中線色`）、或 `rgba(...)`。
+   - 範例欄位：`regionId,color,label` 或 `regionId,value,label`。
+2. **`TextWithStyle` (帶樣式文字)**：
+   - 適用於在物件位置上附加文字或符號。
+   - 可為文字框普通文字、電話區碼、或像台電座標格上的醒目字母。
+   - 支援樣式描述：
+     - **預設樣式關鍵字**：`badge`（藥丸徽章）、`grid-letter`（大型加粗描邊字母）、`plain`（純文字）。
+     - **CSS 樣式字串**：例如 `color: #ffffff; background: #0284c7; font-weight: bold; border-radius: 4px`。
+     - **單一色碼簡寫**：直接填 Hex 色碼（例如 `#f59e0b`）即代表文字顏色。
+   - 範例欄位：`regionId,text,label`（搭配 `@defaultStyle: badge`）或 `id,text,style,label`。
+3. **`Image` (圖像資源)**：
+   - 在物件位置上繪製對應之圖示或徽章（如各國行人過路標誌 `images/crossing/de.svg`）。
+   - 範例欄位：`iso2,image,label`。
+
+### 3 大圖層分類目錄
 
 1. **`fill-region` (區塊著色)**：
    - 放置目錄：`layers/fill-region-with-color/`
    - 選取邏輯：單選（Radio），同時只能啟用一個著色底圖。
-   - 資料列欄位：`region-id,value,label`（`value` 為 Hex 色碼或雙色標線格式）。
 2. **`global-label` (全域標籤)**：
    - 放置目錄：`layers/global-label/`
-   - 選取邏輯：複選（Checkbox），可任意疊加。
-   - 資料列欄位：`region-id,value,label`（`value` 為顯示文字、圖標或 Emoji）。
+   - 選取邏輯：複選（Checkbox），可任意疊加於底圖之上。
 3. **`area-feature` (區域特徵)**：
    - 放置目錄：`layers/area-feature/`
-   - 選取邏輯：複選（Checkbox），針對特定國家或地理格網提供微觀細節。
-   - 資料列欄位：支援自訂屬性（如圖片路徑、形狀代碼、方向、條紋數等）。
+   - 選取邏輯：複選（Checkbox），提供特定國家、區域之微觀道路、電話區碼或網格特徵。
 
 ### 雙色道路標線色彩格式
 在 `fill-region` 中若要繪製雙色標線，採用 `#外側邊線色:#中央分向線色` 格式：
@@ -128,12 +156,12 @@ US,#f1f5f9:#f59e0b,白邊黃中
 FR,#f1f5f9:#f1f5f9,全白線
 ```
 
-### 區域代碼規範 (`region-id`)
+### 區域代碼規範 (`regionId` / `id`)
 系統內建正規化器，支援下列格式自動對齊：
 - **ISO-2 國家代碼**：`JP`、`US`、`KZ`、`TW`
 - **一級行政區階層**：`JP::26`（亦支援 `JP-26`、`26`）
 - **補零對齊**：`JP-01` 與 `JP-1` 等價
-- **地理格網**：`TW::TP-H`（台灣電力座標分區）
+- **地理格網**：`TW-powerpoles::A`（台灣電力座標分區）
 
 ---
 

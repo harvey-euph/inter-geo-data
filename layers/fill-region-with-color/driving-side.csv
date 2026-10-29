@@ -1,7 +1,6 @@
 // driving-side.csv
 // @id: drivingSide
 // @order: 2
-// @group: fill-region-with-color
 // @type: FillWithColor
 // @nameZh: 行駛方向
 // @nameEn: Driving Side

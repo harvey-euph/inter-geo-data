@@ -1,9 +1,6 @@
 // nationwide-capital.csv
 // @id: nationwide-capital
 // @order: 15
-// @group: area-feature
-// @loadedTiming: on-demand
-// @effectiveRange: International
 // @type: FillWithColor
 // @nameZh: 首都所在區域
 // @nameEn: Capital Subdivision
