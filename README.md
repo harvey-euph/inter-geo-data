@@ -116,15 +116,17 @@ US,#3b82f6,靠右
 
 CSV 的**第一個欄位永遠代表一個空間幾何物件 (`FGBObject`)**，它可以是：
 - **2D 物件**：全球國家邊界（ISO-2 如 `TW`、`US`）或行政區邊界（如 `US::CA`、`JP::13`）。
-- **1D 物件**：公路、鐵路或航線（如 `US-roads::I-95`）。
+- **1D 物件**：公路、鐵路或航線（如 `I-10`、`US 101`）。
 - **0D 物件**：單點位置、散點特徵（如電力設施、標誌樁點）。
 
 `@type` 代表的是在該空間物件上要套用或裝飾什麼內容：
 
 1. **`FillWithColor` (物件著色)**：
-   - 適用於 2D 面、1D 線、0D 點，在物件上直接填入顏色。
-   - 支援格式：標準 Hex 色碼（`#3b82f6`）、含透明度之 8 碼 Hex 色碼（`#3b82f688`）、雙色標線格式（`#邊線色:#中線色`）、或 `rgba(...)`。
-   - 範例欄位：`regionId,color,label` 或 `regionId,value,label`。
+   - **2D 空間填色**：直接填充多邊形面域，支援標準 Hex（`#3b82f6`）、8 碼含透明度 Hex（`#3b82f688`）、雙色標線格式（`#邊線色:#中線色`）、或 `rgba(...)`。
+     - 範例欄位：`regionId,color,label` 或 `regionId,value,label`。
+   - **1D 空間描邊著色 (公路與線段路網)**：直接在線段幾何上以筆刷描邊（Stroke），支援整層統一色碼或依個別公路 ID（如 `I-10`、`US 66`）自訂專屬色碼。
+     - 幾何來源：透過標頭 `// @fgb: data/US-roads.fgb` 聲明關聯之線段 FlatGeobuf。
+     - 範例欄位：`roadId,color,label`（如 `layers/area-feature/us-interstates.csv`、`layers/area-feature/us-numbered-highways.csv`）。
 2. **`TextWithStyle` (帶樣式文字)**：
    - 適用於在物件位置上附加文字或符號。
    - 可為文字框普通文字、電話區碼、或像台電座標格上的醒目字母。
@@ -136,6 +138,48 @@ CSV 的**第一個欄位永遠代表一個空間幾何物件 (`FGBObject`)**，�
 3. **`Image` (圖像資源)**：
    - 在物件位置上繪製對應之圖示或徽章（如各國行人過路標誌 `images/crossing/de.svg`）。
    - 範例欄位：`iso2,image,label`。
+
+### 1D 公路路網著色圖層範例
+
+以美國州際公路與編號國道為例，圖層置於 `layers/area-feature/`，並透過 1D `FillWithColor` 達成按路著色與獨立開關：
+
+```csv
+// @id: us-interstates
+// @nameZh: 美國州際公路
+// @nameEn: U.S. Interstate Highways
+// @shortBadge: 🛣️ 州際
+// @type: FillWithColor
+// @fgb: data/US-roads.fgb
+// @goto: lat=39.5&lon=-98.35&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 15
+// @descriptionZh: 美國艾森豪州際公路網 (Interstate Highway System)
+// @legend: #38bdf8: 州際公路 (Interstates)
+roadId,color,label
+I-4,#38bdf8,I-4
+I-10,#38bdf8,I-10
+I-95,#38bdf8,I-95
+```
+
+```csv
+// @id: us-numbered-highways
+// @nameZh: 美國編號國道
+// @nameEn: U.S. Numbered Highways
+// @shortBadge: 🛤️ 國道
+// @type: FillWithColor
+// @fgb: data/US-roads.fgb
+// @goto: lat=39.5&lon=-98.35&ratio=0.8
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 16
+// @descriptionZh: 美國編號國道系統 (U.S. Numbered Highway System)
+// @legend: #fbbf24: 編號國道 (U.S. Routes)
+roadId,color,label
+US 1,#fbbf24,US 1
+US 66,#fbbf24,US 66
+US 101,#fbbf24,US 101
+```
 
 ### 3 大圖層分類目錄
 
