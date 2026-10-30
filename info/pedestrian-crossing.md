@@ -214,14 +214,11 @@
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
-- image: /images/crossing/se.svg
-- imageSize: 72
-- imagePosition: left
 - priority: 1
 
-- **【「走路先生 (Herr Gårman)」雙關語文化】**
+- **【「走路先生 (Herr Gårman)」】**
   - 此標誌由瑞典設計師 Kalle Bäckström 於 1955 年繪製，瑞典民間親暱稱呼圖中戴帽紳士為 **「Herr Gårman」**——在瑞典語中與 *「Här går man」*（意為「人們從這裡走」）完全同音！2008 年起部分城市亦增設穿裙女性版本 **「Fru Gårman」**。
-
+- ![streetview|lock|vertical|heading=208.5|pitch=3.5|fov=16.5](59.3329258,18.052266)
 
 # 行人穿越道告示
 - id: crossing-sign-fi
