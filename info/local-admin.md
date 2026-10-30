@@ -3,7 +3,7 @@
 - targets: JP-MUNICIPALITY
 - icon: 🏙️
 - accent: #38bdf8
-- tags: admin, infrastructure, 地方行政, 地方行政, 人孔蓋
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -15,7 +15,7 @@
 - targets: US-MUNICIPALITY
 - icon: 🏙️
 - accent: #fbbf24
-- tags: admin, infrastructure, 地方行政, 地方行政, 郡道
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -27,7 +27,7 @@
 - targets: FR-MUNICIPALITY
 - icon: 🏙️
 - accent: #38bdf8
-- tags: admin, infrastructure, 地方行政, 地方行政, 省道
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -39,7 +39,7 @@
 - targets: DE-MUNICIPALITY
 - icon: 🏙️
 - accent: #fbbf24
-- tags: admin, infrastructure, 地方行政, 地方行政, 車牌前綴
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -51,7 +51,7 @@
 - targets: IT-MUNICIPALITY
 - icon: 🏙️
 - accent: #34d399
-- tags: admin, infrastructure, 地方行政, 地方行政, 省份縮寫
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -63,7 +63,7 @@
 - targets: ES-MUNICIPALITY
 - icon: 🏙️
 - accent: #fbbf24
-- tags: admin, infrastructure, 地方行政, 地方行政, 省份公路
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -75,7 +75,7 @@
 - targets: PL-MUNICIPALITY
 - icon: 🏙️
 - accent: #f87171
-- tags: admin, infrastructure, 地方行政, 地方行政, 車牌前綴
+- tags: Admin, Infrastructure
 - priority: 5
 - type: municipality
 
@@ -87,7 +87,7 @@
 - targets: MUNICIPALITY
 - icon: 🏙️
 - accent: #94a3b8
-- tags: admin, infrastructure, 地方行政, 地方行政
+- tags: Admin, Infrastructure
 - priority: 0
 - type: municipality
 

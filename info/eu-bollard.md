@@ -3,7 +3,7 @@
 - targets: GB
 - icon: 🚧
 - accent: #dc2626
-- tags: 英國, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【頂部大紅長方形】** 黑白相間，頂部有大型紅色長方形，造型獨特。
 - **數量**：相較其他歐洲國家偏少見。
@@ -15,7 +15,7 @@
 - targets: PT
 - icon: 🚧
 - accent: #16a34a
-- tags: 葡萄牙, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **正面**：黑色區塊內嵌白色直長方形（與西班牙亮黃區分）。
 - **背面**：黑色區塊有兩個白圓。
@@ -28,7 +28,7 @@
 - targets: ES
 - icon: 🚧
 - accent: #f59e0b
-- tags: 西班牙, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【亮黃長方形】** 標準歐洲黑白護柱，黑色區塊內嵌**亮黃色**窄長方形，幾乎為西班牙獨有。
 
@@ -38,7 +38,7 @@
 - targets: FR
 - icon: 🚧
 - accent: #2563eb
-- tags: 法國, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【造型獨特】** 與一般歐洲黑白板狀護柱明顯不同。
 - **兩種常見款**：
@@ -51,7 +51,7 @@
 - targets: NL
 - icon: 🚧
 - accent: #ea580c
-- tags: 荷蘭, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **最常見**：白色柱體，頂部附近有細長紅色直長方形。
 - **易混淆**：土耳其、澳洲有類似款式。
@@ -62,7 +62,7 @@
 - targets: DE, LU
 - icon: 🚧
 - accent: #8333c5
-- tags: 德國, 盧森堡, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **外觀**：正面較普通的黑白歐式護柱；背面白色區塊有兩個白圓。
 - **德盧細分**：
@@ -76,7 +76,7 @@
 - targets: IT
 - icon: 🚧
 - accent: #16a34a
-- tags: 義大利, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【黑斜條延伸至頂】** 正面：黑色斜條內嵌紅色直長方形，且黑色部分延伸到頂端（全球少見）。
 - **背面**：白色長方形。
@@ -91,7 +91,7 @@
 - targets: AL
 - icon: 🚧
 - accent: #dc2626
-- tags: 阿爾巴尼亞, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **與義大利相同**：黑色區塊內紅直長方形且延伸至頂；背面白色長方形。
 - **差異**：阿爾巴尼亞護柱整體較少見，不能單靠「少見」排除，但出現頻率明顯低於義大利。
@@ -102,7 +102,7 @@
 - targets: FI
 - icon: 🚧
 - accent: #0ea5e9
-- tags: 芬蘭, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【圓柱形】** 正面呈圓柱或近圓柱，是北歐中較特殊的造型。
 - **其餘**：黑白歐式通用風格。
@@ -114,7 +114,7 @@
 - targets: DK
 - icon: 🚧
 - accent: #ef4444
-- tags: 丹麥, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【正面黃色區塊】** 白色柱體，正面有明顯黃色四邊形／區塊，全國極常見。
 - **背面**：無黃色區塊。
@@ -125,7 +125,7 @@
 - targets: IS
 - icon: 🚧
 - accent: #eab308
-- tags: 冰島, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【全黃護柱】** 醒目黃色護柱，全國可見，辨識度極高。
 
@@ -135,7 +135,7 @@
 - targets: AT
 - icon: 🚧
 - accent: #dc2626
-- tags: 奧地利, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【黑反射＋黑頂帽】** 正面反射條為偏黑或深紅，加上黑色頂帽，幾乎是奧地利獨有組合。
 - **對比**：斯洛維尼亞、蒙特內哥羅類似，但為**亮紅**長方形。
@@ -146,7 +146,7 @@
 - targets: CH
 - icon: 🚧
 - accent: #ef4444
-- tags: 瑞士, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【彎曲圓柱形】** 常呈弧形／彎曲圓柱造型。
 - **背面**：黑色區塊有兩個白點。
@@ -157,7 +157,7 @@
 - targets: PL
 - icon: 🚧
 - accent: #dc2626
-- tags: 波蘭, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【紅色斜向環帶】** 有紅色斜向條紋環繞護柱，辨識度高。
 
@@ -167,7 +167,7 @@
 - targets: LT
 - icon: 🚧
 - accent: #f97316
-- tags: 立陶宛, 護柱, 波羅的海, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【橘長方形＋仿木塑膠】** 外觀像木頭的塑膠護柱，正面橘色長方形，較細長。
 - **背面**：白色長方形。
@@ -179,7 +179,7 @@
 - targets: LV
 - icon: 🚧
 - accent: #9ca3af
-- tags: 拉脫維亞, 護柱, 波羅的海, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【細長板狀】** 最常見為窄板護柱。
 - **正面**：白色長方形。
@@ -192,7 +192,7 @@
 - targets: EE
 - icon: 🚧
 - accent: #38bdf8
-- tags: 愛沙尼亞, 護柱, 波羅的海, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【圓柱形】** 與立、拉的板狀明顯不同。
 - **正面**：黑色區塊內白長方形（偶爾為黃長方形）。
@@ -205,7 +205,7 @@
 - targets: CZ, SK
 - icon: 🚧
 - accent: #f97316
-- tags: 捷克, 斯洛伐克, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【螢光橘條紋】** 黑色區塊內有螢光橘色條紋，兩國共用此特徵。
 - **背面**：黑色區塊內白色長方形。
@@ -216,7 +216,7 @@
 - targets: SI, ME
 - icon: 🚧
 - accent: #ef4444
-- tags: 斯洛維尼亞, 蒙特內哥羅, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **正面**：亮紅長方形（居中）。
 - **對比奧地利**：奧地利為偏黑／深紅＋黑頂帽。
@@ -228,7 +228,7 @@
 - targets: HU, BG, HR, MK
 - icon: 🚧
 - accent: #dc2626
-- tags: 匈牙利, 保加利亞, 克羅埃西亞, 北馬其頓, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **正面**：黑色區塊內紅色長方形（居中）。
 - **背面**：白色長方形。
@@ -240,7 +240,7 @@
 - targets: RS
 - icon: 🚧
 - accent: #dc2626
-- tags: 塞爾維亞, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【紅長方形偏側】** 主款與斯洛維尼亞／蒙特內哥羅類似，但紅色長方形**固定偏一側、不居中**。
 - **少見款**：同樣紅長方形偏側；背面白色長方形。
@@ -252,7 +252,7 @@
 - targets: UA
 - icon: 🚧
 - accent: #eab308
-- tags: 烏克蘭, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
 - **【較寬紅長方形】** 紅色長方形比匈／保／克／北馬更寬。
 - **狀態**：常較破舊，長方形易損壞。
@@ -264,7 +264,7 @@
 - targets: RU
 - icon: 🚧
 - accent: #1d4ed8
-- tags: 俄羅斯, 護柱, infrastructure, bollards, 道路設施
+- tags: Geoguessr, Infrastructure
 
-- **【側支撐桿】** 常有一側細支撐桿，是與烏克蘭區分的關鍵。
+- **【側支撐桿】** 常有一側細支撐桿，是與烏克蘭區分的主要外觀特徵。
 - **出現位置**：主要在路口／交叉口。

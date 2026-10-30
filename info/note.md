@@ -2,7 +2,7 @@
 # 哈薩克人行道
 - id: kz-pedestrian
 - targets: KZ
-- tags: 測試
+- tags: Infrastructure, Geoguessr
 - display: true
 - image: https://raw.githubusercontent.com/harvey-euph/inter-geo-data/refs/heads/main/images/tmp/kz.png
 - imageAlt: 哈哈

@@ -3,7 +3,7 @@
 # 測試一下圖片哈哈
 - id: test-img-display
 - targets: TW
-- tags: 測試
+- tags: Travel
 - display: true
 - image: https://harvey-euph.github.io/assets/img/avatar.jpg
 - imageAlt: 哈哈

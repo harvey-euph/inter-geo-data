@@ -3,7 +3,7 @@
 - targets: RU, RU-EAST
 - icon: 🚘
 - accent: #38bdf8
-- tags: basics, infrastructure, nature, 駕駛方向, JDM中古車, 遠東地理
+- tags: Culture, Infrastructure, Geoguessr
 
 - **【右行法規下的右駕現象】** 俄國法規為**靠右行駛 (Drive on the Right)**，但在**遠東與東西伯利亞地區**（如海參崴 Vladivostok、哈巴羅夫斯克 Khabarovsk、勘察加、薩哈林、赤塔、伊爾庫茨克等），路上行駛的車輛卻有極高比例為**右駕車 (Right-Hand Drive, RHD)**（駕駛座位於右側）。
 - **歷史與貿易淵源**：1990 年代蘇聯解體後，海參崴港口與日本隔日本海相望，海運極為便捷。耐寒防凍、配備四輪驅動且價格實惠的日本國內市場 (JDM) 中古車大量輸入，使海參崴等遠東城市街頭右駕車普及率高達 **80% ~ 90% 以上**。

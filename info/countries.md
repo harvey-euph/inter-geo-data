@@ -3,13 +3,13 @@
 - targets: TW
 - icon: 🇹🇼
 - accent: #38bdf8
-- tags: 東亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
 <!-- 本檔由 src/data 的敘述欄位產生，供右方資訊卡顯示。濾鏡用的列舉仍留在 src/data，不要從這裡改濾鏡行為。 -->
 
-- **關鍵線索** 電線桿底部標誌性『黃黑斜紋』防撞貼紙（台電標準塗裝）
+- **特色特徵** 電線桿底部標誌性『黃黑斜紋』防撞貼紙（台電標準塗裝）
   - 全境繁體中文招牌，門牌常標有『里』『路』『段』『巷』『弄』
   - 隨處可見機車專用停等區與兩段式左轉標誌
   - 高山茂密植被，路邊偶見綠色人行道標線
@@ -33,11 +33,11 @@
 - targets: JP
 - icon: 🇯🇵
 - accent: #38bdf8
-- tags: 東亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 (Left Drive) + Low Cam 低相機高度
+- **特色特徵** 靠左行駛 (Left Drive) + Low Cam 低相機高度
   - 隨處可見亮黃色車牌之輕型車 (Kei Cars)
   - 道路人孔蓋常有精緻城市彩繪花紋
   - 彎道反光凸面鏡密度極高，多為圓形黃框或橙框
@@ -61,11 +61,11 @@
 - targets: KR
 - icon: 🇰🇷
 - accent: #38bdf8
-- tags: 東亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 韓文字母（圓圈、方塊與直線組合），招牌密度極高
+- **特色特徵** 韓文字母（圓圈、方塊與直線組合），招牌密度極高
   - 鄉村常見大面積波浪金屬彩色屋頂（藍色、橘紅色）
   - 靠右行駛，公寓外牆漆有超大號建築編號（如 101, 102）
 - **車牌** 寬長白底黑字牌，部分舊車為綠底白字
@@ -88,11 +88,11 @@
 - targets: PH
 - icon: 🇵🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 東南亞唯一靠右行駛的群島國！
+- **特色特徵** 東南亞唯一靠右行駛的群島國！
   - 路牌、廣告與店家招牌幾乎 100% 全英文（例如 Barangay, Sari-sari store）
   - 色彩極其艷麗的改裝吉普尼（Jeepney）與帶邊斗的三輪摩托車（Tricycle）滿街跑
   - 天主教教堂極多，熱帶椰林與火山起伏群島景觀
@@ -111,11 +111,11 @@
 - targets: TH
 - icon: 🇹🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 (Left Drive) + 泰文字母
+- **特色特徵** 靠左行駛 (Left Drive) + 泰文字母
   - 電線桿是『四方形混凝土柱』而非圓柱
   - 路旁常有王室金黃色相框牌匾與泰式佛寺尖頂
   - 皮卡車（Pick-up trucks）滿街跑
@@ -139,11 +139,11 @@
 - targets: KH
 - icon: 🇰🇭
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠右行駛（注意：泰國左行，柬埔寨右行！）
+- **特色特徵** 靠右行駛（注意：泰國左行，柬埔寨右行！）
   - 高棉文字波浪小尾巴比泰文更繁複
   - 路邊啤酒廣告招牌密度極高（Cambodia Beer, Anchor, Ganzberg）
   - 高腳木屋與深紅沃土路面
@@ -167,11 +167,11 @@
 - targets: VN
 - icon: 🇻🇳
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠右行駛 (Right Drive) + 震撼級密度的摩托車大軍！
+- **特色特徵** 靠右行駛 (Right Drive) + 震撼級密度的摩托車大軍！
   - 招牌文字充滿獨特國語字變音記號（如 Phở, Đà Nẵng, Cà phê）
   - 街道常懸掛紅底金黃五角星國旗與鐮刀鐵鎚黨旗
   - 極度狹窄細長的深進透天洋房（筒房 Nhà ống）
@@ -195,11 +195,11 @@
 - targets: LA
 - icon: 🇱🇦
 - accent: #38bdf8
-- tags: 東南亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠右行駛（Right Drive，東南亞中與左行的泰國最快區分指標！）
+- **特色特徵** 靠右行駛（Right Drive，東南亞中與左行的泰國最快區分指標！）
   - 寮文字母線條極為圓潤弧形，如同一顆顆圓圓的小豆子
   - 路旁隨處可見 Beerlao（寮國啤酒）黃底紅字經典招牌
   - 湄公河沿岸熱帶山林風情、法式殖民洋樓與寺廟
@@ -223,11 +223,11 @@
 - targets: MY
 - icon: 🇲🇾
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 黑底白字車牌（前後皆黑底！）
+- **特色特徵** 靠左行駛 + 黑底白字車牌（前後皆黑底！）
   - 路牌皆為拉丁字母馬來文，常出現 JALAN (路) 或 LALUAN
   - 雙向中央線為白線，滿山遍野之油棕櫚樹園 (Oil Palms)
   - 路面平整整潔，路標多為深綠色或深藍色
@@ -246,11 +246,11 @@
 - targets: ID
 - icon: 🇮🇩
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 黑底白字三段式車牌
+- **特色特徵** 靠左行駛 + 黑底白字三段式車牌
   - 路緣石 (Curbs) 超常漆成『黑白相間條紋塗漆』
   - 隨處可見 Pertamini 迷你加油小玻璃箱與香菸大看板
   - 地名常見『Jl.』與清真寺金屬喇叭屋頂
@@ -269,11 +269,11 @@
 - targets: SG
 - icon: 🇸🇬
 - accent: #38bdf8
-- tags: 東南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 極致花園城市綠化（路樹修剪極整齊）
+- **特色特徵** 靠左行駛 + 極致花園城市綠化（路樹修剪極整齊）
   - ERP (Electronic Road Pricing) 電子收費龍門架
   - 路牌為綠底白字或白底黑字全英文，字體為標準 Transport 字型
   - 隨處可見的政府組屋（HDB）現代集合住宅
@@ -292,11 +292,11 @@
 - targets: HK
 - icon: 🇭🇰
 - accent: #38bdf8
-- tags: 東亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 前白後黃車牌
+- **特色特徵** 靠左行駛 + 前白後黃車牌
   - 地面文字『望左 LOOK LEFT』『望右 LOOK RIGHT』
   - 雙層巴士、紅色豐田金冠 Comfort 計程車
   - 極高密度的繁體中文街頭招牌與摩天高樓
@@ -315,11 +315,11 @@
 - targets: MN
 - icon: 🇲🇳
 - accent: #38bdf8
-- tags: 東亞/中亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景拍攝車頂裝有包布露營架與帳篷設備
+- **特色特徵** 街景拍攝車頂裝有包布露營架與帳篷設備
   - 無垠大草原、遠處散落白色蒙古包 (Ger)
   - 西里爾文字中含有特有的 Ү 与 Ө 字母
   - 地貌極度乾燥、荒涼或草原丘陵
@@ -343,11 +343,11 @@
 - targets: KG
 - icon: 🇰🇬
 - accent: #38bdf8
-- tags: 中亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景車金屬車頂架 + 兩側突出之車頭後照鏡
+- **特色特徵** 街景車金屬車頂架 + 兩側突出之車頭後照鏡
   - 車牌左邊有明顯『紅色垂直條紋』(Red Strip Plate)
   - 雄偉積雪之天山山脈與乾旱高山峽谷
   - 西里爾文字招牌，常有傳統氈帽 (Ak-kalpak)
@@ -366,11 +366,11 @@
 - targets: KZ
 - icon: 🇰🇿
 - accent: #38bdf8
-- tags: 中亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 2024 年全新上線的官方 Gen 4 超高畫質街景！
+- **特色特徵** 2024 年全新上線的官方 Gen 4 超高畫質街景！
   - 極其開闊遼闊的歐亞大草原（Steppe），地平線無邊無際
   - 車牌左側帶哈薩克國旗圖騰（青天金鷹）
   - 清真寺青色圓頂與蘇聯式規劃現代寬闊林蔭大道
@@ -389,11 +389,11 @@
 - targets: IN
 - icon: 🇮🇳
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 (Left Drive) + 全面 Gen 4 超高畫質
+- **特色特徵** 靠左行駛 (Left Drive) + 全面 Gen 4 超高畫質
   - 滿大街綠黃配色的自動嘟嘟三輪車 (Auto-rickshaws)
   - 英文招牌與印度各邦特殊文字並列（如天城文、孟加拉文、南印圓體字）
   - 路牌多為藍底白字或綠底白字
@@ -412,11 +412,11 @@
 - targets: BD
 - icon: 🇧🇩
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 孟加拉文字招牌（如 'বাংলা'，頂部橫線貫穿）
+- **特色特徵** 靠左行駛 + 孟加拉文字招牌（如 'বাংলা'，頂部橫線貫穿）
   - 滿街都是綠色鐵絲防盜籠的天然氣三輪嘟嘟車 (Green CNG Auto-rickshaws)
   - 極高人口密度、河流密佈的水鄉平原三角洲地形
   - 車身手繪彩繪圖案非常繁複繽紛的改裝卡車與人力三輪車
@@ -435,11 +435,11 @@
 - targets: BT
 - icon: 🇧🇹
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 全境深紅底車牌 (Red Plates)
+- **特色特徵** 全境深紅底車牌 (Red Plates)
   - 傳統藏傳佛教木刻雕花窗櫺建築 (Dzong 建築風格)
   - 靠左行駛，喜馬拉雅高山懸崖公路
   - 男女身著傳統服飾『幗 (Gho)』與『旗拉 (Kira)』
@@ -458,11 +458,11 @@
 - targets: LK
 - icon: 🇱🇰
 - accent: #38bdf8
-- tags: 南亞, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + Low Cam 低鏡頭視角
+- **特色特徵** 靠左行駛 + Low Cam 低鏡頭視角
   - 僧伽羅文字（圓潤如小蘋果，如 'ක', 'ය', 'ල'）
   - 三語並列的路牌（僧伽羅文、淡米爾文、英文）
   - 滿大街 Tuk-Tuk 三輪車與鬱鬱蔥蔥的熱帶椰林
@@ -481,11 +481,11 @@
 - targets: IL
 - icon: 🇮🇱
 - accent: #38bdf8
-- tags: 西亞/中東, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 前後雙黃色車牌 (Yellow Plates) 帶左側藍條
+- **特色特徵** 前後雙黃色車牌 (Yellow Plates) 帶左側藍條
   - 三語路標：希伯來文、阿拉伯文、英文
   - 路緣石常見『紅藍相間』或『紅白相間』塗漆
   - 地中海乾旱與現代綠化，屋頂常裝有太陽能熱水板
@@ -509,11 +509,11 @@
 - targets: AE
 - icon: 🇦🇪
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 極其現代化的摩天大樓群（杜拜、阿布達比）與浩瀚沙漠公路
+- **特色特徵** 極其現代化的摩天大樓群（杜拜、阿布達比）與浩瀚沙漠公路
   - 路標 100% 採用阿拉伯文與英文雙語並列
   - 公路中間常有人工精心灌溉綠化的綠色草皮與椰棗樹帶
   - 豪車超跑密度極高
@@ -537,11 +537,11 @@
 - targets: JO
 - icon: 🇯🇴
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車牌中央清晰印有英文字『JORDAN』
+- **特色特徵** 車牌中央清晰印有英文字『JORDAN』
   - 極為乾燥多石的土黃色沙漠丘陵與古老砂岩景貌
   - 計程車全為亮黃色，側面漆有綠色字體
   - 阿拉伯文路牌標示，房屋多為米黃色平頂石屋
@@ -560,11 +560,11 @@
 - targets: QA
 - icon: 🇶🇦
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** Gen 4 高畫質，超現代化多哈濱海路與波灣天際線
+- **特色特徵** Gen 4 高畫質，超現代化多哈濱海路與波灣天際線
   - 車牌左邊有酒紅色斜長條帶國旗圖騰
   - 全境平坦乾燥沙漠與人造棕櫚綠洲
 - **車牌** 白底長牌，左側帶有卡達國旗的栗色/酒紅色豎條與國徽
@@ -580,11 +580,11 @@
 - targets: OM
 - icon: 🇴🇲
 - accent: #38bdf8
-- tags: 中東, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 壯麗無比的乾燥黑褐色裸露岩石峽谷與哈賈爾山脈 (Hajar Mountains)
+- **特色特徵** 壯麗無比的乾燥黑褐色裸露岩石峽谷與哈賈爾山脈 (Hajar Mountains)
   - 極整潔平坦的現代多線道沙漠公路，中央為雙黃線
   - 所有住宅均保持低矮優雅的純白或米黃色傳統阿拉伯拱門外觀
 - **車牌** 白底黑字牌，營業車為黃底，左側帶有阿曼彎刀雙劍國徽
@@ -600,11 +600,11 @@
 - targets: RU
 - icon: 🇷🇺
 - accent: #38bdf8
-- tags: 東歐/北亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 全境西里爾字母（與烏克蘭區別：俄語絕無字母 'i', 'ï', 'є'）
+- **特色特徵** 全境西里爾字母（與烏克蘭區別：俄語絕無字母 'i', 'ï', 'є'）
   - 公路筆直穿越無窮無盡的白樺林（Birch trees）與針葉林（Taiga）
   - 城鎮充斥蘇聯時代預製板住宅大樓（Khrushchyovka）與地上天然氣黃色管線
   - 車牌右側有 RUS 與白藍紅國旗標誌
@@ -628,11 +628,11 @@
 - targets: UA
 - icon: 🇺🇦
 - accent: #38bdf8
-- tags: 東歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 代表字母：在西里爾文中包含拉丁外觀的『i』與帶雙點的『ï』
+- **特色特徵** 代表字母：在西里爾文中包含拉丁外觀的『i』與帶雙點的『ï』
   - 路邊護欄、橋墩、電桿常漆有鮮明藍黃色國旗漆
   - 遼闊極其肥沃的平坦黑土平原（Chernozem）與金黃向日葵田
   - 街景車後方偶爾可見鮮紅色車尾
@@ -656,11 +656,11 @@
 - targets: GB
 - icon: 🇬🇧
 - accent: #38bdf8
-- tags: 西歐, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 『前白後黃』車牌（看路上其他車輛尾部全黃！）
+- **特色特徵** 靠左行駛 + 『前白後黃』車牌（看路上其他車輛尾部全黃！）
   - 路面上常漆有大字『LOOK LEFT』『SLOW』『GIVE WAY』或黃色網狀交岔口
   - 紅磚聯排住宅 (Terraced houses)、石造煙囪
   - 圓環 (Roundabout) 密度極高
@@ -679,11 +679,11 @@
 - targets: IE
 - icon: 🇮🇪
 - accent: #38bdf8
-- tags: 西歐, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 車尾是『白牌』(而非英國的黃牌)
+- **特色特徵** 靠左行駛 + 車尾是『白牌』(而非英國的黃牌)
   - 路緣是『黃色虛線』(Dashed yellow shoulder line)
   - 路標雙語並列：上層為斜體愛爾蘭文，下層為英文字
   - 限速標誌為公里 (km/h)，路標為黃色菱形警告標誌
@@ -702,11 +702,11 @@
 - targets: FR
 - icon: 🇫🇷
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 防撞柱是全白圓柱 + 頂部凹陷紅色環帶 (經典法柱)
+- **特色特徵** 防撞柱是全白圓柱 + 頂部凹陷紅色環帶 (經典法柱)
   - 城鎮入口有白色長方黑框標牌，紅框標記城鎮名稱
   - 路牌多為白色箭頭或藍色長方箭頭，字體為特有 Caractères 字型
   - 圓環路權標誌常標註『VOUS N'AVEZ PAS LA PRIORITÉ』
@@ -725,11 +725,11 @@
 - targets: DE
 - icon: 🇩🇪
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 德國防撞柱：白柱 + 黑色平斜頂 + 正面白色垂直長條反光條
+- **特色特徵** 德國防撞柱：白柱 + 黑色平斜頂 + 正面白色垂直長條反光條
   - 街道名稱招牌多為深藍色底白字，常以『-straße』結尾
   - 路邊隨處可見紅色圓框速度限制牌與黃色菱形先行權 (Priority) 標誌
   - 垃圾回收箱按顏色分三桶（白綠棕）常在街角出現
@@ -748,11 +748,11 @@
 - targets: NL
 - icon: 🇳🇱
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 前後皆為黃色車牌 (Yellow license plates both front and back)
+- **特色特徵** 前後皆為黃色車牌 (Yellow license plates both front and back)
   - 全世界密度最高的獨立紅磚色自行車專用道（Fietspad）
   - 運河密佈、紅磚人字砌成的道路、紅磚傾斜山牆屋頂
   - 地勢極其平坦，幾乎完全看不到山陵
@@ -771,11 +771,11 @@
 - targets: BE
 - icon: 🇧🇪
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車牌文字為『紅色字體』(Red text license plates)
+- **特色特徵** 車牌文字為『紅色字體』(Red text license plates)
   - 高速公路夜間照明燈極為密集且高聳（全世界最密集路燈國之一）
   - 北部路標全荷蘭文，南部路標全法文
   - 連排紅磚老宅，路面上常有老舊混凝土塊拼裝路面
@@ -794,11 +794,11 @@
 - targets: LU
 - icon: 🇱🇺
 - accent: #38bdf8
-- tags: 西歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 前後皆為黃色車牌，但路標與招牌以法語為主
+- **特色特徵** 前後皆為黃色車牌，但路標與招牌以法語為主
   - 全境綠意丘陵城堡景觀，豪車密度極高
   - 黃牌但有法式地名（如 Rue, Avenue）
 - **車牌** 前後皆為黃底黑字牌帶歐盟藍條（字體比荷蘭牌稍細長）
@@ -814,11 +814,11 @@
 - targets: AT
 - icon: 🇦🇹
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 阿爾卑斯山壯麗木造屋舍 (Chalet)、陽台掛滿鮮花
+- **特色特徵** 阿爾卑斯山壯麗木造屋舍 (Chalet)、陽台掛滿鮮花
   - 行人穿越道標誌：只有一條條橫斑馬線，上面走著小人（無手杖）
   - 與德國差別：防撞柱背面為黑色圓片，且街景全面覆蓋無大面積住宅模糊
 - **車牌** 白牌紅白邊框，左側歐盟藍條，中間帶有各邦邦徽
@@ -836,11 +836,11 @@
 - targets: CH
 - icon: 🇨🇭
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** Low Cam 低鏡頭視角 + 人行道斑馬線是『黃色』(Yellow Zebra Crossings)
+- **特色特徵** Low Cam 低鏡頭視角 + 人行道斑馬線是『黃色』(Yellow Zebra Crossings)
   - 車牌小巧無藍條，帶有紅色瑞士小十字徽章
   - 健行步道標誌為標誌性黃色金屬箭頭指路牌
   - 壯麗雪山阿爾卑斯、精緻整潔木屋與鐵道
@@ -859,11 +859,11 @@
 - targets: IT
 - icon: 🇮🇹
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 前車牌『明顯偏小』且兩端皆有藍色條帶 (Small front plate with double blue strips)
+- **特色特徵** 前車牌『明顯偏小』且兩端皆有藍色條帶 (Small front plate with double blue strips)
   - 路標為藍色（國道/普通路）與綠色（高速公路 Autostrada）
   - 護欄 (Guardrail) 常常直接貫穿木桿或螺栓深鎖
   - 地中海松樹 (Stone Pine / Umbrella Pine)、柏樹與黃褐色磚瓦建築
@@ -882,11 +882,11 @@
 - targets: ES
 - icon: 🇪🇸
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 路標字體非常圓潤（Highway Gothic 字型），城市名稱常標注海拔與省份
+- **特色特徵** 路標字體非常圓潤（Highway Gothic 字型），城市名稱常標注海拔與省份
   - 公路護欄常常是兩道波浪形鋼板（雙層護欄）
   - 乾燥黃土丘陵、橄欖樹林與白色粉刷村落 (Pueblos Blancos)
   - 垃圾桶極具特色：大型圓筒或方形塑膠箱排列在街角，有腳踩踏板
@@ -905,11 +905,11 @@
 - targets: PT
 - icon: 🇵🇹
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車牌右側常有黃色年份條帶 (Old plates have yellow strip on the right)
+- **特色特徵** 車牌右側常有黃色年份條帶 (Old plates have yellow strip on the right)
   - 人行道由黑白小石塊鋪設而成的精美幾何圖案 (Calçada Portuguesa)
   - 房屋外牆大量貼有藍白或彩色彩繪瓷磚 (Azulejos)
   - 乾燥桉樹林 (Eucalyptus)、軟木橡樹與葡式磚瓦
@@ -928,11 +928,11 @@
 - targets: PL
 - icon: 🇵🇱
 - accent: #38bdf8
-- tags: 中東歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 長方形鏤空水泥電線桿（梯子桿 Ladder Poles）
+- **特色特徵** 長方形鏤空水泥電線桿（梯子桿 Ladder Poles）
   - 紅白防撞柱：白身頂部被紅色環帶切過，中間帶反光片
   - 波蘭文字極多 z, s, c 組合與橫線 ł（如 ul. Kościuszki）
   - 平坦開闊農田，路邊常種植大排蘋果樹或樺樹
@@ -956,11 +956,11 @@
 - targets: CZ
 - icon: 🇨🇿
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 文字特有字母『ř』(如 Dvořák)，看到 ř 100% 是捷克！
+- **特色特徵** 文字特有字母『ř』(如 Dvořák)，看到 ř 100% 是捷克！
   - 路標藍底白字，城鎮邊界牌為白色黑字無外框
   - 捷克防撞柱有兩條小黑腳或扁身造型
   - 鄉村紅色波浪磚瓦房頂，大量 Skoda 汽車
@@ -984,11 +984,11 @@
 - targets: SK
 - icon: 🇸🇰
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 特有字母『ô』與『ä』，且絕對沒有捷克的『ř』
+- **特色特徵** 特有字母『ô』與『ä』，且絕對沒有捷克的『ř』
   - 多山地與丘陵景觀（塔特拉山脈 Tatra Mountains）
   - 藍底白色行人穿越標誌中，小人的頭距離斑馬線較高
 - **車牌** 歐盟牌，前兩碼為行政區（如 BA 代表布拉提斯拉瓦），中嵌雙十字國徽
@@ -1006,11 +1006,11 @@
 - targets: HU
 - icon: 🇭🇺
 - accent: #38bdf8
-- tags: 中東歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 極特殊的非印歐語言：常見『utca』(街)、『út』(路)、『tér』(廣場)
+- **特色特徵** 極特殊的非印歐語言：常見『utca』(街)、『út』(路)、『tér』(廣場)
   - 長雙尖音符字母『ő』與『ű』全世界僅匈牙利獨有！
   - 平坦開闊的喀爾巴阡盆地地形，隨處可見向日葵與玉米田
   - 路邊城鎮標牌為綠色底白字
@@ -1034,11 +1034,11 @@
 - targets: RO
 - icon: 🇷🇴
 - accent: #38bdf8
-- tags: 東南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 電線桿底部常刷上一圈『白色油漆』(White painted pole bases)
+- **特色特徵** 電線桿底部常刷上一圈『白色油漆』(White painted pole bases)
   - 房屋前常有一條深水泥排水溝渠，通往各家門前有獨立小水泥拱橋
   - 羅馬尼亞字母帶下引號：『ș』與『ț』
   - 滿街都是 Dacia 廠牌汽車（Logan, Duster）
@@ -1062,11 +1062,11 @@
 - targets: BG
 - icon: 🇧🇬
 - accent: #38bdf8
-- tags: 東南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 歐盟成員國中少數完全使用西里爾字母的國家（車牌帶歐盟星環藍條！）
+- **特色特徵** 歐盟成員國中少數完全使用西里爾字母的國家（車牌帶歐盟星環藍條！）
   - 秋冬光禿落葉的無樹葉季節街景很常見
   - 鄉村平頂紅磚房與巴爾幹山脈起伏山巒
 - **車牌** 歐盟白牌帶 BG 藍條（使用西里爾字母但車牌是歐盟藍條！）
@@ -1089,11 +1089,11 @@
 - targets: HR
 - icon: 🇭🇷
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 特有字母『đ』(d with stroke)
+- **特色特徵** 特有字母『đ』(d with stroke)
   - 亞得里亞海迷人的石造紅瓦海邊村落、喀斯特石灰岩地貌
   - 車牌上有紅白格子盾牌徽章
 - **車牌** 歐盟白牌，左側帶 HR 藍條，中間帶有紅白棋盤格國徽
@@ -1111,11 +1111,11 @@
 - targets: SI
 - icon: 🇸🇮
 - accent: #38bdf8
-- tags: 中歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車牌四周有一圈非常醒目的『翠綠色細外邊框』
+- **特色特徵** 車牌四周有一圈非常醒目的『翠綠色細外邊框』
   - 阿爾卑斯木屋與清澈湖泊山峰（特里格拉夫山 Triglav），極似奧地利但使用斯拉夫文字
   - 路況整潔度在巴爾幹/東歐中排名第一
 - **車牌** 歐盟牌帶綠色細外邊框與城市徽章（Green border around plate）
@@ -1133,11 +1133,11 @@
 - targets: RS
 - icon: 🇷🇸
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 路標上常同時出現『西里爾字母』與『拉丁字母』並列
+- **特色特徵** 路標上常同時出現『西里爾字母』與『拉丁字母』並列
   - 車牌左邊有藍條但不是歐盟（無黃色星星環）
   - 平坦的多瑙河盆地平原與東歐巴爾幹老城街景
 - **車牌** 白牌帶 SRB 藍條（非歐盟星環，而是塞爾維亞國徽）
@@ -1160,11 +1160,11 @@
 - targets: ME
 - icon: 🇲🇪
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 天空裂縫光暈 (Sky Rift)
+- **特色特徵** 天空裂縫光暈 (Sky Rift)
   - 極為險峻的黑色峽谷山脈（如塔拉河峽谷）與科托爾峽灣沿海風光
   - 車牌左側帶有 MNE 藍條
 - **車牌** 白牌帶 MNE 藍條與雙頭鷹國徽
@@ -1182,11 +1182,11 @@
 - targets: MK
 - icon: 🇲🇰
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 西里爾字母中有特有的帶尖音符字母『ѓ』與『ќ』
+- **特色特徵** 西里爾字母中有特有的帶尖音符字母『ѓ』與『ќ』
   - 乾燥多石巴爾幹山丘，沿途清真寺與東正教堂交織
 - **車牌** 白牌帶 NMK 藍條與紅色盾牌
 - **道路標線** 全白線
@@ -1207,11 +1207,11 @@
 - targets: AL
 - icon: 🇦🇱
 - accent: #38bdf8
-- tags: 南歐/巴爾幹, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 舊車牌前後帶有醒目的『紅色垂直條帶 (Red strips on license plate)』
+- **特色特徵** 舊車牌前後帶有醒目的『紅色垂直條帶 (Red strips on license plate)』
   - 滿大街都是舊款賓士 (Mercedes-Benz) 轎車！
   - 隨處可見冷戰時期遺留的圓頂水泥軍事碉堡 (Bunkers)
   - 阿爾巴尼亞文字充滿『ë』與『Rruga』(街道)
@@ -1230,11 +1230,11 @@
 - targets: GR
 - icon: 🇬🇷
 - accent: #38bdf8
-- tags: 南歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 希臘字母招牌（唯一完全使用希臘字母的國家！）
+- **特色特徵** 希臘字母招牌（唯一完全使用希臘字母的國家！）
   - 路標通常雙語：上排為黃色希臘文，下排為白色拉丁英文字
   - 路邊隨處可見微型金屬小教堂神龕 (Kandylakia)
   - 陽光強烈、乾燥橄欖樹、白牆藍頂海島建築或多石山嶺
@@ -1258,11 +1258,11 @@
 - targets: CY
 - icon: 🇨🇾
 - accent: #38bdf8
-- tags: 南歐/地中海, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 歐洲少數『靠左行駛 (Left Drive)』國家（歐洲僅英國、愛爾蘭、馬爾他、賽普勒斯 4 國）
+- **特色特徵** 歐洲少數『靠左行駛 (Left Drive)』國家（歐洲僅英國、愛爾蘭、馬爾他、賽普勒斯 4 國）
   - 同時使用希臘字母標牌並採行靠左行駛制度
   - 租賃車輛採用醒目的『紅底車牌 (Red Rental Plate)』為當地特有制度
   - 英式道路標誌與 Transport 字體、地中海乾燥灌木丘陵與白牆平頂房
@@ -1281,11 +1281,11 @@
 - targets: MT
 - icon: 🇲🇹
 - accent: #38bdf8
-- tags: 南歐/地中海, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 (Left Drive) 的歐洲地中海微型島國！
+- **特色特徵** 靠左行駛 (Left Drive) 的歐洲地中海微型島國！
   - 全島清一色暖黃色蜂蜜石灰岩 (Globigerina Limestone) 建築！
   - 彩色封閉式木造凸窗陽台 (Gallarija) 極度搶眼
   - 英語與馬爾他語雙語路標，濃厚英倫殖民與地中海交融氣息
@@ -1304,11 +1304,11 @@
 - targets: TR
 - icon: 🇹🇷
 - accent: #38bdf8
-- tags: 南歐/西亞, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 代表文字：土耳其文區分無點的字母『ı』(Dotless i) 與帶點的『i』
+- **特色特徵** 代表文字：土耳其文區分無點的字母『ı』(Dotless i) 與帶點的『i』
   - 到處飄揚的鮮紅色土耳其星月國旗與阿塔圖克肖像
   - 清真寺高聳宣禮塔 (Minarets) 遍布城鄉天際線
   - 路標為深藍色底白字，路邊常有紅色圓框限速牌
@@ -1332,11 +1332,11 @@
 - targets: DK
 - icon: 🇩🇰
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車牌四周有一圈非常醒目的『鮮紅色細外框』(Red border)
+- **特色特徵** 車牌四周有一圈非常醒目的『鮮紅色細外框』(Red border)
   - 警告標誌為『黃底紅框』(Yellow diamond warning signs)
   - 地勢極其平坦，風力發電機滿布，傳統茅草屋頂與紅磚農舍
   - 路標常掛在兩根獨立白色金屬方柱上
@@ -1355,11 +1355,11 @@
 - targets: NO
 - icon: 🇳🇴
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 歐洲極少數『中央線是黃線』的國家（Yellow center line = 95% Norway in Europe）
+- **特色特徵** 歐洲極少數『中央線是黃線』的國家（Yellow center line = 95% Norway in Europe）
   - 路上常看到『綠底車牌 (Green commercial plates)』
   - 壯闊峽灣地形、高山隧道、紅色/黃色木製垂直播音板房屋
   - 防撞護欄常有高出路面的雪季除雪警示長木桿 (Snow poles)
@@ -1383,11 +1383,11 @@
 - targets: SE
 - icon: 🇸🇪
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 路面白線特徵：邊線與中央線皆為短間隔白色虛線 (Short dashed white edge lines)
+- **特色特徵** 路面白線特徵：邊線與中央線皆為短間隔白色虛線 (Short dashed white edge lines)
   - 法魯紅（Falu red，暗紅褐）木屋配白色窗框是瑞典鄉村標準風景
   - 路牌為黃底黑字帶紅邊（警告標誌）或藍底白字指路牌
   - 與挪威差別：挪威中央是黃線，瑞典中央是全白線！
@@ -1411,11 +1411,11 @@
 - targets: FI
 - icon: 🇫🇮
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 文字大量重複雙母音（如 Kaappi, Tie, Sauna, Katu）
+- **特色特徵** 文字大量重複雙母音（如 Kaappi, Tie, Sauna, Katu）
   - 警告標誌為『黃底紅框』(Yellow warning signs)，但無挪威的黃色道路中央線
   - 平坦地形，綿延不絕的白樺林 (Birch trees) 與無數湖泊岩石
   - 行人穿越標誌中的斑馬線條數比其他北歐國多且密集
@@ -1439,11 +1439,11 @@
 - targets: IS
 - icon: 🇮🇸
 - accent: #38bdf8
-- tags: 北歐, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 防撞柱是極亮眼的『鮮黃色細柱 (Yellow Bollards)』，全球最易認！
+- **特色特徵** 防撞柱是極亮眼的『鮮黃色細柱 (Yellow Bollards)』，全球最易認！
   - 特有古老字母『ð (Eth)』與『þ (Thorn)』
   - 地貌完全無樹木（極度缺乏高大喬木），黑色火山岩苔原、瀑布與冰川山丘
   - 道路常在狹窄橋樑前出現『EINBREIÐ BRÚ』(單線橋) 警告牌
@@ -1467,11 +1467,11 @@
 - targets: EE
 - icon: 🇪🇪
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 看到特有字母『õ』(O with tilde) 基本鎖定愛沙尼亞！
+- **特色特徵** 看到特有字母『õ』(O with tilde) 基本鎖定愛沙尼亞！
   - 路名標牌常標記『tee』(路，芬蘭是 tie)
   - 波羅的海三國中緯度最高，白樺林密布，公車站多為木造小亭子
   - 限速標示牌圓圈外框較粗
@@ -1490,11 +1490,11 @@
 - targets: LV
 - icon: 🇱🇻
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 文字特徵：字母頂上有『橫長音號 (Macron)』如 ā, ē, ī, ū，且字尾常以『-s』結尾（如 Rīga, Jelgavas）
+- **特色特徵** 文字特徵：字母頂上有『橫長音號 (Macron)』如 ā, ē, ī, ū，且字尾常以『-s』結尾（如 Rīga, Jelgavas）
   - 行人穿越標誌上，小人頭部戴有帽子般的幾何輪廓
   - 鄉村砂石路 (Gravel roads) 比例在三國中最高
   - 路標為白底黑字或藍底白字
@@ -1513,11 +1513,11 @@
 - targets: LT
 - icon: 🇱🇹
 - accent: #38bdf8
-- tags: 波羅的海, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 文字特徵：字母底部帶『小尾巴勾號 (Ogonek)』如 ą, ę, į, ų，且有獨特字母『ė』
+- **特色特徵** 文字特徵：字母底部帶『小尾巴勾號 (Ogonek)』如 ą, ę, į, ų，且有獨特字母『ė』
   - 路邊城鎮招牌邊界為白底黑字，外加一層藍色窄外框
   - 十字路口常可見立陶宛獨特的傳統精美木雕十字架 (Stogastulpis)
   - 行人道標誌中斑馬線條紋數通常只有 3 至 4 條
@@ -1536,11 +1536,11 @@
 - targets: GL
 - icon: 🇬🇱
 - accent: #38bdf8
-- tags: 北極圈, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 北極壯美冰原峽灣、海灣中漂浮巨大冰山浮冰
+- **特色特徵** 北極壯美冰原峽灣、海灣中漂浮巨大冰山浮冰
   - 村落全為五顏六色的單棟木造平房（紅黃藍綠）
   - 全境完全沒有任何樹木，道路極少且不互通
   - 滿大街可見雪橇犬與雪地摩托車
@@ -1557,11 +1557,11 @@
 - targets: US
 - icon: 🇺🇸
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 中央標準『雙黃線』+ 路邊黃色菱形警告標誌 (Diamond warning signs)
+- **特色特徵** 中央標準『雙黃線』+ 路邊黃色菱形警告標誌 (Diamond warning signs)
   - 車牌為美規寬方牌，滿街大型皮卡車 (F-150, Silverado, Ram) 與 SUV
   - 綠底白字街道招牌（Street sign）常掛在木電線桿上或十字路口紅綠燈旁
   - 速度單位為英里 (SPEED LIMIT 35 / 45 / 65 MPH)
@@ -1580,11 +1580,11 @@
 - targets: CA
 - icon: 🇨🇦
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備, ski, 滑雪與雪景
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 速度單位為公里（標牌寫『MAXIMUM 50 / 80 / 100』，無 MPH 字樣）
+- **特色特徵** 速度單位為公里（標牌寫『MAXIMUM 50 / 80 / 100』，無 MPH 字樣）
   - 魁北克省商店招牌全法文，車牌必帶法語箴言『Je me souviens』
   - 路邊常有綠色楓葉國道標誌 (Trans-Canada Highway) 或省道盾牌標誌
   - 高緯度針葉林、木質電桿帶絕緣子、常有積雪痕跡
@@ -1603,11 +1603,11 @@
 - targets: MX
 - icon: 🇲🇽
 - accent: #38bdf8
-- tags: 北美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 八角形紅色停車標誌寫『ALTO』(非 STOP 也非 PARE)
+- **特色特徵** 八角形紅色停車標誌寫『ALTO』(非 STOP 也非 PARE)
   - 隨處可見大型連鎖超商『OXXO』與 Pemex 加油站
   - 水泥柱多孔，屋頂常放有黑色圓形塑膠儲水塔 (Rotoplas)
   - 路面減速帶極多，標牌寫『TOPES』或『REDUCTOR DE VELOCIDAD』
@@ -1626,11 +1626,11 @@
 - targets: GT
 - icon: 🇬🇹
 - accent: #38bdf8
-- tags: 中美洲, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景設備：兩根粗長車頂側架 + 車頭突出之白色/銀色後照鏡
+- **特色特徵** 街景設備：兩根粗長車頂側架 + 車頭突出之白色/銀色後照鏡
   - 中美洲多火山山脈，茂密熱帶高山植被與咖啡種植園
   - 傳統馬雅原住民婦女色彩繽紛的手織花裙 (Huipil)
   - 美式廢棄校車改裝的五彩斑斕『野雞公車 (Chicken Buses)』
@@ -1649,11 +1649,11 @@
 - targets: PA
 - icon: 🇵🇦
 - accent: #38bdf8
-- tags: 中美洲, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 中美洲唯一擁有超高摩天大樓現代金融天際線的國家（巴拿馬城）
+- **特色特徵** 中美洲唯一擁有超高摩天大樓現代金融天際線的國家（巴拿馬城）
   - 停車標誌為『ALTO』
   - 熱帶加勒比海氣候，海運貨櫃車多
 - **車牌** 美規寬方牌，每年更換不同底色與年份文字
@@ -1670,11 +1670,11 @@
 - targets: DO
 - icon: 🇩🇴
 - accent: #38bdf8
-- tags: 加勒比海, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 加勒比熱帶海島，棕櫚樹與色彩繽紛的單層矮木房
+- **特色特徵** 加勒比熱帶海島，棕櫚樹與色彩繽紛的單層矮木房
   - 滿大街機車載客計程車『Motoconcho』
   - 棒球運動極其普及，街頭常見棒球塗鴉與海報
 - **車牌** 美規長方形牌
@@ -1690,11 +1690,11 @@
 - targets: PR
 - icon: 🇵🇷
 - accent: #38bdf8
-- tags: 加勒比海, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 美屬自由邦：使用美規標線與號誌，但招牌 100% 全西班牙語
+- **特色特徵** 美屬自由邦：使用美規標線與號誌，但招牌 100% 全西班牙語
   - 速度限制標牌單位是英里 (MPH)，但公路里程牌以公里 (km) 標記！
   - 加勒比海島嶼氣候與五彩石板老城（聖胡安）
 - **車牌** 美規寬方牌，上方有波多黎各島嶼圖案
@@ -1710,11 +1710,11 @@
 - targets: CO
 - icon: 🇨🇴
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 道路工程特色：路標背面焊有『十字交叉金屬加強筋 (Cross on back of road signs)』
+- **特色特徵** 道路工程特色：路標背面焊有『十字交叉金屬加強筋 (Cross on back of road signs)』
   - 滿大街黃色車牌與黃色計程車，且車身側面常漆有城市名與車號
   - 停車標誌為『PARE』，雙黃中央線
   - 安地斯山脈陡峭青翠山巒，紅磚未粉刷房屋
@@ -1733,11 +1733,11 @@
 - targets: EC
 - icon: 🇪🇨
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 雙黃中央線 + 彎道常有黑黃相間箭頭 (Chevrons)
+- **特色特徵** 雙黃中央線 + 彎道常有黑黃相間箭頭 (Chevrons)
   - 計程車全為亮黃色，車頂帶有城市名與車牌號頂燈
   - 安地斯高山雲霧林，路標背面沒有哥倫比亞的金屬十字架
 - **車牌** 長方形白牌，上方帶有各省名稱，計程車與商業車多為橘黃底牌
@@ -1755,11 +1755,11 @@
 - targets: PE
 - icon: 🇵🇪
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 路標立柱是『黑白斑馬紋塗漆』(Black and white striped sign poles)
+- **特色特徵** 路標立柱是『黑白斑馬紋塗漆』(Black and white striped sign poles)
   - 海岸線極端乾旱無植被之土黃色沙丘山陵 (Lima 灰濛濛天空)
   - 大量 Mototaxi (改裝三輪機車計程車)
   - 建築外牆多為紅磚裸露未粉刷，頂部常留有凸出之鋼筋柱
@@ -1778,11 +1778,11 @@
 - targets: BO
 - icon: 🇧🇴
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 高海拔安地斯阿爾蒂普拉諾高原 (Altiplano)，氣候乾燥寒冷
+- **特色特徵** 高海拔安地斯阿爾蒂普拉諾高原 (Altiplano)，氣候乾燥寒冷
   - 未粉刷裸露紅磚房屋比例極高
   - 原住民婦女身著傳統澎澎百褶裙與圓頂硬禮帽 (Bowler hats)
 - **車牌** 白底黑字長方牌帶藍色頂條與國旗
@@ -1798,11 +1798,11 @@
 - targets: BR
 - icon: 🇧🇷
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 鏤空水泥電線桿（Holey ladder poles with rectangle holes going through）
+- **特色特徵** 鏤空水泥電線桿（Holey ladder poles with rectangle holes going through）
   - 路標背面常塗滿『純黑油漆 (Black back of signs)』
   - 鮮豔的『紅土地質 (Red Soil)』與大片甘蔗/大豆田
   - 南美唯一葡萄牙語國，招牌充斥 Posto (加油站), Borracharia (補胎店)
@@ -1821,11 +1821,11 @@
 - targets: AR
 - icon: 🇦🇷
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車尾露出黑色車身/天線桿 (Black back car)
+- **特色特徵** 車尾露出黑色車身/天線桿 (Black back car)
   - 南美罕見全白道路標線（長白虛線），公路筆直穿過無垠潘帕斯草原 (Pampas)
   - 巴塔哥尼亞 (Patagonia) 荒漠乾燥矮灌木，遠方安地斯雪山
   - 路牌字體緊湊，路口街名牌為黑色或深藍色金屬長條
@@ -1844,11 +1844,11 @@
 - targets: CL
 - icon: 🇨🇱
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 道路標線全白（無黃色中央線）+ 高品質柏油路面
+- **特色特徵** 道路標線全白（無黃色中央線）+ 高品質柏油路面
   - 高速公路指路牌為亮藍底白字，普通公路多為綠底白字
   - 地形狹長：北部為極端乾燥阿塔卡瑪沙漠，中部為地中海式綠谷，南部為峽灣森林
   - 滿大街常見綠色卡賓槍騎兵警車 (Carabineros de Chile)
@@ -1867,11 +1867,11 @@
 - targets: UY
 - icon: 🇺🇾
 - accent: #38bdf8
-- tags: 南美, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 平坦開闊的起伏草原丘陵，孤立生長的棕櫚樹 (Butia palms)
+- **特色特徵** 平坦開闊的起伏草原丘陵，孤立生長的棕櫚樹 (Butia palms)
   - 南美全白標線，電線桿常為三根水泥桿組成的三角結構
   - 平靜整潔的鄉村牧場氛圍
 - **車牌** Mercosur 牌，左側有各省名稱 (如 Montevideo, Canelones)
@@ -1888,11 +1888,11 @@
 - targets: AU
 - icon: 🇦🇺
 - accent: #38bdf8
-- tags: 大洋洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 道路標線全白
+- **特色特徵** 靠左行駛 + 道路標線全白
   - 防撞柱：純白長方片狀柱，左側帶紅色長條反光片
   - 滿地桉樹（尤加利樹 Eucalyptus），紅土 (Red dirt) 與無邊曠野 Outback
   - 袋鼠警告標誌 (Yellow Kangaroo Warning Signs) 與給路標誌『GIVE WAY』
@@ -1911,11 +1911,11 @@
 - targets: NZ
 - icon: 🇳🇿
 - accent: #38bdf8
-- tags: 大洋洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 電線桿中央塗有白色反光套圈
+- **特色特徵** 靠左行駛 + 電線桿中央塗有白色反光套圈
   - 防撞柱：頂端有一整圈紅色水平環帶 (Red horizontal band at top)
   - 超翠綠綿延起伏草丘（成群綿羊）、溫帶雨林與高聳蕨類植物 (Silver Fern)
   - 地名大量毛利語（如 Whangarei, Rotorua，字首常有 Wh-）
@@ -1934,11 +1934,11 @@
 - targets: ZA
 - icon: 🇿🇦
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 兩側路肩是『黃色實線』(Yellow road shoulders)
+- **特色特徵** 靠左行駛 + 兩側路肩是『黃色實線』(Yellow road shoulders)
   - 路牌警告標誌為『藍底黑圖標紅外框』或『綠底白字指路牌』
   - 南非荷蘭文字彙（如 Rusk, Pad, Kaapstad, Bakkie）
   - 起伏開闊乾草原灌木叢 (Veld) 與桌山景觀
@@ -1957,11 +1957,11 @@
 - targets: KE
 - icon: 🇰🇪
 - accent: #38bdf8
-- tags: 東非, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景拍攝車頭右側裝有越野涉水喉進氣管 (Car Snorkel)
+- **特色特徵** 街景拍攝車頭右側裝有越野涉水喉進氣管 (Car Snorkel)
   - 靠左行駛，前後帶有黃色車牌
   - 金黃合歡樹 (Acacia trees)、稀樹草原景觀與鮮紅沃土
   - 路邊廣告隨處可見『M-PESA』行動支付綠色店面
@@ -1980,11 +1980,11 @@
 - targets: UG
 - icon: 🇺🇬
 - accent: #38bdf8
-- tags: 東非, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛 + 東非茂密起伏翠綠丘陵（與肯亞相比更綠、香蕉林更多）
+- **特色特徵** 靠左行駛 + 東非茂密起伏翠綠丘陵（與肯亞相比更綠、香蕉林更多）
   - 路旁充斥香蕉種植園 (Matooke) 與紅土地質
   - 車頭絕對沒有肯亞的黑色涉水喉！
 - **車牌** 前白後黃長方牌，營業車有黃牌
@@ -2000,11 +2000,11 @@
 - targets: RW
 - icon: 🇷🇼
 - accent: #38bdf8
-- tags: 東非, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠右行駛（千丘之國 Land of a Thousand Hills）
+- **特色特徵** 靠右行駛（千丘之國 Land of a Thousand Hills）
   - 道路極度乾淨平整，山坡梯田整齊修剪
   - 街頭常見許多騎乘載重自行車運送黃色塑膠水桶或香蕉的民眾
 - **車牌** 白牌或黃牌帶 RW 標識
@@ -2020,11 +2020,11 @@
 - targets: GH
 - icon: 🇬🇭
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景拍攝車架特徵：右前金屬橫桿纏有黑色膠帶 (Black Tape on Roof Rack)
+- **特色特徵** 街景拍攝車架特徵：右前金屬橫桿纏有黑色膠帶 (Black Tape on Roof Rack)
   - 靠右行駛，隨處可見極虔誠基督教店家標語（如 God's Grace Provision Shop）
   - 路邊隨處可見黃色『MTN』電信招牌與小亭子
   - 熱帶西非紅土與熱鬧路邊市集
@@ -2043,11 +2043,11 @@
 - targets: NG
 - icon: 🇳🇬
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 街景拍攝車後方常有皮卡維安警車隨行護衛 (Police Escort Pickup)
+- **特色特徵** 街景拍攝車後方常有皮卡維安警車隨行護衛 (Police Escort Pickup)
   - 靠右行駛，街頭極度繁華擁擠，黃色三輪車 (Keke Napep) 與黃色麵包車 (Danfo)
   - 滿街都是綠色大型看板與各州名稱標牌（如 Lagos, Abuja）
   - 熱帶紅土地形與西非城市景貌
@@ -2066,11 +2066,11 @@
 - targets: SN
 - icon: 🇸🇳
 - accent: #38bdf8
-- tags: 西非, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 車頂金屬橫桿 + 天空有裂縫 (Sky Rift)
+- **特色特徵** 車頂金屬橫桿 + 天空有裂縫 (Sky Rift)
   - 西非唯一的法語官方街景國（招牌皆為法文，如 Pharmacie, Boulangerie）
   - 薩赫爾乾燥荒漠灌木、猴麵包樹 (Baobab Trees) 與沙土
   - 彩繪極具特色的五彩老舊廂型公車 (Car Rapide)
@@ -2089,11 +2089,11 @@
 - targets: BW
 - icon: 🇧🇼
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛，極其平坦乾燥的卡拉哈里沙漠 (Kalahari Desert) 地貌
+- **特色特徵** 靠左行駛，極其平坦乾燥的卡拉哈里沙漠 (Kalahari Desert) 地貌
   - 路邊很多沙質土壤，低矮刺灌木叢，常有驢子與牛群在路邊漫步
   - 早期 Gen 2 街景常帶有圓形紫色天空光暈
   - 與南非差別：波札那極平坦，無南非連綿山脈與黃色路肩線
@@ -2112,11 +2112,11 @@
 - targets: SZ
 - icon: 🇸🇿
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛，南部非洲青翠陡峭高山風景
+- **特色特徵** 靠左行駛，南部非洲青翠陡峭高山風景
   - 車牌右側有傳統史瓦濟黑白戰盾
   - 路邊常常可見黃線路肩或白色虛線
 - **車牌** 白底黑字帶史瓦帝尼傳統黑白盾牌國徽
@@ -2132,11 +2132,11 @@
 - targets: LS
 - icon: 🇱🇸
 - accent: #38bdf8
-- tags: 南部非洲, 靠左行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 靠左行駛，全境位於 1000 公尺以上的天空王國 (Kingdom in the Sky)
+- **特色特徵** 靠左行駛，全境位於 1000 公尺以上的天空王國 (Kingdom in the Sky)
   - 滿山完全沒有高大樹木的壯美高山苔原丘陵
   - 牧羊人身披厚重傳統巴索托羊毛毛毯 (Basotho Blanket) 與錐形草帽
 - **車牌** 白牌藍字帶有特有的巴索托草帽 (Mokorotlo) 標誌
@@ -2152,11 +2152,11 @@
 - targets: TN
 - icon: 🇹🇳
 - accent: #38bdf8
-- tags: 北非, 靠右行駛, 官方街景, basics, 基礎必備
+- tags: Geoguessr, Admin, Travel
 - priority: 1
 - type: country
 
-- **關鍵線索** 北非唯一的官方車載街景國！
+- **特色特徵** 北非唯一的官方車載街景國！
   - 靠右行駛 + 黑底白字阿拉伯車牌
   - 路牌為阿拉伯文與法文雙語對照
   - 地中海橄欖樹林、純白牆面與天藍色木門 (Sidi Bou Said 風格)

@@ -3,7 +3,7 @@
 - targets: US, US-INTERSTATE, US-HIGHWAY
 - icon: 🛣️
 - accent: #38bdf8
-- tags: 州際公路, 編號網格, 交通系統, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【東西走向偶數號 (East-West Even)】** 偶數號碼為橫貫東西走向，全美號碼自南向北遞增（I-10 沿最南方美墨邊境與墨西哥灣，I-90 沿最北方五大湖與加拿大邊界）。
   - **I-10 ~ I-20 (號碼偏小)**：橫貫美國南部陽光地帶（加州、德州、佛羅里達等）。
@@ -29,7 +29,7 @@
 - targets: US, US-Route, US-Highway
 - icon: 🛡️
 - accent: #fbbf24
-- tags: 美國國道, 歷史名路, 走向相反, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【國道與州際走向完全顛倒法則】** 1926 年創立的美國國道系統為避免與後來的州際公路重疊混淆，兩者號碼走向完全相反！
   - **偶數東西走向**：號碼由**北向南**遞增（US 2 沿加拿大邊界；US 90/98 位於最南方墨西哥灣）。
@@ -45,7 +45,7 @@
 - targets: E-ROAD, EUROPE-HIGHWAY, DE-HIGHWAY, FR-HIGHWAY, IT-HIGHWAY, PL-HIGHWAY
 - icon: 🇪🇺
 - accent: #10b981
-- tags: 歐洲公路, E-Route, 綠底白字, 跨國大動脈, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【雙位數網格走廊法則】** 歐洲 E 級公路是由聯合國歐洲經濟委員會 (UNECE) 統一規劃的跨國公路網絡，具有高度規則的號碼網格：
   - **末碼為 0（東西橫貫主要走廊）**：自北向南遞增。例如 E10 橫跨北歐挪威與瑞典，E40 橫跨法國加萊至哈薩克與中國邊界（全長超過 8,000 公里，為全歐最長公路），E90 橫貫南歐西班牙、義大利、希臘與土耳其。
@@ -60,7 +60,7 @@
 - targets: DE, DE-HIGHWAY, DE-INTERSTATE, AUTOBAHN
 - icon: 🇩🇪
 - accent: #38bdf8
-- tags: 德國高速, Autobahn, 無速限, 號碼法則, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【奇數南北、偶數東西法則】** 德國 Autobahn 擁有全世界最井然有序的高速公路編號體系：
   - **單數位 A 1 ~ A 9（全國九大骨幹幹線）**：
@@ -81,7 +81,7 @@
 - targets: JP, JP-HIGHWAY, JP-INTERSTATE, EXPRESSWAY
 - icon: 🇯🇵
 - accent: #10b981
-- tags: 日本高速, 首都高, E編號, 綠底標牌, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【路線編號系統 (E/C 系統)】** 日本於 2017 年全面導入英數字高速公路編號：
   - **E 代表 Expressway（跨區域高速公路）**：多數與平行的主要一般國道號碼相對應。例如 **E1**（東名高速/名神高速，對應國道1號）、**E4**（東北自動車道，對應國道4號）、**E8**（北陸自動車道，對應國道8號）。
@@ -99,7 +99,7 @@
 - targets: TW, TW-HIGHWAY, TW-INTERSTATE
 - icon: 🇹🇼
 - accent: #22c55e
-- tags: 台灣公路, 梅花標誌, 快速道路, 台電座標, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【國道梅花標誌與走向法則】**
   - **奇數號南北縱貫**：綠底白字「**梅花形**」標誌。
@@ -121,7 +121,7 @@
 - targets: GB, GB-HIGHWAY, GB-INTERSTATE, GB-FEDERAL
 - icon: 🇬🇧
 - accent: #38bdf8
-- tags: 英國公路, Motorway, A-Road, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【放射分區】** 以倫敦為中心順時針劃分 1~4 號區；以愛丁堡為中心順時針劃分 7~9 號區。高速公路以 M 開頭，主要幹道以 A 開頭。
   - **M1**：連接倫敦與里茲。
@@ -138,7 +138,7 @@
 - targets: FR, FR-HIGHWAY, FR-INTERSTATE, FR-FEDERAL
 - icon: 🇫🇷
 - accent: #38bdf8
-- tags: 法國公路, Autoroute, Cartouche, infrastructure, highways, 公路系統, 道路設施
+- tags: Infrastructure, Geoguessr
 
 - **【分類網格】** A 開頭為 Autoroute 高速公路（藍底紅框標籤）；N 開頭為 Route Nationale 國道（紅底標籤）；D 開頭為 Route Départementale 省道（黃底標籤）。
   - **A1**：巴黎連接里爾。

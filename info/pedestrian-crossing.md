@@ -1,7 +1,7 @@
 # 行人穿越道告示
 - id: crossing-sign-de
 - targets: DE
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/de.svg
@@ -17,7 +17,7 @@
 # 行人穿越道告示
 - id: crossing-sign-es
 - targets: ES, AD
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/es.svg
@@ -33,7 +33,7 @@
 # 行人穿越道告示
 - id: crossing-sign-fr
 - targets: FR
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/fr.svg
@@ -48,7 +48,7 @@
 # 行人穿越道告示
 - id: crossing-sign-pt
 - targets: PT
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/pt.svg
@@ -63,7 +63,7 @@
 # 行人穿越道告示
 - id: crossing-sign-it
 - targets: IT, SM, AL
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/it.svg
@@ -79,7 +79,7 @@
 # 行人穿越道告示
 - id: crossing-sign-be
 - targets: BE
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/be.svg
@@ -94,7 +94,7 @@
 # 行人穿越道告示
 - id: crossing-sign-nl
 - targets: NL
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/nl.svg
@@ -109,7 +109,7 @@
 # 行人穿越道告示
 - id: crossing-sign-lu
 - targets: LU
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/lu.svg
@@ -123,7 +123,7 @@
 # 行人穿越道告示
 - id: crossing-sign-at
 - targets: AT
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/at.svg
@@ -138,7 +138,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ch
 - targets: CH
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/ch.svg
@@ -153,7 +153,7 @@
 # 行人穿越道告示
 - id: crossing-sign-gb
 - targets: GB
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #f87171
 - image: /images/crossing/gb.svg
@@ -168,7 +168,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ie
 - targets: IE
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #fbbf24
 - image: /images/crossing/ie.svg
@@ -182,7 +182,7 @@
 # 行人穿越道告示
 - id: crossing-sign-is
 - targets: IS
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #facc15
 - image: /images/crossing/is.svg
@@ -197,7 +197,7 @@
 # 行人穿越道告示
 - id: crossing-sign-no
 - targets: NO
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/no.svg
@@ -211,7 +211,7 @@
 # 行人穿越道告示
 - id: crossing-sign-se
 - targets: SE
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/se.svg
@@ -226,7 +226,7 @@
 # 行人穿越道告示
 - id: crossing-sign-fi
 - targets: FI
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/fi.svg
@@ -240,7 +240,7 @@
 # 行人穿越道告示
 - id: crossing-sign-dk
 - targets: DK
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/dk.svg
@@ -254,7 +254,7 @@
 # 行人穿越道告示
 - id: crossing-sign-pl
 - targets: PL
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/pl.svg
@@ -268,7 +268,7 @@
 # 行人穿越道告示
 - id: crossing-sign-cz
 - targets: CZ
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/cz.svg
@@ -282,7 +282,7 @@
 # 行人穿越道告示
 - id: crossing-sign-sk
 - targets: SK
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/sk.svg
@@ -296,7 +296,7 @@
 # 行人穿越道告示
 - id: crossing-sign-hu
 - targets: HU
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/hu.svg
@@ -310,7 +310,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ro
 - targets: RO
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/ro.svg
@@ -324,7 +324,7 @@
 # 行人穿越道告示
 - id: crossing-sign-md
 - targets: MD
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #a3e635
 - image: /images/crossing/md.svg
@@ -338,7 +338,7 @@
 # 行人穿越道告示
 - id: crossing-sign-bg
 - targets: BG
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/bg.svg
@@ -352,7 +352,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ua
 - targets: UA
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/ua.svg
@@ -367,7 +367,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ru-by
 - targets: RU, BY
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/ru.svg
@@ -382,7 +382,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ee-lv
 - targets: EE, LV
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/ee.svg
@@ -397,7 +397,7 @@
 # 行人穿越道告示
 - id: crossing-sign-lt
 - targets: LT
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/lt.svg
@@ -411,7 +411,7 @@
 # 行人穿越道告示
 - id: crossing-sign-gr
 - targets: GR
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/gr.svg
@@ -425,7 +425,7 @@
 # 行人穿越道告示
 - id: crossing-sign-cy-mt
 - targets: CY, MT
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/cy.svg
@@ -439,7 +439,7 @@
 # 行人穿越道告示
 - id: crossing-sign-balkans-tr
 - targets: SI, HR, BA, RS, ME, MK, TR
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/hr.svg
@@ -455,7 +455,7 @@
 # 行人穿越道告示
 - id: crossing-sign-kz
 - targets: KZ
-- tags: infrastructure, signs, 交通標誌, 斑馬線, 行人告示
+- tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
 - image: /images/crossing/kz.svg
