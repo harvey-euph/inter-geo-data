@@ -24,4 +24,4 @@
 - ![directions|台北車站至台北101捷運路線|mode=transit](台北車站 -> 台北101)
 
 - **6. 直式街景模式 (Vertical 16:9 / 9:16)** 台北 101 直式全景（帶有 `vertical` 參數，自動以 9:16 純淨裁切居中呈現）：
-- ![streetview|vertical|台北 101 直式全景|heading=30|pitch=18](25.0338, 121.5645)
+- ![streetview|vertical](https://www.google.com/maps/@59.3329258,18.052266,12a,26.2y,203.96h,92.83t)
