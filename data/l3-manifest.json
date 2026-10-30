@@ -18,7 +18,7 @@
         "iso2": "AR",
         "parentName": "Ciudad de Buenos Aires",
         "parentCode": "AR-C",
-        "file": "/data/l3/AR/AR-C.fgb",
+        "file": "data/AR/AR-C.fgb",
         "subdivisionCount": 129,
         "bbox": {
           "minX": 324,
@@ -32,7 +32,7 @@
         "iso2": "AR",
         "parentName": "Catamarca",
         "parentCode": "AR-K",
-        "file": "/data/l3/AR/AR-K.fgb",
+        "file": "data/AR/AR-K.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 308,
@@ -46,7 +46,7 @@
         "iso2": "AR",
         "parentName": "Chaco",
         "parentCode": "AR-H",
-        "file": "/data/l3/AR/AR-H.fgb",
+        "file": "data/AR/AR-H.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 324,
@@ -60,7 +60,7 @@
         "iso2": "AR",
         "parentName": "Chubut",
         "parentCode": "AR-U",
-        "file": "/data/l3/AR/AR-U.fgb",
+        "file": "data/AR/AR-U.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 299,
@@ -74,7 +74,7 @@
         "iso2": "AR",
         "parentName": "Córdoba",
         "parentCode": "AR-X",
-        "file": "/data/l3/AR/AR-X.fgb",
+        "file": "data/AR/AR-X.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 317,
@@ -88,7 +88,7 @@
         "iso2": "AR",
         "parentName": "Corrientes",
         "parentCode": "AR-W",
-        "file": "/data/l3/AR/AR-W.fgb",
+        "file": "data/AR/AR-W.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 334,
@@ -102,7 +102,7 @@
         "iso2": "AR",
         "parentName": "Entre Ríos",
         "parentCode": "AR-E",
-        "file": "/data/l3/AR/AR-E.fgb",
+        "file": "data/AR/AR-E.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 331,
@@ -116,7 +116,7 @@
         "iso2": "AR",
         "parentName": "Formosa",
         "parentCode": "AR-P",
-        "file": "/data/l3/AR/AR-P.fgb",
+        "file": "data/AR/AR-P.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 327,
@@ -130,7 +130,7 @@
         "iso2": "AR",
         "parentName": "Jujuy",
         "parentCode": "AR-Y",
-        "file": "/data/l3/AR/AR-Y.fgb",
+        "file": "data/AR/AR-Y.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 313,
@@ -144,7 +144,7 @@
         "iso2": "AR",
         "parentName": "La Pampa",
         "parentCode": "AR-L",
-        "file": "/data/l3/AR/AR-L.fgb",
+        "file": "data/AR/AR-L.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 310,
@@ -158,7 +158,7 @@
         "iso2": "AR",
         "parentName": "La Rioja",
         "parentCode": "AR-F",
-        "file": "/data/l3/AR/AR-F.fgb",
+        "file": "data/AR/AR-F.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 307,
@@ -172,7 +172,7 @@
         "iso2": "AR",
         "parentName": "Mendoza",
         "parentCode": "AR-M",
-        "file": "/data/l3/AR/AR-M.fgb",
+        "file": "data/AR/AR-M.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 304,
@@ -186,7 +186,7 @@
         "iso2": "AR",
         "parentName": "Misiones",
         "parentCode": "AR-N",
-        "file": "/data/l3/AR/AR-N.fgb",
+        "file": "data/AR/AR-N.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 344,
@@ -200,7 +200,7 @@
         "iso2": "AR",
         "parentName": "Neuquén",
         "parentCode": "AR-Q",
-        "file": "/data/l3/AR/AR-Q.fgb",
+        "file": "data/AR/AR-Q.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 300,
@@ -214,7 +214,7 @@
         "iso2": "AR",
         "parentName": "Río Negro",
         "parentCode": "AR-R",
-        "file": "/data/l3/AR/AR-R.fgb",
+        "file": "data/AR/AR-R.fgb",
         "subdivisionCount": 13,
         "bbox": {
           "minX": 300,
@@ -228,7 +228,7 @@
         "iso2": "AR",
         "parentName": "Salta",
         "parentCode": "AR-A",
-        "file": "/data/l3/AR/AR-A.fgb",
+        "file": "data/AR/AR-A.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 310,
@@ -242,7 +242,7 @@
         "iso2": "AR",
         "parentName": "San Juan",
         "parentCode": "AR-J",
-        "file": "/data/l3/AR/AR-J.fgb",
+        "file": "data/AR/AR-J.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 304,
@@ -256,7 +256,7 @@
         "iso2": "AR",
         "parentName": "San Luis",
         "parentCode": "AR-D",
-        "file": "/data/l3/AR/AR-D.fgb",
+        "file": "data/AR/AR-D.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 313,
@@ -270,7 +270,7 @@
         "iso2": "AR",
         "parentName": "Santa Cruz",
         "parentCode": "AR-Z",
-        "file": "/data/l3/AR/AR-Z.fgb",
+        "file": "data/AR/AR-Z.fgb",
         "subdivisionCount": 7,
         "bbox": {
           "minX": 296,
@@ -284,7 +284,7 @@
         "iso2": "AR",
         "parentName": "Santa Fe",
         "parentCode": "AR-S",
-        "file": "/data/l3/AR/AR-S.fgb",
+        "file": "data/AR/AR-S.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 325,
@@ -298,7 +298,7 @@
         "iso2": "AR",
         "parentName": "Santiago del Estero",
         "parentCode": "AR-G",
-        "file": "/data/l3/AR/AR-G.fgb",
+        "file": "data/AR/AR-G.fgb",
         "subdivisionCount": 27,
         "bbox": {
           "minX": 319,
@@ -312,7 +312,7 @@
         "iso2": "AR",
         "parentName": "Tierra del Fuego",
         "parentCode": "AR-V",
-        "file": "/data/l3/AR/AR-V.fgb",
+        "file": "data/AR/AR-V.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 309,
@@ -326,7 +326,7 @@
         "iso2": "AR",
         "parentName": "Tucumán",
         "parentCode": "AR-T",
-        "file": "/data/l3/AR/AR-T.fgb",
+        "file": "data/AR/AR-T.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 316,
@@ -356,7 +356,7 @@
         "iso2": "AU",
         "parentName": "Ashmore and Cartier Islands",
         "parentCode": "AU-X04~",
-        "file": "/data/l3/AU/AU-X04_.fgb",
+        "file": "data/AU/AU-X04_.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 842,
@@ -370,7 +370,7 @@
         "iso2": "AU",
         "parentName": "Australian Capital Territory",
         "parentCode": "AU-ACT",
-        "file": "/data/l3/AU/AU-ACT.fgb",
+        "file": "data/AU/AU-ACT.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 913,
@@ -384,7 +384,7 @@
         "iso2": "AU",
         "parentName": "CoralSeaIslandsTerritory",
         "parentCode": "AU-QLD",
-        "file": "/data/l3/AU/AU-QLD.fgb",
+        "file": "data/AU/AU-QLD.fgb",
         "subdivisionCount": 74,
         "bbox": {
           "minX": 883,
@@ -398,7 +398,7 @@
         "iso2": "AU",
         "parentName": "Jervis Bay Territory",
         "parentCode": "AU-X02~",
-        "file": "/data/l3/AU/AU-X02_.fgb",
+        "file": "data/AU/AU-X02_.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 918,
@@ -412,7 +412,7 @@
         "iso2": "AU",
         "parentName": "New South Wales",
         "parentCode": "AU-NSW",
-        "file": "/data/l3/AU/AU-NSW.fgb",
+        "file": "data/AU/AU-NSW.fgb",
         "subdivisionCount": 153,
         "bbox": {
           "minX": 892,
@@ -426,7 +426,7 @@
         "iso2": "AU",
         "parentName": "Northern Territory",
         "parentCode": "AU-NT",
-        "file": "/data/l3/AU/AU-NT.fgb",
+        "file": "data/AU/AU-NT.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 858,
@@ -440,7 +440,7 @@
         "iso2": "AU",
         "parentName": "South Australia",
         "parentCode": "AU-SA",
-        "file": "/data/l3/AU/AU-SA.fgb",
+        "file": "data/AU/AU-SA.fgb",
         "subdivisionCount": 71,
         "bbox": {
           "minX": 858,
@@ -454,7 +454,7 @@
         "iso2": "AU",
         "parentName": "Tasmania",
         "parentCode": "AU-TAS",
-        "file": "/data/l3/AU/AU-TAS.fgb",
+        "file": "data/AU/AU-TAS.fgb",
         "subdivisionCount": 30,
         "bbox": {
           "minX": 899,
@@ -468,7 +468,7 @@
         "iso2": "AU",
         "parentName": "Victoria",
         "parentCode": "AU-VIC",
-        "file": "/data/l3/AU/AU-VIC.fgb",
+        "file": "data/AU/AU-VIC.fgb",
         "subdivisionCount": 80,
         "bbox": {
           "minX": 892,
@@ -482,7 +482,7 @@
         "iso2": "AU",
         "parentName": "Western Australia",
         "parentCode": "AU-WA",
-        "file": "/data/l3/AU/AU-WA.fgb",
+        "file": "data/AU/AU-WA.fgb",
         "subdivisionCount": 140,
         "bbox": {
           "minX": 814,
@@ -512,7 +512,7 @@
         "iso2": "BR",
         "parentName": "Acre",
         "parentCode": "BR-AC",
-        "file": "/data/l3/BR/BR-AC.fgb",
+        "file": "data/BR/BR-AC.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 294,
@@ -526,7 +526,7 @@
         "iso2": "BR",
         "parentName": "Alagoas",
         "parentCode": "BR-AL",
-        "file": "/data/l3/BR/BR-AL.fgb",
+        "file": "data/BR/BR-AL.fgb",
         "subdivisionCount": 102,
         "bbox": {
           "minX": 394,
@@ -540,7 +540,7 @@
         "iso2": "BR",
         "parentName": "Amapá",
         "parentCode": "BR-AP",
-        "file": "/data/l3/BR/BR-AP.fgb",
+        "file": "data/BR/BR-AP.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 348,
@@ -554,7 +554,7 @@
         "iso2": "BR",
         "parentName": "Amazonas",
         "parentCode": "BR-AM",
-        "file": "/data/l3/BR/BR-AM.fgb",
+        "file": "data/BR/BR-AM.fgb",
         "subdivisionCount": 62,
         "bbox": {
           "minX": 295,
@@ -568,7 +568,7 @@
         "iso2": "BR",
         "parentName": "Bahia",
         "parentCode": "BR-BA",
-        "file": "/data/l3/BR/BR-BA.fgb",
+        "file": "data/BR/BR-BA.fgb",
         "subdivisionCount": 417,
         "bbox": {
           "minX": 371,
@@ -582,7 +582,7 @@
         "iso2": "BR",
         "parentName": "Ceará",
         "parentCode": "BR-CE",
-        "file": "/data/l3/BR/BR-CE.fgb",
+        "file": "data/BR/BR-CE.fgb",
         "subdivisionCount": 184,
         "bbox": {
           "minX": 385,
@@ -596,7 +596,7 @@
         "iso2": "BR",
         "parentName": "Distrito Federal",
         "parentCode": "BR-DF",
-        "file": "/data/l3/BR/BR-DF.fgb",
+        "file": "data/BR/BR-DF.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 366,
@@ -610,7 +610,7 @@
         "iso2": "BR",
         "parentName": "Espírito Santo",
         "parentCode": "BR-ES",
-        "file": "/data/l3/BR/BR-ES.fgb",
+        "file": "data/BR/BR-ES.fgb",
         "subdivisionCount": 78,
         "bbox": {
           "minX": 384,
@@ -624,7 +624,7 @@
         "iso2": "BR",
         "parentName": "Goiás",
         "parentCode": "BR-GO",
-        "file": "/data/l3/BR/BR-GO.fgb",
+        "file": "data/BR/BR-GO.fgb",
         "subdivisionCount": 246,
         "bbox": {
           "minX": 352,
@@ -638,7 +638,7 @@
         "iso2": "BR",
         "parentName": "Maranhão",
         "parentCode": "BR-MA",
-        "file": "/data/l3/BR/BR-MA.fgb",
+        "file": "data/BR/BR-MA.fgb",
         "subdivisionCount": 217,
         "bbox": {
           "minX": 365,
@@ -652,7 +652,7 @@
         "iso2": "BR",
         "parentName": "Mato Grosso",
         "parentCode": "BR-MT",
-        "file": "/data/l3/BR/BR-MT.fgb",
+        "file": "data/BR/BR-MT.fgb",
         "subdivisionCount": 141,
         "bbox": {
           "minX": 329,
@@ -666,7 +666,7 @@
         "iso2": "BR",
         "parentName": "Mato Grosso do Sul",
         "parentCode": "BR-MS",
-        "file": "/data/l3/BR/BR-MS.fgb",
+        "file": "data/BR/BR-MS.fgb",
         "subdivisionCount": 79,
         "bbox": {
           "minX": 338,
@@ -680,7 +680,7 @@
         "iso2": "BR",
         "parentName": "Minas Gerais",
         "parentCode": "BR-MG",
-        "file": "/data/l3/BR/BR-MG.fgb",
+        "file": "data/BR/BR-MG.fgb",
         "subdivisionCount": 853,
         "bbox": {
           "minX": 358,
@@ -694,7 +694,7 @@
         "iso2": "BR",
         "parentName": "Pará",
         "parentCode": "BR-PA",
-        "file": "/data/l3/BR/BR-PA.fgb",
+        "file": "data/BR/BR-PA.fgb",
         "subdivisionCount": 144,
         "bbox": {
           "minX": 336,
@@ -708,7 +708,7 @@
         "iso2": "BR",
         "parentName": "Paraíba",
         "parentCode": "BR-PB",
-        "file": "/data/l3/BR/BR-PB.fgb",
+        "file": "data/BR/BR-PB.fgb",
         "subdivisionCount": 223,
         "bbox": {
           "minX": 392,
@@ -722,7 +722,7 @@
         "iso2": "BR",
         "parentName": "Paraná",
         "parentCode": "BR-PR",
-        "file": "/data/l3/BR/BR-PR.fgb",
+        "file": "data/BR/BR-PR.fgb",
         "subdivisionCount": 399,
         "bbox": {
           "minX": 348,
@@ -736,7 +736,7 @@
         "iso2": "BR",
         "parentName": "Pernambuco",
         "parentCode": "BR-PE",
-        "file": "/data/l3/BR/BR-PE.fgb",
+        "file": "data/BR/BR-PE.fgb",
         "subdivisionCount": 185,
         "bbox": {
           "minX": 385,
@@ -750,7 +750,7 @@
         "iso2": "BR",
         "parentName": "Piauí",
         "parentCode": "BR-PI",
-        "file": "/data/l3/BR/BR-PI.fgb",
+        "file": "data/BR/BR-PI.fgb",
         "subdivisionCount": 224,
         "bbox": {
           "minX": 372,
@@ -764,7 +764,7 @@
         "iso2": "BR",
         "parentName": "Rio de Janeiro",
         "parentCode": "BR-RJ",
-        "file": "/data/l3/BR/BR-RJ.fgb",
+        "file": "data/BR/BR-RJ.fgb",
         "subdivisionCount": 92,
         "bbox": {
           "minX": 375,
@@ -778,7 +778,7 @@
         "iso2": "BR",
         "parentName": "Rio Grande do Norte",
         "parentCode": "BR-RN",
-        "file": "/data/l3/BR/BR-RN.fgb",
+        "file": "data/BR/BR-RN.fgb",
         "subdivisionCount": 167,
         "bbox": {
           "minX": 393,
@@ -792,7 +792,7 @@
         "iso2": "BR",
         "parentName": "Rio Grande do Sul",
         "parentCode": "BR-RS",
-        "file": "/data/l3/BR/BR-RS.fgb",
+        "file": "data/BR/BR-RS.fgb",
         "subdivisionCount": 499,
         "bbox": {
           "minX": 340,
@@ -806,7 +806,7 @@
         "iso2": "BR",
         "parentName": "Rondônia",
         "parentCode": "BR-RO",
-        "file": "/data/l3/BR/BR-RO.fgb",
+        "file": "data/BR/BR-RO.fgb",
         "subdivisionCount": 52,
         "bbox": {
           "minX": 314,
@@ -820,7 +820,7 @@
         "iso2": "BR",
         "parentName": "Roraima",
         "parentCode": "BR-RR",
-        "file": "/data/l3/BR/BR-RR.fgb",
+        "file": "data/BR/BR-RR.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 320,
@@ -834,7 +834,7 @@
         "iso2": "BR",
         "parentName": "Santa Catarina",
         "parentCode": "BR-SC",
-        "file": "/data/l3/BR/BR-SC.fgb",
+        "file": "data/BR/BR-SC.fgb",
         "subdivisionCount": 295,
         "bbox": {
           "minX": 350,
@@ -848,7 +848,7 @@
         "iso2": "BR",
         "parentName": "São Paulo",
         "parentCode": "BR-SP",
-        "file": "/data/l3/BR/BR-SP.fgb",
+        "file": "data/BR/BR-SP.fgb",
         "subdivisionCount": 645,
         "bbox": {
           "minX": 352,
@@ -862,7 +862,7 @@
         "iso2": "BR",
         "parentName": "Sergipe",
         "parentCode": "BR-SE",
-        "file": "/data/l3/BR/BR-SE.fgb",
+        "file": "data/BR/BR-SE.fgb",
         "subdivisionCount": 75,
         "bbox": {
           "minX": 394,
@@ -876,7 +876,7 @@
         "iso2": "BR",
         "parentName": "Tocantins",
         "parentCode": "BR-TO",
-        "file": "/data/l3/BR/BR-TO.fgb",
+        "file": "data/BR/BR-TO.fgb",
         "subdivisionCount": 139,
         "bbox": {
           "minX": 359,
@@ -906,7 +906,7 @@
         "iso2": "CA",
         "parentName": "Alberta",
         "parentCode": "CA-AB",
-        "file": "/data/l3/CA/CA-AB.fgb",
+        "file": "data/CA/CA-AB.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 167,
@@ -920,7 +920,7 @@
         "iso2": "CA",
         "parentName": "British Columbia",
         "parentCode": "CA-BC",
-        "file": "/data/l3/CA/CA-BC.fgb",
+        "file": "data/CA/CA-BC.fgb",
         "subdivisionCount": 28,
         "bbox": {
           "minX": 114,
@@ -934,7 +934,7 @@
         "iso2": "CA",
         "parentName": "Manitoba",
         "parentCode": "CA-MB",
-        "file": "/data/l3/CA/CA-MB.fgb",
+        "file": "data/CA/CA-MB.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 217,
@@ -948,7 +948,7 @@
         "iso2": "CA",
         "parentName": "New Brunswick",
         "parentCode": "CA-NB",
-        "file": "/data/l3/CA/CA-NB.fgb",
+        "file": "data/CA/CA-NB.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 308,
@@ -962,7 +962,7 @@
         "iso2": "CA",
         "parentName": "Newfoundland and Labrador",
         "parentCode": "CA-NL",
-        "file": "/data/l3/CA/CA-NL.fgb",
+        "file": "data/CA/CA-NL.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 312,
@@ -976,7 +976,7 @@
         "iso2": "CA",
         "parentName": "Northwest Territories",
         "parentCode": "CA-NT",
-        "file": "/data/l3/CA/CA-NT.fgb",
+        "file": "data/CA/CA-NT.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 121,
@@ -990,7 +990,7 @@
         "iso2": "CA",
         "parentName": "Nova Scotia",
         "parentCode": "CA-NS",
-        "file": "/data/l3/CA/CA-NS.fgb",
+        "file": "data/CA/CA-NS.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 316,
@@ -1004,7 +1004,7 @@
         "iso2": "CA",
         "parentName": "Nunavut",
         "parentCode": "CA-NU",
-        "file": "/data/l3/CA/CA-NU.fgb",
+        "file": "data/CA/CA-NU.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 164,
@@ -1018,7 +1018,7 @@
         "iso2": "CA",
         "parentName": "Ontario",
         "parentCode": "CA-ON",
-        "file": "/data/l3/CA/CA-ON.fgb",
+        "file": "data/CA/CA-ON.fgb",
         "subdivisionCount": 53,
         "bbox": {
           "minX": 236,
@@ -1032,7 +1032,7 @@
         "iso2": "CA",
         "parentName": "Prince Edward Island",
         "parentCode": "CA-PE",
-        "file": "/data/l3/CA/CA-PE.fgb",
+        "file": "data/CA/CA-PE.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 321,
@@ -1046,7 +1046,7 @@
         "iso2": "CA",
         "parentName": "Québec",
         "parentCode": "CA-QC",
-        "file": "/data/l3/CA/CA-QC.fgb",
+        "file": "data/CA/CA-QC.fgb",
         "subdivisionCount": 99,
         "bbox": {
           "minX": 275,
@@ -1060,7 +1060,7 @@
         "iso2": "CA",
         "parentName": "Saskatchewan",
         "parentCode": "CA-SK",
-        "file": "/data/l3/CA/CA-SK.fgb",
+        "file": "data/CA/CA-SK.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 194,
@@ -1074,7 +1074,7 @@
         "iso2": "CA",
         "parentName": "Yukon",
         "parentCode": "CA-YT",
-        "file": "/data/l3/CA/CA-YT.fgb",
+        "file": "data/CA/CA-YT.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 108,
@@ -1104,7 +1104,7 @@
         "iso2": "FR",
         "parentName": "奧弗涅-隆-阿爾卑斯大區",
         "parentCode": "FR-ARA",
-        "file": "/data/l3/FR/FR-ARA.fgb",
+        "file": "data/FR/FR-ARA.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 501,
@@ -1118,7 +1118,7 @@
         "iso2": "FR",
         "parentName": "勃艮第-法蘭琪-康堤大區",
         "parentCode": "FR-BFC",
-        "file": "/data/l3/FR/FR-BFC.fgb",
+        "file": "data/FR/FR-BFC.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 503,
@@ -1132,7 +1132,7 @@
         "iso2": "FR",
         "parentName": "布列塔尼大區",
         "parentCode": "FR-BRE",
-        "file": "/data/l3/FR/FR-BRE.fgb",
+        "file": "data/FR/FR-BRE.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 481,
@@ -1146,7 +1146,7 @@
         "iso2": "FR",
         "parentName": "科西嘉大區",
         "parentCode": "FR-COR",
-        "file": "/data/l3/FR/FR-COR.fgb",
+        "file": "data/FR/FR-COR.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 519,
@@ -1160,7 +1160,7 @@
         "iso2": "FR",
         "parentName": "中央-羅亞爾河谷大區",
         "parentCode": "FR-CVL",
-        "file": "/data/l3/FR/FR-CVL.fgb",
+        "file": "data/FR/FR-CVL.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 495,
@@ -1174,7 +1174,7 @@
         "iso2": "FR",
         "parentName": "大東部大區",
         "parentCode": "FR-GES",
-        "file": "/data/l3/FR/FR-GES.fgb",
+        "file": "data/FR/FR-GES.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 504,
@@ -1188,7 +1188,7 @@
         "iso2": "FR",
         "parentName": "瓜地洛普大區",
         "parentCode": "FR-GUA",
-        "file": "/data/l3/FR/FR-GUA.fgb",
+        "file": "data/FR/FR-GUA.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 323,
@@ -1202,7 +1202,7 @@
         "iso2": "FR",
         "parentName": "法屬圭亞那大區",
         "parentCode": "FR-GUF",
-        "file": "/data/l3/FR/FR-GUF.fgb",
+        "file": "data/FR/FR-GUF.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 343,
@@ -1216,7 +1216,7 @@
         "iso2": "FR",
         "parentName": "上法蘭西大區",
         "parentCode": "FR-HDF",
-        "file": "/data/l3/FR/FR-HDF.fgb",
+        "file": "data/FR/FR-HDF.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 499,
@@ -1230,7 +1230,7 @@
         "iso2": "FR",
         "parentName": "法蘭西島大區",
         "parentCode": "FR-IDF",
-        "file": "/data/l3/FR/FR-IDF.fgb",
+        "file": "data/FR/FR-IDF.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 499,
@@ -1244,7 +1244,7 @@
         "iso2": "FR",
         "parentName": "留尼旺大區",
         "parentCode": "FR-LRE",
-        "file": "/data/l3/FR/FR-LRE.fgb",
+        "file": "data/FR/FR-LRE.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 648,
@@ -1258,7 +1258,7 @@
         "iso2": "FR",
         "parentName": "馬約特大區",
         "parentCode": "FR-MAY",
-        "file": "/data/l3/FR/FR-MAY.fgb",
+        "file": "data/FR/FR-MAY.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 620,
@@ -1272,7 +1272,7 @@
         "iso2": "FR",
         "parentName": "馬丁尼克大區",
         "parentCode": "FR-MTQ",
-        "file": "/data/l3/FR/FR-MTQ.fgb",
+        "file": "data/FR/FR-MTQ.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 325,
@@ -1286,7 +1286,7 @@
         "iso2": "FR",
         "parentName": "新阿基坦大區",
         "parentCode": "FR-NAQ",
-        "file": "/data/l3/FR/FR-NAQ.fgb",
+        "file": "data/FR/FR-NAQ.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 490,
@@ -1300,7 +1300,7 @@
         "iso2": "FR",
         "parentName": "諾曼第大區",
         "parentCode": "FR-NOR",
-        "file": "/data/l3/FR/FR-NOR.fgb",
+        "file": "data/FR/FR-NOR.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 490,
@@ -1314,7 +1314,7 @@
         "iso2": "FR",
         "parentName": "奧克西塔尼大區",
         "parentCode": "FR-OCC",
-        "file": "/data/l3/FR/FR-OCC.fgb",
+        "file": "data/FR/FR-OCC.fgb",
         "subdivisionCount": 13,
         "bbox": {
           "minX": 494,
@@ -1328,7 +1328,7 @@
         "iso2": "FR",
         "parentName": "普羅旺斯-阿爾卑斯-蔚藍海岸大區",
         "parentCode": "FR-PAC",
-        "file": "/data/l3/FR/FR-PAC.fgb",
+        "file": "data/FR/FR-PAC.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 507,
@@ -1342,7 +1342,7 @@
         "iso2": "FR",
         "parentName": "羅亞爾河地區大區",
         "parentCode": "FR-PDL",
-        "file": "/data/l3/FR/FR-PDL.fgb",
+        "file": "data/FR/FR-PDL.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 488,
@@ -1372,7 +1372,7 @@
         "iso2": "DE",
         "parentName": "Baden-Württemberg",
         "parentCode": "DE-BW",
-        "file": "/data/l3/DE/DE-BW.fgb",
+        "file": "data/DE/DE-BW.fgb",
         "subdivisionCount": 45,
         "bbox": {
           "minX": 521,
@@ -1386,7 +1386,7 @@
         "iso2": "DE",
         "parentName": "Bayern",
         "parentCode": "DE-BY",
-        "file": "/data/l3/DE/DE-BY.fgb",
+        "file": "data/DE/DE-BY.fgb",
         "subdivisionCount": 96,
         "bbox": {
           "minX": 525,
@@ -1400,7 +1400,7 @@
         "iso2": "DE",
         "parentName": "Berlin",
         "parentCode": "DE-BE",
-        "file": "/data/l3/DE/DE-BE.fgb",
+        "file": "data/DE/DE-BE.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 536,
@@ -1414,7 +1414,7 @@
         "iso2": "DE",
         "parentName": "Brandenburg",
         "parentCode": "DE-BB",
-        "file": "/data/l3/DE/DE-BB.fgb",
+        "file": "data/DE/DE-BB.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 531,
@@ -1428,7 +1428,7 @@
         "iso2": "DE",
         "parentName": "Bremen",
         "parentCode": "DE-HB",
-        "file": "/data/l3/DE/DE-HB.fgb",
+        "file": "data/DE/DE-HB.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 524,
@@ -1442,7 +1442,7 @@
         "iso2": "DE",
         "parentName": "Hamburg",
         "parentCode": "DE-HH",
-        "file": "/data/l3/DE/DE-HH.fgb",
+        "file": "data/DE/DE-HH.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 523,
@@ -1456,7 +1456,7 @@
         "iso2": "DE",
         "parentName": "Hessen",
         "parentCode": "DE-HE",
-        "file": "/data/l3/DE/DE-HE.fgb",
+        "file": "data/DE/DE-HE.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 522,
@@ -1470,7 +1470,7 @@
         "iso2": "DE",
         "parentName": "Mecklenburg-Vorpommern",
         "parentCode": "DE-MV",
-        "file": "/data/l3/DE/DE-MV.fgb",
+        "file": "data/DE/DE-MV.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 529,
@@ -1484,7 +1484,7 @@
         "iso2": "DE",
         "parentName": "Niedersachsen",
         "parentCode": "DE-NI",
-        "file": "/data/l3/DE/DE-NI.fgb",
+        "file": "data/DE/DE-NI.fgb",
         "subdivisionCount": 46,
         "bbox": {
           "minX": 518,
@@ -1498,7 +1498,7 @@
         "iso2": "DE",
         "parentName": "Nordrhein-Westfalen",
         "parentCode": "DE-NW",
-        "file": "/data/l3/DE/DE-NW.fgb",
+        "file": "data/DE/DE-NW.fgb",
         "subdivisionCount": 53,
         "bbox": {
           "minX": 516,
@@ -1512,7 +1512,7 @@
         "iso2": "DE",
         "parentName": "Rheinland-Pfalz",
         "parentCode": "DE-RP",
-        "file": "/data/l3/DE/DE-RP.fgb",
+        "file": "data/DE/DE-RP.fgb",
         "subdivisionCount": 36,
         "bbox": {
           "minX": 517,
@@ -1526,7 +1526,7 @@
         "iso2": "DE",
         "parentName": "Saarland",
         "parentCode": "DE-SL",
-        "file": "/data/l3/DE/DE-SL.fgb",
+        "file": "data/DE/DE-SL.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 518,
@@ -1540,7 +1540,7 @@
         "iso2": "DE",
         "parentName": "Sachsen",
         "parentCode": "DE-SN",
-        "file": "/data/l3/DE/DE-SN.fgb",
+        "file": "data/DE/DE-SN.fgb",
         "subdivisionCount": 13,
         "bbox": {
           "minX": 533,
@@ -1554,7 +1554,7 @@
         "iso2": "DE",
         "parentName": "Sachsen-Anhalt",
         "parentCode": "DE-ST",
-        "file": "/data/l3/DE/DE-ST.fgb",
+        "file": "data/DE/DE-ST.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 529,
@@ -1568,7 +1568,7 @@
         "iso2": "DE",
         "parentName": "Schleswig-Holstein",
         "parentCode": "DE-SH",
-        "file": "/data/l3/DE/DE-SH.fgb",
+        "file": "data/DE/DE-SH.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 522,
@@ -1582,7 +1582,7 @@
         "iso2": "DE",
         "parentName": "Thüringen",
         "parentCode": "DE-TH",
-        "file": "/data/l3/DE/DE-TH.fgb",
+        "file": "data/DE/DE-TH.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 527,
@@ -1612,7 +1612,7 @@
         "iso2": "IT",
         "parentName": "皮埃蒙特大區",
         "parentCode": "IT-21",
-        "file": "/data/l3/IT/IT-21.fgb",
+        "file": "data/IT/IT-21.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 513,
@@ -1626,7 +1626,7 @@
         "iso2": "IT",
         "parentName": "瓦萊達奧斯塔大區",
         "parentCode": "IT-23",
-        "file": "/data/l3/IT/IT-23.fgb",
+        "file": "data/IT/IT-23.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 514,
@@ -1640,7 +1640,7 @@
         "iso2": "IT",
         "parentName": "倫巴底大區",
         "parentCode": "IT-25",
-        "file": "/data/l3/IT/IT-25.fgb",
+        "file": "data/IT/IT-25.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 519,
@@ -1654,7 +1654,7 @@
         "iso2": "IT",
         "parentName": "特倫提諾-上阿迪傑大區",
         "parentCode": "IT-32",
-        "file": "/data/l3/IT/IT-32.fgb",
+        "file": "data/IT/IT-32.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 524,
@@ -1668,7 +1668,7 @@
         "iso2": "IT",
         "parentName": "威尼托大區",
         "parentCode": "IT-34",
-        "file": "/data/l3/IT/IT-34.fgb",
+        "file": "data/IT/IT-34.fgb",
         "subdivisionCount": 7,
         "bbox": {
           "minX": 525,
@@ -1682,7 +1682,7 @@
         "iso2": "IT",
         "parentName": "佛里烏利-威尼斯朱利亞大區",
         "parentCode": "IT-36",
-        "file": "/data/l3/IT/IT-36.fgb",
+        "file": "data/IT/IT-36.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 529,
@@ -1696,7 +1696,7 @@
         "iso2": "IT",
         "parentName": "利古里亞大區",
         "parentCode": "IT-42",
-        "file": "/data/l3/IT/IT-42.fgb",
+        "file": "data/IT/IT-42.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 516,
@@ -1710,7 +1710,7 @@
         "iso2": "IT",
         "parentName": "艾米利亞-羅馬涅大區",
         "parentCode": "IT-45",
-        "file": "/data/l3/IT/IT-45.fgb",
+        "file": "data/IT/IT-45.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 521,
@@ -1724,7 +1724,7 @@
         "iso2": "IT",
         "parentName": "托斯卡尼大區",
         "parentCode": "IT-52",
-        "file": "/data/l3/IT/IT-52.fgb",
+        "file": "data/IT/IT-52.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 522,
@@ -1738,7 +1738,7 @@
         "iso2": "IT",
         "parentName": "翁布里亞大區",
         "parentCode": "IT-55",
-        "file": "/data/l3/IT/IT-55.fgb",
+        "file": "data/IT/IT-55.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 528,
@@ -1752,7 +1752,7 @@
         "iso2": "IT",
         "parentName": "馬爾凱大區",
         "parentCode": "IT-57",
-        "file": "/data/l3/IT/IT-57.fgb",
+        "file": "data/IT/IT-57.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 529,
@@ -1766,7 +1766,7 @@
         "iso2": "IT",
         "parentName": "拉齊奧大區",
         "parentCode": "IT-62",
-        "file": "/data/l3/IT/IT-62.fgb",
+        "file": "data/IT/IT-62.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 527,
@@ -1780,7 +1780,7 @@
         "iso2": "IT",
         "parentName": "阿布魯佐大區",
         "parentCode": "IT-65",
-        "file": "/data/l3/IT/IT-65.fgb",
+        "file": "data/IT/IT-65.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 531,
@@ -1794,7 +1794,7 @@
         "iso2": "IT",
         "parentName": "莫利塞大區",
         "parentCode": "IT-67",
-        "file": "/data/l3/IT/IT-67.fgb",
+        "file": "data/IT/IT-67.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 534,
@@ -1808,7 +1808,7 @@
         "iso2": "IT",
         "parentName": "坎帕尼亞大區",
         "parentCode": "IT-72",
-        "file": "/data/l3/IT/IT-72.fgb",
+        "file": "data/IT/IT-72.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 533,
@@ -1822,7 +1822,7 @@
         "iso2": "IT",
         "parentName": "普利亞大區",
         "parentCode": "IT-75",
-        "file": "/data/l3/IT/IT-75.fgb",
+        "file": "data/IT/IT-75.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 536,
@@ -1836,7 +1836,7 @@
         "iso2": "IT",
         "parentName": "巴斯利卡塔大區",
         "parentCode": "IT-77",
-        "file": "/data/l3/IT/IT-77.fgb",
+        "file": "data/IT/IT-77.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 538,
@@ -1850,7 +1850,7 @@
         "iso2": "IT",
         "parentName": "卡拉布里亞大區",
         "parentCode": "IT-78",
-        "file": "/data/l3/IT/IT-78.fgb",
+        "file": "data/IT/IT-78.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 538,
@@ -1864,7 +1864,7 @@
         "iso2": "IT",
         "parentName": "西西里大區",
         "parentCode": "IT-82",
-        "file": "/data/l3/IT/IT-82.fgb",
+        "file": "data/IT/IT-82.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 528,
@@ -1878,7 +1878,7 @@
         "iso2": "IT",
         "parentName": "薩丁尼亞大區",
         "parentCode": "IT-88",
-        "file": "/data/l3/IT/IT-88.fgb",
+        "file": "data/IT/IT-88.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 518,
@@ -1908,7 +1908,7 @@
         "iso2": "JP",
         "parentName": "北海道",
         "parentCode": "1",
-        "file": "/data/l3/JP/1.fgb",
+        "file": "data/JP/1.fgb",
         "subdivisionCount": 185,
         "bbox": {
           "minX": 887,
@@ -1922,7 +1922,7 @@
         "iso2": "JP",
         "parentName": "青森県",
         "parentCode": "2",
-        "file": "/data/l3/JP/2.fgb",
+        "file": "data/JP/2.fgb",
         "subdivisionCount": 40,
         "bbox": {
           "minX": 889,
@@ -1936,7 +1936,7 @@
         "iso2": "JP",
         "parentName": "岩手県",
         "parentCode": "3",
-        "file": "/data/l3/JP/3.fgb",
+        "file": "data/JP/3.fgb",
         "subdivisionCount": 33,
         "bbox": {
           "minX": 891,
@@ -1950,7 +1950,7 @@
         "iso2": "JP",
         "parentName": "宮城県",
         "parentCode": "4",
-        "file": "/data/l3/JP/4.fgb",
+        "file": "data/JP/4.fgb",
         "subdivisionCount": 35,
         "bbox": {
           "minX": 890,
@@ -1964,7 +1964,7 @@
         "iso2": "JP",
         "parentName": "秋田県",
         "parentCode": "5",
-        "file": "/data/l3/JP/5.fgb",
+        "file": "data/JP/5.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 888,
@@ -1978,7 +1978,7 @@
         "iso2": "JP",
         "parentName": "山形県",
         "parentCode": "6",
-        "file": "/data/l3/JP/6.fgb",
+        "file": "data/JP/6.fgb",
         "subdivisionCount": 35,
         "bbox": {
           "minX": 888,
@@ -1992,7 +1992,7 @@
         "iso2": "JP",
         "parentName": "福島県",
         "parentCode": "7",
-        "file": "/data/l3/JP/7.fgb",
+        "file": "data/JP/7.fgb",
         "subdivisionCount": 59,
         "bbox": {
           "minX": 887,
@@ -2006,7 +2006,7 @@
         "iso2": "JP",
         "parentName": "茨城県",
         "parentCode": "8",
-        "file": "/data/l3/JP/8.fgb",
+        "file": "data/JP/8.fgb",
         "subdivisionCount": 44,
         "bbox": {
           "minX": 888,
@@ -2020,7 +2020,7 @@
         "iso2": "JP",
         "parentName": "栃木県",
         "parentCode": "9",
-        "file": "/data/l3/JP/9.fgb",
+        "file": "data/JP/9.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 887,
@@ -2034,7 +2034,7 @@
         "iso2": "JP",
         "parentName": "群馬県",
         "parentCode": "10",
-        "file": "/data/l3/JP/10.fgb",
+        "file": "data/JP/10.fgb",
         "subdivisionCount": 35,
         "bbox": {
           "minX": 884,
@@ -2048,7 +2048,7 @@
         "iso2": "JP",
         "parentName": "埼玉県",
         "parentCode": "11",
-        "file": "/data/l3/JP/11.fgb",
+        "file": "data/JP/11.fgb",
         "subdivisionCount": 63,
         "bbox": {
           "minX": 885,
@@ -2062,7 +2062,7 @@
         "iso2": "JP",
         "parentName": "千葉県",
         "parentCode": "12",
-        "file": "/data/l3/JP/12.fgb",
+        "file": "data/JP/12.fgb",
         "subdivisionCount": 55,
         "bbox": {
           "minX": 888,
@@ -2076,7 +2076,7 @@
         "iso2": "JP",
         "parentName": "東京都",
         "parentCode": "13",
-        "file": "/data/l3/JP/13.fgb",
+        "file": "data/JP/13.fgb",
         "subdivisionCount": 63,
         "bbox": {
           "minX": 886,
@@ -2090,7 +2090,7 @@
         "iso2": "JP",
         "parentName": "神奈川県",
         "parentCode": "14",
-        "file": "/data/l3/JP/14.fgb",
+        "file": "data/JP/14.fgb",
         "subdivisionCount": 33,
         "bbox": {
           "minX": 886,
@@ -2104,7 +2104,7 @@
         "iso2": "JP",
         "parentName": "新潟県",
         "parentCode": "15",
-        "file": "/data/l3/JP/15.fgb",
+        "file": "data/JP/15.fgb",
         "subdivisionCount": 30,
         "bbox": {
           "minX": 882,
@@ -2118,7 +2118,7 @@
         "iso2": "JP",
         "parentName": "富山県",
         "parentCode": "16",
-        "file": "/data/l3/JP/16.fgb",
+        "file": "data/JP/16.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 880,
@@ -2132,7 +2132,7 @@
         "iso2": "JP",
         "parentName": "石川県",
         "parentCode": "17",
-        "file": "/data/l3/JP/17.fgb",
+        "file": "data/JP/17.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 878,
@@ -2146,7 +2146,7 @@
         "iso2": "JP",
         "parentName": "福井県",
         "parentCode": "18",
-        "file": "/data/l3/JP/18.fgb",
+        "file": "data/JP/18.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 876,
@@ -2160,7 +2160,7 @@
         "iso2": "JP",
         "parentName": "山梨県",
         "parentCode": "19",
-        "file": "/data/l3/JP/19.fgb",
+        "file": "data/JP/19.fgb",
         "subdivisionCount": 27,
         "bbox": {
           "minX": 884,
@@ -2174,7 +2174,7 @@
         "iso2": "JP",
         "parentName": "長野県",
         "parentCode": "20",
-        "file": "/data/l3/JP/20.fgb",
+        "file": "data/JP/20.fgb",
         "subdivisionCount": 77,
         "bbox": {
           "minX": 881,
@@ -2188,7 +2188,7 @@
         "iso2": "JP",
         "parentName": "岐阜県",
         "parentCode": "21",
-        "file": "/data/l3/JP/21.fgb",
+        "file": "data/JP/21.fgb",
         "subdivisionCount": 42,
         "bbox": {
           "minX": 879,
@@ -2202,7 +2202,7 @@
         "iso2": "JP",
         "parentName": "静岡県",
         "parentCode": "22",
-        "file": "/data/l3/JP/22.fgb",
+        "file": "data/JP/22.fgb",
         "subdivisionCount": 35,
         "bbox": {
           "minX": 882,
@@ -2216,7 +2216,7 @@
         "iso2": "JP",
         "parentName": "愛知県",
         "parentCode": "23",
-        "file": "/data/l3/JP/23.fgb",
+        "file": "data/JP/23.fgb",
         "subdivisionCount": 55,
         "bbox": {
           "minX": 880,
@@ -2230,7 +2230,7 @@
         "iso2": "JP",
         "parentName": "三重県",
         "parentCode": "24",
-        "file": "/data/l3/JP/24.fgb",
+        "file": "data/JP/24.fgb",
         "subdivisionCount": 29,
         "bbox": {
           "minX": 877,
@@ -2244,7 +2244,7 @@
         "iso2": "JP",
         "parentName": "滋賀県",
         "parentCode": "25",
-        "file": "/data/l3/JP/25.fgb",
+        "file": "data/JP/25.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 877,
@@ -2258,7 +2258,7 @@
         "iso2": "JP",
         "parentName": "京都府",
         "parentCode": "26",
-        "file": "/data/l3/JP/26.fgb",
+        "file": "data/JP/26.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 875,
@@ -2272,7 +2272,7 @@
         "iso2": "JP",
         "parentName": "大阪府",
         "parentCode": "27",
-        "file": "/data/l3/JP/27.fgb",
+        "file": "data/JP/27.fgb",
         "subdivisionCount": 43,
         "bbox": {
           "minX": 875,
@@ -2286,7 +2286,7 @@
         "iso2": "JP",
         "parentName": "兵庫県",
         "parentCode": "28",
-        "file": "/data/l3/JP/28.fgb",
+        "file": "data/JP/28.fgb",
         "subdivisionCount": 41,
         "bbox": {
           "minX": 873,
@@ -2300,7 +2300,7 @@
         "iso2": "JP",
         "parentName": "奈良県",
         "parentCode": "29",
-        "file": "/data/l3/JP/29.fgb",
+        "file": "data/JP/29.fgb",
         "subdivisionCount": 39,
         "bbox": {
           "minX": 876,
@@ -2314,7 +2314,7 @@
         "iso2": "JP",
         "parentName": "和歌山県",
         "parentCode": "30",
-        "file": "/data/l3/JP/30.fgb",
+        "file": "data/JP/30.fgb",
         "subdivisionCount": 30,
         "bbox": {
           "minX": 875,
@@ -2328,7 +2328,7 @@
         "iso2": "JP",
         "parentName": "鳥取県",
         "parentCode": "31",
-        "file": "/data/l3/JP/31.fgb",
+        "file": "data/JP/31.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 870,
@@ -2342,7 +2342,7 @@
         "iso2": "JP",
         "parentName": "島根県",
         "parentCode": "32",
-        "file": "/data/l3/JP/32.fgb",
+        "file": "data/JP/32.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 866,
@@ -2356,7 +2356,7 @@
         "iso2": "JP",
         "parentName": "岡山県",
         "parentCode": "33",
-        "file": "/data/l3/JP/33.fgb",
+        "file": "data/JP/33.fgb",
         "subdivisionCount": 27,
         "bbox": {
           "minX": 870,
@@ -2370,7 +2370,7 @@
         "iso2": "JP",
         "parentName": "広島県",
         "parentCode": "34",
-        "file": "/data/l3/JP/34.fgb",
+        "file": "data/JP/34.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 867,
@@ -2384,7 +2384,7 @@
         "iso2": "JP",
         "parentName": "山口県",
         "parentCode": "35",
-        "file": "/data/l3/JP/35.fgb",
+        "file": "data/JP/35.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 863,
@@ -2398,7 +2398,7 @@
         "iso2": "JP",
         "parentName": "徳島県",
         "parentCode": "36",
-        "file": "/data/l3/JP/36.fgb",
+        "file": "data/JP/36.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 871,
@@ -2412,7 +2412,7 @@
         "iso2": "JP",
         "parentName": "香川県",
         "parentCode": "37",
-        "file": "/data/l3/JP/37.fgb",
+        "file": "data/JP/37.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 871,
@@ -2426,7 +2426,7 @@
         "iso2": "JP",
         "parentName": "愛媛県",
         "parentCode": "38",
-        "file": "/data/l3/JP/38.fgb",
+        "file": "data/JP/38.fgb",
         "subdivisionCount": 20,
         "bbox": {
           "minX": 867,
@@ -2440,7 +2440,7 @@
         "iso2": "JP",
         "parentName": "高知県",
         "parentCode": "39",
-        "file": "/data/l3/JP/39.fgb",
+        "file": "data/JP/39.fgb",
         "subdivisionCount": 34,
         "bbox": {
           "minX": 868,
@@ -2454,7 +2454,7 @@
         "iso2": "JP",
         "parentName": "福岡県",
         "parentCode": "40",
-        "file": "/data/l3/JP/40.fgb",
+        "file": "data/JP/40.fgb",
         "subdivisionCount": 60,
         "bbox": {
           "minX": 861,
@@ -2468,7 +2468,7 @@
         "iso2": "JP",
         "parentName": "佐賀県",
         "parentCode": "41",
-        "file": "/data/l3/JP/41.fgb",
+        "file": "data/JP/41.fgb",
         "subdivisionCount": 20,
         "bbox": {
           "minX": 860,
@@ -2482,7 +2482,7 @@
         "iso2": "JP",
         "parentName": "長崎県",
         "parentCode": "42",
-        "file": "/data/l3/JP/42.fgb",
+        "file": "data/JP/42.fgb",
         "subdivisionCount": 21,
         "bbox": {
           "minX": 857,
@@ -2496,7 +2496,7 @@
         "iso2": "JP",
         "parentName": "熊本県",
         "parentCode": "43",
-        "file": "/data/l3/JP/43.fgb",
+        "file": "data/JP/43.fgb",
         "subdivisionCount": 45,
         "bbox": {
           "minX": 861,
@@ -2510,7 +2510,7 @@
         "iso2": "JP",
         "parentName": "大分県",
         "parentCode": "44",
-        "file": "/data/l3/JP/44.fgb",
+        "file": "data/JP/44.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 863,
@@ -2524,7 +2524,7 @@
         "iso2": "JP",
         "parentName": "宮崎県",
         "parentCode": "45",
-        "file": "/data/l3/JP/45.fgb",
+        "file": "data/JP/45.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 863,
@@ -2538,7 +2538,7 @@
         "iso2": "JP",
         "parentName": "鹿児島県",
         "parentCode": "46",
-        "file": "/data/l3/JP/46.fgb",
+        "file": "data/JP/46.fgb",
         "subdivisionCount": 43,
         "bbox": {
           "minX": 857,
@@ -2552,7 +2552,7 @@
         "iso2": "JP",
         "parentName": "沖縄県",
         "parentCode": "47",
-        "file": "/data/l3/JP/47.fgb",
+        "file": "data/JP/47.fgb",
         "subdivisionCount": 42,
         "bbox": {
           "minX": 842,
@@ -2582,7 +2582,7 @@
         "iso2": "MX",
         "parentName": "Aguascalientes",
         "parentCode": "MX-AGU",
-        "file": "/data/l3/MX/MX-AGU.fgb",
+        "file": "data/MX/MX-AGU.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 214,
@@ -2596,7 +2596,7 @@
         "iso2": "MX",
         "parentName": "Baja California",
         "parentCode": "MX-BCN",
-        "file": "/data/l3/MX/MX-BCN.fgb",
+        "file": "data/MX/MX-BCN.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 171,
@@ -2610,7 +2610,7 @@
         "iso2": "MX",
         "parentName": "Baja California Sur",
         "parentCode": "MX-BCS",
-        "file": "/data/l3/MX/MX-BCS.fgb",
+        "file": "data/MX/MX-BCS.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 180,
@@ -2624,7 +2624,7 @@
         "iso2": "MX",
         "parentName": "Campeche",
         "parentCode": "MX-CAM",
-        "file": "/data/l3/MX/MX-CAM.fgb",
+        "file": "data/MX/MX-CAM.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 243,
@@ -2638,7 +2638,7 @@
         "iso2": "MX",
         "parentName": "Chiapas",
         "parentCode": "MX-CHP",
-        "file": "/data/l3/MX/MX-CHP.fgb",
+        "file": "data/MX/MX-CHP.fgb",
         "subdivisionCount": 118,
         "bbox": {
           "minX": 239,
@@ -2652,7 +2652,7 @@
         "iso2": "MX",
         "parentName": "Chihuahua",
         "parentCode": "MX-CHH",
-        "file": "/data/l3/MX/MX-CHH.fgb",
+        "file": "data/MX/MX-CHH.fgb",
         "subdivisionCount": 67,
         "bbox": {
           "minX": 197,
@@ -2666,7 +2666,7 @@
         "iso2": "MX",
         "parentName": "Coahuila",
         "parentCode": "MX-COA",
-        "file": "/data/l3/MX/MX-COA.fgb",
+        "file": "data/MX/MX-COA.fgb",
         "subdivisionCount": 38,
         "bbox": {
           "minX": 211,
@@ -2680,7 +2680,7 @@
         "iso2": "MX",
         "parentName": "Colima",
         "parentCode": "MX-COL",
-        "file": "/data/l3/MX/MX-COL.fgb",
+        "file": "data/MX/MX-COL.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 181,
@@ -2694,7 +2694,7 @@
         "iso2": "MX",
         "parentName": "Distrito Federal",
         "parentCode": "MX-DIF",
-        "file": "/data/l3/MX/MX-DIF.fgb",
+        "file": "data/MX/MX-DIF.fgb",
         "subdivisionCount": 141,
         "bbox": {
           "minX": 221,
@@ -2708,7 +2708,7 @@
         "iso2": "MX",
         "parentName": "Durango",
         "parentCode": "MX-DUR",
-        "file": "/data/l3/MX/MX-DUR.fgb",
+        "file": "data/MX/MX-DUR.fgb",
         "subdivisionCount": 39,
         "bbox": {
           "minX": 202,
@@ -2722,7 +2722,7 @@
         "iso2": "MX",
         "parentName": "Guanajuato",
         "parentCode": "MX-GUA",
-        "file": "/data/l3/MX/MX-GUA.fgb",
+        "file": "data/MX/MX-GUA.fgb",
         "subdivisionCount": 46,
         "bbox": {
           "minX": 216,
@@ -2736,7 +2736,7 @@
         "iso2": "MX",
         "parentName": "Guerrero",
         "parentCode": "MX-GRO",
-        "file": "/data/l3/MX/MX-GRO.fgb",
+        "file": "data/MX/MX-GRO.fgb",
         "subdivisionCount": 81,
         "bbox": {
           "minX": 216,
@@ -2750,7 +2750,7 @@
         "iso2": "MX",
         "parentName": "Hidalgo",
         "parentCode": "MX-HID",
-        "file": "/data/l3/MX/MX-HID.fgb",
+        "file": "data/MX/MX-HID.fgb",
         "subdivisionCount": 84,
         "bbox": {
           "minX": 223,
@@ -2764,7 +2764,7 @@
         "iso2": "MX",
         "parentName": "Jalisco",
         "parentCode": "MX-JAL",
-        "file": "/data/l3/MX/MX-JAL.fgb",
+        "file": "data/MX/MX-JAL.fgb",
         "subdivisionCount": 125,
         "bbox": {
           "minX": 206,
@@ -2778,7 +2778,7 @@
         "iso2": "MX",
         "parentName": "Michoacán",
         "parentCode": "MX-MIC",
-        "file": "/data/l3/MX/MX-MIC.fgb",
+        "file": "data/MX/MX-MIC.fgb",
         "subdivisionCount": 113,
         "bbox": {
           "minX": 212,
@@ -2792,7 +2792,7 @@
         "iso2": "MX",
         "parentName": "Morelos",
         "parentCode": "MX-MOR",
-        "file": "/data/l3/MX/MX-MOR.fgb",
+        "file": "data/MX/MX-MOR.fgb",
         "subdivisionCount": 33,
         "bbox": {
           "minX": 224,
@@ -2806,7 +2806,7 @@
         "iso2": "MX",
         "parentName": "Nayarit",
         "parentCode": "MX-NAY",
-        "file": "/data/l3/MX/MX-NAY.fgb",
+        "file": "data/MX/MX-NAY.fgb",
         "subdivisionCount": 20,
         "bbox": {
           "minX": 204,
@@ -2820,7 +2820,7 @@
         "iso2": "MX",
         "parentName": "Nuevo León",
         "parentCode": "MX-NLE",
-        "file": "/data/l3/MX/MX-NLE.fgb",
+        "file": "data/MX/MX-NLE.fgb",
         "subdivisionCount": 51,
         "bbox": {
           "minX": 219,
@@ -2834,7 +2834,7 @@
         "iso2": "MX",
         "parentName": "Oaxaca",
         "parentCode": "MX-OAX",
-        "file": "/data/l3/MX/MX-OAX.fgb",
+        "file": "data/MX/MX-OAX.fgb",
         "subdivisionCount": 570,
         "bbox": {
           "minX": 226,
@@ -2848,7 +2848,7 @@
         "iso2": "MX",
         "parentName": "Puebla",
         "parentCode": "MX-PUE",
-        "file": "/data/l3/MX/MX-PUE.fgb",
+        "file": "data/MX/MX-PUE.fgb",
         "subdivisionCount": 217,
         "bbox": {
           "minX": 225,
@@ -2862,7 +2862,7 @@
         "iso2": "MX",
         "parentName": "Querétaro",
         "parentCode": "MX-QUE",
-        "file": "/data/l3/MX/MX-QUE.fgb",
+        "file": "data/MX/MX-QUE.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 221,
@@ -2876,7 +2876,7 @@
         "iso2": "MX",
         "parentName": "Quintana Roo",
         "parentCode": "MX-ROO",
-        "file": "/data/l3/MX/MX-ROO.fgb",
+        "file": "data/MX/MX-ROO.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 252,
@@ -2890,7 +2890,7 @@
         "iso2": "MX",
         "parentName": "San Luis Potosí",
         "parentCode": "MX-SLP",
-        "file": "/data/l3/MX/MX-SLP.fgb",
+        "file": "data/MX/MX-SLP.fgb",
         "subdivisionCount": 58,
         "bbox": {
           "minX": 216,
@@ -2904,7 +2904,7 @@
         "iso2": "MX",
         "parentName": "Sinaloa",
         "parentCode": "MX-SIN",
-        "file": "/data/l3/MX/MX-SIN.fgb",
+        "file": "data/MX/MX-SIN.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 196,
@@ -2918,7 +2918,7 @@
         "iso2": "MX",
         "parentName": "Sonora",
         "parentCode": "MX-SON",
-        "file": "/data/l3/MX/MX-SON.fgb",
+        "file": "data/MX/MX-SON.fgb",
         "subdivisionCount": 72,
         "bbox": {
           "minX": 180,
@@ -2932,7 +2932,7 @@
         "iso2": "MX",
         "parentName": "Tabasco",
         "parentCode": "MX-TAB",
-        "file": "/data/l3/MX/MX-TAB.fgb",
+        "file": "data/MX/MX-TAB.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 239,
@@ -2946,7 +2946,7 @@
         "iso2": "MX",
         "parentName": "Tamaulipas",
         "parentCode": "MX-TAM",
-        "file": "/data/l3/MX/MX-TAM.fgb",
+        "file": "data/MX/MX-TAM.fgb",
         "subdivisionCount": 43,
         "bbox": {
           "minX": 222,
@@ -2960,7 +2960,7 @@
         "iso2": "MX",
         "parentName": "Tlaxcala",
         "parentCode": "MX-TLA",
-        "file": "/data/l3/MX/MX-TLA.fgb",
+        "file": "data/MX/MX-TLA.fgb",
         "subdivisionCount": 60,
         "bbox": {
           "minX": 226,
@@ -2974,7 +2974,7 @@
         "iso2": "MX",
         "parentName": "Veracruz",
         "parentCode": "MX-VER",
-        "file": "/data/l3/MX/MX-VER.fgb",
+        "file": "data/MX/MX-VER.fgb",
         "subdivisionCount": 212,
         "bbox": {
           "minX": 226,
@@ -2988,7 +2988,7 @@
         "iso2": "MX",
         "parentName": "Yucatán",
         "parentCode": "MX-YUC",
-        "file": "/data/l3/MX/MX-YUC.fgb",
+        "file": "data/MX/MX-YUC.fgb",
         "subdivisionCount": 106,
         "bbox": {
           "minX": 249,
@@ -3002,7 +3002,7 @@
         "iso2": "MX",
         "parentName": "Zacatecas",
         "parentCode": "MX-ZAC",
-        "file": "/data/l3/MX/MX-ZAC.fgb",
+        "file": "data/MX/MX-ZAC.fgb",
         "subdivisionCount": 58,
         "bbox": {
           "minX": 210,
@@ -3032,7 +3032,7 @@
         "iso2": "NO",
         "parentName": "Akershus",
         "parentCode": "NO-02",
-        "file": "/data/l3/NO/NO-02.fgb",
+        "file": "data/NO/NO-02.fgb",
         "subdivisionCount": 21,
         "bbox": {
           "minX": 529,
@@ -3046,7 +3046,7 @@
         "iso2": "NO",
         "parentName": "Ãstfold",
         "parentCode": "NO-01",
-        "file": "/data/l3/NO/NO-01.fgb",
+        "file": "data/NO/NO-01.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 529,
@@ -3060,7 +3060,7 @@
         "iso2": "NO",
         "parentName": "Aust-Agder",
         "parentCode": "NO-09",
-        "file": "/data/l3/NO/NO-09.fgb",
+        "file": "data/NO/NO-09.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 519,
@@ -3074,7 +3074,7 @@
         "iso2": "NO",
         "parentName": "Buskerud",
         "parentCode": "NO-06",
-        "file": "/data/l3/NO/NO-06.fgb",
+        "file": "data/NO/NO-06.fgb",
         "subdivisionCount": 21,
         "bbox": {
           "minX": 521,
@@ -3088,7 +3088,7 @@
         "iso2": "NO",
         "parentName": "Finnmark",
         "parentCode": "NO-20",
-        "file": "/data/l3/NO/NO-20.fgb",
+        "file": "data/NO/NO-20.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 559,
@@ -3102,7 +3102,7 @@
         "iso2": "NO",
         "parentName": "Hedmark",
         "parentCode": "NO-04",
-        "file": "/data/l3/NO/NO-04.fgb",
+        "file": "data/NO/NO-04.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 527,
@@ -3116,7 +3116,7 @@
         "iso2": "NO",
         "parentName": "Hordaland",
         "parentCode": "NO-12",
-        "file": "/data/l3/NO/NO-12.fgb",
+        "file": "data/NO/NO-12.fgb",
         "subdivisionCount": 34,
         "bbox": {
           "minX": 511,
@@ -3130,7 +3130,7 @@
         "iso2": "NO",
         "parentName": "Møre og Romsdal",
         "parentCode": "NO-15",
-        "file": "/data/l3/NO/NO-15.fgb",
+        "file": "data/NO/NO-15.fgb",
         "subdivisionCount": 38,
         "bbox": {
           "minX": 515,
@@ -3144,7 +3144,7 @@
         "iso2": "NO",
         "parentName": "Nord-Trøndelag",
         "parentCode": "NO-17",
-        "file": "/data/l3/NO/NO-17.fgb",
+        "file": "data/NO/NO-17.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 528,
@@ -3158,7 +3158,7 @@
         "iso2": "NO",
         "parentName": "Nordland",
         "parentCode": "NO-18",
-        "file": "/data/l3/NO/NO-18.fgb",
+        "file": "data/NO/NO-18.fgb",
         "subdivisionCount": 45,
         "bbox": {
           "minX": 532,
@@ -3172,7 +3172,7 @@
         "iso2": "NO",
         "parentName": "Oppland",
         "parentCode": "NO-05",
-        "file": "/data/l3/NO/NO-05.fgb",
+        "file": "data/NO/NO-05.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 520,
@@ -3186,7 +3186,7 @@
         "iso2": "NO",
         "parentName": "Oslo",
         "parentCode": "NO-03",
-        "file": "/data/l3/NO/NO-03.fgb",
+        "file": "data/NO/NO-03.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 529,
@@ -3200,7 +3200,7 @@
         "iso2": "NO",
         "parentName": "Rogaland",
         "parentCode": "NO-11",
-        "file": "/data/l3/NO/NO-11.fgb",
+        "file": "data/NO/NO-11.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 513,
@@ -3214,7 +3214,7 @@
         "iso2": "NO",
         "parentName": "Sogn og Fjordane",
         "parentCode": "NO-14",
-        "file": "/data/l3/NO/NO-14.fgb",
+        "file": "data/NO/NO-14.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 513,
@@ -3228,7 +3228,7 @@
         "iso2": "NO",
         "parentName": "Sør-Trøndelag",
         "parentCode": "NO-16",
-        "file": "/data/l3/NO/NO-16.fgb",
+        "file": "data/NO/NO-16.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 523,
@@ -3242,7 +3242,7 @@
         "iso2": "NO",
         "parentName": "Telemark",
         "parentCode": "NO-08",
-        "file": "/data/l3/NO/NO-08.fgb",
+        "file": "data/NO/NO-08.fgb",
         "subdivisionCount": 18,
         "bbox": {
           "minX": 520,
@@ -3256,7 +3256,7 @@
         "iso2": "NO",
         "parentName": "Troms",
         "parentCode": "NO-19",
-        "file": "/data/l3/NO/NO-19.fgb",
+        "file": "data/NO/NO-19.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 543,
@@ -3270,7 +3270,7 @@
         "iso2": "NO",
         "parentName": "Vest-Agder",
         "parentCode": "NO-10",
-        "file": "/data/l3/NO/NO-10.fgb",
+        "file": "data/NO/NO-10.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 518,
@@ -3284,7 +3284,7 @@
         "iso2": "NO",
         "parentName": "Vestfold",
         "parentCode": "NO-07",
-        "file": "/data/l3/NO/NO-07.fgb",
+        "file": "data/NO/NO-07.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 527,
@@ -3314,7 +3314,7 @@
         "iso2": "PL",
         "parentName": "Lower Silesian",
         "parentCode": "PL-DS",
-        "file": "/data/l3/PL/PL-DS.fgb",
+        "file": "data/PL/PL-DS.fgb",
         "subdivisionCount": 29,
         "bbox": {
           "minX": 541,
@@ -3328,7 +3328,7 @@
         "iso2": "PL",
         "parentName": "Kuyavian-Pomeranian",
         "parentCode": "PL-KP",
-        "file": "/data/l3/PL/PL-KP.fgb",
+        "file": "data/PL/PL-KP.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 548,
@@ -3342,7 +3342,7 @@
         "iso2": "PL",
         "parentName": "Łódź",
         "parentCode": "PL-LD",
-        "file": "/data/l3/PL/PL-LD.fgb",
+        "file": "data/PL/PL-LD.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 550,
@@ -3356,7 +3356,7 @@
         "iso2": "PL",
         "parentName": "Lublin",
         "parentCode": "PL-LU",
-        "file": "/data/l3/PL/PL-LU.fgb",
+        "file": "data/PL/PL-LU.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 560,
@@ -3370,7 +3370,7 @@
         "iso2": "PL",
         "parentName": "Lubusz",
         "parentCode": "PL-LB",
-        "file": "/data/l3/PL/PL-LB.fgb",
+        "file": "data/PL/PL-LB.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 540,
@@ -3384,7 +3384,7 @@
         "iso2": "PL",
         "parentName": "Lesser Poland",
         "parentCode": "PL-MA",
-        "file": "/data/l3/PL/PL-MA.fgb",
+        "file": "data/PL/PL-MA.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 553,
@@ -3398,7 +3398,7 @@
         "iso2": "PL",
         "parentName": "Masovian",
         "parentCode": "PL-MZ",
-        "file": "/data/l3/PL/PL-MZ.fgb",
+        "file": "data/PL/PL-MZ.fgb",
         "subdivisionCount": 42,
         "bbox": {
           "minX": 553,
@@ -3412,7 +3412,7 @@
         "iso2": "PL",
         "parentName": "Opole",
         "parentCode": "PL-OP",
-        "file": "/data/l3/PL/PL-OP.fgb",
+        "file": "data/PL/PL-OP.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 547,
@@ -3426,7 +3426,7 @@
         "iso2": "PL",
         "parentName": "Subcarpathian",
         "parentCode": "PL-PK",
-        "file": "/data/l3/PL/PL-PK.fgb",
+        "file": "data/PL/PL-PK.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 559,
@@ -3440,7 +3440,7 @@
         "iso2": "PL",
         "parentName": "Podlachian",
         "parentCode": "PL-PD",
-        "file": "/data/l3/PL/PL-PD.fgb",
+        "file": "data/PL/PL-PD.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 560,
@@ -3454,7 +3454,7 @@
         "iso2": "PL",
         "parentName": "Pomeranian",
         "parentCode": "PL-PM",
-        "file": "/data/l3/PL/PL-PM.fgb",
+        "file": "data/PL/PL-PM.fgb",
         "subdivisionCount": 20,
         "bbox": {
           "minX": 546,
@@ -3468,7 +3468,7 @@
         "iso2": "PL",
         "parentName": "Silesian",
         "parentCode": "PL-SL",
-        "file": "/data/l3/PL/PL-SL.fgb",
+        "file": "data/PL/PL-SL.fgb",
         "subdivisionCount": 36,
         "bbox": {
           "minX": 550,
@@ -3482,7 +3482,7 @@
         "iso2": "PL",
         "parentName": "Świętokrzyskie",
         "parentCode": "PL-SK",
-        "file": "/data/l3/PL/PL-SK.fgb",
+        "file": "data/PL/PL-SK.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 555,
@@ -3496,7 +3496,7 @@
         "iso2": "PL",
         "parentName": "Warmian-Masurian",
         "parentCode": "PL-WN",
-        "file": "/data/l3/PL/PL-WN.fgb",
+        "file": "data/PL/PL-WN.fgb",
         "subdivisionCount": 21,
         "bbox": {
           "minX": 553,
@@ -3510,7 +3510,7 @@
         "iso2": "PL",
         "parentName": "Greater Poland",
         "parentCode": "PL-WP",
-        "file": "/data/l3/PL/PL-WP.fgb",
+        "file": "data/PL/PL-WP.fgb",
         "subdivisionCount": 35,
         "bbox": {
           "minX": 544,
@@ -3524,7 +3524,7 @@
         "iso2": "PL",
         "parentName": "West Pomeranian",
         "parentCode": "PL-ZP",
-        "file": "/data/l3/PL/PL-ZP.fgb",
+        "file": "data/PL/PL-ZP.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 539,
@@ -3554,7 +3554,7 @@
         "iso2": "SE",
         "parentName": "Blekinge",
         "parentCode": "SE-K",
-        "file": "/data/l3/SE/SE-K.fgb",
+        "file": "data/SE/SE-K.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 540,
@@ -3568,7 +3568,7 @@
         "iso2": "SE",
         "parentName": "Dalarna",
         "parentCode": "SE-W",
-        "file": "/data/l3/SE/SE-W.fgb",
+        "file": "data/SE/SE-W.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 534,
@@ -3582,7 +3582,7 @@
         "iso2": "SE",
         "parentName": "Gävleborg",
         "parentCode": "SE-X",
-        "file": "/data/l3/SE/SE-X.fgb",
+        "file": "data/SE/SE-X.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 540,
@@ -3596,7 +3596,7 @@
         "iso2": "SE",
         "parentName": "Gotland",
         "parentCode": "SE-I",
-        "file": "/data/l3/SE/SE-I.fgb",
+        "file": "data/SE/SE-I.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 550,
@@ -3610,7 +3610,7 @@
         "iso2": "SE",
         "parentName": "Halland",
         "parentCode": "SE-N",
-        "file": "/data/l3/SE/SE-N.fgb",
+        "file": "data/SE/SE-N.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 533,
@@ -3624,7 +3624,7 @@
         "iso2": "SE",
         "parentName": "Jämtland",
         "parentCode": "SE-Z",
-        "file": "/data/l3/SE/SE-Z.fgb",
+        "file": "data/SE/SE-Z.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 533,
@@ -3638,7 +3638,7 @@
         "iso2": "SE",
         "parentName": "Jönköping",
         "parentCode": "SE-F",
-        "file": "/data/l3/SE/SE-F.fgb",
+        "file": "data/SE/SE-F.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 536,
@@ -3652,7 +3652,7 @@
         "iso2": "SE",
         "parentName": "Kalmar",
         "parentCode": "SE-H",
-        "file": "/data/l3/SE/SE-H.fgb",
+        "file": "data/SE/SE-H.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 543,
@@ -3666,7 +3666,7 @@
         "iso2": "SE",
         "parentName": "Kronoberg",
         "parentCode": "SE-G",
-        "file": "/data/l3/SE/SE-G.fgb",
+        "file": "data/SE/SE-G.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 537,
@@ -3680,7 +3680,7 @@
         "iso2": "SE",
         "parentName": "Norrbotten",
         "parentCode": "SE-BD",
-        "file": "/data/l3/SE/SE-BD.fgb",
+        "file": "data/SE/SE-BD.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 543,
@@ -3694,7 +3694,7 @@
         "iso2": "SE",
         "parentName": "Orebro",
         "parentCode": "SE-T",
-        "file": "/data/l3/SE/SE-T.fgb",
+        "file": "data/SE/SE-T.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 540,
@@ -3708,7 +3708,7 @@
         "iso2": "SE",
         "parentName": "Östergötland",
         "parentCode": "SE-E",
-        "file": "/data/l3/SE/SE-E.fgb",
+        "file": "data/SE/SE-E.fgb",
         "subdivisionCount": 13,
         "bbox": {
           "minX": 540,
@@ -3722,7 +3722,7 @@
         "iso2": "SE",
         "parentName": "Skåne",
         "parentCode": "SE-M",
-        "file": "/data/l3/SE/SE-M.fgb",
+        "file": "data/SE/SE-M.fgb",
         "subdivisionCount": 33,
         "bbox": {
           "minX": 535,
@@ -3736,7 +3736,7 @@
         "iso2": "SE",
         "parentName": "Södermanland",
         "parentCode": "SE-D",
-        "file": "/data/l3/SE/SE-D.fgb",
+        "file": "data/SE/SE-D.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 543,
@@ -3750,7 +3750,7 @@
         "iso2": "SE",
         "parentName": "Stockholm",
         "parentCode": "SE-AB",
-        "file": "/data/l3/SE/SE-AB.fgb",
+        "file": "data/SE/SE-AB.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 548,
@@ -3764,7 +3764,7 @@
         "iso2": "SE",
         "parentName": "Uppsala",
         "parentCode": "SE-C",
-        "file": "/data/l3/SE/SE-C.fgb",
+        "file": "data/SE/SE-C.fgb",
         "subdivisionCount": 7,
         "bbox": {
           "minX": 546,
@@ -3778,7 +3778,7 @@
         "iso2": "SE",
         "parentName": "Värmland",
         "parentCode": "SE-S",
-        "file": "/data/l3/SE/SE-S.fgb",
+        "file": "data/SE/SE-S.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 532,
@@ -3792,7 +3792,7 @@
         "iso2": "SE",
         "parentName": "Västerbotten",
         "parentCode": "SE-AC",
-        "file": "/data/l3/SE/SE-AC.fgb",
+        "file": "data/SE/SE-AC.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 540,
@@ -3806,7 +3806,7 @@
         "iso2": "SE",
         "parentName": "Västernorrland",
         "parentCode": "SE-Y",
-        "file": "/data/l3/SE/SE-Y.fgb",
+        "file": "data/SE/SE-Y.fgb",
         "subdivisionCount": 7,
         "bbox": {
           "minX": 541,
@@ -3820,7 +3820,7 @@
         "iso2": "SE",
         "parentName": "Västmanland",
         "parentCode": "SE-U",
-        "file": "/data/l3/SE/SE-U.fgb",
+        "file": "data/SE/SE-U.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 543,
@@ -3834,7 +3834,7 @@
         "iso2": "SE",
         "parentName": "Västra Götaland",
         "parentCode": "SE-O",
-        "file": "/data/l3/SE/SE-O.fgb",
+        "file": "data/SE/SE-O.fgb",
         "subdivisionCount": 51,
         "bbox": {
           "minX": 530,
@@ -3864,7 +3864,7 @@
         "iso2": "US",
         "parentName": "Washington",
         "parentCode": "US-WA",
-        "file": "/data/l3/US/US-WA.fgb",
+        "file": "data/US/US-WA.fgb",
         "subdivisionCount": 39,
         "bbox": {
           "minX": 154,
@@ -3878,7 +3878,7 @@
         "iso2": "US",
         "parentName": "Idaho",
         "parentCode": "US-ID",
-        "file": "/data/l3/US/US-ID.fgb",
+        "file": "data/US/US-ID.fgb",
         "subdivisionCount": 44,
         "bbox": {
           "minX": 174,
@@ -3892,7 +3892,7 @@
         "iso2": "US",
         "parentName": "Montana",
         "parentCode": "US-MT",
-        "file": "/data/l3/US/US-MT.fgb",
+        "file": "data/US/US-MT.fgb",
         "subdivisionCount": 56,
         "bbox": {
           "minX": 178,
@@ -3906,7 +3906,7 @@
         "iso2": "US",
         "parentName": "North Dakota",
         "parentCode": "US-ND",
-        "file": "/data/l3/US/US-ND.fgb",
+        "file": "data/US/US-ND.fgb",
         "subdivisionCount": 53,
         "bbox": {
           "minX": 211,
@@ -3920,7 +3920,7 @@
         "iso2": "US",
         "parentName": "Minnesota",
         "parentCode": "US-MN",
-        "file": "/data/l3/US/US-MN.fgb",
+        "file": "data/US/US-MN.fgb",
         "subdivisionCount": 87,
         "bbox": {
           "minX": 230,
@@ -3934,7 +3934,7 @@
         "iso2": "US",
         "parentName": "Michigan",
         "parentCode": "US-MI",
-        "file": "/data/l3/US/US-MI.fgb",
+        "file": "data/US/US-MI.fgb",
         "subdivisionCount": 83,
         "bbox": {
           "minX": 249,
@@ -3948,7 +3948,7 @@
         "iso2": "US",
         "parentName": "Ohio",
         "parentCode": "US-OH",
-        "file": "/data/l3/US/US-OH.fgb",
+        "file": "data/US/US-OH.fgb",
         "subdivisionCount": 88,
         "bbox": {
           "minX": 264,
@@ -3962,7 +3962,7 @@
         "iso2": "US",
         "parentName": "Pennsylvania",
         "parentCode": "US-PA",
-        "file": "/data/l3/US/US-PA.fgb",
+        "file": "data/US/US-PA.fgb",
         "subdivisionCount": 67,
         "bbox": {
           "minX": 276,
@@ -3976,7 +3976,7 @@
         "iso2": "US",
         "parentName": "New York",
         "parentCode": "US-NY",
-        "file": "/data/l3/US/US-NY.fgb",
+        "file": "data/US/US-NY.fgb",
         "subdivisionCount": 62,
         "bbox": {
           "minX": 278,
@@ -3990,7 +3990,7 @@
         "iso2": "US",
         "parentName": "Vermont",
         "parentCode": "US-VT",
-        "file": "/data/l3/US/US-VT.fgb",
+        "file": "data/US/US-VT.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 296,
@@ -4004,7 +4004,7 @@
         "iso2": "US",
         "parentName": "New Hampshire",
         "parentCode": "US-NH",
-        "file": "/data/l3/US/US-NH.fgb",
+        "file": "data/US/US-NH.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 298,
@@ -4018,7 +4018,7 @@
         "iso2": "US",
         "parentName": "Maine",
         "parentCode": "US-ME",
-        "file": "/data/l3/US/US-ME.fgb",
+        "file": "data/US/US-ME.fgb",
         "subdivisionCount": 16,
         "bbox": {
           "minX": 303,
@@ -4032,7 +4032,7 @@
         "iso2": "US",
         "parentName": "Arizona",
         "parentCode": "US-AZ",
-        "file": "/data/l3/US/US-AZ.fgb",
+        "file": "data/US/US-AZ.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 181,
@@ -4046,7 +4046,7 @@
         "iso2": "US",
         "parentName": "California",
         "parentCode": "US-CA",
-        "file": "/data/l3/US/US-CA.fgb",
+        "file": "data/US/US-CA.fgb",
         "subdivisionCount": 58,
         "bbox": {
           "minX": 154,
@@ -4060,7 +4060,7 @@
         "iso2": "US",
         "parentName": "New Mexico",
         "parentCode": "US-NM",
-        "file": "/data/l3/US/US-NM.fgb",
+        "file": "data/US/US-NM.fgb",
         "subdivisionCount": 33,
         "bbox": {
           "minX": 197,
@@ -4074,7 +4074,7 @@
         "iso2": "US",
         "parentName": "Texas",
         "parentCode": "US-TX",
-        "file": "/data/l3/US/US-TX.fgb",
+        "file": "data/US/US-TX.fgb",
         "subdivisionCount": 254,
         "bbox": {
           "minX": 204,
@@ -4088,7 +4088,7 @@
         "iso2": "US",
         "parentName": "Alaska",
         "parentCode": "US-AK",
-        "file": "/data/l3/US/US-AK.fgb",
+        "file": "data/US/US-AK.fgb",
         "subdivisionCount": 30,
         "bbox": {
           "minX": 2,
@@ -4102,7 +4102,7 @@
         "iso2": "US",
         "parentName": "Louisiana",
         "parentCode": "US-LA",
-        "file": "/data/l3/US/US-LA.fgb",
+        "file": "data/US/US-LA.fgb",
         "subdivisionCount": 64,
         "bbox": {
           "minX": 239,
@@ -4116,7 +4116,7 @@
         "iso2": "US",
         "parentName": "Mississippi",
         "parentCode": "US-MS",
-        "file": "/data/l3/US/US-MS.fgb",
+        "file": "data/US/US-MS.fgb",
         "subdivisionCount": 82,
         "bbox": {
           "minX": 245,
@@ -4130,7 +4130,7 @@
         "iso2": "US",
         "parentName": "Alabama",
         "parentCode": "US-AL",
-        "file": "/data/l3/US/US-AL.fgb",
+        "file": "data/US/US-AL.fgb",
         "subdivisionCount": 67,
         "bbox": {
           "minX": 254,
@@ -4144,7 +4144,7 @@
         "iso2": "US",
         "parentName": "Florida",
         "parentCode": "US-FL",
-        "file": "/data/l3/US/US-FL.fgb",
+        "file": "data/US/US-FL.fgb",
         "subdivisionCount": 67,
         "bbox": {
           "minX": 257,
@@ -4158,7 +4158,7 @@
         "iso2": "US",
         "parentName": "Georgia",
         "parentCode": "US-GA",
-        "file": "/data/l3/US/US-GA.fgb",
+        "file": "data/US/US-GA.fgb",
         "subdivisionCount": 159,
         "bbox": {
           "minX": 262,
@@ -4172,7 +4172,7 @@
         "iso2": "US",
         "parentName": "South Carolina",
         "parentCode": "US-SC",
-        "file": "/data/l3/US/US-SC.fgb",
+        "file": "data/US/US-SC.fgb",
         "subdivisionCount": 46,
         "bbox": {
           "minX": 268,
@@ -4186,7 +4186,7 @@
         "iso2": "US",
         "parentName": "North Carolina",
         "parentCode": "US-NC",
-        "file": "/data/l3/US/US-NC.fgb",
+        "file": "data/US/US-NC.fgb",
         "subdivisionCount": 100,
         "bbox": {
           "minX": 266,
@@ -4200,7 +4200,7 @@
         "iso2": "US",
         "parentName": "Virginia",
         "parentCode": "US-VA",
-        "file": "/data/l3/US/US-VA.fgb",
+        "file": "data/US/US-VA.fgb",
         "subdivisionCount": 133,
         "bbox": {
           "minX": 268,
@@ -4214,7 +4214,7 @@
         "iso2": "US",
         "parentName": "District of Columbia",
         "parentCode": "US-DC",
-        "file": "/data/l3/US/US-DC.fgb",
+        "file": "data/US/US-DC.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 286,
@@ -4228,7 +4228,7 @@
         "iso2": "US",
         "parentName": "Maryland",
         "parentCode": "US-MD",
-        "file": "/data/l3/US/US-MD.fgb",
+        "file": "data/US/US-MD.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 279,
@@ -4242,7 +4242,7 @@
         "iso2": "US",
         "parentName": "Delaware",
         "parentCode": "US-DE",
-        "file": "/data/l3/US/US-DE.fgb",
+        "file": "data/US/US-DE.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 289,
@@ -4256,7 +4256,7 @@
         "iso2": "US",
         "parentName": "New Jersey",
         "parentCode": "US-NJ",
-        "file": "/data/l3/US/US-NJ.fgb",
+        "file": "data/US/US-NJ.fgb",
         "subdivisionCount": 21,
         "bbox": {
           "minX": 290,
@@ -4270,7 +4270,7 @@
         "iso2": "US",
         "parentName": "Connecticut",
         "parentCode": "US-CT",
-        "file": "/data/l3/US/US-CT.fgb",
+        "file": "data/US/US-CT.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 295,
@@ -4284,7 +4284,7 @@
         "iso2": "US",
         "parentName": "Rhode Island",
         "parentCode": "US-RI",
-        "file": "/data/l3/US/US-RI.fgb",
+        "file": "data/US/US-RI.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 300,
@@ -4298,7 +4298,7 @@
         "iso2": "US",
         "parentName": "Massachusetts",
         "parentCode": "US-MA",
-        "file": "/data/l3/US/US-MA.fgb",
+        "file": "data/US/US-MA.fgb",
         "subdivisionCount": 14,
         "bbox": {
           "minX": 296,
@@ -4312,7 +4312,7 @@
         "iso2": "US",
         "parentName": "Oregon",
         "parentCode": "US-OR",
-        "file": "/data/l3/US/US-OR.fgb",
+        "file": "data/US/US-OR.fgb",
         "subdivisionCount": 36,
         "bbox": {
           "minX": 154,
@@ -4326,7 +4326,7 @@
         "iso2": "US",
         "parentName": "Virgin Islands",
         "parentCode": "US-VI",
-        "file": "/data/l3/US/US-VI.fgb",
+        "file": "data/US/US-VI.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 319,
@@ -4340,7 +4340,7 @@
         "iso2": "US",
         "parentName": "Puerto Rico",
         "parentCode": "US-PR",
-        "file": "/data/l3/US/US-PR.fgb",
+        "file": "data/US/US-PR.fgb",
         "subdivisionCount": 78,
         "bbox": {
           "minX": 311,
@@ -4354,7 +4354,7 @@
         "iso2": "US",
         "parentName": "Hawaii",
         "parentCode": "US-HI",
-        "file": "/data/l3/US/US-HI.fgb",
+        "file": "data/US/US-HI.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 55,
@@ -4368,7 +4368,7 @@
         "iso2": "US",
         "parentName": "Utah",
         "parentCode": "US-UT",
-        "file": "/data/l3/US/US-UT.fgb",
+        "file": "data/US/US-UT.fgb",
         "subdivisionCount": 29,
         "bbox": {
           "minX": 183,
@@ -4382,7 +4382,7 @@
         "iso2": "US",
         "parentName": "Wyoming",
         "parentCode": "US-WY",
-        "file": "/data/l3/US/US-WY.fgb",
+        "file": "data/US/US-WY.fgb",
         "subdivisionCount": 23,
         "bbox": {
           "minX": 192,
@@ -4396,7 +4396,7 @@
         "iso2": "US",
         "parentName": "Nevada",
         "parentCode": "US-NV",
-        "file": "/data/l3/US/US-NV.fgb",
+        "file": "data/US/US-NV.fgb",
         "subdivisionCount": 17,
         "bbox": {
           "minX": 167,
@@ -4410,7 +4410,7 @@
         "iso2": "US",
         "parentName": "Colorado",
         "parentCode": "US-CO",
-        "file": "/data/l3/US/US-CO.fgb",
+        "file": "data/US/US-CO.fgb",
         "subdivisionCount": 64,
         "bbox": {
           "minX": 197,
@@ -4424,7 +4424,7 @@
         "iso2": "US",
         "parentName": "South Dakota",
         "parentCode": "US-SD",
-        "file": "/data/l3/US/US-SD.fgb",
+        "file": "data/US/US-SD.fgb",
         "subdivisionCount": 66,
         "bbox": {
           "minX": 211,
@@ -4438,7 +4438,7 @@
         "iso2": "US",
         "parentName": "Nebraska",
         "parentCode": "US-NE",
-        "file": "/data/l3/US/US-NE.fgb",
+        "file": "data/US/US-NE.fgb",
         "subdivisionCount": 93,
         "bbox": {
           "minX": 211,
@@ -4452,7 +4452,7 @@
         "iso2": "US",
         "parentName": "Kansas",
         "parentCode": "US-KS",
-        "file": "/data/l3/US/US-KS.fgb",
+        "file": "data/US/US-KS.fgb",
         "subdivisionCount": 105,
         "bbox": {
           "minX": 217,
@@ -4466,7 +4466,7 @@
         "iso2": "US",
         "parentName": "Oklahoma",
         "parentCode": "US-OK",
-        "file": "/data/l3/US/US-OK.fgb",
+        "file": "data/US/US-OK.fgb",
         "subdivisionCount": 77,
         "bbox": {
           "minX": 214,
@@ -4480,7 +4480,7 @@
         "iso2": "US",
         "parentName": "Iowa",
         "parentCode": "US-IA",
-        "file": "/data/l3/US/US-IA.fgb",
+        "file": "data/US/US-IA.fgb",
         "subdivisionCount": 99,
         "bbox": {
           "minX": 232,
@@ -4494,7 +4494,7 @@
         "iso2": "US",
         "parentName": "Missouri",
         "parentCode": "US-MO",
-        "file": "/data/l3/US/US-MO.fgb",
+        "file": "data/US/US-MO.fgb",
         "subdivisionCount": 115,
         "bbox": {
           "minX": 234,
@@ -4508,7 +4508,7 @@
         "iso2": "US",
         "parentName": "Wisconsin",
         "parentCode": "US-WI",
-        "file": "/data/l3/US/US-WI.fgb",
+        "file": "data/US/US-WI.fgb",
         "subdivisionCount": 72,
         "bbox": {
           "minX": 242,
@@ -4522,7 +4522,7 @@
         "iso2": "US",
         "parentName": "Illinois",
         "parentCode": "US-IL",
-        "file": "/data/l3/US/US-IL.fgb",
+        "file": "data/US/US-IL.fgb",
         "subdivisionCount": 102,
         "bbox": {
           "minX": 246,
@@ -4536,7 +4536,7 @@
         "iso2": "US",
         "parentName": "Kentucky",
         "parentCode": "US-KY",
-        "file": "/data/l3/US/US-KY.fgb",
+        "file": "data/US/US-KY.fgb",
         "subdivisionCount": 120,
         "bbox": {
           "minX": 251,
@@ -4550,7 +4550,7 @@
         "iso2": "US",
         "parentName": "Arkansas",
         "parentCode": "US-AR",
-        "file": "/data/l3/US/US-AR.fgb",
+        "file": "data/US/US-AR.fgb",
         "subdivisionCount": 75,
         "bbox": {
           "minX": 237,
@@ -4564,7 +4564,7 @@
         "iso2": "US",
         "parentName": "Tennessee",
         "parentCode": "US-TN",
-        "file": "/data/l3/US/US-TN.fgb",
+        "file": "data/US/US-TN.fgb",
         "subdivisionCount": 95,
         "bbox": {
           "minX": 249,
@@ -4578,7 +4578,7 @@
         "iso2": "US",
         "parentName": "West Virginia",
         "parentCode": "US-WV",
-        "file": "/data/l3/US/US-WV.fgb",
+        "file": "data/US/US-WV.fgb",
         "subdivisionCount": 55,
         "bbox": {
           "minX": 270,
@@ -4592,7 +4592,7 @@
         "iso2": "US",
         "parentName": "Indiana",
         "parentCode": "US-IN",
-        "file": "/data/l3/US/US-IN.fgb",
+        "file": "data/US/US-IN.fgb",
         "subdivisionCount": 92,
         "bbox": {
           "minX": 255,
@@ -4622,7 +4622,7 @@
         "iso2": "ES",
         "parentName": "安達魯西亞自治區",
         "parentCode": "ES-AN",
-        "file": "/data/l3/ES/ES-AN.fgb",
+        "file": "data/ES/ES-AN.fgb",
         "subdivisionCount": 8,
         "bbox": {
           "minX": 474,
@@ -4636,7 +4636,7 @@
         "iso2": "ES",
         "parentName": "亞拉岡自治區",
         "parentCode": "ES-AR",
-        "file": "/data/l3/ES/ES-AR.fgb",
+        "file": "data/ES/ES-AR.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 489,
@@ -4650,7 +4650,7 @@
         "iso2": "ES",
         "parentName": "阿斯圖里亞斯自治區",
         "parentCode": "ES-AS",
-        "file": "/data/l3/ES/ES-AS.fgb",
+        "file": "data/ES/ES-AS.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 475,
@@ -4664,7 +4664,7 @@
         "iso2": "ES",
         "parentName": "坎塔布里亞自治區",
         "parentCode": "ES-CB",
-        "file": "/data/l3/ES/ES-CB.fgb",
+        "file": "data/ES/ES-CB.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 482,
@@ -4678,7 +4678,7 @@
         "iso2": "ES",
         "parentName": "休達自治市",
         "parentCode": "ES-CE",
-        "file": "/data/l3/ES/ES-CE.fgb",
+        "file": "data/ES/ES-CE.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 480,
@@ -4692,7 +4692,7 @@
         "iso2": "ES",
         "parentName": "卡斯提亞-雷昂自治區",
         "parentCode": "ES-CL",
-        "file": "/data/l3/ES/ES-CL.fgb",
+        "file": "data/ES/ES-CL.fgb",
         "subdivisionCount": 9,
         "bbox": {
           "minX": 475,
@@ -4706,7 +4706,7 @@
         "iso2": "ES",
         "parentName": "卡斯提亞-拉曼查自治區",
         "parentCode": "ES-CM",
-        "file": "/data/l3/ES/ES-CM.fgb",
+        "file": "data/ES/ES-CM.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 480,
@@ -4720,7 +4720,7 @@
         "iso2": "ES",
         "parentName": "加那利群島自治區",
         "parentCode": "ES-CN",
-        "file": "/data/l3/ES/ES-CN.fgb",
+        "file": "data/ES/ES-CN.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 445,
@@ -4734,7 +4734,7 @@
         "iso2": "ES",
         "parentName": "加泰隆尼亞自治區",
         "parentCode": "ES-CT",
-        "file": "/data/l3/ES/ES-CT.fgb",
+        "file": "data/ES/ES-CT.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 495,
@@ -4748,7 +4748,7 @@
         "iso2": "ES",
         "parentName": "埃斯特雷馬杜拉自治區",
         "parentCode": "ES-EX",
-        "file": "/data/l3/ES/ES-EX.fgb",
+        "file": "data/ES/ES-EX.fgb",
         "subdivisionCount": 2,
         "bbox": {
           "minX": 474,
@@ -4762,7 +4762,7 @@
         "iso2": "ES",
         "parentName": "加利西亞自治區",
         "parentCode": "ES-GA",
-        "file": "/data/l3/ES/ES-GA.fgb",
+        "file": "data/ES/ES-GA.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 469,
@@ -4776,7 +4776,7 @@
         "iso2": "ES",
         "parentName": "巴利阿里群島自治區",
         "parentCode": "ES-IB",
-        "file": "/data/l3/ES/ES-IB.fgb",
+        "file": "data/ES/ES-IB.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 498,
@@ -4790,7 +4790,7 @@
         "iso2": "ES",
         "parentName": "莫夕亞自治區",
         "parentCode": "ES-MC",
-        "file": "/data/l3/ES/ES-MC.fgb",
+        "file": "data/ES/ES-MC.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 489,
@@ -4804,7 +4804,7 @@
         "iso2": "ES",
         "parentName": "馬德里自治區",
         "parentCode": "ES-MD",
-        "file": "/data/l3/ES/ES-MD.fgb",
+        "file": "data/ES/ES-MD.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 482,
@@ -4818,7 +4818,7 @@
         "iso2": "ES",
         "parentName": "梅利利亞自治市",
         "parentCode": "ES-ML",
-        "file": "/data/l3/ES/ES-ML.fgb",
+        "file": "data/ES/ES-ML.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 487,
@@ -4832,7 +4832,7 @@
         "iso2": "ES",
         "parentName": "納瓦拉自治區",
         "parentCode": "ES-NC",
-        "file": "/data/l3/ES/ES-NC.fgb",
+        "file": "data/ES/ES-NC.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 488,
@@ -4846,7 +4846,7 @@
         "iso2": "ES",
         "parentName": "巴斯克自治區",
         "parentCode": "ES-PV",
-        "file": "/data/l3/ES/ES-PV.fgb",
+        "file": "data/ES/ES-PV.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 485,
@@ -4860,7 +4860,7 @@
         "iso2": "ES",
         "parentName": "拉里奧哈自治區",
         "parentCode": "ES-RI",
-        "file": "/data/l3/ES/ES-RI.fgb",
+        "file": "data/ES/ES-RI.fgb",
         "subdivisionCount": 1,
         "bbox": {
           "minX": 486,
@@ -4874,7 +4874,7 @@
         "iso2": "ES",
         "parentName": "瓦倫西亞自治區",
         "parentCode": "ES-VC",
-        "file": "/data/l3/ES/ES-VC.fgb",
+        "file": "data/ES/ES-VC.fgb",
         "subdivisionCount": 3,
         "bbox": {
           "minX": 491,
@@ -4904,7 +4904,7 @@
         "iso2": "GB",
         "parentName": "英格蘭",
         "parentCode": "GB-ENG",
-        "file": "/data/l3/GB/GB-ENG.fgb",
+        "file": "data/GB/GB-ENG.fgb",
         "subdivisionCount": 152,
         "bbox": {
           "minX": 477,
@@ -4918,7 +4918,7 @@
         "iso2": "GB",
         "parentName": "北愛爾蘭",
         "parentCode": "GB-NIR",
-        "file": "/data/l3/GB/GB-NIR.fgb",
+        "file": "data/GB/GB-NIR.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 472,
@@ -4932,7 +4932,7 @@
         "iso2": "GB",
         "parentName": "蘇格蘭",
         "parentCode": "GB-SCT",
-        "file": "/data/l3/GB/GB-SCT.fgb",
+        "file": "data/GB/GB-SCT.fgb",
         "subdivisionCount": 32,
         "bbox": {
           "minX": 457,
@@ -4946,7 +4946,7 @@
         "iso2": "GB",
         "parentName": "威爾斯",
         "parentCode": "GB-WLS",
-        "file": "/data/l3/GB/GB-WLS.fgb",
+        "file": "data/GB/GB-WLS.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 480,
@@ -4976,7 +4976,7 @@
         "iso2": "CH",
         "parentName": "Switzerland",
         "parentCode": "CH",
-        "file": "/data/l3/CH/CH.fgb",
+        "file": "data/CH/CH.fgb",
         "subdivisionCount": 26,
         "bbox": {
           "minX": 517,
@@ -5006,7 +5006,7 @@
         "iso2": "SI",
         "parentName": "Slovenia",
         "parentCode": "SI",
-        "file": "/data/l3/SI/SI.fgb",
+        "file": "data/SI/SI.fgb",
         "subdivisionCount": 193,
         "bbox": {
           "minX": 537,
@@ -5036,7 +5036,7 @@
         "iso2": "LV",
         "parentName": "Latvia",
         "parentCode": "LV",
-        "file": "/data/l3/LV/LV.fgb",
+        "file": "data/LV/LV.fgb",
         "subdivisionCount": 119,
         "bbox": {
           "minX": 558,
@@ -5066,7 +5066,7 @@
         "iso2": "IE",
         "parentName": "Ireland",
         "parentCode": "IE",
-        "file": "/data/l3/IE/IE.fgb",
+        "file": "data/IE/IE.fgb",
         "subdivisionCount": 34,
         "bbox": {
           "minX": 471,
@@ -5096,7 +5096,7 @@
         "iso2": "MK",
         "parentName": "North Macedonia",
         "parentCode": "MK",
-        "file": "/data/l3/MK/MK.fgb",
+        "file": "data/MK/MK.fgb",
         "subdivisionCount": 84,
         "bbox": {
           "minX": 557,
@@ -5126,7 +5126,7 @@
         "iso2": "LK",
         "parentName": "Sri Lanka",
         "parentCode": "LK",
-        "file": "/data/l3/LK/LK.fgb",
+        "file": "data/LK/LK.fgb",
         "subdivisionCount": 25,
         "bbox": {
           "minX": 721,
@@ -5156,7 +5156,7 @@
         "iso2": "UY",
         "parentName": "Uruguay",
         "parentCode": "UY",
-        "file": "/data/l3/UY/UY.fgb",
+        "file": "data/UY/UY.fgb",
         "subdivisionCount": 19,
         "bbox": {
           "minX": 338,
@@ -5186,7 +5186,7 @@
         "iso2": "EC",
         "parentName": "Ecuador",
         "parentCode": "EC",
-        "file": "/data/l3/EC/EC.fgb",
+        "file": "data/EC/EC.fgb",
         "subdivisionCount": 24,
         "bbox": {
           "minX": 244,
@@ -5216,7 +5216,7 @@
         "iso2": "GT",
         "parentName": "Guatemala",
         "parentCode": "GT",
-        "file": "/data/l3/GT/GT.fgb",
+        "file": "data/GT/GT.fgb",
         "subdivisionCount": 22,
         "bbox": {
           "minX": 244,
@@ -5246,7 +5246,7 @@
         "iso2": "DO",
         "parentName": "Dominican Republic",
         "parentCode": "DO",
-        "file": "/data/l3/DO/DO.fgb",
+        "file": "data/DO/DO.fgb",
         "subdivisionCount": 32,
         "bbox": {
           "minX": 300,
@@ -5276,7 +5276,7 @@
         "iso2": "PA",
         "parentName": "Panama",
         "parentCode": "PA",
-        "file": "/data/l3/PA/PA.fgb",
+        "file": "data/PA/PA.fgb",
         "subdivisionCount": 12,
         "bbox": {
           "minX": 269,
@@ -5306,7 +5306,7 @@
         "iso2": "UG",
         "parentName": "Uganda",
         "parentCode": "UG",
-        "file": "/data/l3/UG/UG.fgb",
+        "file": "data/UG/UG.fgb",
         "subdivisionCount": 112,
         "bbox": {
           "minX": 582,
@@ -5336,7 +5336,7 @@
         "iso2": "RW",
         "parentName": "Rwanda",
         "parentCode": "RW",
-        "file": "/data/l3/RW/RW.fgb",
+        "file": "data/RW/RW.fgb",
         "subdivisionCount": 5,
         "bbox": {
           "minX": 580,
@@ -5366,7 +5366,7 @@
         "iso2": "BT",
         "parentName": "Bhutan",
         "parentCode": "BT",
-        "file": "/data/l3/BT/BT.fgb",
+        "file": "data/BT/BT.fgb",
         "subdivisionCount": 20,
         "bbox": {
           "minX": 746,
@@ -5396,7 +5396,7 @@
         "iso2": "NL",
         "parentName": "Netherlands",
         "parentCode": "NL",
-        "file": "/data/l3/NL/NL.fgb",
+        "file": "data/NL/NL.fgb",
         "subdivisionCount": 15,
         "bbox": {
           "minX": 310,
@@ -5426,7 +5426,7 @@
         "iso2": "BE",
         "parentName": "Belgium",
         "parentCode": "BE",
-        "file": "/data/l3/BE/BE.fgb",
+        "file": "data/BE/BE.fgb",
         "subdivisionCount": 11,
         "bbox": {
           "minX": 507,
@@ -5456,7 +5456,7 @@
         "iso2": "LS",
         "parentName": "Lesotho",
         "parentCode": "LS",
-        "file": "/data/l3/LS/LS.fgb",
+        "file": "data/LS/LS.fgb",
         "subdivisionCount": 10,
         "bbox": {
           "minX": 575,
@@ -5486,7 +5486,7 @@
         "iso2": "SZ",
         "parentName": "eSwatini",
         "parentCode": "SZ",
-        "file": "/data/l3/SZ/SZ.fgb",
+        "file": "data/SZ/SZ.fgb",
         "subdivisionCount": 4,
         "bbox": {
           "minX": 586,
@@ -5516,7 +5516,7 @@
         "iso2": "MT",
         "parentName": "Malta",
         "parentCode": "MT",
-        "file": "/data/l3/MT/MT.fgb",
+        "file": "data/MT/MT.fgb",
         "subdivisionCount": 68,
         "bbox": {
           "minX": 539,
@@ -5546,7 +5546,7 @@
         "iso2": "IL",
         "parentName": "Israel",
         "parentCode": "IL",
-        "file": "/data/l3/IL/IL.fgb",
+        "file": "data/IL/IL.fgb",
         "subdivisionCount": 6,
         "bbox": {
           "minX": 595,
