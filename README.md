@@ -302,7 +302,8 @@ FR,#f1f5f9:#f1f5f9,全白線
 - **正方形 1:1**：![streetview|1:1](51.1283, 71.4305)
 
 <!-- 隱藏右側預設按鈕（旋轉視圖、動作追蹤、放大縮小按鈕） -->
-- **純淨街景 (預設裁切右側 56px)**：![streetview|clean](51.1283, 71.4305)
+- **最佳預設純淨街景 (預設自動裁切 crop=67,58,50,0)**：![streetview](51.1283, 71.4305)
+- **原始無裁切街景**：![streetview|no-crop](51.1283, 71.4305)
 - **自訂裁切右側**：![streetview|crop=60](51.1283, 71.4305)
 - **自訂裁切右側與底部 (遮擋版權資訊)**：![streetview|crop-r=56|crop-b=30](51.1283, 71.4305)
 - **四方精確裁切（上,右,下,左）**：![streetview|crop=0,60,30,0](51.1283, 71.4305)
@@ -330,13 +331,15 @@ FR,#f1f5f9:#f1f5f9,全白線
 | | `search` | `search` | **搜尋結果模式**（展示關鍵字搜尋結果清單）。 |
 | | `directions` | `directions`、`route` | **路線規劃模式**。 |
 | **鎖定視窗 (Lock)** | `lock` | `lock`、`locked`、`static`、`freeze`、`frozen`、`readonly`、`no-drag`、`no-pan`、`lock=true`、`interactive=false` | **設定鎖定為初始預設值（讀者可隨時點按按鈕切換解鎖/鎖定）**：鎖定時透過 CSS `pointer-events: none` 阻擋拖曳與旋轉，滾動情報卡時不卡死；懸停時會出現 `🔒 已鎖定` 按鈕，點擊即可即時解鎖為 `🔓 已解鎖` 進行 360° 互動探索，再次點擊即可重新鎖回。 |
-| **裁切範圍 (Crop)** | `clean` | `clean`、`crop` | **一鍵純淨視圖**：自動裁切右側 56px，隱藏 Google 羅盤、動作追蹤與縮放控制按鈕。 |
+| **裁切範圍 (Crop)** | `預設最佳純淨視圖` | `crop=67,58,50,0` | **預設啟用**：自動裁切上方 67px（標題卡）、右側 58px（羅盤與縮放控制）、下方 50px（Google 版權列）、左側 0px。 |
+| | `no-crop` / `crop=none` | `no-crop`、`uncropped`、`crop=none`、`crop=0` | **關閉裁切**：呈現完整無裁切之 Google 原始嵌入畫面。 |
+| | `clean` | `clean`、`crop` | 顯式指定預設最佳純淨視圖裁切 (`67,58,50,0`)。 |
 | | `crop=<右側寬度>` | `crop=60`、`crop=60px` | 自訂右側裁切像素。 |
 | | `crop-r` / `crop-right` | `crop-r=56`、`crop-right=56` | 指定右側裁切像素。 |
-| | `crop-b` / `crop-bottom` | `crop-b=30`、`crop-bottom=30` | 指定底部裁切像素（可用於遮擋 Google 浮水印與底部版權條）。 |
+| | `crop-b` / `crop-bottom` | `crop-b=30`、`crop-bottom=30` | 指定底部裁切像素。 |
 | | `crop-t` / `crop-top` | `crop-t=20`、`crop-top=20` | 指定頂部裁切像素。 |
 | | `crop-l` / `crop-left` | `crop-l=10`、`crop-left=10` | 指定左側裁切像素。 |
-| | `crop=<上,右,下,左>` | `crop=0,56,30,0` | 依 CSS 邊界順序（Top, Right, Bottom, Left）指定四邊裁切量。 |
+| | `crop=<上,右,下,左>` | `crop=67,58,50,0` | 依 CSS 邊界順序（Top, Right, Bottom, Left）指定四邊裁切量。 |
 | | `crop=<垂直,水平>` | `crop=10,50` | 依 CSS 邊界順序指定上下（垂直）與左右（水平）裁切量。 |
 | **畫面比例 (Ratio)** | `ratio` | `16:9`、`4:3`、`16:10`、`1:1`、`21:9`、`ratio=16:9`、`aspect=4:3`、`16/9` | **預設 16:9 固定比例自適應高度**；隨 Info Card 欄寬拖曳即時等比縮放，確保視角不變形。 |
 | **固定高度 (Height)** | `h` / `height` | `h=280`、`height=320`、`280px` | **固定高度模式**（有效範圍：`160` ~ `600` px）；設定後會覆蓋比例模式。 |
