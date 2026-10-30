@@ -3,7 +3,7 @@
 - targets: TW
 - icon: 🗺️
 - accent: #38bdf8
-- tags: Travel, Geoguessr
+- tags: Example
 - priority: 0
 
 - **Google Maps Embed API 5 大渲染模式示範**
@@ -22,3 +22,6 @@
 
 - **5. 路線導航模式 (Directions)** 台北車站至台北 101 大眾運輸導航路線（捷運淡水信義線，`mode=transit`）：
 - ![directions|台北車站至台北101捷運路線|mode=transit](台北車站 -> 台北101)
+
+- **6. 直式街景模式 (Vertical 16:9 / 9:16)** 台北 101 直式全景（帶有 `vertical` 參數，自動以 9:16 純淨裁切居中呈現）：
+- ![streetview|vertical|台北 101 直式全景|heading=30|pitch=18](25.0338, 121.5645)
