@@ -104,7 +104,7 @@ US,#3b82f6,靠右
 | `@nameEn` | 選填 | 英文圖層名稱 | `// @nameEn: Taiwan Power Grid` |
 | `@shortBadge` | 選填 | 簡短圖示徽章（顯示於選擇器與圖例標籤） | `// @shortBadge: ⚡ 電桿` |
 | `@type` | **必要** | 物件附加渲染類型（見下方 `@type` 幾何物件模型） | `FillWithColor` / `TextWithStyle` / `Image` |
-| `@goto` | 選填 | 啟用圖層時相機導航目標座標與縮放倍率 | `// @goto: lat=23.7&lon=120.95&ratio=0.82` |
+| `@goto` | 選填 | 啟用圖層時相機導航目標座標與縮放倍率（於 URL 協定中享有最高相機導航優先級，觸發即中斷後續相機流程） | `// @goto: lat=23.7&lon=120.95&ratio=0.82` |
 | `@defaultStyle` | 選填 | `TextWithStyle` 類型之預設文字樣式關鍵字或 CSS 樣式 | `// @defaultStyle: badge` 或 `// @defaultStyle: grid-letter` |
 | `@default-color` | 選填 | 未收錄區域之預設底色（Hex） | `// @default-color: #1e2430` |
 | `@accentColor` | 選填 | 圖層強調色（Hex） | `// @accentColor: #06b6d4` |
