@@ -1,78 +1,155 @@
-# Inter-Geo Data: 空間圖資、圖層特徵與 GeoGuessr 實戰情報庫
+# Inter-Geo Data: 空間圖資、動態圖層與 GeoGuessr 實戰情報資料庫
 
-`inter-geo-data` 是 Inter-Geo Web GIS 系統的集中式資料內容儲存庫。本儲存庫負責託管所有二進位空間向量邊界（FlatGeobuf）、CSV 動態圖層數據庫、Markdown 實戰情報卡以及特徵媒體資源，並透過自動化腳本生成輕量化 JSON 索引清單供前端按需即時讀取。
+`inter-geo-data` 是 Inter-Geo Web GIS 系統的集中式資料內容儲存庫。本儲存庫負責託管所有二進位空間向量邊界（FlatGeobuf `.fgb`）、國家核心元數據與 CSV 動態圖層數據庫、各大洲與專題 Markdown 實戰情報卡，以及交通標誌與地景媒體資源，並透過自動化索引編譯器（[`scripts/build-indexes.mjs`](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs)）生成輕量 JSON 索引供前端應用庫（`inter-geo`）按需即時串流。
 
 ---
 
 ## 目錄 (Table of Contents)
 
-- [1. 儲存庫職責與目錄導覽 (Repository Directory Layout)](#1-儲存庫職責與目錄導覽-repository-directory-layout)
-- [2. 空間向量幾何規範 (FlatGeobuf GIS Geometry Standards)](#2-空間向量幾何規範-flatgeobuf-gis-geometry-standards)
-- [3. CSV 圖層撰寫規範與 Directive 體系 (CSV Layer Directives)](#3-csv-圖層撰寫規範與-directive-體系-csv-layer-directives)
-- [4. Markdown 實戰情報卡撰寫指南 (Info Card Authoring Guide)](#4-markdown-實戰情報卡撰寫指南-info-card-authoring-guide)
-  - [卡片基本結構與元數據](#卡片基本結構與元數據)
-  - [元數據欄位字典](#元數據欄位字典)
-  - [正文內容與標籤排版](#正文內容與標籤排版)
-  - [Google Maps 與 Street View 街景嵌入語法](#google-maps-與-street-view-街景嵌入語法)
-- [5. 媒體資源管理規範 (Media Assets Guidelines)](#5-媒體資源管理規範-media-assets-guidelines)
-- [6. 自動化索引編譯與發布流程 (Index Generation & CI/CD)](#6-自動化索引編譯與發布流程-index-generation--cicd)
+- [1. 儲存庫目錄導覽與檔案清單 (Repository Directory Layout)](#1-儲存庫目錄導覽與檔案清單-repository-directory-layout)
+- [2. 五大資料部件：資料來源、編譯處理與前端呈現全鏈路](#2-五大資料部件資料來源編譯處理與前端呈現全鏈路)
+- [3. 空間向量幾何規範 (FlatGeobuf GIS Geometry Standards)](#3-空間向量幾何規範-flatgeobuf-gis-geometry-standards)
+- [4. CSV 圖層撰寫規範與 Directive 體系 (CSV Layer Directives)](#4-csv-圖層撰寫規範與-directive-體系-csv-layer-directives)
+- [5. Markdown 實戰情報卡與 Street View 嵌入撰寫指南 (Info Card & Street View Guide)](#5-markdown-實戰情報卡與-street-view-嵌入撰寫指南-info-card--street-view-guide)
+  - [5.1 卡片基本結構、元數據與 Priority (0~139) 階層規範](#51-卡片基本結構元數據與-priority-0139-階層規範)
+  - [5.2 Google Maps 與 Street View 街景嵌入語法（支援最簡縮寫）](#52-google-maps-與-street-view-街景嵌入語法支援最簡縮寫)
+  - [5.3 Dev Mode (?dev=true) 街景即時微調器工作流](#53-dev-mode-devtrue-街景即時微調器工作流)
+- [6. 媒體資源管理規範 (Media Assets Guidelines)](#6-媒體資源管理規範-media-assets-guidelines)
+- [7. 自動化索引編譯與 CI/CD 發布流程 (Index Generation & CI/CD)](#7-自動化索引編譯與-cicd-發布流程-index-generation--cicd)
 
 ---
 
-## 1. 儲存庫職責與目錄導覽 (Repository Directory Layout)
+## 1. 儲存庫目錄導覽與檔案清單 (Repository Directory Layout)
 
 ```text
 inter-geo-data/
-├── data/                    # 二進位空間向量多邊形與線段 (FlatGeobuf)
-│   ├── COUNTRY.fgb          # L1 全球國家輪廓 (177+ 國)
-│   ├── {iso2}.fgb           # L2 一級行政區多邊形 (例如 JP.fgb, US.fgb)
-│   ├── {parent}/{child}.fgb # L3+ 細部二級/三級行政區微型分區包 (例如 US/CA.fgb, JP/13.fgb)
-│   └── {iso2}-roads.fgb     # 各國主要公路網線段 (例如 US-roads.fgb)
-├── layers/                  # CSV 動態圖層數據庫 (按 3 大類別分目錄)
-│   ├── fill-region-with-color/ # 區塊著色圖層 (如行駛方向、車牌特徵、標線著色)
-│   ├── global-label/        # 全域標籤圖層 (如國旗、電話國碼、頂級網域、幣符)
-│   └── area-feature/        # 區域特徵圖層 (如公路網編號、電力座標網格、歐洲行人標誌)
-├── info/                    # GeoGuessr 實戰情報卡 (Markdown)
-│   ├── africa.md            # 非洲各國實戰情資與本土在地特徵
-│   ├── asia.md              # 亞洲各國實戰情資與本土在地特徵
-│   ├── europe.md            # 歐洲各國實戰情資與本土在地特徵
-│   ├── latin-america.md     # 拉丁美洲各國實戰情資與本土在地特徵
-│   ├── north-america.md     # 北美各國實戰情資與本土在地特徵
-│   ├── oceania.md           # 大洋洲各國實戰情資與本土在地特徵
-│   ├── pedestrian-crossing.md # 各國行人穿越道告示牌特徵
-│   └── ...                  # 道路標線、車牌編碼、電線桿等專屬情資
-├── images/                  # 媒體圖檔資源 (SVG、WebP、PNG)
-│   └── crossing/            # 各國行人過路標誌向量圖 (de.svg, kz.svg 等)
-├── scripts/                 # 自動化建置腳本
-│   └── build-indexes.mjs    # Node.js 索引編譯工具
-└── dist-index/              # 本機編譯產生的輕量索引 (由 CI 發布至 index 分支)
+├── data/                          # 二進位空間向量多邊形與線段 (FlatGeobuf, 共 626 個 .fgb 檔)
+│   ├── COUNTRY.fgb                # L1 全球國家輪廓 (177+ 國)
+│   ├── {iso2}.fgb                 # L2 一級行政區多邊形 (91 國，如 JP.fgb, US.fgb)
+│   ├── {iso2}/{sub}.fgb           # L3+ 二級/三級行政區微型分區包 (276+ 個，如 JP/01.fgb, US/CA.fgb)
+│   ├── {iso2}-roads.fgb           # 各國主要公路網線段 (如 US-roads.fgb, JP-roads.fgb)
+│   ├── TW-powerpoles.fgb          # 台灣電力座標網格多邊形
+│   ├── l2-manifest.json           # L2 國家清單、單位名稱與 BBox 定義
+│   ├── l3-manifest.json           # L3 分區映射、父層代碼與檔案路徑清單
+│   └── roads-manifest.json        # 各國道路網檔案與道路數量清單
+├── layers/                        # 國家基礎表與 CSV 動態圖層數據庫 (共 29 個圖層)
+│   ├── countries.csv              # 180 國核心基礎元數據與質心座標 (ISO-2, 國旗, 覆蓋率, 靠左/靠右)
+│   ├── fill-region-with-color/    # [單選 Radio] 2D 區塊著色與雙色道路標線圖層
+│   ├── global-label/              # [複選 Checkbox] 全域文字/徽章標籤圖層 (國旗, 電話國碼, 頂級網域等)
+│   └── area-feature/              # [複選 Checkbox] 區域特徵圖層 (公路網, 電力網格, 歐洲行人標誌, 境內區碼)
+├── info/                          # GeoGuessr 實戰情報卡 (共 20 個 Markdown 檔，401 張情報卡)
+│   ├── europe.md                  # 歐洲各國在地語言習慣與街頭實戰情資 (41 張卡)
+│   ├── asia.md                    # 亞洲各國在地語言習慣與街頭實戰情資 (25 張卡)
+│   ├── latin-america.md           # 拉丁美洲各國在地語言習慣與區域比較情資 (21 張卡)
+│   ├── north-america.md           # 北美(美/加/夏威夷/魁北克)在地語言與路標情資 (4 張卡)
+│   ├── africa.md                  # 非洲各國在地語言習慣與街頭招牌情資 (12 張卡)
+│   ├── oceania.md                 # 大洋洲(澳洲/紐西蘭)在地語言與雙語路標情資 (2 張卡)
+│   ├── countries.md               # 91 個街景覆蓋國家的基礎速查總覽卡 (priority: 1)
+│   ├── japan.md                   # 日本 47 都道府縣行政區與北海道雪道文化專題 (48 張卡)
+│   ├── india-states.md            # 印度 36 邦與聯邦屬地專題卡 (36 張卡)
+│   ├── pedestrian-crossing.md     # 歐洲與中亞 32 組行人穿越道標誌圖鑑 (32 張卡)
+│   ├── eu-bollard.md              # 歐洲各國公路護柱 (Bollards) 辨識圖鑑 (23 張卡)
+│   ├── car-meta.md                # 全球特殊街景拍攝車裝備 (涉水喉/黑膠帶/警車/低視角) (10 張卡)
+│   ├── highways.md                # 美/歐/德/日/台/英/法 主幹公路網編號法則 (8 張卡)
+│   ├── grok-gen.md                # 各國電線桿、地形分區与進階環境辨識 (37 張卡)
+│   ├── local-admin.md             # 美/法/德/義/西/波 二級地方行政區車牌與公路規則 (6 張卡)
+│   ├── taiwan-grid.md             # 台灣電線桿電力圖號座標網格專題
+│   ├── russia.md                  # 俄羅斯遠東右駕二手車現象專題
+│   ├── india.md / note.md         # 印度文字補充與哈薩克街景隨筆
+│   └── test.md                    # Google Maps 嵌入語法展示測試卡
+├── images/                        # 媒體圖檔資源 (SVG, WebP, PNG)
+│   └── crossing/                  # 各國行人穿越道標誌向量圖 (de.svg, es.svg, kz.svg 等 46 個檔案)
+├── scripts/
+│   └── build-indexes.mjs          # Node.js 自動化索引編譯器 (生成 dist-index/*.json)
+└── dist-index/                    # 編譯輸出之 7 個輕量化 JSON 索引 (由 CI 自動發布至 index 分支)
 ```
 
 ---
 
-## 2. 空間向量幾何規範 (FlatGeobuf GIS Geometry Standards)
+## 2. 五大資料部件：資料來源、編譯處理與前端呈現全鏈路
 
-所有空間邊界均採用 [FlatGeobuf](https://flatgeobuf.org/) (`.fgb`) 二進位格式存放，具備內建空間索引（Packed R-Tree）與極速反序列化特性。
+下圖完整展示 `inter-geo-data` 的 5 大原始資料部件如何經由 [`scripts/build-indexes.mjs`](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs) 編譯為 `dist-index/*.json`，並由前端 `inter-geo` 載入、處理與渲染（節點均標註確切之 `file:line`）：
 
-### 命名規範與 LOD 階層
+```mermaid
+flowchart LR
+  subgraph RawAssets["1. 資料來源 (inter-geo-data 原始檔案)"]
+    SRC_FGB["空間幾何檔案\ndata/**/*.fgb\ndata/*-manifest.json"]
+    SRC_COUNTRIES["國家核心資料表\nlayers/countries.csv"]
+    SRC_LAYERS["3 大分類動態圖層\nlayers/fill-region-with-color/*.csv\nlayers/global-label/*.csv\nlayers/area-feature/*.csv"]
+    SRC_INFO["洲別與專題情報卡\ninfo/*.md (20 個檔案)"]
+    SRC_IMAGES["向量與點陣圖資\nimages/crossing/*.svg"]
+  end
 
-| 階層 / 類型 | 檔案路徑格式 | 說明與範例 |
-| --- | --- | --- |
-| **L1 根幾何** | `data/COUNTRY.fgb` | 世界底圖與各國外框。要素包含 `id` (ISO-2)、`name`、`bbox`。 |
-| **L2 一級行政區** | `data/{iso2}.fgb` | 各國省、州、道、都府縣邊界（如 `data/JP.fgb`、`data/TW.fgb`）。 |
-| **L3+ 細部階層** | `data/{parent}/{child}.fgb` | 遞迴分區包（如美國加州郡級 `data/US/CA.fgb`、日本東京都區町村 `data/JP/13.fgb`）。 |
-| **道路網幾何** | `data/{iso2}-roads.fgb` | 線段幾何（如 `data/US-roads.fgb`、`data/TW-roads.fgb`）。 |
+  subgraph BuildPipeline["2. 索引編譯處理 (scripts/build-indexes.mjs)"]
+    B_DATA["buildDataIndex()\nbuild-indexes.mjs:365-439\n掃描 626 個 FGB 與 Manifest"]
+    B_COUNTRIES["buildCountriesIndex()\nbuild-indexes.mjs:444-582\nparseCountriesCsv()"]
+    B_LAYERS["buildLayersIndex()\nbuild-indexes.mjs:223-360\n解析 // @directive 與 @legend"]
+    B_INFO["buildInfoIndex()\nbuild-indexes.mjs:51-188\n抽取 # 標題、Meta 與倒排 Targets"]
+    B_IMG["buildImagesIndex()\nbuild-indexes.mjs:587-609\n統計媒體檔案大小與路徑"]
 
-### 幾何品質要求
-- **座標系統**：一律使用 WGS 84（EPSG:4326）經緯度。
-- **繞向規範 (Winding Order)**：多邊形外環（Exterior Ring）必須為順時針，內環洞（Interior Ring）為逆時針。
-- **跨日線處理**：跨越經度 180° 之幾何需依國際換日線正確切割，避免大西洋反白或跨洋破面。
+    IDX_DATA["dist-index/data-index.json"]
+    IDX_COUNTRIES["dist-index/countries-index.json"]
+    IDX_LAYERS["dist-index/layers-index.json"]
+    IDX_INFO["dist-index/info-index.json\ndist-index/info-targets.json"]
+    IDX_IMG["dist-index/images-index.json"]
+
+    SRC_FGB --> B_DATA --> IDX_DATA
+    SRC_COUNTRIES --> B_COUNTRIES --> IDX_COUNTRIES
+    SRC_LAYERS --> B_LAYERS --> IDX_LAYERS
+    SRC_INFO --> B_INFO --> IDX_INFO
+    SRC_IMAGES --> B_IMG --> IDX_IMG
+  end
+
+  subgraph FrontendConsume["3. 前端處理與呈現 (inter-geo/src/)"]
+    FE_FGB["LOD 排程與 Worker 解碼\ngeoIndexClient.ts:218-375\ngeoDecode.worker.ts:71-119\nrenderLayers.ts:94-635 (Canvas Path2D)"]
+    FE_COUNTRIES["國家元數據與質心查詢\ngeoIndexClient.ts:494-651\ncountries.ts:14-30"]
+    FE_LAYERS["CSV 圖層註冊與空間 Join\ncsvLayerRegistry.ts:170-507\ncsvLayerParser.ts:244-460\nLayerBar.tsx:39-432 & MapLegend.tsx:45-359"]
+    FE_INFO["Priority (0~139) 排序與渲染\ninfoRegistry.ts:102-368\ninfoParser.ts:126-287\nMarkdownInfoCard.tsx:212-632"]
+    FE_IMG["圖標非同步快取與繪製\nimageUrl.ts:1-25\nrenderLayers.ts:931-1054"]
+
+    IDX_DATA --> FE_FGB
+    SRC_FGB -.->|"On-Demand 二進位串流"| FE_FGB
+    IDX_COUNTRIES --> FE_COUNTRIES
+    IDX_LAYERS --> FE_LAYERS
+    SRC_LAYERS -.->|"啟用圖層時下載 CSV"| FE_LAYERS
+    IDX_INFO --> FE_INFO
+    SRC_INFO -.->|"滾動進入視窗時下載 MD"| FE_INFO
+    IDX_IMG --> FE_IMG
+    SRC_IMAGES -.->|"載入 SVG/WebP"| FE_IMG
+  end
+```
+
+### 各部件資料流向對照總表
+
+| 資料部件 | 原始資料來源 (`inter-geo-data`) | 索引編譯器處理 (`build-indexes.mjs`) | 編譯產物 (`dist-index/`) | 前端載入與解析 (`inter-geo/src/`) | 最終呈現方式 |
+| --- | --- | --- | --- | --- | --- |
+| **1. 空間向量幾何** | `data/COUNTRY.fgb`<br>`data/{iso2}.fgb`<br>`data/{iso2}/{sub}.fgb`<br>`data/{iso2}-roads.fgb`<br>`data/*-manifest.json` | [`buildDataIndex()` (L365-L439)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L365-L439) 遞迴掃描 `data/` 並合併 L2/L3/Roads Manifest | `data-index.json` | [`geoIndexClient.ts:218`](file:///home/harvey/inter-geo/src/data/geoIndexClient.ts#L218) 快取索引；[`WorldMap.tsx:1089`](file:///home/harvey/inter-geo/src/components/WorldMap.tsx#L1089) 判定可視範圍後交由 [`geoDecode.worker.ts:71`](file:///home/harvey/inter-geo/src/map/geoDecode.worker.ts#L71) 解碼為 `Path2D` | [`renderLayers.ts:94`](file:///home/harvey/inter-geo/src/map/render/renderLayers.ts#L94) Canvas 2D 多邊形與公路線段光柵化；[`L3ChildPicker.tsx:16`](file:///home/harvey/inter-geo/src/components/L3ChildPicker.tsx#L16) 下轄市區町村選單 |
+| **2. 國家基礎資料** | `layers/countries.csv` | [`parseCountriesCsv()` (L501-L564)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L501-L564) & [`buildCountriesIndex()` (L566-L582)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L566-L582) | `countries-index.json` | [`geoIndexClient.ts:494`](file:///home/harvey/inter-geo/src/data/geoIndexClient.ts#L494) 載入國家清單與質心 `[lon, lat]`；同步至 [`countries.ts:17`](file:///home/harvey/inter-geo/src/data/countries.ts#L17) | 國旗與中英文名稱顯示、全域標籤質心定位、搜尋與麵包屑導航 |
+| **3. 動態 CSV 圖層** | `layers/fill-region-with-color/*.csv`<br>`layers/global-label/*.csv`<br>`layers/area-feature/*.csv` | [`buildLayersIndex()` (L223-L360)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L223-L360) 依子目錄推導 `group`，解析 `// @directive` 與 `@legend` | `layers-index.json` | [`csvLayerRegistry.ts:170`](file:///home/harvey/inter-geo/src/layers/csvLayerRegistry.ts#L170) 建立圖層樹；開啟時 [`csvLayerParser.ts:244`](file:///home/harvey/inter-geo/src/layers/csvLayerParser.ts#L244) 解析資料列並由 [`assignableRegions.ts:23`](file:///home/harvey/inter-geo/src/layers/assignableRegions.ts#L23) 正規化 ID | [`LayerBar.tsx:39`](file:///home/harvey/inter-geo/src/components/LayerBar.tsx#L39) 圖層面板、[`MapLegend.tsx:45`](file:///home/harvey/inter-geo/src/map/MapLegend.tsx#L45) 動態圖例、[`renderLayers.ts`](file:///home/harvey/inter-geo/src/map/render/renderLayers.ts) 填色／雙色標線／文字膠囊 |
+| **4. 實戰情報卡** | `info/*.md`（6 大洲 + 14 個專題檔） | [`buildInfoIndex()` (L51-L188)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L51-L188) 拆分 `#` 段落、提取 Meta 與 `preview`，建立目標倒排映射 | `info-index.json`<br>`info-targets.json` | [`infoRegistry.ts:159`](file:///home/harvey/inter-geo/src/info/infoRegistry.ts#L159) `queryInfoStubs()` 依 `priority` (`0~139`) 升冪排序；[`infoParser.ts:267`](file:///home/harvey/inter-geo/src/info/infoParser.ts#L267) 解析 Markdown 全文 | [`CountryDetailPanel.tsx:26`](file:///home/harvey/inter-geo/src/components/CountryDetailPanel.tsx#L26) 側邊抽屜、[`MarkdownInfoCard.tsx:212`](file:///home/harvey/inter-geo/src/components/MarkdownInfoCard.tsx#L212)、[`MapTooltip.tsx:160`](file:///home/harvey/inter-geo/src/map/MapTooltip.tsx#L160) 懸停摘要 |
+| **5. 媒體與內嵌街景** | `images/crossing/*.svg`<br>`info/*.md` 內嵌之 `![sv\|...](lat,lng)` | [`buildImagesIndex()` (L587-L609)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L587-L609) 建立媒體清單 | `images-index.json` | [`imageUrl.ts:1`](file:///home/harvey/inter-geo/src/info/imageUrl.ts#L1) 解析圖片 URL；[`googleMapsEmbed.ts:76`](file:///home/harvey/inter-geo/src/utils/googleMapsEmbed.ts#L76) 解析街景參數與裁切範圍 | [`renderLayers.ts:931`](file:///home/harvey/inter-geo/src/map/render/renderLayers.ts#L931) 地圖號誌圖示、[`GoogleMapsEmbed.tsx:79`](file:///home/harvey/inter-geo/src/components/GoogleMapsEmbed.tsx#L79) 互動街景與 Dev 微調器 |
 
 ---
 
-## 3. CSV 圖層撰寫規範與 Directive 體系 (CSV Layer Directives)
+## 3. 空間向量幾何規範 (FlatGeobuf GIS Geometry Standards)
 
-圖層統一以 CSV 格式編寫於 `layers/` 旗下 3 大分類目錄。每個 CSV 檔案以頭部雙斜線 `//` 聲明圖層設定：
+所有空間邊界均採用 [FlatGeobuf](https://flatgeobuf.org/) (`.fgb`) 二進位格式存放，支援零拷貝串流反序列化。
+
+| 階層 / 類型 | 檔案路徑格式 | 關聯 Manifest | 說明與屬性規範 |
+| --- | --- | --- | --- |
+| **L1 根幾何** | `data/COUNTRY.fgb` | — | 世界底圖與 177+ 國外框。要素包含 `id` (ISO-2)、`name`、`bbox`。 |
+| **L2 一級行政區** | `data/{iso2}.fgb` | `data/l2-manifest.json` | 91 國省、州、都道府縣邊界（如 `data/JP.fgb`、`data/US.fgb`）。要素包含 `code`、`name`、`name_zh`。 |
+| **L3+ 細部階層** | `data/{iso2}/{sub}.fgb` | `data/l3-manifest.json` | 276+ 個二級／三級行政區分區包（如日本北海道市町村 `data/JP/01.fgb`、美國加州郡級 `data/US/CA.fgb`）。 |
+| **道路網幾何** | `data/{iso2}-roads.fgb` | `data/roads-manifest.json` | 1D 公路線段幾何（如 `data/US-roads.fgb`、`data/TW-roads.fgb`）。要素包含 `name`、`ref`、`class`。 |
+| **特殊網格幾何** | `data/TW-powerpoles.fgb` | — | 台灣電力公司電線桿圖號座標網格（`A` ~ `Z` 分區多邊形）。 |
+
+---
+
+## 4. CSV 圖層撰寫規範與 Directive 體系 (CSV Layer Directives)
+
+圖層統一以 CSV 格式編寫於 `layers/` 旗下 3 大分類子目錄。編譯腳本 [`build-indexes.mjs:223-360`](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L223-L360) 會直接依據所在的資料夾名稱自動推導圖層群組（`fill-region-with-color/` $\rightarrow$ `fill-region`、`global-label/` $\rightarrow$ `global-label`、`area-feature/` $\rightarrow$ `area-feature`）。
+
+### CSV 標頭範例
 
 ```csv
 // @id: driving-side
@@ -82,7 +159,7 @@ inter-geo-data/
 // @type: FillWithColor
 // @default-color: #1e2430
 // @order: 8
-// @descriptionZh: 全球各國道路通行方向（靠左行駛 #f59e0b 與靠右行駛 #3b82f6，無街景或未收錄 #1e2430）制度分布
+// @descriptionZh: 全球各國道路通行方向（靠左行駛 #f59e0b 與靠右行駛 #3b82f6）制度分布
 // @legend: #f59e0b: 靠左行駛 (Left-hand Drive)
 // @legend: #3b82f6: 靠右行駛 (Right-hand Drive)
 // @legend: #1e2430: 無街景或未收錄
@@ -93,326 +170,137 @@ TW,#3b82f6,靠右
 US,#3b82f6,靠右
 ```
 
-### Directive 標頭字典
-
-> [!NOTE]
-> 1. **分類群組無需手動指定**：群組完全依據檔案在 `layers/` 下的目錄結構自動推導（`fill-region-with-color/` $\rightarrow$ `fill-region`、`global-label/` $\rightarrow$ `global-label`、`area-feature/` $\rightarrow$ `area-feature`），已全面廢除 `@group` 指令。
-> 2. **視角與觀看範圍由 `@goto` 全權決定**：相機跳轉與聚焦範圍僅看 `@goto` 指令；若無 `@goto` 則不移動相機，已全面廢除 `@effectiveRange` 指令。
-> 3. **全物件永遠 On-demand 按需載入**：所有空間幾何與圖層數據皆於使用者啟用或進入可視範圍時才動態載入，已全面廢除 `@loadedTiming` 指令。
+### Directive 標頭字典（由 [`csvLayerParser.ts:244-345`](file:///home/harvey/inter-geo/src/layers/csvLayerParser.ts#L244-L345) 與 [`build-indexes.mjs:247-315`](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L247-L315) 解析）
 
 | 標頭指令 | 必要性 | 說明 | 範例 |
 | --- | :---: | --- | --- |
-| `@id` | **必要** | 圖層唯一識別代碼（kebab-case） | `// @id: taiwan-power-poles` |
-| `@nameZh` | **必要** | 中文圖層名稱 | `// @nameZh: 台灣電力座標` |
-| `@nameEn` | 選填 | 英文圖層名稱 | `// @nameEn: Taiwan Power Grid` |
-| `@shortBadge` | 選填 | 簡短圖示徽章（顯示於選擇器與圖例標籤） | `// @shortBadge: ⚡ 電桿` |
-| `@type` | **必要** | 物件附加渲染類型（見下方 `@type` 幾何物件模型） | `FillWithColor` / `TextWithStyle` / `Image` |
-| `@goto` | 選填 | 啟用圖層時相機導航目標座標與縮放倍率（於 URL 協定中享有最高相機導航優先級，觸發即中斷後續相機流程） | `// @goto: lat=23.7&lon=120.95&ratio=0.82` |
-| `@defaultStyle` | 選填 | `TextWithStyle` 類型之預設文字樣式關鍵字或 CSS 樣式 | `// @defaultStyle: badge` 或 `// @defaultStyle: grid-letter` |
-| `@default-color` | 選填 | 未收錄區域之預設底色（Hex） | `// @default-color: #1e2430` |
-| `@accentColor` | 選填 | 圖層強調色（Hex） | `// @accentColor: #06b6d4` |
-| `@order` | 選填 | 於分類面板中的排序權重（數字越小越靠前） | `// @order: 1` |
-| `@descriptionZh` | 選填 | 於圖例與 Tooltip 中呈現之詳述 | `// @descriptionZh: 全球道路標線特色...` |
-| `@legend` | 選填 | 圖例對應項目（可重複多行宣告） | `// @legend: #f59e0b: 靠左行駛` |
-
-### `@type` 空間物件與裝飾模型
-
-CSV 的**第一個欄位永遠代表一個空間幾何物件 (`FGBObject`)**，它可以是：
-- **2D 物件**：全球國家邊界（ISO-2 如 `TW`、`US`）或行政區邊界（如 `US::CA`、`JP::13`）。
-- **1D 物件**：公路、鐵路或航線（如 `I-10`、`US 101`）。
-- **0D 物件**：單點位置、散點特徵（如電力設施、標誌樁點）。
-
-`@type` 代表的是在該空間物件上要套用或裝飾什麼內容：
-
-1. **`FillWithColor` (物件著色)**：
-   - **2D 空間填色**：直接填充多邊形面域，支援標準 Hex（`#3b82f6`）、8 碼含透明度 Hex（`#3b82f688`）、雙色標線格式（`#邊線色:#中線色`）、或 `rgba(...)`。
-     - 範例欄位：`regionId,color,label` 或 `regionId,value,label`。
-   - **1D 空間描邊著色 (公路與線段路網)**：直接在線段幾何上以筆刷描邊（Stroke），支援整層統一色碼或依個別公路 ID（如 `I-10`、`US 66`）自訂專屬色碼。
-     - 幾何來源：透過標頭 `// @fgb: data/US-roads.fgb` 聲明關聯之線段 FlatGeobuf。
-     - 範例欄位：`roadId,color,label`（如 `layers/area-feature/us-interstates.csv`、`layers/area-feature/us-numbered-highways.csv`）。
-2. **`TextWithStyle` (帶樣式文字)**：
-   - 適用於在物件位置上附加文字或符號。
-   - 可為文字框普通文字、電話區碼、或像台電座標格上的醒目字母。
-   - 支援樣式描述：
-     - **預設樣式關鍵字**：`badge`（藥丸徽章）、`grid-letter`（大型加粗描邊字母）、`plain`（純文字）。
-     - **CSS 樣式字串**：例如 `color: #ffffff; background: #0284c7; font-weight: bold; border-radius: 4px`。
-     - **單一色碼簡寫**：直接填 Hex 色碼（例如 `#f59e0b`）即代表文字顏色。
-   - 範例欄位：`regionId,text,label`（搭配 `@defaultStyle: badge`）或 `id,text,style,label`。
-3. **`Image` (圖像資源)**：
-   - 在物件位置上繪製對應之圖示或徽章（如各國行人過路標誌 `images/crossing/de.svg`）。
-   - 範例欄位：`iso2,image,label`。
-
-### 1D 公路路網著色圖層範例
-
-以美國州際公路與編號國道為例，圖層置於 `layers/area-feature/`，並透過 1D `FillWithColor` 達成按路著色與獨立開關：
-
-```csv
-// @id: us-interstates
-// @nameZh: 美國州際公路
-// @nameEn: U.S. Interstate Highways
-// @shortBadge: 🛣️ 州際
-// @type: FillWithColor
-// @fgb: data/US-roads.fgb
-// @goto: lat=39.5&lon=-98.35&ratio=0.8
-// @accentColor: #38bdf8
-// @default-color: #38bdf8
-// @order: 15
-// @descriptionZh: 美國艾森豪州際公路網 (Interstate Highway System)
-// @legend: #38bdf8: 州際公路 (Interstates)
-roadId,color,label
-I-4,#38bdf8,I-4
-I-10,#38bdf8,I-10
-I-95,#38bdf8,I-95
-```
-
-```csv
-// @id: us-numbered-highways
-// @nameZh: 美國編號國道
-// @nameEn: U.S. Numbered Highways
-// @shortBadge: 🛤️ 國道
-// @type: FillWithColor
-// @fgb: data/US-roads.fgb
-// @goto: lat=39.5&lon=-98.35&ratio=0.8
-// @accentColor: #fbbf24
-// @default-color: #fbbf24
-// @order: 16
-// @descriptionZh: 美國編號國道系統 (U.S. Numbered Highway System)
-// @legend: #fbbf24: 編號國道 (U.S. Routes)
-roadId,color,label
-US 1,#fbbf24,US 1
-US 66,#fbbf24,US 66
-US 101,#fbbf24,US 101
-```
-
-### 3 大圖層分類目錄
-
-1. **`fill-region` (區塊著色)**：
-   - 放置目錄：`layers/fill-region-with-color/`
-   - 選取邏輯：單選（Radio），同時只能啟用一個著色底圖。
-2. **`global-label` (全域標籤)**：
-   - 放置目錄：`layers/global-label/`
-   - 選取邏輯：複選（Checkbox），可任意疊加於底圖之上。
-3. **`area-feature` (區域特徵)**：
-   - 放置目錄：`layers/area-feature/`
-   - 選取邏輯：複選（Checkbox），提供特定國家、區域之微觀道路、電話區碼或網格特徵。
-
-### 雙色道路標線色彩格式
-在 `fill-region` 中若要繪製雙色標線，採用 `#外側邊線色:#中央分向線色` 格式：
-```csv
-US,#f1f5f9:#f59e0b,白邊黃中
-FR,#f1f5f9:#f1f5f9,全白線
-```
-
-### 區域代碼規範 (`regionId` / `id`)
-系統內建正規化器，支援下列格式自動對齊：
-- **ISO-2 國家代碼**：`JP`、`US`、`KZ`、`TW`
-- **一級行政區階層**：`JP::26`（亦支援 `JP-26`、`26`）
-- **補零對齊**：`JP-01` 與 `JP-1` 等價
-- **地理格網**：`TW-powerpoles::A`（台灣電力座標分區）
+| `// @id:` | **必要** | 圖層全域唯一識別碼（通常與檔名一致） | `// @id: road-markings` |
+| `// @nameZh:` | **必要** | 前端 `LayerBar` 與 `MapLegend` 顯示之繁體中文名稱 | `// @nameZh: 道路標線顏色` |
+| `// @nameEn:` | 建議 | 英文副標題名稱 | `// @nameEn: Road Markings` |
+| `// @shortBadge:` | 建議 | 頂部與圖例顯示之簡短 Emoji 膠囊 | `// @shortBadge: 🛣️ 標線` |
+| `// @type:` | **必要** | 渲染器類型：`FillWithColor`（填色/雙色標線/1D路網）、`TextWithStyle`（文字徽章）、`Image`（SVG圖標） | `// @type: FillWithColor` |
+| `// @fgb:` | 選填 | 綁定外部專屬 `.fgb` 空間檔案（由 [`extObjectLoader.ts:30`](file:///home/harvey/inter-geo/src/layers/extObjectLoader.ts#L30) 載入） | `// @fgb: data/US-roads.fgb` |
+| `// @goto:` | 選填 | 啟用圖層時相機自動飛往之視角（無 `@goto` 則保持當前視角不移動） | `// @goto: lat=39.5&lon=-98.35&ratio=0.8` |
+| `// @default-color:` | 選填 | 未命中地區之預設填色 | `// @default-color: #1e2430` |
+| `// @defaultStyle:` | 選填 | `TextWithStyle` 圖層之預設樣式（`badge`、`grid-letter`、`plain` 或自訂 CSS） | `// @defaultStyle: badge` |
+| `// @legend:` | 選填 | 可重複宣告多行，格式為 `#色碼: 說明` 或 `#邊線:#中線: 說明`，由 [`MapLegend.tsx`](file:///home/harvey/inter-geo/src/map/MapLegend.tsx) 自動渲染 | `// @legend: #f1f5f9:#f59e0b: 白邊黃中` |
+| `// @order:` | 選填 | 同分類群組內之顯示排序權重（數字越小越靠前） | `// @order: 15` |
 
 ---
 
-## 4. Markdown 實戰情報卡撰寫指南 (Info Card Authoring Guide)
+## 5. Markdown 實戰情報卡與 Street View 嵌入撰寫指南 (Info Card & Street View Guide)
 
-所有 GeoGuessr 戰術情報均撰寫於 `info/*.md` 中。單一 Markdown 檔案可包含多個情報卡區塊，以一級標題 `# 標題` 分隔。
+### 5.1 卡片基本結構、元數據與 Priority (0~139) 階層規範
 
-### 卡片基本結構與元數據
+所有情報卡均存放在 `info/*.md`，每個一級標題 `# 標題` 代表一張獨立卡片：
 
 ```markdown
-# 日本 (Japan)
-- id: country-jp
-- targets: JP
-- priority: 1
-- icon: 🇯🇵
-- accent: #38bdf8
-- tags: 東亞, 靠左行駛, 官方街景
-- type: country
-- display: true
-- image: /images/signs/jp.svg
-- imageSize: 72
-- imagePosition: left
+# 道民的雪道尊嚴與「武士之慈悲」
+- id: hokkaido-snow-pride
+- targets: JP::01
+- icon: ❄️
+- accent: #0284c7
+- tags: Culture, Trivia, Geoguessr
+- priority: 26
 
-- **關鍵線索**: 靠左行駛 (Left Drive) + Low Cam 低視角鏡頭。
-- **車牌特徵**: 普通車白底綠字，輕型車（Kei Car）黃底黑字。
-- **電線桿**: 桿底常見黃黑相間防撞警示斜紋套管。
-  - 北海道與東北地區常見箭頭向下之積雪標誌桿（雪標）。
-  - 市區電桿常見高密度複合變壓器與多層橫擔。
+- **【武士的慈悲？】**
+  - 在北海道嚴冬街頭，路面常凍結成高危險的鏡面壓雪或黑冰（Black Ice）...
 ```
 
-### 元數據欄位字典
+#### `priority` 排序權重階層規範（`0 ~ 139` 升冪排序，數字越小越優先）
 
-| 欄位名稱 | 型別 | 說明 | 範例 |
+前端 [`infoRegistry.ts:307-312`](file:///home/harvey/inter-geo/src/info/infoRegistry.ts#L307-L312) 嚴格以 `priority` 進行升冪排序（未填寫時預設為 `140`）。為了確保**單一國家／單一行政區的專屬卡片永遠排在上方，而多國並列比較的卡片排在下方**，全庫遵循以下階層配置：
+
+| `priority` 區間 | 卡片層級定位 | 代表檔案與範例 |
+| :---: | --- | --- |
+| **`0 ~ 1`** | **國家核心總覽與單國高優先標誌** | `countries.md` (`1`)、`pedestrian-crossing.md` 單一國家行人標誌 (`1`) |
+| **`5`** | **一級／二級行政區基礎制度卡** | `india-states.md` (`5`)、`local-admin.md` (`5`) |
+| **`20`** | **單一國家在地語言與街頭文字習慣** | `europe.md`、`asia.md`、`latin-america.md`、`north-america.md`、`africa.md`、`oceania.md` 單國語言卡 (`20`) |
+| **`25 ~ 26`** | **日本都道府縣單一行政區與地方文化專題** | `japan.md` 各都道府縣 (`25`)、北海道雪道文化專題 (`26`) |
+| **`35 ~ 40`** | **單一國家專屬特徵（街景車、護柱、電線桿、公路）** | `car-meta.md` 單國街景車 (`35`)、`peru-chifa` / `brazil-satellite-dishes` (`35`)、`eu-bollard.md` / `grok-gen.md` / `highways.md` 單國特徵 (`40`) |
+| **`100`** | **雙國／跨區並列語言與共用行人標誌** | 關西方言 (`JP::25~28`)、東北與北海道方言 (`JP::01,02,04`)、海灣阿拉伯 (`AE,QA,OM,KW`)、阿爾巴尼亞與科索沃 (`AL,XK`)、雙國共用行人標誌 (`100`) |
+| **`110 ~ 120`** | **2～7 國跨國比較特徵卡** | 美澳模糊畫質比較 (`110~115`)、德盧/捷斯/斯蒙護柱 (`110`)、日瑞斯低視角鏡頭 (`120`)、波羅的海三國護柱 (`120`)、南美鄰國對比 (`110~120`)、歐洲跨國 E 級公路 (`120`) |
+| **`139`** | **洲際／全球多國大總覽** | `car-meta-overview` 14 國街景車總覽 (`139`)、`south-america-overview` 南美 12 國總覽 (`139`)、`european-bollards` 全歐護柱總覽 (`139`) |
+
+---
+
+### 5.2 Google Maps 與 Street View 街景嵌入語法（支援最簡縮寫）
+
+在 Markdown 條目中可使用圖片語法 `![選項參數](座標或網址)` 嵌入互動式 Google Street View 或地圖，由 [`googleMapsEmbed.ts:76-577`](file:///home/harvey/inter-geo/src/utils/googleMapsEmbed.ts#L76-L577) 與 [`GoogleMapsEmbed.tsx:79-918`](file:///home/harvey/inter-geo/src/components/GoogleMapsEmbed.tsx#L79-L918) 負責解析與渲染。
+
+#### 推薦最簡語法範例
+
+```markdown
+<!-- 最簡街景語法：sv (streetview)、lock (預設鎖定)、h (水平角)、p (俯仰角)、fov (視野 10~100) -->
+- ![sv|lock|h=348.5|p=-4|fov=15](6.5580929,3.2943326)
+
+<!-- 附帶自訂四邊裁切：t (上)、r (右)、b (下)、l (左) 或 v (垂直上下)、h (水平左右) -->
+- ![sv|lock|h=195|p=5|fov=75|r=60|b=30](51.1283,71.4305)
+
+<!-- 直接貼上 Google Maps 瀏覽器完整網址（自動萃取經緯度與 h/t/y 視角參數） -->
+- ![sv|lock](https://www.google.com/maps/@51.1283,71.4305,3a,75y,195h,85t/data=...)
+```
+
+#### 支援選項參數與最簡縮寫對照表（[`googleMapsEmbed.ts:155-430`](file:///home/harvey/inter-geo/src/utils/googleMapsEmbed.ts#L155-L430)）
+
+| 參數類別 | 最簡縮寫 | 完整寫法與別名 | 範圍與預設行為說明 |
 | --- | :---: | --- | --- |
-| `id` | 字串 | **必要**，卡片全域唯一標識 | `crossing-sign-kz` |
-| `targets` | 字串清單 | **必要**，綁定的對象（ISO-2、行政區或格網） | `targets: KZ` 或 `targets: [US, CA]` |
-| `priority` | 數值 | 排序權重（`0` ~ `139` 升冪排序，數字越小越優先，預設 140） | `priority: 1` |
-| `icon` | 字串 | 顯示於卡片頭部的 Emoji 或圖標 | `icon: 🚸` |
-| `accent` | Hex 色碼 | 卡片邊框與高亮主色調 | `accent: #38bdf8` |
-| `tags` | 字串清單 | 用於情報設定面板之標籤過濾 | `tags: infrastructure, signs, 交通標誌` |
-| `type` | 字串 | 目標類型（`country` / `subdivision` / `road` / `general`） | `type: country` |
-| `display` | 布林值 | 卡片預設是否展開（預設 `false` 摺疊） | `display: true` |
-| `image` | 字串 | 選填，卡片主展示圖或地圖嵌入路徑 | `image: /images/crossing/kz.svg` |
-| `imageSize` | 字串/數值 | 圖片尺寸預設（`sm`, `md`, `lg`, `xl`, `banner`, 或像素數值） | `imageSize: 72` |
-| `imagePosition`| 字串 | 圖片位置（`left`, `right`, `top`） | `imagePosition: left` |
-
-### 正文內容與標籤排版
-
-- **粗體重點**：`**關鍵線索**`
-- **醒目標籤**：使用全形括號 `【...】` 會自動套用主題強調色（例如 `**【中亞標準】**`）
-- **內嵌圖標**：`![說明|尺寸](路徑)`（例如 `![標牌|72](/images/crossing/kz.svg)`）
-- **縮排清單**：支援二級次清單（縮排 2 格空白或 Tab）
+| **模式 (Mode)** | `sv` | `streetview`、`street-view`、`pano` | 全景街景模式（座標預設啟用）。 |
+| | `map` | `view`、`gmap`、`googlemap` | 2D 俯視地圖模式。 |
+| | `place` | `landmark` / `search` / `directions` | 地標釘選、關鍵字搜尋或路線模式。 |
+| **視窗鎖定 (Lock)** | `lock` | `locked`、`static`、`freeze` | **預設鎖定防誤觸**：鎖定時 `iframe` 設為 `pointer-events: none` 並覆蓋 `touch-action: pan-y` 觸控穿透層（[`GoogleMapsEmbed.tsx:579, 608`](file:///home/harvey/inter-geo/src/components/GoogleMapsEmbed.tsx#L579)），在手機或滑鼠滾輪上可順暢上下滑動整張資訊卡；點擊右上角純圖標 `🔒` 按鈕可隨時解鎖 360° 互動。 |
+| **水平方位角** | `h=<角度>` | `heading=<角度>`、`head=<角度>` | `0` ~ `360` 度（支援 `0.5°` 精度，如 `h=348.5`）。 |
+| **垂直俯仰角** | `p=<角度>` | `pitch=<角度>` | `-90` ~ `90` 度（`0` 為平視，正數仰視，負數俯視，支援 `0.5°` 精度）。 |
+| **視野 / 縮放** | `fov=<角度>` | `fov=10` ~ `fov=100` | 水平視野範圍 `10°`（放到最大特寫）至 `100°`（最廣角，預設 `90°`）。在微調面板中反向映射為直覺的「**縮放 (Zoom) `0 ~ 90`**」（`zoom = 100 - fov`）。 |
+| **純淨裁切** | 預設自動啟用 | `crop=67,58,50,0` | 預設自動裁除上方 67px（標題卡）、右側 58px（羅盤控制項）、下方 50px（版權列）、左側 0px。 |
+| | `no-crop` | `uncropped`、`crop=none`、`crop=0` | 關閉裁切，顯示原始 Google Embed 介面。 |
+| | `t=` / `r=` / `b=` / `l=` | `crop-t=`、`crop-r=`、`crop-b=`、`crop-l=` | 個別微調上、右、下、左裁切像素；若上下相同自動縮寫為 `v=`（`crop-v`），左右相同自動縮寫為 `crop-h=`。 |
+| **畫面比例與高度** | `16:9` (預設) | `4:3`、`16:10`、`1:1`、`h=280` | 預設 16:9 隨抽屜寬度動態等比縮放；亦可以 `h=<160~600>` 指定固定像素高度。 |
 
 ---
 
-### Google Maps 與 Street View 街景嵌入語法
+### 5.3 Dev Mode (`?dev=true`) 街景即時微調器工作流
 
-在情報卡條目內容中，支援直接置入 Google Maps Embed API 互動地圖與 Street View 街景全景！
+當在網址列加上 `&dev=true`（例如 `http://localhost:8080/inter-geo/?dev=true`）時，系統會啟用開發者模式（[`devMode.ts:9-58`](file:///home/harvey/inter-geo/src/utils/devMode.ts#L9-L58)），街景右上角會額外浮現 `🎛️` 微調純圖標按鈕（[`GoogleMapsEmbed.tsx:644-662`](file:///home/harvey/inter-geo/src/components/GoogleMapsEmbed.tsx#L644-L662)）：
 
-#### 1. 街景語法（座標模式）
-```markdown
-- **實地街景**：![streetview](51.1283, 71.4305)
-```
-搭配標題、視角角度與俯仰角：
-```markdown
-- **實地街景**：![streetview|阿斯塔納行人標誌|heading=195|pitch=5](51.1283, 71.4305)
-```
-
-#### 2. 直接貼上 Google Maps / Street View 瀏覽器完整 URL
-在 Google Maps 或街景網址列複製的 URL 可直接貼入，解析器會自動抽取 `@lat,lng`、`3a` 街景標記、`h` 方位角與 `t` 仰角：
-```markdown
-- **實景範例**：![streetview|阿斯塔納街景](https://www.google.com/maps/@51.1283,71.4305,3a,75y,195h,85t/data=...)
-```
-
-#### 3. 視角地圖與地標搜尋模式
-```markdown
-- **市中心位置**：![map|zoom=16|阿斯塔納中心](51.1283, 71.4305)
-- **地標標記**：![place](Baiterek Tower, Astana)
-```
-
-#### 4. 高度自適應與比例維持 (Adaptive Height & Aspect Ratio)
-
-寬度預設會自適應情報卡的欄寬（`100%`），**預設會以 16:9（`16 / 9`）固定黃金比例依照當下的 Info Card 寬度動態自適應高度**！
-
-當使用者在前端拖曳調整情報抽屜（Country Detail Panel）寬度或切換全寬模式時，街景高度會即時等比例同步縮放，確保畫面永遠維持一致視角：
-
-```markdown
-<!-- 預設即為 16:9 固定比例自適應高度 -->
-- **街景範例**：![streetview](51.1283, 71.4305)
-
-<!-- 自訂其他比例（支援 4:3、16:10、1:1、21:9 等） -->
-- **4:3 比例**：![streetview|4:3](51.1283, 71.4305)
-- **16:10 比例**：![streetview|ratio=16:10|阿斯塔納街景](51.1283, 71.4305)
-- **正方形 1:1**：![streetview|1:1](51.1283, 71.4305)
-
-<!-- 隱藏右側預設按鈕（旋轉視圖、動作追蹤、放大縮小按鈕） -->
-- **最佳預設純淨街景 (預設自動裁切 crop=67,58,50,0)**：![streetview](51.1283, 71.4305)
-- **原始無裁切街景**：![streetview|no-crop](51.1283, 71.4305)
-- **自訂裁切右側**：![streetview|crop=60](51.1283, 71.4305)
-- **自訂裁切右側與底部 (遮擋版權資訊)**：![streetview|crop-r=56|crop-b=30](51.1283, 71.4305)
-- **四方精確裁切（上,右,下,左）**：![streetview|crop=0,60,30,0](51.1283, 71.4305)
-- **垂直與水平裁切（垂直,水平）**：![streetview|crop=10,50](51.1283, 71.4305)
-
-<!-- 鎖定視窗（不接受滑鼠拖曳/縮放，作為單一靜態窗格快照） -->
-- **鎖定單一視窗**：![streetview|lock](51.1283, 71.4305)
-- **純淨 + 鎖定快照（如同一張實景照片）**：![streetview|clean|lock](51.1283, 71.4305)
-- **靜態別名寫法**：![streetview|static](51.1283, 71.4305)
-
-<!-- 強制指定固定像素高度（此時會覆蓋等比例自適應） -->
-- **固定高度範例 (h=280)**：![streetview|h=280](51.1283, 71.4305)
-- **固定高度範例 (320px)**：![streetview|320px](51.1283, 71.4305)
-```
-
-#### 5. 支援選項參數完整總覽（以 `|` 分隔）
-
-所有選項均可在 Markdown 圖片標記中以豎線 `|` 自由組合（不分先後順序），例如 `![streetview|clean|lock|heading=195|pitch=5|阿斯塔納標牌](51.1283, 71.4305)`：
-
-| 參數分類 | 參數名稱 / 關鍵字 | 支援語法與別名 | 說明與預設值 |
-| --- | --- | --- | --- |
-| **渲染模式 (Mode)** | `streetview` | `sv`、`streetview`、`street-view`、`pano` | **全景街景模式**（若來源為座標或包含 `3a` 之 Google 網址則預設啟用）。 |
-| | `view` | `map`、`view`、`gmap`、`googlemap` | **地圖俯視圖模式**（以座標為中心展示地圖）。 |
-| | `place` | `place`、`landmark` | **地標標記模式**（搜尋地點並於地圖放置紅色標記 Pin）。 |
-| | `search` | `search` | **搜尋結果模式**（展示關鍵字搜尋結果清單）。 |
-| | `directions` | `directions`、`route` | **路線規劃模式**。 |
-| **鎖定視窗 (Lock)** | `lock` | `lock`、`locked`、`static`、`freeze`、`frozen`、`readonly`、`no-drag`、`no-pan`、`lock=true`、`interactive=false` | **設定鎖定為初始預設值（讀者可隨時點按按鈕切換解鎖/鎖定）**：鎖定時透過 CSS `pointer-events: none` 阻擋拖曳與旋轉，滾動情報卡時不卡死；懸停時會出現 `🔒 已鎖定` 按鈕，點擊即可即時解鎖為 `🔓 已解鎖` 進行 360° 互動探索，再次點擊即可重新鎖回。 |
-| **裁切範圍 (Crop)** | `預設最佳純淨視圖` | `crop=67,58,50,0` | **預設啟用**：自動裁切上方 67px（標題卡）、右側 58px（羅盤與縮放控制）、下方 50px（Google 版權列）、左側 0px。 |
-| | `no-crop` / `crop=none` | `no-crop`、`uncropped`、`crop=none`、`crop=0` | **關閉裁切**：呈現完整無裁切之 Google 原始嵌入畫面。 |
-| | `clean` | `clean`、`crop` | 顯式指定預設最佳純淨視圖裁切 (`67,58,50,0`)。 |
-| | `crop=<右側寬度>` | `crop=60`、`crop=60px` | 自訂右側裁切像素。 |
-| | `crop-r` / `crop-right` | `crop-r=56`、`crop-right=56` | 指定右側裁切像素。 |
-| | `crop-b` / `crop-bottom` | `crop-b=30`、`crop-bottom=30` | 指定底部裁切像素。 |
-| | `crop-t` / `crop-top` | `crop-t=20`、`crop-top=20` | 指定頂部裁切像素。 |
-| | `crop-l` / `crop-left` | `crop-l=10`、`crop-left=10` | 指定左側裁切像素。 |
-| | `crop=<上,右,下,左>` | `crop=67,58,50,0` | 依 CSS 邊界順序（Top, Right, Bottom, Left）指定四邊裁切量。 |
-| | `crop=<垂直,水平>` | `crop=10,50` | 依 CSS 邊界順序指定上下（垂直）與左右（水平）裁切量。 |
-| **畫面比例 (Ratio)** | `ratio` | `16:9`、`4:3`、`16:10`、`1:1`、`21:9`、`ratio=16:9`、`aspect=4:3`、`16/9` | **預設 16:9 固定比例自適應高度**；隨 Info Card 欄寬拖曳即時等比縮放，確保視角不變形。 |
-| **固定高度 (Height)** | `h` / `height` | `h=280`、`height=320`、`280px` | **固定高度模式**（有效範圍：`160` ~ `600` px）；設定後會覆蓋比例模式。 |
-| **頂部資訊列 (Header)** | `header` / `bar` | `header`、`bar`、`show-header`、`toolbar` | **預設完全隱藏頂部 Header Bar**，呈現極致純淨街景；滑鼠懸停時右上角會平滑淡入「Google 地圖 ↗」浮動按鈕（0px 佈局高度）；加入此參數可顯式還原上方標題列。 |
-| **鏡頭方位角 (Heading)** | `heading` | `heading=195`、`head=195` | 街景鏡頭水平旋轉角度（`0` ~ `360` 度；`0`=正北、`90`=正東、`180`=正南、`270`=正西）。 |
-| **鏡頭仰俯角 (Pitch)** | `pitch` | `pitch=5`、`pitch=-10` | 街景相機垂直視角（`-90` ~ `90` 度；`0`=水平平視、正數為仰視天空、負數為俯視地面）。 |
-| **水平視野 (FOV)** | `fov` | `fov=75`、`fov=90` | 街景相機水平視野範圍視角（`10` ~ `100` 度；數值越大視野越廣，預設約 75°）。 |
-| **地圖縮放 (Zoom)** | `zoom` | `zoom=16`、`z=16` | 地圖視角縮放層級（`1` ~ `21`；1=世界全景、15=市區街道、21=建築特寫）。 |
-| **自訂標題 (Title)** | `title` | `title=阿斯塔納行人標籤` 或直接輸入字串（非保留字且無 `=`） | 覆蓋預設標題，顯示於頂部工具列（例如 `阿斯塔納行人標籤`）。 |
-
-#### 6. 支援之輸入來源格式 (Source / URI Syntax)
-
-在 `!(...)[來源]` 的來源欄位中，解析器支援多種寫法，可自動判斷或萃取參數：
-
-1. **純經緯度座標**：
-   - 格式：`51.1283, 71.4305` 或 `51.1283,71.4305`
-   - 街景預設會直接將此作為 `location`。
-2. **完整 Google Maps / Street View 瀏覽器 URL**：
-   - 格式：`https://www.google.com/maps/@51.1283,71.4305,3a,75y,195h,85t/data=...`
-   - 自動萃取經緯度、`3a` 街景識別、`h` 方位角（heading）、`t` 仰角（tilt $\rightarrow$ pitch 自動換算）與 `y` 視野（fov）。
-3. **Google Maps 地點與搜尋 URL**：
-   - 格式：`https://www.google.com/maps/place/Tokyo+Tower/@35.6585,139.7454...`
-   - 自動提取地點名稱或查詢參數。
-4. **地標與實體地點名稱**：
-   - 格式：`Baiterek Tower, Astana`
-   - 自動切換至 `place` 模式搜尋對應標記。
-5. **標準 Key-Value 參數字串**：
-   - 格式：`location=51.1283,71.4305&heading=195`、`center=51.1283,71.4305&zoom=16`
-6. **顯式 URI Scheme**：
-   - 格式：`streetview:51.1283,71.4305`、`map:51.1283,71.4305`
+1. **展開微調面板**：點擊 `🎛️` 展開滑桿面板（格式：`文字項目 ^對齊^ [-] ---bar--- [+]`）。
+2. **0.5° 精準微調與反向縮放**：
+   - `水平`：`0° ~ 360°`（步進 `0.5°`）
+   - `垂直`：`-90° ~ 90°`（步進 `0.5°`）
+   - `縮放`：`0 ~ 90`（步進 `0.5`，最低為 `0` 對應最廣角 `fov=100°`，最高 `90` 對應最大放大特寫 `fov=10°`）
+   - `左裁 / 上裁 / 右裁 / 下裁`：`0px ~ 200px`（步進 `1px`）
+3. **可讀寫最簡語法框与一鍵複製**：
+   - 面板底部文字框會即時輸出最簡寫法（如 `![sv|lock|h=69|p=-5.5|fov=34.5](11.9884087,8.4832095)`）。
+   - 可直接在文字框內修改座標、貼上新的 Google Maps 網址或增減參數，按下 **`Enter`** 即刻更新上方街景畫面。
+   - 點擊右側純圖標複製按鈕即可將語法複製到剪貼簿，直接貼回 `inter-geo-data/info/*.md`。
 
 ---
 
-## 5. 媒體資源管理規範 (Media Assets Guidelines)
+## 6. 媒體資源管理規範 (Media Assets Guidelines)
 
-- **存放路徑**：一律存放在 `images/{類別}/` 目錄下（例如 `images/crossing/`）。
-- **格式推薦**：標誌、圖示與向量線條推薦使用 **SVG** 格式；實拍照片請先壓縮為 **WebP** 或適當尺寸之 **PNG**。
-- **引用路徑**：在 CSV 或 Markdown 中引用時，一律使用自儲存庫根目錄起算的絕對路徑，例如 `/images/crossing/kz.svg`。
+- **存放路徑**：一律存放在 `images/{類別}/` 目錄下（例如 `images/crossing/de.svg`）。
+- **格式推薦**：標誌、徽章與幾何圖示優先採用 **SVG** 向量格式；實景照片請壓縮為 **WebP**。
+- **引用方式**：於 CSV 或 Markdown 中使用 `/images/...` 根相對路徑，前端 [`imageUrl.ts`](file:///home/harvey/inter-geo/src/info/imageUrl.ts) 會自動解析為遠端或本機 `@geo-data/main/images/...` 完整網址。
 
 ---
 
-## 6. 自動化索引編譯與發布流程 (Index Generation & CI/CD)
+## 7. 自動化索引編譯與 CI/CD 發布流程 (Index Generation & CI/CD)
 
-當 `inter-geo-data` 中的數據有任何異動時，前端仰賴輕量化 JSON 索引清單來實現 $O(1)$ 的即時定位與載入。
-
-### 本機建置與測試
+每當新增或修改 `data/`、`layers/`、`info/` 或 `images/` 後，請在 `inter-geo-data` 根目錄執行索引編譯：
 
 ```bash
-# 於 inter-geo-data 根目錄執行索引編譯腳本
+# 編譯生成 dist-index/*.json
 npm run build:index
-
-# 或直接透過 node 執行
-node scripts/build-indexes.mjs
 ```
 
-### 生成的索引產物 (`dist-index/`)
+### 編譯產物明細 (`dist-index/`)
 
-編譯腳本會遍歷所有檔案並輸出下列輕量索引：
-1. **`info-index.json`**：所有情報卡的輕量 Stub 清單（標題、目標對象、標籤、權重，不含正文）。
-2. **`info-targets.json`**：以目標 ISO-2/區域為 Key 的快速倒排索引表。
-3. **`layers-index.json`**：所有 CSV 圖層的元數據定義與圖例清單。
-4. **`data-index.json`**：所有空間向量幾何（FlatGeobuf）的檔案路徑與 BBox 外框。
-5. **`images-index.json`**：圖片資源清單。
-6. **`countries-index.json`**：國家基礎資料與代碼映射表。
-7. **`index.json`**：包含上述所有索引版本與時間戳之 Root Manifest。
-
-### GitHub Actions 自動發布
-
-當變更推送到遠端 `main` 分支時：
-1. GitHub Action 工作流程（`.github/workflows/generate-index.yml`）自動觸發。
-2. 於遠端執行 `scripts/build-indexes.mjs`。
-3. 自動將生成的索引發布至孤立的 **`index` 分支**。
-4. 前端應用程式即可在無須重新部署的情況下，即時載入最新情資與圖資！
+| 索引檔案 | 生成函式 (`scripts/build-indexes.mjs`) | 內容與前端消費者 |
+| --- | --- | --- |
+| `index.json` | [`main` (L614-L665)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L614-L665) | 總體統計清單與生成時間戳 |
+| `info-index.json` | [`buildInfoIndex()` (L51-L188)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L51-L188) | 全部情報卡的 Stub 元數據清單（不含 Markdown 內文） |
+| `info-targets.json` | [`buildInfoIndex()` (L157-L185)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L157-L185) | 以目標代碼（如 `JP`, `JP::01`, `US-HIGHWAY`）為 Key 的倒排索引表，供 [`infoRegistry.ts:102`](file:///home/harvey/inter-geo/src/info/infoRegistry.ts#L102) $O(1)$ 查詢 |
+| `layers-index.json` | [`buildLayersIndex()` (L223-L360)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L223-L360) | 29 個 CSV 圖層的 Directive 元數據、群組與圖例，供 [`csvLayerRegistry.ts:170`](file:///home/harvey/inter-geo/src/layers/csvLayerRegistry.ts#L170) 註冊 |
+| `data-index.json` | [`buildDataIndex()` (L365-L439)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L365-L439) | 626 個 `.fgb` 檔案清單與 L2/L3/Roads Manifest，供 [`geoIndexClient.ts:218`](file:///home/harvey/inter-geo/src/data/geoIndexClient.ts#L218) 查詢 |
+| `countries-index.json` | [`buildCountriesIndex()` (L566-L582)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L566-L582) | 180 國核心資料與質心座標，供 [`geoIndexClient.ts:494`](file:///home/harvey/inter-geo/src/data/geoIndexClient.ts#L494) 載入 |
+| `images-index.json` | [`buildImagesIndex()` (L587-L609)](file:///home/harvey/inter-geo-data/scripts/build-indexes.mjs#L587-L609) | 46 個媒體圖檔路徑清單 |
