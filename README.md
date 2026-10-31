@@ -33,9 +33,12 @@ inter-geo-data/
 │   ├── global-label/        # 全域標籤圖層 (如國旗、電話國碼、頂級網域、幣符)
 │   └── area-feature/        # 區域特徵圖層 (如公路網編號、電力座標網格、歐洲行人標誌)
 ├── info/                    # GeoGuessr 實戰情報卡 (Markdown)
-│   ├── americas.md          # 美洲各國實戰情資
-│   ├── asia.md              # 亞洲各國實戰情資
-│   ├── europe.md            # 歐洲各國實戰情資
+│   ├── africa.md            # 非洲各國實戰情資與本土在地特徵
+│   ├── asia.md              # 亞洲各國實戰情資與本土在地特徵
+│   ├── europe.md            # 歐洲各國實戰情資與本土在地特徵
+│   ├── latin-america.md     # 拉丁美洲各國實戰情資與本土在地特徵
+│   ├── north-america.md     # 北美各國實戰情資與本土在地特徵
+│   ├── oceania.md           # 大洋洲各國實戰情資與本土在地特徵
 │   ├── pedestrian-crossing.md # 各國行人穿越道告示牌特徵
 │   └── ...                  # 道路標線、車牌編碼、電線桿等專屬情資
 ├── images/                  # 媒體圖檔資源 (SVG、WebP、PNG)
