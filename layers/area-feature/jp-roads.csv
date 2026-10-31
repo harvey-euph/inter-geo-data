@@ -1,0 +1,16 @@
+// @id: jp-roads
+// @nameZh: 日本高速道路與國道路網
+// @nameEn: Japan Expressway & National Highway Network
+// @shortBadge: 🇯🇵 日本公路
+// @type: FillWithColor
+// @fgb: data/JP-roads.fgb
+// @goto: lat=36.2&lon=138.25&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 21
+// @descriptionZh: 日本高速自動車國道 (Expressway) 與一般國道幹線路網
+// @legend: #38bdf8: 高速自動車國道 (Expressway)
+// @legend: #fbbf24: 一般國道與主要幹線 (National Highway)
+roadId,color,label
+日本 主要公路,#fbbf24,日本 主要公路
+日本 高速公路,#38bdf8,日本 高速公路

@@ -1,0 +1,155 @@
+// @id: es-roads
+// @nameZh: 西班牙高速公路與國道路網
+// @nameEn: Spain Autopista / Autovía & Red Estatal
+// @shortBadge: 🇪🇸 西班牙公路
+// @type: FillWithColor
+// @fgb: data/ES-roads.fgb
+// @goto: lat=40.2&lon=-3.7&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 30
+// @descriptionZh: 西班牙 AP/A 級高速公路 (Autopista / Autovía) 與 N 級國家公路網
+// @legend: #38bdf8: 高速公路與快速公路 (Autopista / Autovía)
+// @legend: #fbbf24: 國家幹線公路 (Carretera Nacional)
+roadId,color,label
+211,#fbbf24,211
+633,#fbbf24,633
+636,#fbbf24,636
+640,#fbbf24,640
+840,#38bdf8,840
+A1,#38bdf8,A1
+A2,#38bdf8,A2
+A6,#38bdf8,A6
+A7,#38bdf8,A7
+A11,#fbbf24,A11
+A12,#38bdf8,A12
+A15,#38bdf8,A15
+A30,#38bdf8,A30
+A31,#38bdf8,A31
+A35,#38bdf8,A35
+A40,#38bdf8,A40
+A41,#38bdf8,A41
+A42,#38bdf8,A42
+A43,#38bdf8,A43
+A45,#38bdf8,A45
+A58,#38bdf8,A58
+A61,#38bdf8,A61
+A66,#38bdf8,A66
+A67,#38bdf8,A67
+A92,#38bdf8,A92
+A92M,#fbbf24,A92M
+A92N,#38bdf8,A92N
+A231,#38bdf8,A231
+A316,#38bdf8,A316
+A318,#fbbf24,A318
+A330,#fbbf24,A330
+A333,#fbbf24,A333
+A381,#38bdf8,A381
+A382,#38bdf8,A382
+A384,#fbbf24,A384
+A401,#fbbf24,A401
+A430,#fbbf24,A430
+AG51,#38bdf8,AG51
+AG53,#38bdf8,AG53
+AG55,#38bdf8,AG55
+AP1,#38bdf8,AP1
+AP7,#38bdf8,AP7
+AP9,#fbbf24,AP9
+AP15,#38bdf8,AP15
+AP36,#38bdf8,AP36
+AP41,#38bdf8,AP41
+AP51,#38bdf8,AP51
+AP53,#38bdf8,AP53
+AP66,#38bdf8,AP66
+AP71,#38bdf8,AP71
+ASI,#38bdf8,ASI
+C13,#fbbf24,C13
+C17,#38bdf8,C17
+C25,#fbbf24,C25
+C32,#38bdf8,C32
+C330,#fbbf24,C330
+C415,#38bdf8,C415
+C500,#fbbf24,C500
+C731,#fbbf24,C731
+C3211,#38bdf8,C3211
+C3314,#fbbf24,C3314
+CL601,#38bdf8,CL601
+CM42,#38bdf8,CM42
+CM401,#fbbf24,CM401
+CM412,#fbbf24,CM412
+CV35,#38bdf8,CV35
+E1,#38bdf8,E1
+E5,#38bdf8,E5
+E7,#38bdf8,E7
+E9,#38bdf8,E9
+E15,#38bdf8,E15
+E20,#38bdf8,E20
+E70,#38bdf8,E70
+E80,#38bdf8,E80
+E82,#38bdf8,E82
+E90,#38bdf8,E90
+E604,#38bdf8,E604
+E803,#38bdf8,E803
+E804,#38bdf8,E804
+E901,#38bdf8,E901
+E902,#38bdf8,E902
+EX A1,#38bdf8,EX A1
+EX A2,#38bdf8,EX A2
+EX100,#fbbf24,EX100
+EX101,#fbbf24,EX101
+EX103,#fbbf24,EX103
+EX207,#fbbf24,EX207
+EX208,#fbbf24,EX208
+EX316,#38bdf8,EX316
+EX382,#38bdf8,EX382
+LU862,#38bdf8,LU862
+M40,#38bdf8,M40
+M50,#38bdf8,M50
+Ma1,#38bdf8,Ma1
+Ma12,#fbbf24,Ma12
+Ma13,#38bdf8,Ma13
+Ma14,#fbbf24,Ma14
+Ma15,#fbbf24,Ma15
+Ma19,#38bdf8,Ma19
+Me1,#fbbf24,Me1
+N23,#38bdf8,N23
+N110,#fbbf24,N110
+N111,#38bdf8,N111
+N113,#38bdf8,N113
+N120,#38bdf8,N120
+N121,#38bdf8,N121
+N122,#fbbf24,N122
+N123,#38bdf8,N123
+N138,#fbbf24,N138
+N211,#fbbf24,N211
+N230,#fbbf24,N230
+N232,#fbbf24,N232
+N234,#fbbf24,N234
+N240,#38bdf8,N240
+N320,#fbbf24,N320
+N322,#fbbf24,N322
+N330,#38bdf8,N330
+N340,#38bdf8,N340
+N351,#fbbf24,N351
+N400,#38bdf8,N400
+N401,#fbbf24,N401
+N403,#fbbf24,N403
+N420,#fbbf24,N420
+N430,#fbbf24,N430
+N432,#fbbf24,N432
+N433,#fbbf24,N433
+N435,#fbbf24,N435
+N501,#38bdf8,N501
+N502,#fbbf24,N502
+N521,#fbbf24,N521
+N601,#38bdf8,N601
+N610,#fbbf24,N610
+N623,#fbbf24,N623
+N627,#fbbf24,N627
+N630,#38bdf8,N630
+NI,#38bdf8,NI
+R3,#fbbf24,R3
+R5,#fbbf24,R5
+SA220,#fbbf24,SA220
+西班牙 主要公路,#fbbf24,西班牙 主要公路
+西班牙 高速公路,#38bdf8,西班牙 高速公路

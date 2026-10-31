@@ -1,0 +1,16 @@
+// @id: tw-roads
+// @nameZh: 台灣國道與省道公路網
+// @nameEn: Taiwan Freeway & Provincial Highway Network
+// @shortBadge: 🇹🇼 台灣公路
+// @type: FillWithColor
+// @fgb: data/TW-roads.fgb
+// @goto: lat=23.7&lon=120.95&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 22
+// @descriptionZh: 台灣國道高速公路與省道快速/一般幹道公路網
+// @legend: #38bdf8: 國道高速公路 (National Freeway)
+// @legend: #fbbf24: 省道主要公路 (Provincial Highway)
+roadId,color,label
+台灣 主要公路,#fbbf24,台灣 主要公路
+台灣 高速公路,#38bdf8,台灣 高速公路

@@ -1,10 +1,11 @@
 # 台灣電線桿電力圖號座標網格 (Taipower Pole Coordinate Grid)
 - id: taiwan-power-pole-grid
 - targets: TW, TW-TP, TAIPOWER-GRID
+- layer: taiwan-power-poles
 - icon: ⚡
 - accent: #3b82f6
 - tags: Infrastructure, Geoguessr
-- priority: 40
+- priority: 15
 
 - **【電線桿藍牌編號原理】** 台灣台電電線桿與變電箱上的藍底白字或白底黑字標牌（電力圖號），首碼英文字母代表「80km × 50km 大分區」，後隨四碼數字代表大分區內之百分比座標 (00~99)。
 - **坐標系解構與數值意涵**

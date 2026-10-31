@@ -1,0 +1,118 @@
+// @id: de-roads
+// @nameZh: 德國高速公路與聯邦公路網
+// @nameEn: Germany Autobahn & Bundesstraße Network
+// @shortBadge: 🇩🇪 德國公路
+// @type: FillWithColor
+// @fgb: data/DE-roads.fgb
+// @goto: lat=51.16&lon=10.45&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 20
+// @descriptionZh: 德國聯邦高速公路 (Autobahn) 與聯邦公路 (Bundesstraße) 路網
+// @legend: #38bdf8: 聯邦高速公路 (Autobahn / E-Road)
+// @legend: #fbbf24: 聯邦主要公路 (Bundesstraße)
+roadId,color,label
+1,#fbbf24,1
+1 5,#fbbf24,1 5
+4,#fbbf24,4
+5,#fbbf24,5
+6,#fbbf24,6
+72,#38bdf8,72
+73,#38bdf8,73
+95,#38bdf8,95
+105,#fbbf24,105
+109,#fbbf24,109
+189,#fbbf24,189
+206,#fbbf24,206
+210,#38bdf8,210
+215,#fbbf24,215
+A1,#38bdf8,A1
+A2,#38bdf8,A2
+A4,#fbbf24,A4
+A7,#38bdf8,A7
+A8,#38bdf8,A8
+A14,#38bdf8,A14
+A20,#38bdf8,A20
+A21,#38bdf8,A21
+A23,#38bdf8,A23
+A25,#38bdf8,A25
+A29,#38bdf8,A29
+A31,#38bdf8,A31
+A33,#38bdf8,A33
+A35,#fbbf24,A35
+A38,#38bdf8,A38
+A39,#38bdf8,A39
+A40,#38bdf8,A40
+A43,#38bdf8,A43
+A44,#38bdf8,A44
+A46,#38bdf8,A46
+A52,#38bdf8,A52
+A59,#38bdf8,A59
+A60,#38bdf8,A60
+A61,#38bdf8,A61
+A62,#38bdf8,A62
+A63,#38bdf8,A63
+A65,#38bdf8,A65
+A66,#38bdf8,A66
+A71,#38bdf8,A71
+A73,#38bdf8,A73
+A93,#38bdf8,A93
+A143,#fbbf24,A143
+A210,#38bdf8,A210
+A215,#38bdf8,A215
+A241,#38bdf8,A241
+A250,#38bdf8,A250
+A392,#38bdf8,A392
+A445,#38bdf8,A445
+A480,#38bdf8,A480
+A560,#fbbf24,A560
+A565,#38bdf8,A565
+A620,#38bdf8,A620
+B3,#38bdf8,B3
+B10,#fbbf24,B10
+B12,#fbbf24,B12
+B17,#fbbf24,B17
+B23,#fbbf24,B23
+B29,#fbbf24,B29
+B31,#fbbf24,B31
+B54,#fbbf24,B54
+B495,#fbbf24,B495
+E22,#38bdf8,E22
+E26,#38bdf8,E26
+E28,#38bdf8,E28
+E29,#38bdf8,E29
+E30,#38bdf8,E30
+E31,#38bdf8,E31
+E34,#38bdf8,E34
+E35,#38bdf8,E35
+E36,#38bdf8,E36
+E37,#38bdf8,E37
+E40,#38bdf8,E40
+E41,#38bdf8,E41
+E42,#38bdf8,E42
+E43,#38bdf8,E43
+E44,#38bdf8,E44
+E45,#38bdf8,E45
+E47,#38bdf8,E47
+E48,#38bdf8,E48
+E49,#38bdf8,E49
+E50,#38bdf8,E50
+E51,#38bdf8,E51
+E52,#38bdf8,E52
+E53,#38bdf8,E53
+E54,#38bdf8,E54
+E55,#38bdf8,E55
+E56,#38bdf8,E56
+E64,#38bdf8,E64
+E234,#38bdf8,E234
+E251,#38bdf8,E251
+E331,#38bdf8,E331
+E422,#38bdf8,E422
+E441,#38bdf8,E441
+E451,#38bdf8,E451
+E531,#38bdf8,E531
+E533,#38bdf8,E533
+E552,#38bdf8,E552
+E562,#38bdf8,E562
+德國 主要公路,#fbbf24,德國 主要公路
+德國 高速公路,#38bdf8,德國 高速公路

@@ -1,0 +1,126 @@
+// @id: fr-roads
+// @nameZh: 法國高速公路與國道路網
+// @nameEn: France Autoroute & Route Nationale Network
+// @shortBadge: 🇫🇷 法國公路
+// @type: FillWithColor
+// @fgb: data/FR-roads.fgb
+// @goto: lat=46.6&lon=2.4&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 24
+// @descriptionZh: 法國 A 級高速公路 (Autoroute) 與 N 級國道 (Route Nationale) 路網
+// @legend: #38bdf8: 高速公路 (Autoroute / E-Road)
+// @legend: #fbbf24: 國家幹線公路 (Route Nationale)
+roadId,color,label
+A10,#38bdf8,A10
+A16,#38bdf8,A16
+A23,#38bdf8,A23
+A30,#38bdf8,A30
+A35,#fbbf24,A35
+A35a,#38bdf8,A35a
+A38,#38bdf8,A38
+A39,#38bdf8,A39
+A47,#fbbf24,A47
+A50,#38bdf8,A50
+A51,#fbbf24,A51
+A52,#38bdf8,A52
+A57,#38bdf8,A57
+A65,#38bdf8,A65
+A68,#38bdf8,A68
+A75,#38bdf8,A75
+A77,#38bdf8,A77
+A85,#fbbf24,A85
+A87,#38bdf8,A87
+A131,#fbbf24,A131
+A150,#38bdf8,A150
+A151,#38bdf8,A151
+A430,#fbbf24,A430
+D4,#38bdf8,D4
+D13,#fbbf24,D13
+D137,#fbbf24,D137
+D415,#fbbf24,D415
+D603,#38bdf8,D603
+D618,#fbbf24,D618
+D619,#fbbf24,D619
+D789,#fbbf24,D789
+D824,#fbbf24,D824
+D900,#fbbf24,D900
+D901,#fbbf24,D901
+D948,#fbbf24,D948
+D951,#fbbf24,D951
+D1006,#fbbf24,D1006
+D2089,#fbbf24,D2089
+D6014,#fbbf24,D6014
+E3,#38bdf8,E3
+E5,#38bdf8,E5
+E7,#38bdf8,E7
+E9,#38bdf8,E9
+E11,#38bdf8,E11
+E15,#38bdf8,E15
+E17,#38bdf8,E17
+E19,#38bdf8,E19
+E21,#38bdf8,E21
+E23,#38bdf8,E23
+E25,#38bdf8,E25
+E27,#38bdf8,E27
+E40,#38bdf8,E40
+E42,#38bdf8,E42
+E44,#38bdf8,E44
+E46,#38bdf8,E46
+E50,#38bdf8,E50
+E54,#38bdf8,E54
+E60,#38bdf8,E60
+E62,#38bdf8,E62
+E70,#38bdf8,E70
+E72,#38bdf8,E72
+E80,#38bdf8,E80
+E401,#38bdf8,E401
+E402,#38bdf8,E402
+E501,#38bdf8,E501
+E502,#38bdf8,E502
+E511,#38bdf8,E511
+E512,#38bdf8,E512
+E601,#38bdf8,E601
+E603,#38bdf8,E603
+E604,#38bdf8,E604
+E607,#38bdf8,E607
+E611,#38bdf8,E611
+E660,#38bdf8,E660
+E692,#38bdf8,E692
+E711,#38bdf8,E711
+E712,#38bdf8,E712
+E713,#38bdf8,E713
+E714,#38bdf8,E714
+n,#fbbf24,n
+N2,#fbbf24,N2
+N4,#38bdf8,N4
+N5,#fbbf24,N5
+N7,#38bdf8,N7
+N9,#fbbf24,N9
+N10,#fbbf24,N10
+N12,#38bdf8,N12
+N21,#fbbf24,N21
+N24,#fbbf24,N24
+N27,#fbbf24,N27
+N44,#fbbf24,N44
+N52,#fbbf24,N52
+N59,#fbbf24,N59
+N77,#fbbf24,N77
+N82,#fbbf24,N82
+N83,#fbbf24,N83
+N85,#fbbf24,N85
+N88,#fbbf24,N88
+N94,#fbbf24,N94
+N102,#fbbf24,N102
+N104,#38bdf8,N104
+N116,#fbbf24,N116
+N158,#fbbf24,N158
+N166,#fbbf24,N166
+N171,#fbbf24,N171
+N184,#38bdf8,N184
+N196,#fbbf24,N196
+N197,#fbbf24,N197
+N198,#fbbf24,N198
+N568,#38bdf8,N568
+法國 主要公路,#fbbf24,法國 主要公路
+法國 高速公路,#38bdf8,法國 高速公路

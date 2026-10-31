@@ -149,6 +149,7 @@ function buildInfoIndex() {
         imageSize: meta.imagesize || null,
         imagePosition: meta.imageposition || null,
         imageAlt: meta.imagealt || null,
+        layer: meta.layer || meta.layers || null,
         preview: preview || null
       };
 

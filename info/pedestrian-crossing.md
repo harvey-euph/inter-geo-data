@@ -1,6 +1,7 @@
 # 行人穿越道告示
 - id: crossing-sign-de
 - targets: DE
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -17,6 +18,7 @@
 # 行人穿越道告示
 - id: crossing-sign-es
 - targets: ES, AD
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -33,6 +35,7 @@
 # 行人穿越道告示
 - id: crossing-sign-fr
 - targets: FR
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -48,6 +51,7 @@
 # 行人穿越道告示
 - id: crossing-sign-pt
 - targets: PT
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -63,6 +67,7 @@
 # 行人穿越道告示
 - id: crossing-sign-it
 - targets: IT, SM, AL
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -79,6 +84,7 @@
 # 行人穿越道告示
 - id: crossing-sign-be
 - targets: BE
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -94,6 +100,7 @@
 # 行人穿越道告示
 - id: crossing-sign-nl
 - targets: NL
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -109,6 +116,7 @@
 # 行人穿越道告示
 - id: crossing-sign-lu
 - targets: LU
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -123,6 +131,7 @@
 # 行人穿越道告示
 - id: crossing-sign-at
 - targets: AT
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -138,6 +147,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ch
 - targets: CH
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -153,6 +163,7 @@
 # 行人穿越道告示
 - id: crossing-sign-gb
 - targets: GB
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #f87171
@@ -168,6 +179,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ie
 - targets: IE
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #fbbf24
@@ -182,6 +194,7 @@
 # 行人穿越道告示
 - id: crossing-sign-is
 - targets: IS
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #facc15
@@ -197,6 +210,7 @@
 # 行人穿越道告示
 - id: crossing-sign-no
 - targets: NO
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -211,6 +225,7 @@
 # 行人穿越道告示
 - id: crossing-sign-se
 - targets: SE
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -223,6 +238,7 @@
 # 行人穿越道告示
 - id: crossing-sign-fi
 - targets: FI
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -237,6 +253,7 @@
 # 行人穿越道告示
 - id: crossing-sign-dk
 - targets: DK
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -251,6 +268,7 @@
 # 行人穿越道告示
 - id: crossing-sign-pl
 - targets: PL
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -265,6 +283,7 @@
 # 行人穿越道告示
 - id: crossing-sign-cz
 - targets: CZ
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -279,6 +298,7 @@
 # 行人穿越道告示
 - id: crossing-sign-sk
 - targets: SK
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -293,6 +313,7 @@
 # 行人穿越道告示
 - id: crossing-sign-hu
 - targets: HU
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -307,6 +328,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ro
 - targets: RO
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -321,6 +343,7 @@
 # 行人穿越道告示
 - id: crossing-sign-md
 - targets: MD
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #a3e635
@@ -335,6 +358,7 @@
 # 行人穿越道告示
 - id: crossing-sign-bg
 - targets: BG
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -349,6 +373,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ua
 - targets: UA
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -364,6 +389,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ru-by
 - targets: RU, BY
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -379,6 +405,7 @@
 # 行人穿越道告示
 - id: crossing-sign-ee-lv
 - targets: EE, LV
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -394,6 +421,7 @@
 # 行人穿越道告示
 - id: crossing-sign-lt
 - targets: LT
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -408,6 +436,7 @@
 # 行人穿越道告示
 - id: crossing-sign-gr
 - targets: GR
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -422,6 +451,7 @@
 # 行人穿越道告示
 - id: crossing-sign-cy-mt
 - targets: CY, MT
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -436,6 +466,7 @@
 # 行人穿越道告示
 - id: crossing-sign-balkans-tr
 - targets: SI, HR, BA, RS, ME, MK, TR
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
@@ -452,6 +483,7 @@
 # 行人穿越道告示
 - id: crossing-sign-kz
 - targets: KZ
+- layer: pedestrian-crossing
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
