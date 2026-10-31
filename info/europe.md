@@ -461,7 +461,7 @@
 
 
 # 法羅群島與奧蘭群島在地語言習慣
-- priority: 20
+- priority: 100
 - id: faroe-aland-language
 - targets: FO, AX
 - icon: 🇫🇴
@@ -749,7 +749,7 @@
 
 
 # 阿爾巴尼亞與科索沃在地語言習慣
-- priority: 20
+- priority: 100
 - id: albania-kosovo-language
 - targets: AL, XK
 - icon: 🇦🇱
@@ -769,7 +769,7 @@
 
 
 # 波士尼亞與蒙特內哥羅在地語言習慣
-- priority: 20
+- priority: 100
 - id: bosnia-montenegro-language
 - targets: BA, ME
 - icon: 🇧🇦

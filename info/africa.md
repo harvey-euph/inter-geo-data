@@ -184,7 +184,7 @@
 
 
 # 賴索托與史瓦帝尼在地語言習慣
-- priority: 20
+- priority: 100
 - id: lesotho-eswatini-language
 - targets: LS, SZ
 - icon: 🇱🇸

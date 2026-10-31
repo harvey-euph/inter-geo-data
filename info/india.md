@@ -4,6 +4,7 @@
 - icon: 📜
 - accent: #a855f7
 - tags: Language, Culture
+- priority: 40
 
 - **【語言邦劃界歷史】** 依據 1956 年《邦重組法》(States Reorganisation Act)，印度現代各邦疆域絕大多數以「主要使用語言與文字」劃界，因此各邦的公共文字與地方行政疆界高度對應。
 - **印度兩大主要語系與文字特徵**

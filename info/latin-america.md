@@ -347,6 +347,7 @@
 # 秘魯特色飲食：CHIFA 中餐館文化與歷史
 - id: peru-chifa
 - targets: PE
+- priority: 35
 - icon: 🥟
 - accent: #fbbf24
 - tags: Culture, Travel
@@ -359,6 +360,7 @@
 # 巴西大鐵鍋天線 (Parabólicas)：仰角與南北緯度的關係
 - id: brazil-satellite-dishes
 - targets: BR
+- priority: 35
 - icon: 📡
 - accent: #4ade80
 - tags: Nature, Geoguessr
@@ -375,6 +377,7 @@
 # 南美洲整體辨別
 - id: south-america-overview
 - targets: AR, BO, BR, CL, CO, EC, GY, PY, PE, SR, UY, VE
+- priority: 139
 - icon: 🌎
 - accent: #16a34a
 - tags: Geoguessr, Nature
@@ -398,6 +401,7 @@
 # 阿根廷 vs 烏拉圭 vs 智利
 - id: argentina-uruguay-chile
 - targets: AR, UY, CL
+- priority: 120
 - icon: 🇦🇷
 - accent: #3b82f6
 - tags: Geoguessr, Nature
@@ -418,6 +422,7 @@
 # 哥倫比亞 vs 厄瓜多 vs 秘魯
 - id: colombia-ecuador-peru
 - targets: CO, EC, PE
+- priority: 120
 - icon: 🇨🇴
 - accent: #f59e0b
 - tags: Geoguessr, Nature
@@ -437,6 +442,7 @@
 # 玻利維亞 vs 巴拉圭
 - id: bolivia-paraguay
 - targets: BO, PY
+- priority: 110
 - icon: 🇧🇴
 - accent: #dc2626
 - tags: Geoguessr, Language

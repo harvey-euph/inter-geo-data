@@ -107,7 +107,7 @@
 
 
 # 關西方言與街頭語言習慣（大阪、京都、兵庫、滋賀）
-- priority: 20
+- priority: 100
 - id: kansai-dialects
 - targets: JP::27, JP::26, JP::28, JP::25
 - icon: 🏯
@@ -125,18 +125,18 @@
 
 
 # 東北與北海道方言與街頭語言習慣
-- priority: 20
+- priority: 100
 - id: tohoku-hokkaido-dialects
 - targets: JP::01, JP::02, JP::04
 - icon: ❄️
 - accent: #38bdf8
 - tags: Language, Culture, Geoguessr
 
-- **【北海道 (JP::01)】**：
+- **【北海道】**：
   - 阿伊努語 (Ainu) 地名遍布（以 *-betsu*, *-nai*, *-kappu* 結尾，如紋別、稚內）。
   - 公路必備紅白相間的向下箭頭排雪標桿（固定照明標示道路路緣）。
   - 方言詞：*なまら*（超/非常）、*わや*（亂七八糟/不得了）。
-- **【青森縣 (JP::02)】**：
+- **【青森縣】**：
   - 津輕弁與南部弁：*わ*（我）、*な*（你）、*どさ*（去哪裡）、*ゆさ*（去洗澡）。蘋果圖案招牌全縣密集。
 
 
@@ -442,7 +442,7 @@
 
 
 # 阿聯酋與海灣阿拉伯國家在地語言習慣
-- priority: 20
+- priority: 100
 - id: gulf-arab-language
 - targets: AE, QA, OM, KW
 - icon: 🇦🇪

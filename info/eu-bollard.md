@@ -4,6 +4,7 @@
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【頂部大紅長方形】** 黑白相間，頂部有大型紅色長方形，造型獨特。
 - **數量**：相較其他歐洲國家偏少見。
@@ -16,6 +17,7 @@
 - icon: 🚧
 - accent: #16a34a
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **正面**：黑色區塊內嵌白色直長方形（與西班牙亮黃區分）。
 - **背面**：黑色區塊有兩個白圓。
@@ -29,6 +31,7 @@
 - icon: 🚧
 - accent: #f59e0b
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【亮黃長方形】** 標準歐洲黑白護柱，黑色區塊內嵌**亮黃色**窄長方形，幾乎為西班牙獨有。
 
@@ -39,6 +42,7 @@
 - icon: 🚧
 - accent: #2563eb
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【造型獨特】** 與一般歐洲黑白板狀護柱明顯不同。
 - **兩種常見款**：
@@ -52,6 +56,7 @@
 - icon: 🚧
 - accent: #ea580c
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **最常見**：白色柱體，頂部附近有細長紅色直長方形。
 - **易混淆**：土耳其、澳洲有類似款式。
@@ -60,6 +65,7 @@
 # 德國／盧森堡護柱
 - id: germany-luxembourg-bollards
 - targets: DE, LU
+- priority: 110
 - icon: 🚧
 - accent: #8333c5
 - tags: Geoguessr, Infrastructure
@@ -77,6 +83,7 @@
 - icon: 🚧
 - accent: #16a34a
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【黑斜條延伸至頂】** 正面：黑色斜條內嵌紅色直長方形，且黑色部分延伸到頂端（全球少見）。
 - **背面**：白色長方形。
@@ -92,6 +99,7 @@
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **與義大利相同**：黑色區塊內紅直長方形且延伸至頂；背面白色長方形。
 - **差異**：阿爾巴尼亞護柱整體較少見，不能單靠「少見」排除，但出現頻率明顯低於義大利。
@@ -103,6 +111,7 @@
 - icon: 🚧
 - accent: #0ea5e9
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【圓柱形】** 正面呈圓柱或近圓柱，是北歐中較特殊的造型。
 - **其餘**：黑白歐式通用風格。
@@ -115,6 +124,7 @@
 - icon: 🚧
 - accent: #ef4444
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【正面黃色區塊】** 白色柱體，正面有明顯黃色四邊形／區塊，全國極常見。
 - **背面**：無黃色區塊。
@@ -126,6 +136,7 @@
 - icon: 🚧
 - accent: #eab308
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【全黃護柱】** 醒目黃色護柱，全國可見，辨識度極高。
 
@@ -136,6 +147,7 @@
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【黑反射＋黑頂帽】** 正面反射條為偏黑或深紅，加上黑色頂帽，幾乎是奧地利獨有組合。
 - **對比**：斯洛維尼亞、蒙特內哥羅類似，但為**亮紅**長方形。
@@ -147,6 +159,7 @@
 - icon: 🚧
 - accent: #ef4444
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【彎曲圓柱形】** 常呈弧形／彎曲圓柱造型。
 - **背面**：黑色區塊有兩個白點。
@@ -158,6 +171,7 @@
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【紅色斜向環帶】** 有紅色斜向條紋環繞護柱，辨識度高。
 
@@ -168,6 +182,7 @@
 - icon: 🚧
 - accent: #f97316
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【橘長方形＋仿木塑膠】** 外觀像木頭的塑膠護柱，正面橘色長方形，較細長。
 - **背面**：白色長方形。
@@ -180,6 +195,7 @@
 - icon: 🚧
 - accent: #9ca3af
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【細長板狀】** 最常見為窄板護柱。
 - **正面**：白色長方形。
@@ -193,6 +209,7 @@
 - icon: 🚧
 - accent: #38bdf8
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【圓柱形】** 與立、拉的板狀明顯不同。
 - **正面**：黑色區塊內白長方形（偶爾為黃長方形）。
@@ -203,6 +220,7 @@
 # 捷克／斯洛伐克護柱
 - id: czech-slovakia-bollards
 - targets: CZ, SK
+- priority: 110
 - icon: 🚧
 - accent: #f97316
 - tags: Geoguessr, Infrastructure
@@ -214,6 +232,7 @@
 # 斯洛維尼亞／蒙特內哥羅護柱
 - id: slovenia-montenegro-bollards
 - targets: SI, ME
+- priority: 110
 - icon: 🚧
 - accent: #ef4444
 - tags: Geoguessr, Infrastructure
@@ -226,6 +245,7 @@
 # 匈牙利／保加利亞／克羅埃西亞／北馬其頓護柱
 - id: hu-bg-hr-mk-bollards
 - targets: HU, BG, HR, MK
+- priority: 120
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
@@ -241,6 +261,7 @@
 - icon: 🚧
 - accent: #dc2626
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【紅長方形偏側】** 主款與斯洛維尼亞／蒙特內哥羅類似，但紅色長方形**固定偏一側、不居中**。
 - **少見款**：同樣紅長方形偏側；背面白色長方形。
@@ -253,6 +274,7 @@
 - icon: 🚧
 - accent: #eab308
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【較寬紅長方形】** 紅色長方形比匈／保／克／北馬更寬。
 - **狀態**：常較破舊，長方形易損壞。
@@ -265,6 +287,7 @@
 - icon: 🚧
 - accent: #1d4ed8
 - tags: Geoguessr, Infrastructure
+- priority: 40
 
 - **【側支撐桿】** 常有一側細支撐桿，是與烏克蘭區分的主要外觀特徵。
 - **出現位置**：主要在路口／交叉口。

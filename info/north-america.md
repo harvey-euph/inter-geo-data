@@ -52,6 +52,7 @@
 # 加拿大停標誌 (Stop Signs)：魁北克 ARRÊT 與新伯倫瑞克雙語路牌
 - id: canada-stop-signs
 - targets: CA, CA-QC, CA-NB
+- priority: 100
 - icon: 🛑
 - accent: #f87171
 - tags: Language, Infrastructure, Geoguessr

@@ -1,6 +1,7 @@
 # 街景拍攝車與特殊設備特徵總覽 (Street View Car Meta Overview)
 - id: car-meta-overview
 - targets: KE, GH, NG, SN, MN, KG, GT, JP, CH, LK, AR, DO, BM, CW
+- priority: 139
 - icon: 🚙
 - accent: #38bdf8
 - tags: Geoguessr
@@ -21,6 +22,7 @@
 # 肯亞街景車：標誌性高位涉水喉 (Kenya Snorkel)
 - id: car-meta-kenya-snorkel
 - targets: KE
+- priority: 35
 - icon: 🤿
 - accent: #06b6d4
 - tags: Geoguessr
@@ -33,6 +35,7 @@
 # 迦納街景車：車頂黑膠帶 (Ghana Black Tape)
 - id: car-meta-ghana-tape
 - targets: GH
+- priority: 35
 - icon: 🩹
 - accent: #a855f7
 - tags: Geoguessr
@@ -42,13 +45,16 @@
 - **特色說明**：只要看見車頂金屬架且右前桿有黑膠帶，**全球只有迦納**！即使周圍沒有招牌文字或地標，單憑這一截黑膠帶即可直接辨認。
 
 
-# 奈及利亞街景車：警車護衛隨行 (Nigeria Police Escort)
+# 奈及利亞街景車：警車護衛隨行
 - id: car-meta-nigeria-escort
 - targets: NG
+- priority: 35
 - icon: 🚓
 - accent: #3b82f6
 - tags: Geoguessr
 
+- ![sv|lock|heading=348.5|pitch=-4|fov=15](6.5580929,3.2943326)
+- ![sv|lock|heading=69|pitch=-5.5|fov=34.5](11.9884087,8.4832095)
 - **【辨識特徵】** 視角往車後（或車前）旋轉 180 度，經常能看到一輛跟隨在側的**武裝警察皮卡（通常為白色 Toyota Hilux）**，車頂配有藍色或紅藍旋轉警示燈，後斗偶爾可見持槍隨行維安人員。
 - **成因與地理背景**：由於奈及利亞部分州邦道路治安與綁架風險較高，Google 街景車隊在進行拉哥斯、阿布加及主要幹道拍攝時，依法規與安全指引聘請當地警察部隊進行全程武裝開道與護衛。
 - **特色說明**：若在西非街景中看到跟隨的警車護衛，**幾乎必定為奈及利亞**！配合路邊常見的黃底黑字巴拿馬型小巴 (Danfo) 與英文/皮欽語招牌，可完全鎖定該國。
@@ -57,6 +63,7 @@
 # 蒙古街景車：黑色露營帳篷與車頂架 (Mongolia Roof Tent)
 - id: car-meta-mongolia-tent
 - targets: MN
+- priority: 35
 - icon: ⛺
 - accent: #ec4899
 - tags: Geoguessr
@@ -69,6 +76,7 @@
 # 吉爾吉斯街景車：車頂橫架與突出後照鏡 (Kyrgyzstan Roof Rack & Mirrors)
 - id: car-meta-kyrgyzstan-rack
 - targets: KG
+- priority: 35
 - icon: 🪞
 - accent: #f59e0b
 - tags: Geoguessr
@@ -80,6 +88,7 @@
 # 瓜地馬拉街景車：車頭後視鏡與車頂架 (Guatemala Roof Rack & Mirrors)
 - id: car-meta-guatemala-mirrors
 - targets: GT
+- priority: 35
 - icon: 🚘
 - accent: #10b981
 - tags: Geoguessr
@@ -91,6 +100,7 @@
 # 塞內加爾街景車：車頂金屬桿與天空裂痕 (Senegal Roof Rack & Sky Rifts)
 - id: car-meta-senegal-rifts
 - targets: SN
+- priority: 35
 - icon: ⚡
 - accent: #eab308
 - tags: Geoguessr
@@ -104,6 +114,7 @@
 # 日本與瑞士：低視角鏡頭 (Low Camera / Low Cam)
 - id: car-meta-low-cam
 - targets: JP, CH, LK
+- priority: 120
 - icon: 📷
 - accent: #8b5cf6
 - tags: Geoguessr
@@ -121,6 +132,7 @@
 # 阿根廷與多明尼加：車尾黑色保險桿 (Black Bumper)
 - id: car-meta-black-bumper
 - targets: AR, DO
+- priority: 110
 - icon: ⬛
 - accent: #64748b
 - tags: Geoguessr

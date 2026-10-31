@@ -23,7 +23,7 @@
 - image: /images/crossing/es.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 100
 
 - **【全歐最多條紋設計】**
   - **8 條密集條紋**：為全歐洲斑馬線數量最多的標誌設計（一般歐洲國家多為 4 至 5 條），視覺上呈現如同梳齒般緊密排列的黑白格紋。
@@ -69,7 +69,7 @@
 - image: /images/crossing/it.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 100
 
 - **【圖形細節與工藝特徵】**
   - **透視梯形條紋**：5 條黑色斑馬線向內傾斜收斂，呈現強烈的道路遠近透視感。
@@ -370,7 +370,7 @@
 - image: /images/crossing/ru.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 100
 
 - **【雙向成對設置規範】**
   - GOST 標準將行人穿越道標牌細分為 **5.19.1**（行人向左走，設於道路右側）與 **5.19.2**（行人向右走，設於道路左側對向），使駕駛人無論從哪一側觀看，標牌中的人偶皆呈現「正要踏入車道中央」的視覺動線。
@@ -385,7 +385,7 @@
 - image: /images/crossing/ee.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 100
 
 - **【波羅的海三國比較】**
   - 愛沙尼亞與拉脫維亞的行人皆朝**左**走（其中拉脫維亞人偶身形略微前傾、步伐較大），而最南端的立陶宛（編號 533）則是波羅的海三國中唯一行人朝**右**走的設計。
@@ -428,7 +428,7 @@
 - image: /images/crossing/cy.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 100
 
 - **【靠左行駛與標誌方向】** 兩國皆為地中海靠左行駛國家，標牌設於道路左側時，朝右行走的人偶正好面向車道中心，符合靠左通行國家的視覺直覺。
 
@@ -442,7 +442,7 @@
 - image: /images/crossing/hr.svg
 - imageSize: 72
 - imagePosition: left
-- priority: 1
+- priority: 120
 
 - **【各國細節差異】**
   - **前南斯拉夫標準傳承**：斯洛維尼亞至北馬其頓六國承襲自 1970 年代南斯拉夫聯邦交通標準（JUS），人偶頭肩比例與 5 條斑馬線傾角高度一致。

@@ -8,5 +8,6 @@
 - imageAlt: 哈哈
 - imageSize: banner
 - imagePosition: top
+- priority: 40
 
 - **特色** 雙向會交換方向，走向人行道

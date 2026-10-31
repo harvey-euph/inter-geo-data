@@ -1,6 +1,7 @@
 # 模糊畫質地點辨識
 - id: blurry-quality-us-au
 - targets: US, AU
+- priority: 110
 - icon: 📷
 - accent: #94a3b8
 - tags: Geoguessr, Nature
@@ -13,6 +14,7 @@
 # 畫質差的美國／澳洲偏遠地區
 - id: poor-quality-remote
 - targets: US, AU
+- priority: 115
 - icon: 🏜️
 - accent: #a8a29e
 - tags: Geoguessr, Nature
@@ -28,6 +30,7 @@
 - icon: 🛣️
 - accent: #ef4444
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【紅藍盾牌標誌】** 美國州際公路（Interstate）標誌為紅藍相間的盾牌，地圖上同樣以紅藍盾牌顯示，縮放不必太近就能看到。
 - **方向規則**：奇數編號大致南北向；偶數編號大致東西向。
@@ -43,6 +46,7 @@
 - icon: 🛤️
 - accent: #fbbf24
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【黑白盾牌】** US Highway 標誌為白底黑字黑邊盾牌，地圖上顯示為黃色道路。
 - **方向規則**：奇數大致南北向；偶數大致東西向。
@@ -58,6 +62,7 @@
 - icon: 🇧🇷
 - accent: #22c55e
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【州級公路】** 格式為「州縮寫-數字」（如 SP-280），SP 代表聖保羅州。地圖上可看到各州全名與縮寫，可直接對照。
 - **【國道 BR-xxx】** 看到「BR」開頭即可確認是巴西。
@@ -74,6 +79,7 @@
 - icon: 🇲🇽
 - accent: #84cc16
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【聯邦公路】** 黑白盾牌，上方寫「Mexico」，側邊為弧形。編號大致由西北向東南遞增；奇數南北向、偶數東西向。
 - **【州級公路】** 盾牌側邊為直線、頂部平坦，上方標示州縮寫（如 SON = Sonora）。注意：墨西哥州縮寫為「MEX」，勿與聯邦公路的「MEXICO」搞混。
@@ -82,6 +88,7 @@
 # 歐洲護柱（Bollard）精選
 - id: european-bollards
 - targets: EU
+- priority: 139
 - icon: 🚧
 - accent: #0ea5e9
 - tags: Infrastructure, Geoguessr
@@ -109,6 +116,7 @@
 - icon: 🇹🇼
 - accent: #fbbf24
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【斜向黑黃條紋】** 台灣電線桿多為圓柱形，下部常有斜向黑黃條紋，且多數會延伸到接近地面。
 - **與韓國差異**：韓國也有斜向黑黃條紋，但通常不會延伸到地面；日本則以**垂直**黑黃條紋為主。
@@ -120,6 +128,7 @@
 - icon: 🇯🇵
 - accent: #ef4444
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【垂直黑黃條紋】** 日本電線桿為圓柱形，常見垂直（而非斜向）的黑黃條紋，是與台灣、韓國區分的重要特徵。
 - **護柱**：日本有獨特造型的護柱，正面與背面樣式可作為輔助辨識。
@@ -131,6 +140,7 @@
 - icon: 🇰🇷
 - accent: #3b82f6
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【斜紋不到地＋頂刺】** 韓國電線桿多為圓柱，常見斜向黑黃條紋，但通常不會延伸到地面。
 - **頂部特徵**：許多電線桿頂端有長而尖的刺狀延伸物，是相當醒目的韓國特徵。
@@ -142,6 +152,7 @@
 - icon: 🇹🇭
 - accent: #f97316
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【垂直小孔】** 泰國電線桿幾乎都有一排垂直小孔，像被鑽過一樣，全球少見（比利時偶有類似）。
 - **護柱**：呈方尖碑（obelisk）造型，黑白相間區段。
@@ -153,6 +164,7 @@
 - icon: 🇲🇾
 - accent: #eab308
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【半島黑底白字牌】** 馬來西亞半島電線桿常見黑底白字長方形標牌；婆羅洲則較細且無此標牌。
 - **護柱**：常有兩個紅色長方形；部分一側為兩個灰色長方形。
@@ -164,6 +176,7 @@
 - icon: 🇦🇺
 - accent: #22c55e
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **護柱類型**：
   - 常見紅長方形款（類似土耳其、荷蘭）
@@ -181,6 +194,7 @@
 - icon: 🇳🇿
 - accent: #4b1f65
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【公路護柱】** 紐西蘭公路旁護柱較獨特，上方有紅／橘色條帶環繞。
 - **電線桿**：無論造型，多數會有一圈銀白金屬環。
@@ -193,6 +207,7 @@
 - icon: 🇲🇽
 - accent: #84cc16
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【八角柱】** 墨西哥常見八角柱形電線桿，其他國家極少見（哥倫比亞偶爾有）。
 - **護柱**：白色香菸狀，底部或近底部有黑色區段。
@@ -205,6 +220,7 @@
 - icon: 🇵🇪
 - accent: #dc2626
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【香菸狀護柱】** 秘魯最常見護柱像香菸，有時有黑條紋，有時沒有。
 - **電線桿**：下部常被漆上顏色（黑、藍、黃等或其混合），漆高不一，從幾英尺到接近半高都有。
@@ -216,6 +232,7 @@
 - icon: 🇫🇷
 - accent: #2563eb
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【獨特造型護柱】** 法國護柱造型與一般歐洲黑白護柱不同，常見灰反射條或紅反射條環繞。
 - **電線桿**：可有較小孔洞；木質電線桿常帶藍色長方形標牌。
@@ -228,6 +245,7 @@
 - icon: 🇪🇸
 - accent: #f59e0b
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【亮黃長方形】** 西班牙護柱為標準歐洲黑白款，但黑色區塊內嵌**亮黃色**長方形，是與葡萄牙區分的醒目特徵。
 - **葡萄牙對比**：葡萄牙正面為白色直條，背面有兩個白圓。
@@ -239,6 +257,7 @@
 - icon: 🇵🇱
 - accent: #dc2626
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【紅色斜紋護柱】** 波蘭護柱有紅色斜向條紋環繞，辨識度高。
 - **電線桿**：混凝土有孔，但孔不會延伸到地面，約在離地半公尺處停止（與羅馬尼亞／匈牙利不同）。
@@ -248,6 +267,7 @@
 # 波羅的海三國護柱
 - id: baltic-bollards
 - targets: LT, LV, EE
+- priority: 120
 - icon: 🚧
 - accent: #0ea5e9
 - tags: Infrastructure, Geoguessr
@@ -264,6 +284,7 @@
 - icon: 🇦🇹
 - accent: #ef4444
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【黑反射＋黑頂帽】** 奧地利護柱反射條為偏黑或深紅，加上黑色頂帽，幾乎是奧地利獨有組合（斯洛維尼亞、蒙特內哥羅類似但為亮紅長方形）。
 - **房屋**：常見斜向深陶瓦色屋頂、兩層、維護良好、淺色外牆，且常有衛星天線。
@@ -275,6 +296,7 @@
 - icon: 🇷🇺
 - accent: #1d4ed8
 - tags: Infrastructure, Geoguessr
+- priority: 40
 
 - **【側支撐桿護柱】** 俄羅斯護柱常有一側細支撐桿，多出現在路口；烏克蘭護柱無此支撐且較破舊。
 - **電線桿**：多為方形混凝土柱，頂部有時有短水平金屬條。
@@ -287,6 +309,7 @@
 - icon: 🇩🇴
 - accent: #2563eb
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【車底黑粗線】** Street View 車下方橫桿有粗黑平行線（僅蒙古部分地區也有類似粗黑線）。
 - **建築**：常見桃色系建築。
@@ -301,6 +324,7 @@
 - icon: 🏔️
 - accent: #78716c
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【真正的「岩石山」】** 美國西部落磯山脈在 GeoGuessr 中較醒目：山勢較高、較乾燥、岩石感強。
 - **對比阿帕拉契**：東部阿帕拉契山脈較綠、較矮，多為林木覆蓋的起伏丘陵，整體較溫潤。
@@ -313,6 +337,7 @@
 - icon: 🌴
 - accent: #22c55e
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【路邊砂土＋沼澤感】** 佛羅里達及周邊東南各州，道路兩側常可見砂土；整體也較潮濕、偏沼澤景觀。
 - **無前車牌集中區**：多數不需前車牌的州位於東南，並向南橫跨至亞利桑那，以及向北延伸至密西根、賓州一帶（不含德州、俄亥俄、維吉尼亞等例外）。
@@ -325,6 +350,7 @@
 - icon: 🌽
 - accent: #eab308
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【無樹草原】** 中部走廊大草原（prairie）樹木稀少，以草地為主，並往北延伸至加拿大南部。
 - **玉米田集中區**：若旁邊是玉米田，高度集中在愛荷華、伊利諾、明尼蘇達南部；內布拉斯加等周邊州也有，但密度較低。
@@ -337,6 +363,7 @@
 - icon: 🌵
 - accent: #d97706
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【乾燥缺植被】** 南部與西南部整體偏乾燥，大片區域植被稀少、呈沙漠景觀。
 - **亞利桑那等地**：可見大型岩層構造矗立於乾燥沙漠中。
@@ -349,6 +376,7 @@
 - icon: 🌲
 - accent: #166534
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【高大針葉林】** 美國西北部大片區域為濃密森林，可見特定高大樹木類型。
 - **雙黃線間距較寬**：奧勒岡、華盛頓等州，中央兩條連續黃線間距常比一般州更寬（大於輪胎寬度）。
@@ -361,6 +389,7 @@
 - icon: ☀️
 - accent: #f59e0b
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【電線桿黃反光片】** 加州電線桿特別常見水平黃色反光片，多以三個一組出現，其他州少見。
 - **道路中線**：黃色中央線中間常夾有一條黑線。
@@ -373,6 +402,7 @@
 - icon: 🤠
 - accent: #b45309
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【路面顆粒感】** 德州道路常呈較粗糙的顆粒質感，淺色路面上散佈黑點，是辨識德州的好線索。
 - **路牌桿**：常見黃白環帶纏繞在路牌桿上。
@@ -386,6 +416,7 @@
 - icon: 🌺
 - accent: #ec4899
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **丘陵或火山地形**：熱帶植被，與美國本土差異很大。
 - **車頂天線**：夏威夷常可見 Street View 車短天線；美國本土很少看到。
@@ -399,6 +430,7 @@
 - icon: ❄️
 - accent: #38bdf8
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【高山＋高樹＋壯麗風景】** 阿拉斯加多山、高大樹木與開闊景觀。
 - **相機世代**：阿拉斯加多為第 3 代覆蓋；加拿大北部領土多為第 2 代。因此北美洲極北若見第 3 代，優先考慮阿拉斯加。
@@ -411,6 +443,7 @@
 - icon: 🏠
 - accent: #64748b
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【殖民風格木屋】** 東北部常見白色（或淺色）兩層木造殖民風格房屋，屋頂較陡。
 - **秋季覆蓋**：美國極東北與加拿大東南部部分覆蓋在秋季拍攝，可見彩色落葉。
@@ -423,6 +456,7 @@
 - icon: 🚦
 - accent: #ef4444
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【東西限速差異】** 鄉村高速公路最高限速：
   - 西半部（不含奧勒岡、加州）：多為 75 或 80
@@ -436,6 +470,7 @@
 - icon: 🗾
 - accent: #dc2626
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **【天氣與緯度】** 若天空晴朗偏藍、景觀較暖，較可能在日本南部、靠近赤道；北部則偏冷。
 - **沖繩**：電線桿仍有日本式垂直黑黃條紋，但整體景觀更接近台灣；可綜合景觀與電線桿判斷為靠近台灣的南部島嶼（沖繩）。
@@ -448,6 +483,7 @@
 - icon: 🦘
 - accent: #65a30d
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **昆士蘭房屋**：常見水平木板建造，且房屋常架高離地。
 - **南澳**：幾乎獨有 Stobie pole（鋼材夾混凝土電線桿）。
@@ -463,6 +499,7 @@
 - icon: 🌺
 - accent: #0ea5e9
 - tags: Geoguessr, Nature
+- priority: 40
 
 - **車牌**：
   - 白底、彩虹圖案（Rainbow plates）最常見。
