@@ -1,15 +1,3 @@
-# 日本市區町村
-- id: local-admin-jp
-- targets: JP-MUNICIPALITY
-- icon: 🏙️
-- accent: #38bdf8
-- tags: Admin, Infrastructure
-- priority: 5
-- type: municipality
-
-- **地方標記** 日本各市區町村通常擁有專屬自治體章（市章／町章），廣泛設計於彩繪人孔蓋（マンホールの蓋）、消防栓與路旁指示牌。
-
-
 # 美國郡與市
 - id: local-admin-us
 - targets: US-MUNICIPALITY
@@ -80,15 +68,3 @@
 - type: municipality
 
 - **地方標記** 波蘭各縣（Powiat）在車牌前綴中以第 1 字母代表省份（Województwo），第 2～3 字母代表所屬縣市（如 DW 弗羅茨瓦夫、KR 克拉科夫）。
-
-
-# 地方行政區
-- id: local-admin-generic
-- targets: MUNICIPALITY
-- icon: 🏙️
-- accent: #94a3b8
-- tags: Admin, Infrastructure
-- priority: 0
-- type: municipality
-
-- **地方標記** 此區域為二級／三級地方行政單位，各城鎮常在路名牌、公車站牌與市政設施上呈現地方名稱。
