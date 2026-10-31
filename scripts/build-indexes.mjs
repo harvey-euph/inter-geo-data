@@ -285,8 +285,12 @@ function buildLayersIndex() {
       }
 
       dataRowCount++;
-      if (firstCol && firstCol.length < 30) {
-        sampleTargets.add(firstCol);
+      if (firstCol) {
+        for (const part of firstCol.split('|').map((s) => s.trim()).filter(Boolean)) {
+          if (part.length < 30) {
+            sampleTargets.add(part);
+          }
+        }
       }
     }
 
