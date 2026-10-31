@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-31T16:52:49.503Z",
+  "manifests": {
+    "data": "data-index.json",
+    "layers": "layers-index.json",
+    "info": "info-index.json",
+    "infoTargets": "info-targets.json",
+    "images": "images-index.json",
+    "countries": "countries-index.json"
+  },
+  "summary": {
+    "fgbFiles": 626,
+    "layers": 29,
+    "infoCards": 401,
+    "images": 46,
+    "countries": 180
+  }
+}
