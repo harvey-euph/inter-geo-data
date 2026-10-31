@@ -1,0 +1,14 @@
+// @id: tw-interstates
+// @nameZh: 台灣國道高速公路
+// @nameEn: Taiwan National Freeways
+// @shortBadge: 🇹🇼 國道高速
+// @type: FillWithColor
+// @fgb: data/TW-roads.fgb
+// @goto: lat=23.7&lon=120.95&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 24
+// @descriptionZh: 台灣梅花標誌國道高速公路網（國道 1 號、3 號、5 號及東西向國道）
+// @legend: #38bdf8: 國道高速公路 (National Freeway)
+roadId,color,label
+台灣 高速公路,#38bdf8,台灣 高速公路

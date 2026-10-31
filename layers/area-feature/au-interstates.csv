@@ -1,0 +1,14 @@
+// @id: au-interstates
+// @nameZh: 澳洲 M 級高速與跨州國家走廊
+// @nameEn: Australia Motorways & National Corridors
+// @shortBadge: 🇦🇺 M 高速走廊
+// @type: FillWithColor
+// @fgb: data/AU-roads.fgb
+// @goto: lat=-25.3&lon=133.8&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 36
+// @descriptionZh: 澳洲 1 號環澳公路與跨州 M/A 級高速走廊路網
+// @legend: #38bdf8: 高速公路與國家走廊 (Motorway)
+roadId,color,label
+澳洲 高速公路,#38bdf8,澳洲 高速公路

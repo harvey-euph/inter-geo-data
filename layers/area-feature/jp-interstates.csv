@@ -1,0 +1,14 @@
+// @id: jp-interstates
+// @nameZh: 日本高速自動車國道 (Expressway)
+// @nameEn: Japan Expressways
+// @shortBadge: 🇯🇵 高速道路
+// @type: FillWithColor
+// @fgb: data/JP-roads.fgb
+// @goto: lat=36.2&lon=138.25&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 22
+// @descriptionZh: 日本綠底白字高速自動車國道與都市高速路網 (E/C 編號系統)
+// @legend: #38bdf8: 高速自動車國道 (Expressway)
+roadId,color,label
+日本 高速公路,#38bdf8,日本 高速公路

@@ -1,31 +1,27 @@
-// @id: mx-roads
-// @nameZh: 墨西哥聯邦幹線公路網
-// @nameEn: Mexico Federal Highway Network
-// @shortBadge: 🇲🇽 墨西哥公路
+// @id: mx-highways
+// @nameZh: 墨西哥聯邦幹線公路 (Federal Libre)
+// @nameEn: Mexico Federal Highways
+// @shortBadge: 🇲🇽 聯邦公路
 // @type: FillWithColor
 // @fgb: data/MX-roads.fgb
 // @goto: lat=23.6&lon=-102.5&ratio=0.8
-// @accentColor: #38bdf8
-// @default-color: #38bdf8
-// @order: 26
-// @descriptionZh: 墨西哥收費高速 (Cuota / Autopista) 與聯邦自由公路 (Carretera Federal) 路網
-// @legend: #38bdf8: 收費高速公路 (Autopista de Cuota - D)
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 33
+// @descriptionZh: 墨西哥白底黑字盾牌聯邦幹線公路網 (Carretera Federal)
 // @legend: #fbbf24: 聯邦幹線公路 (Carretera Federal)
 roadId,color,label
-1,#38bdf8,1
-1D,#38bdf8,1D
-2,#38bdf8,2
-2D,#38bdf8,2D
+1,#fbbf24,1
+2,#fbbf24,2
+2D,#fbbf24,2D
 3,#fbbf24,3
 4,#fbbf24,4
 5,#fbbf24,5
 8,#fbbf24,8
 10,#fbbf24,10
-10D,#38bdf8,10D
 12,#fbbf24,12
 14,#fbbf24,14
-15,#38bdf8,15
-15D,#38bdf8,15D
+15,#fbbf24,15
 16,#fbbf24,16
 17,#fbbf24,17
 20,#fbbf24,20
@@ -39,90 +35,69 @@ roadId,color,label
 34,#fbbf24,34
 35,#fbbf24,35
 37,#fbbf24,37
-37D,#38bdf8,37D
-40,#38bdf8,40
-40D,#38bdf8,40D
+40,#fbbf24,40
 41,#fbbf24,41
 43,#fbbf24,43
 44,#fbbf24,44
-45,#38bdf8,45
-45D,#38bdf8,45D
-49,#38bdf8,49
-49D,#38bdf8,49D
+45,#fbbf24,45
+49,#fbbf24,49
 51,#fbbf24,51
 53,#fbbf24,53
 54,#fbbf24,54
-54D,#38bdf8,54D
 55,#fbbf24,55
-55D,#38bdf8,55D
-56D,#38bdf8,56D
-57,#38bdf8,57
-57D,#38bdf8,57D
+57,#fbbf24,57
+57D,#fbbf24,57D
 62,#fbbf24,62
 67,#fbbf24,67
 69,#fbbf24,69
 70,#fbbf24,70
 71,#fbbf24,71
-80,#38bdf8,80
-81,#38bdf8,81
+80,#fbbf24,80
+81,#fbbf24,81
 82,#fbbf24,82
 83B,#fbbf24,83B
 84,#fbbf24,84
-85,#38bdf8,85
-85D,#38bdf8,85D
+85,#fbbf24,85
 90,#fbbf24,90
 95,#fbbf24,95
-95D,#38bdf8,95D
 97,#fbbf24,97
 101,#fbbf24,101
 105,#fbbf24,105
-110,#38bdf8,110
-115D,#38bdf8,115D
+110,#fbbf24,110
 117,#fbbf24,117
-117D,#38bdf8,117D
-119,#38bdf8,119
-119D,#38bdf8,119D
-120,#38bdf8,120
+119,#fbbf24,119
+120,#fbbf24,120
 125,#fbbf24,125
 127,#fbbf24,127
 129,#fbbf24,129
-129D,#38bdf8,129D
-130,#38bdf8,130
-130D,#38bdf8,130D
+130,#fbbf24,130
 131,#fbbf24,131
-132,#38bdf8,132
-132D,#38bdf8,132D
+132,#fbbf24,132
 134,#fbbf24,134
 135,#fbbf24,135
-135D,#38bdf8,135D
-136,#38bdf8,136
-140,#38bdf8,140
+136,#fbbf24,136
+140,#fbbf24,140
 144,#fbbf24,144
 145,#fbbf24,145
-145D,#38bdf8,145D
 147,#fbbf24,147
 150,#fbbf24,150
-150D,#38bdf8,150D
+150D,#fbbf24,150D
 157,#fbbf24,157
-160,#38bdf8,160
+160,#fbbf24,160
 175,#fbbf24,175
 176,#fbbf24,176
 178,#fbbf24,178
 179,#fbbf24,179
-180,#38bdf8,180
-180D,#38bdf8,180D
+180,#fbbf24,180
 182,#fbbf24,182
 184,#fbbf24,184
-185,#38bdf8,185
 186,#fbbf24,186
 187,#fbbf24,187
-188,#38bdf8,188
-190,#38bdf8,190
-190D,#38bdf8,190D
+188,#fbbf24,188
+190,#fbbf24,190
 195,#fbbf24,195
-195D,#38bdf8,195D
-200,#38bdf8,200
-200D,#38bdf8,200D
+200,#fbbf24,200
+200D,#fbbf24,200D
 203,#fbbf24,203
 211,#fbbf24,211
 221,#fbbf24,221
@@ -133,4 +108,3 @@ roadId,color,label
 295,#fbbf24,295
 307,#fbbf24,307
 墨西哥 主要公路,#fbbf24,墨西哥 主要公路
-墨西哥 高速公路,#38bdf8,墨西哥 高速公路

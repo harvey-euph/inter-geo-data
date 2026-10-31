@@ -1,0 +1,14 @@
+// @id: au-highways
+// @nameZh: 澳洲內陸與各州主要幹線公路
+// @nameEn: Australia Primary State & Outback Highways
+// @shortBadge: 🇦🇺 主要幹道
+// @type: FillWithColor
+// @fgb: data/AU-roads.fgb
+// @goto: lat=-25.3&lon=133.8&ratio=0.8
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 37
+// @descriptionZh: 澳洲各州主要幹道與橫貫內陸 Outback 長途公路網
+// @legend: #fbbf24: 主要幹線公路 (Primary Route)
+roadId,color,label
+澳洲 主要公路,#fbbf24,澳洲 主要公路

@@ -1,0 +1,14 @@
+// @id: br-highways
+// @nameZh: 巴西 BR 聯邦與州際主要公路
+// @nameEn: Brazil Federal & State Highways
+// @shortBadge: 🇧🇷 BR 聯邦公路
+// @type: FillWithColor
+// @fgb: data/BR-roads.fgb
+// @goto: lat=-14.2&lon=-51.9&ratio=0.8
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 31
+// @descriptionZh: 巴西 BR-0xx~4xx 聯邦公路與各州主要幹線路網
+// @legend: #fbbf24: 聯邦與州際主要公路 (Rodovia Federal)
+roadId,color,label
+巴西 主要公路,#fbbf24,巴西 主要公路

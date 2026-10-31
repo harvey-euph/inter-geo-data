@@ -1,0 +1,83 @@
+// @id: es-highways
+// @nameZh: 西班牙 N 級國家幹線公路
+// @nameEn: Spain National Highways (Carreteras Nacionales)
+// @shortBadge: 🇪🇸 N 國道
+// @type: FillWithColor
+// @fgb: data/ES-roads.fgb
+// @goto: lat=40.2&lon=-3.7&ratio=0.8
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 41
+// @descriptionZh: 西班牙紅底白字 N 級傳統國道與跨區主要幹道網
+// @legend: #fbbf24: 國家幹線公路 (Carretera Nacional)
+roadId,color,label
+211,#fbbf24,211
+633,#fbbf24,633
+636,#fbbf24,636
+640,#fbbf24,640
+A6,#fbbf24,A6
+A11,#fbbf24,A11
+A43,#fbbf24,A43
+A45,#fbbf24,A45
+A92M,#fbbf24,A92M
+A316,#fbbf24,A316
+A318,#fbbf24,A318
+A330,#fbbf24,A330
+A333,#fbbf24,A333
+A384,#fbbf24,A384
+A401,#fbbf24,A401
+A430,#fbbf24,A430
+AP9,#fbbf24,AP9
+C13,#fbbf24,C13
+C17,#fbbf24,C17
+C25,#fbbf24,C25
+C330,#fbbf24,C330
+C500,#fbbf24,C500
+C731,#fbbf24,C731
+C3314,#fbbf24,C3314
+CM401,#fbbf24,CM401
+CM412,#fbbf24,CM412
+EX100,#fbbf24,EX100
+EX101,#fbbf24,EX101
+EX103,#fbbf24,EX103
+EX207,#fbbf24,EX207
+EX208,#fbbf24,EX208
+EX382,#fbbf24,EX382
+LU862,#fbbf24,LU862
+Ma12,#fbbf24,Ma12
+Ma13,#fbbf24,Ma13
+Ma14,#fbbf24,Ma14
+Ma15,#fbbf24,Ma15
+Ma19,#fbbf24,Ma19
+Me1,#fbbf24,Me1
+N110,#fbbf24,N110
+N122,#fbbf24,N122
+N123,#fbbf24,N123
+N138,#fbbf24,N138
+N211,#fbbf24,N211
+N230,#fbbf24,N230
+N232,#fbbf24,N232
+N234,#fbbf24,N234
+N320,#fbbf24,N320
+N322,#fbbf24,N322
+N340,#fbbf24,N340
+N351,#fbbf24,N351
+N400,#fbbf24,N400
+N401,#fbbf24,N401
+N403,#fbbf24,N403
+N420,#fbbf24,N420
+N430,#fbbf24,N430
+N432,#fbbf24,N432
+N433,#fbbf24,N433
+N435,#fbbf24,N435
+N502,#fbbf24,N502
+N521,#fbbf24,N521
+N601,#fbbf24,N601
+N610,#fbbf24,N610
+N623,#fbbf24,N623
+N627,#fbbf24,N627
+N630,#fbbf24,N630
+R3,#fbbf24,R3
+R5,#fbbf24,R5
+SA220,#fbbf24,SA220
+西班牙 主要公路,#fbbf24,西班牙 主要公路

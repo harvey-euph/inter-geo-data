@@ -1,0 +1,16 @@
+// @id: ru-highways
+// @nameZh: 俄羅斯 R/A 級跨區與西伯利亞聯邦公路
+// @nameEn: Russia R/A Federal & Trans-Siberian Highways
+// @shortBadge: 🇷🇺 R/A 聯邦公路
+// @type: FillWithColor
+// @fgb: data/RU-roads.fgb
+// @goto: lat=56.0&lon=45.0&ratio=0.8
+// @accentColor: #fbbf24
+// @default-color: #fbbf24
+// @order: 45
+// @descriptionZh: 俄羅斯橫跨歐亞大陸與西伯利亞之聯邦主要幹線公路網
+// @legend: #fbbf24: 聯邦主要公路 (R / A Federal Road)
+roadId,color,label
+A195,#fbbf24,A195
+A196,#fbbf24,A196
+俄羅斯 主要公路,#fbbf24,俄羅斯 主要公路

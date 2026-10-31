@@ -1,0 +1,14 @@
+// @id: br-interstates
+// @nameZh: 巴西雙向高速幹道網
+// @nameEn: Brazil Divided Expressways
+// @shortBadge: 🇧🇷 高速幹道
+// @type: FillWithColor
+// @fgb: data/BR-roads.fgb
+// @goto: lat=-14.2&lon=-51.9&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 30
+// @descriptionZh: 巴西主要都會區與跨州雙向分隔高速公路網
+// @legend: #38bdf8: 高速公路與快速幹道 (Rodovia Duplicada)
+roadId,color,label
+巴西 高速公路,#38bdf8,巴西 高速公路

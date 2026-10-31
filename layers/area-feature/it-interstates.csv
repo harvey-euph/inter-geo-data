@@ -1,0 +1,61 @@
+// @id: it-interstates
+// @nameZh: 義大利 A 級高速公路 (Autostrade)
+// @nameEn: Italy Autostrade (A-Roads)
+// @shortBadge: 🇮🇹 A 高速
+// @type: FillWithColor
+// @fgb: data/IT-roads.fgb
+// @goto: lat=42.5&lon=12.5&ratio=0.8
+// @accentColor: #38bdf8
+// @default-color: #38bdf8
+// @order: 38
+// @descriptionZh: 義大利綠底八角盾牌 A 級高速公路網（A1 太陽高速、A4、A14 等）
+// @legend: #38bdf8: A 級高速公路 (Autostrada)
+roadId,color,label
+6296,#38bdf8,6296
+A13,#38bdf8,A13
+A14dir,#38bdf8,A14dir
+A24,#38bdf8,A24
+A25,#38bdf8,A25
+A26,#38bdf8,A26
+A27,#38bdf8,A27
+A31,#38bdf8,A31
+A55,#38bdf8,A55
+A56,#38bdf8,A56
+A90,#38bdf8,A90
+E25,#38bdf8,E25
+E27,#38bdf8,E27
+E33,#38bdf8,E33
+E35,#38bdf8,E35
+E45,#38bdf8,E45
+E55,#38bdf8,E55
+E62,#38bdf8,E62
+E64,#38bdf8,E64
+E70,#38bdf8,E70
+E74,#38bdf8,E74
+E76,#38bdf8,E76
+E78,#38bdf8,E78
+E80,#38bdf8,E80
+E90,#38bdf8,E90
+E488,#38bdf8,E488
+E612,#38bdf8,E612
+E717,#38bdf8,E717
+E821,#38bdf8,E821
+E840,#38bdf8,E840
+E841,#38bdf8,E841
+E841alt,#38bdf8,E841alt
+E842,#38bdf8,E842
+E843,#38bdf8,E843
+E844,#38bdf8,E844
+E847,#38bdf8,E847
+E848,#38bdf8,E848
+E931,#38bdf8,E931
+E932,#38bdf8,E932
+E933,#38bdf8,E933
+Fe-PoG,#38bdf8,Fe-PoG
+S1,#38bdf8,S1
+S4,#38bdf8,S4
+S12,#38bdf8,S12
+S204,#38bdf8,S204
+S372,#38bdf8,S372
+S675,#38bdf8,S675
+義大利 高速公路,#38bdf8,義大利 高速公路
