@@ -48,6 +48,7 @@
 # 奈及利亞街景車：警車護衛隨行
 - id: car-meta-nigeria-escort
 - targets: NG
+- display: true
 - priority: 35
 - icon: 🚓
 - accent: #3b82f6
