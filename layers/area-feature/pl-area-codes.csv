@@ -1,0 +1,29 @@
+// pl-area-codes.csv
+// @id: pl-area-codes
+// @order: 35
+// @type: TextWithStyle
+// @nameZh: 波蘭電話區碼
+// @nameEn: Poland Area Codes
+// @shortBadge: 📞 PL 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 波蘭 49 個編號區的 2 碼地區號碼（以省會為代表，區界不完全等於省界）
+// @goto: lat=52&lon=19.4&ratio=9.0
+
+regionId, text, label
+PL::MZ, 22, 馬佐夫舍省 (Warszawa 22 / Radom 48 / Płock 24 / Siedlce 25 / Ostrołęka 29 / Ciechanów 23)
+PL::MA, 12, 小波蘭省 (Kraków 12 / Tarnów 14 / Nowy Sącz 18)
+PL::SL, 32, 西里西亞省 (Katowice 32 / Bielsko-Biała 33 / Częstochowa 34)
+PL::DS, 71, 下西里西亞省 (Wrocław 71 / Wałbrzych 74 / Jelenia Góra 75 / Legnica 76)
+PL::WP, 61, 大波蘭省 (Poznań 61 / Kalisz 62 / Konin 63 / Leszno 65 / Piła 67)
+PL::LD, 42, 羅茲省 (Łódź 42 / Sieradz 43 / Piotrków 44 / Skierniewice 46)
+PL::PM, 58, 濱海省 (Gdańsk 58 / Słupsk 59)
+PL::ZP, 91, 西波美拉尼亞省 (Szczecin 91 / Koszalin 94)
+PL::KP, 52, 庫亞維-波美拉尼亞省 (Bydgoszcz 52 / Toruń 56 / Włocławek 54)
+PL::LU, 81, 盧布林省 (Lublin 81 / Chełm 82 / Biała Podlaska 83 / Zamość 84)
+PL::PK, 17, 喀爾巴阡山省 (Rzeszów 17 / Krosno 13 / Przemyśl 16 / Tarnobrzeg 15)
+PL::PD, 85, 波德拉謝省 (Białystok 85 / Łomża 86 / Suwałki 87)
+PL::WN, 89, 瓦爾米亞-馬祖里省 (Olsztyn 89 / Elbląg 55 / Ełk 87)
+PL::LB, 68, 盧布斯卡省 (Zielona Góra 68 / Gorzów Wlkp. 95)
+PL::OP, 77, 奧波萊省 (Opole 77)
+PL::SK, 41, 聖十字省 (Kielce 41 / Sandomierz 15)

@@ -1,0 +1,23 @@
+// ca-area-codes.csv
+// @id: ca-area-codes
+// @order: 38
+// @type: TextWithStyle
+// @nameZh: 加拿大各省電話區碼
+// @nameEn: Canada Area Codes
+// @shortBadge: 📞 CA 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 加拿大各省與領地 NANP 電話區碼（NPA）
+// @goto: lat=56&lon=-96&ratio=2.5
+
+regionId, text, label
+CA::BC, 604/250/778, 卑詩省 (Vancouver 604 / 其餘 250 / 疊加 778、236、672、257)
+CA::AB, 403/780, 亞伯達省 (Calgary 403 / Edmonton 780 / 疊加 587、825、368)
+CA::SK, 306, 薩斯喀徹溫省 (306 / 疊加 639、474)
+CA::MB, 204, 曼尼托巴省 (204 / 疊加 431、584)
+CA::ON, 416/613/519, 安大略省 (Toronto 416 / Ottawa 613 / 西南 519 / GTA 外圍 905 / 北部 705、807)
+CA::QC, 514/418/819, 魁北克省 (Montréal 514 / Québec City 418 / 西部 819 / 近郊 450)
+CA::NB, 506, 新伯倫瑞克省 (506 / 疊加 428)
+CA::NS|CA::PE, 902, 新斯科細亞與愛德華王子島 (902 / 疊加 782)
+CA::NL, 709, 紐芬蘭與拉布拉多 (709 / 疊加 879)
+CA::YT|CA::NT*|CA::NU, 867, 北方三領地：育空、西北、努納武特 (867)

@@ -1,0 +1,33 @@
+// es-area-codes.csv
+// @id: es-area-codes
+// @order: 34
+// @type: TextWithStyle
+// @nameZh: 西班牙電話區碼
+// @nameEn: Spain Area Codes
+// @shortBadge: 📞 ES 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 西班牙各自治區之省級固網前綴（9XX，新號段 8XX 同區對應）
+// @goto: lat=40&lon=-3.7&ratio=6.0
+// @textSize: 0.8
+
+regionId, text, label
+ES::MD, 91, 馬德里 (Madrid 91)
+ES::CT, 93/97X, 加泰隆尼亞 (Barcelona 93 / Girona 972 / Lleida 973 / Tarragona 977)
+ES::VC, 96, 瓦倫西亞 (Valencia 96 / Alicante 965-966 / Castellón 964)
+ES::AN, 95X, 安達魯西亞 (Sevilla 954-955 / Málaga 952 / Granada 958 / Córdoba 957 / Cádiz 956 / Almería 950 / Huelva 959 / Jaén 953)
+ES::PV, 94, 巴斯克 (Bizkaia 94 / Gipuzkoa 943 / Álava 945)
+ES::NC, 948, 納瓦拉 (Navarra 948)
+ES::AR, 976, 亞拉岡 (Zaragoza 976 / Huesca 974 / Teruel 978)
+ES::GA, 98X, 加利西亞 (A Coruña 981 / Lugo 982 / Pontevedra 986 / Ourense 988)
+ES::AS, 985, 阿斯圖里亞斯 (Asturias 985)
+ES::CB, 942, 坎塔布里亞 (Cantabria 942)
+ES::CL, 983, 卡斯提亞-雷昂 (Valladolid 983 / León 987 / Burgos 947 / Salamanca 923 / Zamora 980 / Palencia 979 / Ávila 920 / Segovia 921 / Soria 975)
+ES::RI, 941, 拉里奧哈 (La Rioja 941)
+ES::CM, 925, 卡斯提亞-拉曼查 (Toledo 925 / Ciudad Real 926 / Albacete 967 / Cuenca 969 / Guadalajara 949)
+ES::EX, 924/927, 埃斯特雷馬杜拉 (Badajoz 924 / Cáceres 927)
+ES::MC, 968, 莫夕亞 (Murcia 968)
+ES::IB, 971, 巴利阿里群島 (Illes Balears 971)
+ES::CN, 928/922, 加那利群島 (Las Palmas 928 / Santa Cruz de Tenerife 922)
+ES::CE, 956, 休達 (Ceuta 956)
+ES::ML, 952, 梅利利亞 (Melilla 952)

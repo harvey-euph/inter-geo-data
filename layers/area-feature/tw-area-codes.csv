@@ -1,0 +1,28 @@
+// tw-area-codes.csv
+// @id: tw-area-codes
+// @order: 33
+// @type: TextWithStyle
+// @nameZh: 台灣市話區碼
+// @nameEn: Taiwan Area Codes
+// @shortBadge: 📞 TW 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 台灣各縣市市話區域號碼（02 ~ 089，外島 082 / 0836）
+// @goto: lat=23.7&lon=120.9&ratio=40
+// @labelSize: 1
+// @textSize: 0.5
+// @imageSize: 1
+
+regionId, text, label
+TW::TPE|TW::TPQ*|TW::KEE, 02, 北北基：台北市、新北市、基隆市 (02)
+TW::TAO|TW::HSQ|TW::HSZ|TW::ILA|TW::HUA, 03, 桃竹宜花：桃園、新竹縣市、宜蘭、花蓮 (03)
+TW::MIA, 037, 苗栗縣 (037)
+TW::TXG*|TW::CHA, 04, 中彰：台中市、彰化縣 (04)
+TW::NAN, 049, 南投縣 (049)
+TW::YUN|TW::CYQ|TW::CYI, 05, 雲嘉：雲林縣、嘉義縣市 (05)
+TW::TNN, 06, 台南市 (06)
+TW::PEN, 06, 澎湖縣 (06)
+TW::KHH, 07, 高雄市 (07)
+TW::PIF, 08, 屏東縣 (08)
+TW::TTT, 089, 台東縣 (089)
+TW::KIN, 082, 金門縣 (082；烏坵 0826)

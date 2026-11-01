@@ -1,0 +1,33 @@
+// it-area-codes.csv
+// @id: it-area-codes
+// @order: 46
+// @type: TextWithStyle
+// @nameZh: 義大利電話區碼
+// @nameEn: Italy Area Codes
+// @shortBadge: 📞 IT 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 義大利各大區主要城市市話前綴（prefisso，撥號時 0 不可省略）
+// @goto: lat=42.5&lon=12.5&ratio=6.0
+
+regionId, text, label
+IT::25, 02, 倫巴底 (Milano 02 / Brescia 030 / Bergamo 035)
+IT::62, 06, 拉齊奧 (Roma 06)
+IT::21, 011, 皮埃蒙特 (Torino 011)
+IT::42, 010, 利古里亞 (Genova 010)
+IT::34, 041/045/049, 威尼托 (Venezia 041 / Verona 045 / Padova 049)
+IT::45, 051, 艾米利亞-羅馬涅 (Bologna 051 / Modena 059 / Parma 0521)
+IT::52, 055, 托斯卡尼 (Firenze 055 / Pisa 050)
+IT::72, 081, 坎帕尼亞 (Napoli 081)
+IT::82, 091/095, 西西里 (Palermo 091 / Catania 095)
+IT::75, 080, 普利亞 (Bari 080)
+IT::88, 070/079, 薩丁尼亞 (Cagliari 070 / Sassari 079)
+IT::78, 0961/0965, 卡拉布里亞 (Catanzaro 0961 / Reggio Calabria 0965)
+IT::36, 040/0432, 佛里烏利-威尼斯朱利亞 (Trieste 040 / Udine 0432)
+IT::32, 0461/0471, 特倫提諾-上阿迪傑 (Trento 0461 / Bolzano 0471)
+IT::23, 0165, 瓦萊達奧斯塔 (Aosta 0165)
+IT::57, 071, 馬爾凱 (Ancona 071)
+IT::55, 075, 翁布里亞 (Perugia 075)
+IT::65, 085, 阿布魯佐 (Pescara 085 / L'Aquila 0862)
+IT::67, 0874, 莫利塞 (Campobasso 0874)
+IT::77, 0971/0835, 巴斯利卡塔 (Potenza 0971 / Matera 0835)

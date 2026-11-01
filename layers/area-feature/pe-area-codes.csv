@@ -1,0 +1,37 @@
+// pe-area-codes.csv
+// @id: pe-area-codes
+// @order: 41
+// @type: TextWithStyle
+// @nameZh: 秘魯電話區碼
+// @nameEn: Peru Area Codes
+// @shortBadge: 📞 PE 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 秘魯各大區市話區碼（利馬 / 卡亞俄 01，其餘大區 0XX）
+// @goto: lat=-9.5&lon=-75&ratio=6.0
+
+regionId, text, label
+PE::LIM|PE::CAL, 01, 利馬與卡亞俄 (Lima / Callao 01)
+PE::AMA, 041, 亞馬遜大區 (Amazonas)
+PE::ANC, 043, 安卡什大區 (Áncash)
+PE::APU, 083, 阿普里馬克大區 (Apurímac)
+PE::ARE, 054, 阿雷基帕大區 (Arequipa)
+PE::AYA, 066, 阿亞庫喬大區 (Ayacucho)
+PE::CAJ, 076, 卡哈馬卡大區 (Cajamarca)
+PE::CUS, 084, 庫斯科大區 (Cusco)
+PE::HUV, 067, 萬卡韋利卡大區 (Huancavelica)
+PE::HUC, 062, 瓦努科大區 (Huánuco)
+PE::ICA, 056, 伊卡大區 (Ica)
+PE::JUN, 064, 胡寧大區 (Junín)
+PE::LAL, 044, 拉利伯塔德大區 (La Libertad)
+PE::LAM, 074, 蘭巴耶克大區 (Lambayeque)
+PE::LOR, 065, 洛雷托大區 (Loreto)
+PE::MDD, 082, 馬德雷德迪奧斯大區 (Madre de Dios)
+PE::MOQ, 053, 莫克瓜大區 (Moquegua)
+PE::PAS, 063, 帕斯科大區 (Pasco)
+PE::PIU, 073, 皮烏拉大區 (Piura)
+PE::PUN, 051, 普諾大區 (Puno)
+PE::SAM, 042, 聖馬丁大區 (San Martín)
+PE::TAC, 052, 塔克納大區 (Tacna)
+PE::TUM, 072, 通貝斯大區 (Tumbes)
+PE::UCA, 061, 烏卡亞利大區 (Ucayali)

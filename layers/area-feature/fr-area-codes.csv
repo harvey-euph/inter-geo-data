@@ -9,6 +9,7 @@
 // @defaultStyle: badge
 // @descriptionZh: 法國本土 5 大電信分區電話號碼（01 至 05）
 // @goto: lat=46.5&lon=3.5&ratio=12
+// @textSize: 1.2
 
 regionId, text, label
 FR::IDF, 01, 法蘭西島大區 (Île-de-France)

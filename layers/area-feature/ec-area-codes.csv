@@ -1,0 +1,14 @@
+// ec-area-codes.csv
+// @id: ec-area-codes
+// @order: 39
+// @type: TextWithStyle
+// @nameZh: 厄瓜多電話區碼
+// @nameEn: Ecuador Area Codes
+// @shortBadge: 📞 EC 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 厄瓜多一碼省級區碼（02 ~ 08）；目前地圖無厄瓜多 L2 省界，僅於國家層級顯示
+// @goto: lat=-1.5&lon=-78.5&ratio=14
+
+regionId, text, label
+EC, 02~08, 厄瓜多 (Quito / Pichincha 02 / 中部山區 03 / Guayaquil / Guayas 04 / Manabí 與加拉巴哥 05 / 北部 06 / Cuenca 與南部 07 / El Oro、Loja、Zamora 08)

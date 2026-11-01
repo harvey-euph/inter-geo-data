@@ -1,0 +1,22 @@
+// za-area-codes.csv
+// @id: za-area-codes
+// @order: 36
+// @type: TextWithStyle
+// @nameZh: 南非電話區碼
+// @nameEn: South Africa Area Codes
+// @shortBadge: 📞 ZA 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 南非各省固網地區號碼（0XX）
+// @goto: lat=-29&lon=25&ratio=6.0
+
+regionId, text, label
+ZA::GT, 011/012, 豪登省 (Johannesburg 011 / Pretoria 012 / Vereeniging 016)
+ZA::WC, 021, 西開普省 (Cape Town 021 / Worcester 023 / George 044 / Hermanus 028)
+ZA::NL, 031, 夸祖魯-納塔爾省 (Durban 031 / Pietermaritzburg 033 / Richards Bay 035 / Newcastle 034)
+ZA::EC, 041/043, 東開普省 (Gqeberha 041 / East London 043 / Mthatha 047)
+ZA::FS, 051, 自由邦省 (Bloemfontein 051 / Welkom 057 / Bethlehem 058)
+ZA::NC, 053/054, 北開普省 (Kimberley 053 / Upington 054 / Springbok 027)
+ZA::NW, 018/014, 西北省 (Mahikeng / Potchefstroom 018 / Rustenburg 014)
+ZA::LP, 015, 林波波省 (Polokwane 015)
+ZA::MP, 013, 普馬蘭加省 (Mbombela / Witbank 013 / Secunda 017)

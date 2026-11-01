@@ -1,0 +1,30 @@
+// kr-area-codes.csv
+// @id: kr-area-codes
+// @order: 32
+// @type: TextWithStyle
+// @nameZh: 南韓地區電話號碼
+// @nameEn: South Korea Area Codes
+// @shortBadge: 📞 KR 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 南韓各特別市、廣域市與道之地區號碼（지역번호）
+// @goto: lat=36.3&lon=127.8&ratio=14
+
+regionId, text, label
+KR::11, 02, 首爾特別市 (Seoul)
+KR::41, 031, 京畿道 (Gyeonggi)
+KR::28, 032, 仁川廣域市 (Incheon)
+KR::42, 033, 江原特別自治道 (Gangwon)
+KR::44, 041, 忠清南道 (South Chungcheong)
+KR::30, 042, 大田廣域市 (Daejeon)
+KR::43, 043, 忠清北道 (North Chungcheong)
+KR::50, 044, 世宗特別自治市 (Sejong)
+KR::26, 051, 釜山廣域市 (Busan)
+KR::31, 052, 蔚山廣域市 (Ulsan)
+KR::27, 053, 大邱廣域市 (Daegu)
+KR::47, 054, 慶尚北道 (North Gyeongsang)
+KR::48, 055, 慶尚南道 (South Gyeongsang)
+KR::46, 061, 全羅南道 (South Jeolla)
+KR::29, 062, 光州廣域市 (Gwangju)
+KR::45, 063, 全北特別自治道 (North Jeolla)
+KR::49, 064, 濟州特別自治道 (Jeju)

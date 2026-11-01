@@ -221,6 +221,14 @@ function splitCsvLine(line) {
   return cells;
 }
 
+function parseSizeDirective(raw) {
+  if (raw === undefined || raw === null || raw === '') return null;
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return null;
+  const clamped = Math.min(4, Math.max(0.4, n));
+  return Math.round(clamped * 10) / 10;
+}
+
 function buildLayersIndex() {
   const layersDir = path.join(REPO_ROOT, 'layers');
   if (!fs.existsSync(layersDir)) {
@@ -286,7 +294,10 @@ function buildLayersIndex() {
 
       dataRowCount++;
       if (firstCol) {
-        for (const part of firstCol.split('|').map((s) => s.trim()).filter(Boolean)) {
+        for (const part of firstCol
+          .split('|')
+          .map((s) => s.trim().replace(/^\*+|\*+$/g, '').trim())
+          .filter(Boolean)) {
           if (part.length < 30) {
             sampleTargets.add(part);
           }
@@ -330,6 +341,9 @@ function buildLayersIndex() {
       accentColor: directives.accentColor || directives['default-color'] || null,
       defaultColor: directives['default-color'] || directives.accentColor || null,
       defaultStyle: directives.defaultStyle || directives['default-style'] || null,
+      labelSize: parseSizeDirective(directives.labelSize),
+      textSize: parseSizeDirective(directives.textSize),
+      imageSize: parseSizeDirective(directives.imageSize),
       descriptionZh: directives.descriptionZh || null,
       goto: directives.goto || null,
       fgb: directives.fgb || null,

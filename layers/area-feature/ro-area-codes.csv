@@ -1,0 +1,54 @@
+// ro-area-codes.csv
+// @id: ro-area-codes
+// @order: 47
+// @type: TextWithStyle
+// @nameZh: 羅馬尼亞電話區碼
+// @nameEn: Romania Area Codes
+// @shortBadge: 📞 RO 區碼
+// @accentColor: #10b981
+// @defaultStyle: badge
+// @descriptionZh: 羅馬尼亞各縣市話區碼（布加勒斯特 021，各縣 02XX / 03XX）
+// @goto: lat=45.9&lon=25&ratio=10
+
+regionId, text, label
+RO::B*|RO::IF, 021, 布加勒斯特與伊爾福夫縣 (București / Ilfov 021)
+RO::AB, 0258, 阿爾巴縣 (Alba)
+RO::AR, 0257, 阿拉德縣 (Arad)
+RO::AG, 0248, 阿爾傑什縣 (Argeș)
+RO::BC, 0234, 巴克烏縣 (Bacău)
+RO::BH, 0259, 比霍爾縣 (Bihor)
+RO::BN, 0263, 比斯特里察-訥瑟烏德縣 (Bistrița-Năsăud)
+RO::BT, 0231, 博托沙尼縣 (Botoșani)
+RO::BV, 0268, 布拉索夫縣 (Brașov)
+RO::BR, 0239, 布勒伊拉縣 (Brăila)
+RO::BZ, 0238, 布澤烏縣 (Buzău)
+RO::CS, 0255, 卡拉什-塞維林縣 (Caraș-Severin)
+RO::CL, 0242, 克勒拉希縣 (Călărași)
+RO::CJ, 0264, 克盧日縣 (Cluj)
+RO::CT, 0241, 康斯坦察縣 (Constanța)
+RO::CV, 0267, 科瓦斯納縣 (Covasna)
+RO::DB, 0245, 登博維察縣 (Dâmbovița)
+RO::DJ, 0251, 多爾日縣 (Dolj)
+RO::GL, 0236, 加拉茨縣 (Galați)
+RO::GR, 0246, 久爾久縣 (Giurgiu)
+RO::GJ, 0253, 戈爾日縣 (Gorj)
+RO::HR, 0266, 哈爾吉塔縣 (Harghita)
+RO::HD, 0254, 胡內多阿拉縣 (Hunedoara)
+RO::IL, 0243, 雅洛米察縣 (Ialomița)
+RO::IS, 0232, 雅西縣 (Iași)
+RO::MM, 0262, 馬拉穆列什縣 (Maramureș)
+RO::MH, 0252, 梅赫丁茨縣 (Mehedinți)
+RO::MS, 0265, 穆列什縣 (Mureș)
+RO::NT, 0233, 尼亞姆茨縣 (Neamț)
+RO::OT, 0249, 奧爾特縣 (Olt)
+RO::PH, 0244, 普拉霍瓦縣 (Prahova)
+RO::SM, 0261, 薩圖馬雷縣 (Satu Mare)
+RO::SJ, 0260, 瑟拉日縣 (Sălaj)
+RO::SB, 0269, 錫比烏縣 (Sibiu)
+RO::SV, 0230, 蘇恰瓦縣 (Suceava)
+RO::TR, 0247, 特列奧爾曼縣 (Teleorman)
+RO::TM, 0256, 蒂米什縣 (Timiș)
+RO::TL, 0240, 圖爾恰縣 (Tulcea)
+RO::VS, 0235, 瓦斯盧伊縣 (Vaslui)
+RO::VL, 0250, 沃爾恰縣 (Vâlcea)
+RO::VN, 0237, 弗朗恰縣 (Vrancea)

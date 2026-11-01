@@ -9,6 +9,7 @@
 // @defaultStyle: badge
 // @descriptionZh: 巴西各州 2 位數 DDD 電話區碼（1x~9x 順時針螺旋數字分佈）
 // @goto: lat=-14&lon=-51&ratio=4.5
+// @textSize: 1.4
 
 regionId, text, label
 BR::SP, 1X, 聖保羅州 (11~19)
