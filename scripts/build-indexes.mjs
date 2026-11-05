@@ -310,17 +310,20 @@ function buildLayersIndex() {
       ? Number(directives.order)
       : 999;
 
-    // Group is determined purely by the directory structure under layers/
-    const parentDir = path.basename(path.dirname(filePath));
+    // Group is determined by the directory structure under layers/
+    const normRel = relativeFile.replace(/\\/g, '/');
     let group = 'area-feature';
-    if (parentDir === 'fill-region-with-color' || parentDir === 'fill-region') {
+    if (normRel.startsWith('layers/fill-region-with-color/') || normRel.startsWith('layers/fill-region/')) {
       group = 'fill-region';
-    } else if (parentDir === 'global-label') {
+    } else if (normRel.startsWith('layers/global-label/')) {
       group = 'global-label';
-    } else if (parentDir === 'area-feature') {
+    } else if (normRel.startsWith('layers/area-feature/')) {
       group = 'area-feature';
-    } else if (parentDir && parentDir !== 'layers') {
-      group = parentDir;
+    } else {
+      const parentDir = path.basename(path.dirname(filePath));
+      if (parentDir && parentDir !== 'layers') {
+        group = parentDir;
+      }
     }
 
     let type = directives.type;
