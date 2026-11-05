@@ -10,5 +10,6 @@
 // @order: 36
 // @descriptionZh: 澳洲 1 號環澳公路與跨州 M/A 級高速走廊路網
 // @legend: #38bdf8: 高速公路與國家走廊 (Motorway)
-roadId,color,label
-澳洲 高速公路,#38bdf8,澳洲 高速公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+澳洲 高速公路,#38bdf8,,,澳洲 高速公路

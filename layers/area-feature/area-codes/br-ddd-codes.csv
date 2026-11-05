@@ -11,13 +11,13 @@
 // @goto: lat=-14&lon=-51&ratio=4.5
 // @textSize: 1.4
 
-regionId, text, label
-BR::SP, 1X, 聖保羅州 (11~19)
-BR::RJ|BR::ES, 2X, 里約熱內盧州、聖埃斯皮里圖州 (21~28)
-BR::MG, 3X, 米納斯吉拉斯州 (31~38)
-BR::PR|BR::SC, 4X, 巴拉那州、聖卡塔琳娜州 (41~49)
-BR::RS, 5X, 南里奧格蘭德州 (51~55)
-BR::DF|BR::GO|BR::TO|BR::MT|BR::MS|BR::AC|BR::RO, 6X, 中西部與西北部諸州 (61~69)
-BR::BA|BR::SE, 7X, 巴伊亞州、塞爾希培州 (71~79)
-BR::PE|BR::AL|BR::PB|BR::RN|BR::CE|BR::PI, 8X, 東北部諸州 (81~89)
-BR::PA|BR::AM|BR::RR|BR::AP|BR::MA, 9X, 亞馬遜與北部諸州 (91~99)
+Target,Color,Label,LabelDisplayMethod,Description
+BR::SP,,1X,badge,聖保羅州 (11~19)
+BR::RJ|BR::ES,,2X,badge,里約熱內盧州、聖埃斯皮里圖州 (21~28)
+BR::MG,,3X,badge,米納斯吉拉斯州 (31~38)
+BR::PR|BR::SC,,4X,badge,巴拉那州、聖卡塔琳娜州 (41~49)
+BR::RS,,5X,badge,南里奧格蘭德州 (51~55)
+BR::DF|BR::GO|BR::TO|BR::MT|BR::MS|BR::AC|BR::RO,,6X,badge,中西部與西北部諸州 (61~69)
+BR::BA|BR::SE,,7X,badge,巴伊亞州、塞爾希培州 (71~79)
+BR::PE|BR::AL|BR::PB|BR::RN|BR::CE|BR::PI,,8X,badge,東北部諸州 (81~89)
+BR::PA|BR::AM|BR::RR|BR::AP|BR::MA,,9X,badge,亞馬遜與北部諸州 (91~99)

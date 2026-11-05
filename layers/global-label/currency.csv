@@ -7,121 +7,116 @@
 // @shortBadge: 💰 貨幣
 // @accentColor: #fbbf24
 // @descriptionZh: 顯示各國街景招牌、菜單與價格牌常見的當地金錢單位標示（如 Rp.、RM、R$、S/、zł、Kč、฿、₱、$ 等）
-
 // Asia
-iso2, text, label
-TW, NT$ / 元
-JP, ¥ / 円
-KR, ₩ / 원
-PH, ₱
-TH, ฿
-KH, ៛ / $
-VN, ₫ / đ
-LA, ₭
-MY, RM
-ID, Rp.
-SG, S$ / $
-HK, HK$ / $
-MN, ₮
-KG, сом
-KZ, ₸
-IN, ₹ / Rs.
-BD, ৳ / Tk
-BT, Nu.
-LK, Rs.
-IL, ₪
-AE, AED / د.إ
-JO, JD
-QA, QR
-OM, OMR / ر.ع.
-
 // Europe
-RU, ₽ / руб.
-UA, ₴ / грн
-GB, £
-IE, €
-FR, €
-DE, €
-NL, €
-BE, €
-LU, €
-AT, €
-CH, CHF / Fr.
-IT, €
-ES, €
-PT, €
-PL, zł
-CZ, Kč
-SK, €
-HU, Ft
-RO, lei / RON
-BG, лв.
-HR, €
-SI, €
-RS, дин. / RSD
-ME, €
-MK, ден
-AL, Lek / L
-GR, €
-CY, €
-MT, €
-TR, ₺ / TL
-DK, kr.
-NO, kr
-SE, kr
-FI, €
-IS, kr.
-EE, €
-LV, €
-LT, €
-
 // Americas
-GL, kr.
-US, $
-CA, $
-MX, $
-GT, Q
-PA, B/. / $
-DO, RD$
-PR, $
-CO, $
-EC, $
-PE, S/
-BO, Bs.
-BR, R$
-AR, $
-CL, $
-UY, $U / $
-
 // Oceania
-AU, $
-NZ, $
-
 // Africa
-ZA, R
-KE, KSh
-UG, USh
-RW, FRw
-GH, GH₵ / ₵
-NG, ₦
-SN, CFA / FCFA
-BW, P
-SZ, E
-LS, L / M
-TN, DT / د.ت
-
 // Additional countries
-CN, ¥ / 元
-MO, MOP$ / $
-SA, SAR / ر.س
-IR, ﷼ / تومان
-IQ, د.ع
-EG, E£ / ج.م
-MA, DH / د.م.
-DZ, DA / د.ج
-PK, Rs.
-NP, रू / Rs.
-MM, K / Ks
-CU, $
-VE, Bs.
-CR, ₡
+
+Target,Color,Label,LabelDisplayMethod,Description
+TW,,NT$ / 元,badge,
+JP,,¥ / 円,badge,
+KR,,₩ / 원,badge,
+PH,,₱,badge,
+TH,,฿,badge,
+KH,,៛ / $,badge,
+VN,,₫ / đ,badge,
+LA,,₭,badge,
+MY,,RM,badge,
+ID,,Rp.,badge,
+SG,,S$ / $,badge,
+HK,,HK$ / $,badge,
+MN,,₮,badge,
+KG,,сом,badge,
+KZ,,₸,badge,
+IN,,₹ / Rs.,badge,
+BD,,৳ / Tk,badge,
+BT,,Nu.,badge,
+LK,,Rs.,badge,
+IL,,₪,badge,
+AE,,AED / د.إ,badge,
+JO,,JD,badge,
+QA,,QR,badge,
+OM,,OMR / ر.ع.,badge,
+RU,,₽ / руб.,badge,
+UA,,₴ / грн,badge,
+GB,,£,badge,
+IE,,€,badge,
+FR,,€,badge,
+DE,,€,badge,
+NL,,€,badge,
+BE,,€,badge,
+LU,,€,badge,
+AT,,€,badge,
+CH,,CHF / Fr.,badge,
+IT,,€,badge,
+ES,,€,badge,
+PT,,€,badge,
+PL,,zł,badge,
+CZ,,Kč,badge,
+SK,,€,badge,
+HU,,Ft,badge,
+RO,,lei / RON,badge,
+BG,,лв.,badge,
+HR,,€,badge,
+SI,,€,badge,
+RS,,дин. / RSD,badge,
+ME,,€,badge,
+MK,,ден,badge,
+AL,,Lek / L,badge,
+GR,,€,badge,
+CY,,€,badge,
+MT,,€,badge,
+TR,,₺ / TL,badge,
+DK,,kr.,badge,
+NO,,kr,badge,
+SE,,kr,badge,
+FI,,€,badge,
+IS,,kr.,badge,
+EE,,€,badge,
+LV,,€,badge,
+LT,,€,badge,
+GL,,kr.,badge,
+US,,$,badge,
+CA,,$,badge,
+MX,,$,badge,
+GT,,Q,badge,
+PA,,B/. / $,badge,
+DO,,RD$,badge,
+PR,,$,badge,
+CO,,$,badge,
+EC,,$,badge,
+PE,,S/,badge,
+BO,,Bs.,badge,
+BR,,R$,badge,
+AR,,$,badge,
+CL,,$,badge,
+UY,,$U / $,badge,
+AU,,$,badge,
+NZ,,$,badge,
+ZA,,R,badge,
+KE,,KSh,badge,
+UG,,USh,badge,
+RW,,FRw,badge,
+GH,,GH₵ / ₵,badge,
+NG,,₦,badge,
+SN,,CFA / FCFA,badge,
+BW,,P,badge,
+SZ,,E,badge,
+LS,,L / M,badge,
+TN,,DT / د.ت,badge,
+CN,,¥ / 元,badge,
+MO,,MOP$ / $,badge,
+SA,,SAR / ر.س,badge,
+IR,,﷼ / تومان,badge,
+IQ,,د.ع,badge,
+EG,,E£ / ج.م,badge,
+MA,,DH / د.م.,badge,
+DZ,,DA / د.ج,badge,
+PK,,Rs.,badge,
+NP,,रू / Rs.,badge,
+MM,,K / Ks,badge,
+CU,,$,badge,
+VE,,Bs.,badge,
+CR,,₡,badge,

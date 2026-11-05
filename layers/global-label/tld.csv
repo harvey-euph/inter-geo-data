@@ -7,121 +7,116 @@
 // @shortBadge: 🌐 網域
 // @accentColor: #38bdf8
 // @descriptionZh: 顯示各國國家頂級網域名稱（ccTLD，如 .tw、.jp、.uk、.us 等）
-
 // Asia
-iso2, text, label
-TW, .tw
-JP, .jp
-KR, .kr
-PH, .ph
-TH, .th
-KH, .kh
-VN, .vn
-LA, .la
-MY, .my
-ID, .id
-SG, .sg
-HK, .hk
-MN, .mn
-KG, .kg
-KZ, .kz
-IN, .in
-BD, .bd
-BT, .bt
-LK, .lk
-IL, .il
-AE, .ae
-JO, .jo
-QA, .qa
-OM, .om
-
 // Europe
-RU, .ru
-UA, .ua
-GB, .uk / .co.uk
-IE, .ie
-FR, .fr
-DE, .de
-NL, .nl
-BE, .be
-LU, .lu
-AT, .at
-CH, .ch
-IT, .it
-ES, .es
-PT, .pt
-PL, .pl
-CZ, .cz
-SK, .sk
-HU, .hu
-RO, .ro
-BG, .bg
-HR, .hr
-SI, .si
-RS, .rs
-ME, .me
-MK, .mk
-AL, .al
-GR, .gr
-CY, .cy
-MT, .mt
-TR, .tr
-DK, .dk
-NO, .no
-SE, .se
-FI, .fi
-IS, .is
-EE, .ee
-LV, .lv
-LT, .lt
-
 // Americas
-GL, .gl
-US, .us / .com / .gov
-CA, .ca
-MX, .mx
-GT, .gt
-PA, .pa
-DO, .do
-PR, .pr
-CO, .co
-EC, .ec
-PE, .pe
-BO, .bo
-BR, .br
-AR, .ar
-CL, .cl
-UY, .uy
-
 // Oceania
-AU, .com.au
-NZ, .co.nz
-
 // Africa
-ZA, .co.za
-KE, .ke
-UG, .ug
-RW, .rw
-GH, .gh
-NG, .ng
-SN, .sn
-BW, .bw
-SZ, .sz
-LS, .ls
-TN, .tn
-
 // Additional non-streetview countries
-CN, .cn
-MO, .mo
-SA, .sa
-IR, .ir
-IQ, .iq
-EG, .eg
-MA, .ma
-DZ, .dz
-PK, .pk
-NP, .np
-MM, .mm
-CU, .cu
-VE, .ve
-CR, .cr
+
+Target,Color,Label,LabelDisplayMethod,Description
+TW,,.tw,badge,
+JP,,.jp,badge,
+KR,,.kr,badge,
+PH,,.ph,badge,
+TH,,.th,badge,
+KH,,.kh,badge,
+VN,,.vn,badge,
+LA,,.la,badge,
+MY,,.my,badge,
+ID,,.id,badge,
+SG,,.sg,badge,
+HK,,.hk,badge,
+MN,,.mn,badge,
+KG,,.kg,badge,
+KZ,,.kz,badge,
+IN,,.in,badge,
+BD,,.bd,badge,
+BT,,.bt,badge,
+LK,,.lk,badge,
+IL,,.il,badge,
+AE,,.ae,badge,
+JO,,.jo,badge,
+QA,,.qa,badge,
+OM,,.om,badge,
+RU,,.ru,badge,
+UA,,.ua,badge,
+GB,,.uk / .co.uk,badge,
+IE,,.ie,badge,
+FR,,.fr,badge,
+DE,,.de,badge,
+NL,,.nl,badge,
+BE,,.be,badge,
+LU,,.lu,badge,
+AT,,.at,badge,
+CH,,.ch,badge,
+IT,,.it,badge,
+ES,,.es,badge,
+PT,,.pt,badge,
+PL,,.pl,badge,
+CZ,,.cz,badge,
+SK,,.sk,badge,
+HU,,.hu,badge,
+RO,,.ro,badge,
+BG,,.bg,badge,
+HR,,.hr,badge,
+SI,,.si,badge,
+RS,,.rs,badge,
+ME,,.me,badge,
+MK,,.mk,badge,
+AL,,.al,badge,
+GR,,.gr,badge,
+CY,,.cy,badge,
+MT,,.mt,badge,
+TR,,.tr,badge,
+DK,,.dk,badge,
+NO,,.no,badge,
+SE,,.se,badge,
+FI,,.fi,badge,
+IS,,.is,badge,
+EE,,.ee,badge,
+LV,,.lv,badge,
+LT,,.lt,badge,
+GL,,.gl,badge,
+US,,.us / .com / .gov,badge,
+CA,,.ca,badge,
+MX,,.mx,badge,
+GT,,.gt,badge,
+PA,,.pa,badge,
+DO,,.do,badge,
+PR,,.pr,badge,
+CO,,.co,badge,
+EC,,.ec,badge,
+PE,,.pe,badge,
+BO,,.bo,badge,
+BR,,.br,badge,
+AR,,.ar,badge,
+CL,,.cl,badge,
+UY,,.uy,badge,
+AU,,.com.au,badge,
+NZ,,.co.nz,badge,
+ZA,,.co.za,badge,
+KE,,.ke,badge,
+UG,,.ug,badge,
+RW,,.rw,badge,
+GH,,.gh,badge,
+NG,,.ng,badge,
+SN,,.sn,badge,
+BW,,.bw,badge,
+SZ,,.sz,badge,
+LS,,.ls,badge,
+TN,,.tn,badge,
+CN,,.cn,badge,
+MO,,.mo,badge,
+SA,,.sa,badge,
+IR,,.ir,badge,
+IQ,,.iq,badge,
+EG,,.eg,badge,
+MA,,.ma,badge,
+DZ,,.dz,badge,
+PK,,.pk,badge,
+NP,,.np,badge,
+MM,,.mm,badge,
+CU,,.cu,badge,
+VE,,.ve,badge,
+CR,,.cr,badge,

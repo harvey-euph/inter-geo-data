@@ -10,5 +10,6 @@
 // @order: 31
 // @descriptionZh: 巴西 BR-0xx~4xx 聯邦公路與各州主要幹線路網
 // @legend: #fbbf24: 聯邦與州際主要公路 (Rodovia Federal)
-roadId,color,label
-巴西 主要公路,#fbbf24,巴西 主要公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+巴西 主要公路,#fbbf24,,,巴西 主要公路

@@ -10,19 +10,20 @@
 // @order: 42
 // @descriptionZh: 波蘭紅底白字 A1/A2/A4 高速公路與 S 級快速道路網
 // @legend: #38bdf8: 高速與快速道路 (Autostrada A / S)
-roadId,color,label
-10,#38bdf8,10
-E28,#38bdf8,E28
-E30,#38bdf8,E30
-E36,#38bdf8,E36
-E40,#38bdf8,E40
-E65,#38bdf8,E65
-E67,#38bdf8,E67
-E75,#38bdf8,E75
-E77,#38bdf8,E77
-E261,#38bdf8,E261
-E371,#38bdf8,E371
-E372,#38bdf8,E372
-E373,#38bdf8,E373
-E462,#38bdf8,E462
-波蘭 高速公路,#38bdf8,波蘭 高速公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+10,#38bdf8,,,10
+E28,#38bdf8,,,E28
+E30,#38bdf8,,,E30
+E36,#38bdf8,,,E36
+E40,#38bdf8,,,E40
+E65,#38bdf8,,,E65
+E67,#38bdf8,,,E67
+E75,#38bdf8,,,E75
+E77,#38bdf8,,,E77
+E261,#38bdf8,,,E261
+E371,#38bdf8,,,E371
+E372,#38bdf8,,,E372
+E373,#38bdf8,,,E373
+E462,#38bdf8,,,E462
+波蘭 高速公路,#38bdf8,,,波蘭 高速公路

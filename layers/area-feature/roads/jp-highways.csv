@@ -10,5 +10,6 @@
 // @order: 23
 // @descriptionZh: 日本藍底倒三角形（飯糰標誌）一般國道幹線路網
 // @legend: #fbbf24: 一般國道幹線 (National Highway)
-roadId,color,label
-日本 主要公路,#fbbf24,日本 主要公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+日本 主要公路,#fbbf24,,,日本 主要公路

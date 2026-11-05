@@ -8,33 +8,29 @@
 // @accentColor: #f472b6
 // @descriptionZh: 顯示印度各邦、斯里蘭卡與孟加拉的專屬書寫文字與代表字特徵（如泰米爾文 தமிழ்、僧伽羅文 සිංහල、馬拉雅拉姆文 മലയാളം、孟加拉文 বাংলা 等）
 // @goto: lat=20&lon=80&ratio=8.000
-
 // Neighboring South Asian Countries (Sri Lanka & Bangladesh)
-regionId, text, label
-LK, සිංහල (අ ආ ඇ) / தமிழ்
-BD, বাংলা (ক খ গ)
-
 // South India & Island Territories (Dravidian Scripts - 圓弧與鉤線特徵)
-IN::TN|IN::PY, தமிழ் (ழ ற ன), 坦米爾納德邦、本地治里 (坦米爾文)
-IN::KL|IN::LD, മലയാളം (ള ഴ ற), 喀拉拉邦、拉克沙群島 (馬拉雅拉姆文)
-IN::KA, ಕನ್ನಡ (ಕ ಗ ಜ), 卡納塔克邦 (康納達文)
-IN::AP|IN::TG, తెలుగు (త గ మ), 安得拉邦、泰倫加納邦 (泰盧固文)
-
 // West India (無頂線或特殊字母 ळ)
-IN::GJ|IN::DH, ગુજરાતી (ક ગ જ), 古吉拉特文
-IN::MH|IN::GA, मराठी / कोंकणी (ळ क ख), 馬哈拉施特拉邦、果阿邦 (馬拉地／孔卡尼天城體)
-
 // East & Northeast India (孟加拉—阿薩姆文字圈、梅泰文、藏文與拉丁字母山區邦)
-IN::WB|IN::TR, বাংলা (ক খ গ), 西孟加拉邦、特里普拉邦 (孟加拉文)
-IN::AS, অসমীয়া (ৰ ৱ), 阿薩姆邦 (阿薩姆文)
-IN::OR, ଓଡ଼ିଆ (ଓ କ ଗ), 奧里薩邦 (奧里亞文)
-IN::MN, মৈতৈলোন্ (ꯚ ꯘ), 曼尼普爾邦 (梅泰文 / 孟加拉文)
-IN::SK, देवनागरी / བོད་ཡིག, 錫金邦 (尼泊爾天城體 / 錫金藏文)
-IN::ML|IN::MZ|IN::NL|IN::AR, Latin (A~Z), 東北印度拉丁字母山區諸邦 (梅加拉亞／米佐拉姆／那加蘭／阿魯納恰爾)
-IN::AN, देवनागरी / বাংলা, 安達曼-尼科巴群島 (天城體 / 孟加拉文)
-
 // North & Central India (Gurmukhi / Devanagari / Perso-Arabic / Tibetan)
-IN::PB|IN::CH, ਗੁਰਮੁਖੀ (ੳ ਅ ੲ), 旁遮普邦、昌迪加爾 (古木基文)
-IN::UP|IN::RJ|IN::MP|IN::BR|IN::HR|IN::HP|IN::UT|IN::JH|IN::CT|IN::DL, देवनागरी (क ख ग), 北印度與中印度印地語天城體諸邦 (Hindi Belt)
-IN::JK, اردو / كٲشُر, 查謨和克什米爾 (烏爾都文 / 克什米爾波斯體)
-IN::LA, བོད་ཡིག (ཀ ཁ ག), 拉達克 (拉達克藏文 / 烏爾都文)
+
+Target,Color,Label,LabelDisplayMethod,Description
+LK,,සිංහල (අ ආ ඇ) / தமிழ்,badge,
+BD,,বাংলা (ক খ গ),badge,
+IN::TN|IN::PY,,தமிழ் (ழ ற ன),badge,坦米爾納德邦、本地治里 (坦米爾文)
+IN::KL|IN::LD,,മലയാളം (ള ഴ ற),badge,喀拉拉邦、拉克沙群島 (馬拉雅拉姆文)
+IN::KA,,ಕನ್ನಡ (ಕ ಗ ಜ),badge,卡納塔克邦 (康納達文)
+IN::AP|IN::TG,,తెలుగు (త గ మ),badge,安得拉邦、泰倫加納邦 (泰盧固文)
+IN::GJ|IN::DH,,ગુજરાતી (ક ગ જ),badge,古吉拉特文
+IN::MH|IN::GA,,मराठी / कोंकणी (ळ क ख),badge,馬哈拉施特拉邦、果阿邦 (馬拉地／孔卡尼天城體)
+IN::WB|IN::TR,,বাংলা (ক খ গ),badge,西孟加拉邦、特里普拉邦 (孟加拉文)
+IN::AS,,অসমীয়া (ৰ ৱ),badge,阿薩姆邦 (阿薩姆文)
+IN::OR,,ଓଡ଼ିଆ (ଓ କ ଗ),badge,奧里薩邦 (奧里亞文)
+IN::MN,,মৈতৈলোন্ (ꯚ ꯘ),badge,曼尼普爾邦 (梅泰文 / 孟加拉文)
+IN::SK,,देवनागरी / བོད་ཡིག,badge,錫金邦 (尼泊爾天城體 / 錫金藏文)
+IN::ML|IN::MZ|IN::NL|IN::AR,,Latin (A~Z),badge,東北印度拉丁字母山區諸邦 (梅加拉亞／米佐拉姆／那加蘭／阿魯納恰爾)
+IN::AN,,देवनागरी / বাংলা,badge,安達曼-尼科巴群島 (天城體 / 孟加拉文)
+IN::PB|IN::CH,,ਗੁਰਮੁਖੀ (ੳ ਅ ੲ),badge,旁遮普邦、昌迪加爾 (古木基文)
+IN::UP|IN::RJ|IN::MP|IN::BR|IN::HR|IN::HP|IN::UT|IN::JH|IN::CT|IN::DL,,देवनागरी (क ख ग),badge,北印度與中印度印地語天城體諸邦 (Hindi Belt)
+IN::JK,,اردو / كٲشُر,badge,查謨和克什米爾 (烏爾都文 / 克什米爾波斯體)
+IN::LA,,བོད་ཡིག (ཀ ཁ ག),badge,拉達克 (拉達克藏文 / 烏爾都文)

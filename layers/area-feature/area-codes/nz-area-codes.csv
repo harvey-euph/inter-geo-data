@@ -10,10 +10,10 @@
 // @descriptionZh: 紐西蘭 5 大一碼地區號碼（09 / 07 / 06 / 04 / 03）
 // @goto: lat=-41&lon=173&ratio=8.0
 
-regionId, text, label
-NZ::AUK*|NZ::NTL, 09, 奧克蘭與北地 (Auckland / Northland 09)
-NZ::WKO*|NZ::BOP, 07, 懷卡托與豐盛灣 (Waikato / Bay of Plenty 07)
-NZ::TKI|NZ::MWT*|NZ::HKB|NZ::GIS, 06, 北島中南部 (Taranaki / Manawatū-Whanganui / Hawke's Bay / Gisborne 06)
-NZ::WGN, 04, 威靈頓 (Wellington 04；Wairarapa 06)
-NZ::NSN|NZ::TAS|NZ::MBH|NZ::WTC|NZ::CAN*|NZ::OTA|NZ::STL, 03, 南島全境 (South Island 03)
-NZ::CIT, 03, 查塔姆群島 (Chatham Islands 03)
+Target,Color,Label,LabelDisplayMethod,Description
+NZ::AUK*|NZ::NTL,,09,badge,奧克蘭與北地 (Auckland / Northland 09)
+NZ::WKO*|NZ::BOP,,07,badge,懷卡托與豐盛灣 (Waikato / Bay of Plenty 07)
+NZ::TKI|NZ::MWT*|NZ::HKB|NZ::GIS,,06,badge,北島中南部 (Taranaki / Manawatū-Whanganui / Hawke's Bay / Gisborne 06)
+NZ::WGN,,04,badge,威靈頓 (Wellington 04；Wairarapa 06)
+NZ::NSN|NZ::TAS|NZ::MBH|NZ::WTC|NZ::CAN*|NZ::OTA|NZ::STL,,03,badge,南島全境 (South Island 03)
+NZ::CIT,,03,badge,查塔姆群島 (Chatham Islands 03)

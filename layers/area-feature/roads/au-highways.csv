@@ -10,5 +10,6 @@
 // @order: 37
 // @descriptionZh: 澳洲各州主要幹道與橫貫內陸 Outback 長途公路網
 // @legend: #fbbf24: 主要幹線公路 (Primary Route)
-roadId,color,label
-澳洲 主要公路,#fbbf24,澳洲 主要公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+澳洲 主要公路,#fbbf24,,,澳洲 主要公路

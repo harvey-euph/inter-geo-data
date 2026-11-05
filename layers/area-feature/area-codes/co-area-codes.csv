@@ -10,11 +10,11 @@
 // @descriptionZh: 哥倫比亞 2021 年起之 60X 固網區碼（沿用舊一碼分區 1~8）
 // @goto: lat=4.5&lon=-73.5&ratio=6.0
 
-regionId, text, label
-CO::CUN, 601, 波哥大與昆迪納馬卡 (Bogotá / Cundinamarca 601)
-CO::VAC*|CO::CAU|CO::NAR, 602, 西南部：考卡山谷、考卡、納里尼奧 (Cali 602)
-CO::ANT*|CO::COR|CO::CHO, 604, 西北部：安蒂奧基亞、科爾多瓦、喬科 (Medellín 604)
-CO::ATL|CO::BOL|CO::CES|CO::LAG|CO::MAG|CO::SUC, 605, 加勒比海岸：大西洋、玻利瓦爾、塞薩爾、瓜希拉、馬格達萊納、蘇克雷 (Barranquilla / Cartagena 605)
-CO::CAL|CO::QUI|CO::RIS, 606, 咖啡三角：卡爾達斯、金迪奧、里薩拉爾達 (Pereira / Manizales 606)
-CO::SAN*|CO::NSA|CO::ARA, 607, 東北部：桑坦德、北桑坦德、阿勞卡 (Bucaramanga / Cúcuta 607)
-CO::BOY|CO::TOL|CO::HUI|CO::MET*|CO::CAS|CO::CAQ|CO::PUT|CO::GUV|CO::VID|CO::GUA|CO::VAU|CO::AMA|CO::SAP, 608, 中部、東部平原、亞馬遜與聖安德列斯 (Tunja / Ibagué / Neiva / Villavicencio / San Andrés 608)
+Target,Color,Label,LabelDisplayMethod,Description
+CO::CUN,,601,badge,波哥大與昆迪納馬卡 (Bogotá / Cundinamarca 601)
+CO::VAC*|CO::CAU|CO::NAR,,602,badge,西南部：考卡山谷、考卡、納里尼奧 (Cali 602)
+CO::ANT*|CO::COR|CO::CHO,,604,badge,西北部：安蒂奧基亞、科爾多瓦、喬科 (Medellín 604)
+CO::ATL|CO::BOL|CO::CES|CO::LAG|CO::MAG|CO::SUC,,605,badge,加勒比海岸：大西洋、玻利瓦爾、塞薩爾、瓜希拉、馬格達萊納、蘇克雷 (Barranquilla / Cartagena 605)
+CO::CAL|CO::QUI|CO::RIS,,606,badge,咖啡三角：卡爾達斯、金迪奧、里薩拉爾達 (Pereira / Manizales 606)
+CO::SAN*|CO::NSA|CO::ARA,,607,badge,東北部：桑坦德、北桑坦德、阿勞卡 (Bucaramanga / Cúcuta 607)
+CO::BOY|CO::TOL|CO::HUI|CO::MET*|CO::CAS|CO::CAQ|CO::PUT|CO::GUV|CO::VID|CO::GUA|CO::VAU|CO::AMA|CO::SAP,,608,badge,中部、東部平原、亞馬遜與聖安德列斯 (Tunja / Ibagué / Neiva / Villavicencio / San Andrés 608)

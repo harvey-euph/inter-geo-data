@@ -13,16 +13,16 @@
 // @textSize: 0.5
 // @imageSize: 1
 
-regionId, text, label
-TW::TPE|TW::TPQ*|TW::KEE, 02, 北北基：台北市、新北市、基隆市 (02)
-TW::TAO|TW::HSQ|TW::HSZ|TW::ILA|TW::HUA, 03, 桃竹宜花：桃園、新竹縣市、宜蘭、花蓮 (03)
-TW::MIA, 037, 苗栗縣 (037)
-TW::TXG*|TW::CHA, 04, 中彰：台中市、彰化縣 (04)
-TW::NAN, 049, 南投縣 (049)
-TW::YUN|TW::CYQ|TW::CYI, 05, 雲嘉：雲林縣、嘉義縣市 (05)
-TW::TNN, 06, 台南市 (06)
-TW::PEN, 06, 澎湖縣 (06)
-TW::KHH, 07, 高雄市 (07)
-TW::PIF, 08, 屏東縣 (08)
-TW::TTT, 089, 台東縣 (089)
-TW::KIN, 082, 金門縣 (082；烏坵 0826)
+Target,Color,Label,LabelDisplayMethod,Description
+TW::TPE|TW::TPQ*|TW::KEE,,02,badge,北北基：台北市、新北市、基隆市 (02)
+TW::TAO|TW::HSQ|TW::HSZ|TW::ILA|TW::HUA,,03,badge,桃竹宜花：桃園、新竹縣市、宜蘭、花蓮 (03)
+TW::MIA,,037,badge,苗栗縣 (037)
+TW::TXG*|TW::CHA,,04,badge,中彰：台中市、彰化縣 (04)
+TW::NAN,,049,badge,南投縣 (049)
+TW::YUN|TW::CYQ|TW::CYI,,05,badge,雲嘉：雲林縣、嘉義縣市 (05)
+TW::TNN,,06,badge,台南市 (06)
+TW::PEN,,06,badge,澎湖縣 (06)
+TW::KHH,,07,badge,高雄市 (07)
+TW::PIF,,08,badge,屏東縣 (08)
+TW::TTT,,089,badge,台東縣 (089)
+TW::KIN,,082,badge,金門縣 (082；烏坵 0826)

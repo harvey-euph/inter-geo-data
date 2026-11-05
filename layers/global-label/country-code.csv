@@ -7,121 +7,116 @@
 // @shortBadge: 📞 國碼
 // @accentColor: #34d399
 // @descriptionZh: 顯示全球各國國際電話區號（如 +886、+81、+1、+44 等）
-
 // Asia
-iso2, text, label
-TW, +886
-JP, +81
-KR, +82
-PH, +63
-TH, +66
-KH, +855
-VN, +84
-LA, +856
-MY, +60
-ID, +62
-SG, +65
-HK, +852
-MN, +976
-KG, +996
-KZ, +7
-IN, +91
-BD, +880
-BT, +975
-LK, +94
-IL, +972
-AE, +971
-JO, +962
-QA, +974
-OM, +968
-
 // Europe
-RU, +7
-UA, +380
-GB, +44
-IE, +353
-FR, +33
-DE, +49
-NL, +31
-BE, +32
-LU, +352
-AT, +43
-CH, +41
-IT, +39
-ES, +34
-PT, +351
-PL, +48
-CZ, +420
-SK, +421
-HU, +36
-RO, +40
-BG, +359
-HR, +385
-SI, +386
-RS, +381
-ME, +382
-MK, +389
-AL, +355
-GR, +30
-CY, +357
-MT, +356
-TR, +90
-DK, +45
-NO, +47
-SE, +46
-FI, +358
-IS, +354
-EE, +372
-LV, +371
-LT, +370
-
 // Americas
-GL, +299
-US, +1
-CA, +1
-MX, +52
-GT, +502
-PA, +507
-DO, +1
-PR, +1
-CO, +57
-EC, +593
-PE, +51
-BO, +591
-BR, +55
-AR, +54
-CL, +56
-UY, +598
-
 // Oceania
-AU, +61
-NZ, +64
-
 // Africa
-ZA, +27
-KE, +254
-UG, +256
-RW, +250
-GH, +233
-NG, +234
-SN, +221
-BW, +267
-SZ, +268
-LS, +266
-TN, +216
-
 // Additional non-streetview countries
-CN, +86
-MO, +853
-SA, +966
-IR, +98
-IQ, +964
-EG, +20
-MA, +212
-DZ, +213
-PK, +92
-NP, +977
-MM, +95
-CU, +53
-VE, +58
-CR, +506
+
+Target,Color,Label,LabelDisplayMethod,Description
+TW,,+886,badge,
+JP,,+81,badge,
+KR,,+82,badge,
+PH,,+63,badge,
+TH,,+66,badge,
+KH,,+855,badge,
+VN,,+84,badge,
+LA,,+856,badge,
+MY,,+60,badge,
+ID,,+62,badge,
+SG,,+65,badge,
+HK,,+852,badge,
+MN,,+976,badge,
+KG,,+996,badge,
+KZ,,+7,badge,
+IN,,+91,badge,
+BD,,+880,badge,
+BT,,+975,badge,
+LK,,+94,badge,
+IL,,+972,badge,
+AE,,+971,badge,
+JO,,+962,badge,
+QA,,+974,badge,
+OM,,+968,badge,
+RU,,+7,badge,
+UA,,+380,badge,
+GB,,+44,badge,
+IE,,+353,badge,
+FR,,+33,badge,
+DE,,+49,badge,
+NL,,+31,badge,
+BE,,+32,badge,
+LU,,+352,badge,
+AT,,+43,badge,
+CH,,+41,badge,
+IT,,+39,badge,
+ES,,+34,badge,
+PT,,+351,badge,
+PL,,+48,badge,
+CZ,,+420,badge,
+SK,,+421,badge,
+HU,,+36,badge,
+RO,,+40,badge,
+BG,,+359,badge,
+HR,,+385,badge,
+SI,,+386,badge,
+RS,,+381,badge,
+ME,,+382,badge,
+MK,,+389,badge,
+AL,,+355,badge,
+GR,,+30,badge,
+CY,,+357,badge,
+MT,,+356,badge,
+TR,,+90,badge,
+DK,,+45,badge,
+NO,,+47,badge,
+SE,,+46,badge,
+FI,,+358,badge,
+IS,,+354,badge,
+EE,,+372,badge,
+LV,,+371,badge,
+LT,,+370,badge,
+GL,,+299,badge,
+US,,+1,badge,
+CA,,+1,badge,
+MX,,+52,badge,
+GT,,+502,badge,
+PA,,+507,badge,
+DO,,+1,badge,
+PR,,+1,badge,
+CO,,+57,badge,
+EC,,+593,badge,
+PE,,+51,badge,
+BO,,+591,badge,
+BR,,+55,badge,
+AR,,+54,badge,
+CL,,+56,badge,
+UY,,+598,badge,
+AU,,+61,badge,
+NZ,,+64,badge,
+ZA,,+27,badge,
+KE,,+254,badge,
+UG,,+256,badge,
+RW,,+250,badge,
+GH,,+233,badge,
+NG,,+234,badge,
+SN,,+221,badge,
+BW,,+267,badge,
+SZ,,+268,badge,
+LS,,+266,badge,
+TN,,+216,badge,
+CN,,+86,badge,
+MO,,+853,badge,
+SA,,+966,badge,
+IR,,+98,badge,
+IQ,,+964,badge,
+EG,,+20,badge,
+MA,,+212,badge,
+DZ,,+213,badge,
+PK,,+92,badge,
+NP,,+977,badge,
+MM,,+95,badge,
+CU,,+53,badge,
+VE,,+58,badge,
+CR,,+506,badge,

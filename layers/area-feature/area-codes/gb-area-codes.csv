@@ -10,8 +10,8 @@
 // @descriptionZh: 英國各構成國與主要都會區 STD 電話號碼
 // @goto: lat=54.5&lon=-2.5&ratio=6.0
 
-regionId, text, label
-GB::ENG, 020/0121, 英格蘭 (London 020 / Birmingham 0121 / Manchester 0161)
-GB::SCT, 0141/0131, 蘇格蘭 (Glasgow 0141 / Edinburgh 0131)
-GB::WLS, 029, 威爾斯 (Cardiff 029)
-GB::NIR, 028, 北愛爾蘭 (Belfast 028)
+Target,Color,Label,LabelDisplayMethod,Description
+GB::ENG,,020/0121,badge,英格蘭 (London 020 / Birmingham 0121 / Manchester 0161)
+GB::SCT,,0141/0131,badge,蘇格蘭 (Glasgow 0141 / Edinburgh 0131)
+GB::WLS,,029,badge,威爾斯 (Cardiff 029)
+GB::NIR,,028,badge,北愛爾蘭 (Belfast 028)

@@ -7,121 +7,116 @@
 // @shortBadge: 🏳️ 國旗
 // @accentColor: #f8fafc
 // @descriptionZh: 顯示全球各國國旗符號（可與國碼、網域或貨幣並列顯示，如 🇹🇼 +886）
-
 // Asia
-iso2, text, label
-TW, 🇹🇼
-JP, 🇯🇵
-KR, 🇰🇷
-PH, 🇵🇭
-TH, 🇹🇭
-KH, 🇰🇭
-VN, 🇻🇳
-LA, 🇱🇦
-MY, 🇲🇾
-ID, 🇮🇩
-SG, 🇸🇬
-HK, 🇭🇰
-MN, 🇲🇳
-KG, 🇰🇬
-KZ, 🇰🇿
-IN, 🇮🇳
-BD, 🇧🇩
-BT, 🇧🇹
-LK, 🇱🇰
-IL, 🇮🇱
-AE, 🇦🇪
-JO, 🇯🇴
-QA, 🇶🇦
-OM, 🇴🇲
-
 // Europe
-RU, 🇷🇺
-UA, 🇺🇦
-GB, 🇬🇧
-IE, 🇮🇪
-FR, 🇫🇷
-DE, 🇩🇪
-NL, 🇳🇱
-BE, 🇧🇪
-LU, 🇱🇺
-AT, 🇦🇹
-CH, 🇨🇭
-IT, 🇮🇹
-ES, 🇪🇸
-PT, 🇵🇹
-PL, 🇵🇱
-CZ, 🇨🇿
-SK, 🇸🇰
-HU, 🇭🇺
-RO, 🇷🇴
-BG, 🇧🇬
-HR, 🇭🇷
-SI, 🇸🇮
-RS, 🇷🇸
-ME, 🇲🇪
-MK, 🇲🇰
-AL, 🇦🇱
-GR, 🇬🇷
-CY, 🇨🇾
-MT, 🇲🇹
-TR, 🇹🇷
-DK, 🇩🇰
-NO, 🇳🇴
-SE, 🇸🇪
-FI, 🇫🇮
-IS, 🇮🇸
-EE, 🇪🇪
-LV, 🇱🇻
-LT, 🇱🇹
-
 // Americas
-GL, 🇬🇱
-US, 🇺🇸
-CA, 🇨🇦
-MX, 🇲🇽
-GT, 🇬🇹
-PA, 🇵🇦
-DO, 🇩🇴
-PR, 🇵🇷
-CO, 🇨🇴
-EC, 🇪🇨
-PE, 🇵🇪
-BO, 🇧🇴
-BR, 🇧🇷
-AR, 🇦🇷
-CL, 🇨🇱
-UY, 🇺🇾
-
 // Oceania
-AU, 🇦🇺
-NZ, 🇳🇿
-
 // Africa
-ZA, 🇿🇦
-KE, 🇰🇪
-UG, 🇺🇬
-RW, 🇷🇼
-GH, 🇬🇭
-NG, 🇳🇬
-SN, 🇸🇳
-BW, 🇧🇼
-SZ, 🇸🇿
-LS, 🇱🇸
-TN, 🇹🇳
-
 // Additional countries
-CN, 🇨🇳
-MO, 🇲🇴
-SA, 🇸🇦
-IR, 🇮🇷
-IQ, 🇮🇶
-EG, 🇪🇬
-MA, 🇲🇦
-DZ, 🇩🇿
-PK, 🇵🇰
-NP, 🇳🇵
-MM, 🇲🇲
-CU, 🇨🇺
-VE, 🇻🇪
-CR, 🇨🇷
+
+Target,Color,Label,LabelDisplayMethod,Description
+TW,,🇹🇼,badge,
+JP,,🇯🇵,badge,
+KR,,🇰🇷,badge,
+PH,,🇵🇭,badge,
+TH,,🇹🇭,badge,
+KH,,🇰🇭,badge,
+VN,,🇻🇳,badge,
+LA,,🇱🇦,badge,
+MY,,🇲🇾,badge,
+ID,,🇮🇩,badge,
+SG,,🇸🇬,badge,
+HK,,🇭🇰,badge,
+MN,,🇲🇳,badge,
+KG,,🇰🇬,badge,
+KZ,,🇰🇿,badge,
+IN,,🇮🇳,badge,
+BD,,🇧🇩,badge,
+BT,,🇧🇹,badge,
+LK,,🇱🇰,badge,
+IL,,🇮🇱,badge,
+AE,,🇦🇪,badge,
+JO,,🇯🇴,badge,
+QA,,🇶🇦,badge,
+OM,,🇴🇲,badge,
+RU,,🇷🇺,badge,
+UA,,🇺🇦,badge,
+GB,,🇬🇧,badge,
+IE,,🇮🇪,badge,
+FR,,🇫🇷,badge,
+DE,,🇩🇪,badge,
+NL,,🇳🇱,badge,
+BE,,🇧🇪,badge,
+LU,,🇱🇺,badge,
+AT,,🇦🇹,badge,
+CH,,🇨🇭,badge,
+IT,,🇮🇹,badge,
+ES,,🇪🇸,badge,
+PT,,🇵🇹,badge,
+PL,,🇵🇱,badge,
+CZ,,🇨🇿,badge,
+SK,,🇸🇰,badge,
+HU,,🇭🇺,badge,
+RO,,🇷🇴,badge,
+BG,,🇧🇬,badge,
+HR,,🇭🇷,badge,
+SI,,🇸🇮,badge,
+RS,,🇷🇸,badge,
+ME,,🇲🇪,badge,
+MK,,🇲🇰,badge,
+AL,,🇦🇱,badge,
+GR,,🇬🇷,badge,
+CY,,🇨🇾,badge,
+MT,,🇲🇹,badge,
+TR,,🇹🇷,badge,
+DK,,🇩🇰,badge,
+NO,,🇳🇴,badge,
+SE,,🇸🇪,badge,
+FI,,🇫🇮,badge,
+IS,,🇮🇸,badge,
+EE,,🇪🇪,badge,
+LV,,🇱🇻,badge,
+LT,,🇱🇹,badge,
+GL,,🇬🇱,badge,
+US,,🇺🇸,badge,
+CA,,🇨🇦,badge,
+MX,,🇲🇽,badge,
+GT,,🇬🇹,badge,
+PA,,🇵🇦,badge,
+DO,,🇩🇴,badge,
+PR,,🇵🇷,badge,
+CO,,🇨🇴,badge,
+EC,,🇪🇨,badge,
+PE,,🇵🇪,badge,
+BO,,🇧🇴,badge,
+BR,,🇧🇷,badge,
+AR,,🇦🇷,badge,
+CL,,🇨🇱,badge,
+UY,,🇺🇾,badge,
+AU,,🇦🇺,badge,
+NZ,,🇳🇿,badge,
+ZA,,🇿🇦,badge,
+KE,,🇰🇪,badge,
+UG,,🇺🇬,badge,
+RW,,🇷🇼,badge,
+GH,,🇬🇭,badge,
+NG,,🇳🇬,badge,
+SN,,🇸🇳,badge,
+BW,,🇧🇼,badge,
+SZ,,🇸🇿,badge,
+LS,,🇱🇸,badge,
+TN,,🇹🇳,badge,
+CN,,🇨🇳,badge,
+MO,,🇲🇴,badge,
+SA,,🇸🇦,badge,
+IR,,🇮🇷,badge,
+IQ,,🇮🇶,badge,
+EG,,🇪🇬,badge,
+MA,,🇲🇦,badge,
+DZ,,🇩🇿,badge,
+PK,,🇵🇰,badge,
+NP,,🇳🇵,badge,
+MM,,🇲🇲,badge,
+CU,,🇨🇺,badge,
+VE,,🇻🇪,badge,
+CR,,🇨🇷,badge,

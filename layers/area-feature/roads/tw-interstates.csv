@@ -10,5 +10,6 @@
 // @order: 24
 // @descriptionZh: 台灣梅花標誌國道高速公路網（國道 1 號、3 號、5 號及東西向國道）
 // @legend: #38bdf8: 國道高速公路 (National Freeway)
-roadId,color,label
-台灣 高速公路,#38bdf8,台灣 高速公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+台灣 高速公路,#38bdf8,,,台灣 高速公路

@@ -284,9 +284,10 @@ function buildLayersIndex() {
 
       // Check for column header line
       if (!headerColumns && (
-        normFirst === 'regionid' || normFirst === 'region' ||
+        normFirst === 'target' || normFirst === 'regionid' || normFirst === 'region' ||
+        normFirst === 'roadid' || normFirst === 'road' ||
         normFirst === 'iso2' || normFirst === 'id' || normFirst === 'key' || normFirst === 'code' ||
-        rawCols.some((c) => ['color', 'value', 'label', 'namezh', 'examplepolecode', 'areacode', 'ddd'].includes(c.toLowerCase().replace(/[\s_-]+/g, '')))
+        rawCols.some((c) => ['target', 'color', 'label', 'value', 'namezh', 'examplepolecode', 'areacode', 'ddd'].includes(c.toLowerCase().replace(/[\s_-]+/g, '')))
       )) {
         headerColumns = rawCols;
         continue;

@@ -10,5 +10,6 @@
 // @order: 25
 // @descriptionZh: 台灣紅盾省道快速公路與藍盾一般省道幹線路網
 // @legend: #fbbf24: 省道主要公路 (Provincial Highway)
-roadId,color,label
-台灣 主要公路,#fbbf24,台灣 主要公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+台灣 主要公路,#fbbf24,,,台灣 主要公路

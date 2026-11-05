@@ -7,109 +7,103 @@
 // @shortBadge: 🪧 街路詞
 // @accentColor: #34d399
 // @descriptionZh: 顯示各國路牌上「街 / 路 / 大道 / 巷」的當地縮寫與用詞（如 Jl.、Jln、ul.、utca、iela、g.、tn、-vej、-gatan、-tie 等）
-
 // Nordic & Baltic (高辨識度後綴)
-iso2, text, label
-IS, -vegur / -gata / -braut
-DK, -vej / -gade / -vænget
-NO, -vei (-veien) / -gate (-gata)
-SE, -vägen / -gatan / -gränd
-FI, -tie / -katu / -kuja
-EE, tänav (tn) / tee / pst
-LV, iela / bulvāris / ceļš
-LT, gatvė (g.) / al. / pr.
-
 // Western & Central Europe
-DE, -straße (-str.) / -weg / -platz
-AT, -straße / -gasse / -weg
-CH, -strasse / Rue / Via
-NL, -straat / -laan / -weg / -plein
-BE, Rue / -straat / -laan
-LU, Rue / -strooss
-FR, Rue / Av. / Bd / Impasse
-GB, St / Rd / Ln / Ave / Close
-IE, St / Rd / Sráid / Bóthar
-ES, Calle (C/) / Av. / Carrer / Rúa / Kalea
-PT, Rua (R.) / Av. / Travessa (Tv.)
-IT, Via / Viale / Piazza / Corso
-MT, Triq / Misraħ
-
 // Eastern Europe & Balkans
-PL, ul. (Ulica) / al. (Aleja)
-CZ, ul. / tř. (třída) / nám.
-SK, ul. (Ulica) / nám.
-HU, utca (u.) / út / tér / köz
-RO, Str. (Strada) / Bd. / Calea
-BG, ул. (улица) / бул.
-SI, Ulica (ul.) / Cesta (c.)
-HR, Ulica (Ul.) / Cesta / Trg
-RS, Улица (ул.) / Ulica / Булевар
-ME, Ulica / Улица / Bulevar
-MK, Улица (ул.) / Бул.
-AL, Rruga (Rr.) / Bulevardi
-GR, Οδός (Odos) / Λεωφ. (Leof.)
-CY, Οδός (Odos) / Street
-TR, Sokak (Sk.) / Caddesi (Cd.) / Bulvarı
-RU, ул. (улица) / пр-т / пер. / ш.
-UA, вул. (вулиця) / просп. / пров.
-
 // Asia
-TW, 路 / 街 / 段 / 巷 / 弄
-HK, 道 (Rd) / 街 (St) / 路 / 里
-JP, 通り / 丁目 - 番 - 号
-KR, -로 (-ro) / -길 (-gil) / -대로
-VN, Đường / Phố / Ngõ / Hẻm
-TH, ถนน (Thanon / Th.) / ซอย (Soi)
-LA, ຖະໜົນ (Thanon) / ຮ່ອម (Hom)
-KH, ផ្លូវ (Phlov / St.) / មហាវិថី (Blvd)
-MY, Jalan (Jln) / Lorong (Lrg) / Persiaran
-ID, Jl. (Jalan) / Gg. (Gang)
-SG, Rd / St / Ave / Dr / Jln
-PH, St. / Ave. / Rd. / Kalye (K.)
-MN, гудамж / өргөн чөлөө
-KG, көчөсү (көч.) / ул.
-KZ, көшесі (көш.) / даңғылы / ул.
-IN, Rd / Marg (मार्ग) / Street / Salai
-BD, Road / সড়ক (Sarak) / লেন
-BT, Lam (ལམ་)
-LK, Mawatha (මාවත) / Veediya / Rd
-IL, רחוב (Rehov) / שדרות (Sderot)
-AE, St (شارع) / Rd (طريق)
-JO, St (شارع) / Rd
-QA, St (شارع) / Zone
-OM, Way (سكة) / St (شارع)
-
 // Americas
-GL, -vej / Aqqut / Aqquserna
-US, St / Ave / Blvd / Rd / Dr / Ln
-CA, St / Ave / Rd / Rue / Boul.
-MX, Calle (C.) / Av. / Calz. / Blvd.
-GT, Calle / Avenida (Av.) / Calzada
-PA, Calle / Avenida / Vía
-DO, Calle (C/) / Av.
-PR, Calle / Ave. / Carr.
-CO, Calle (Cl.) / Carrera (Kr. / Cra.) / Diag.
-EC, Calle / Av. / Pasaje
-PE, Jr. (Jirón) / Av. / Calle / Ca.
-BO, Calle / Av. / Pasaje
-BR, Rua (R.) / Av. / Alameda (Al.) / Trav.
-AR, Calle / Av. / Pje. / Bv.
-CL, Calle / Av. / Pasaje (Pje.)
-UY, Calle / Av. / Bv. / Rambla
-
 // Oceania
-AU, St / Rd / Ave / Dr / Pde / Hwy
-NZ, St / Rd / Ave / Dr / Tce / Cres
-
 // Africa
-ZA, St / Rd / Ave / Straat / Weg
-KE, Rd / St / Ave / Way
-UG, Rd / St / Close
-RW, KG / KN / KK + Ave / St
-GH, St / Rd / Ave / Link
-NG, St / Rd / Ave / Close / Cres
-SN, Rue / Av. / Bd / Corniche
-BW, Rd / St / Way / Cres
-SZ, St / Rd / Ave
-LS, Rd / St / Way
-TN, Rue (نهج) / Av. (شارع)
+
+Target,Color,Label,LabelDisplayMethod,Description
+IS,,-vegur / -gata / -braut,badge,
+DK,,-vej / -gade / -vænget,badge,
+NO,,-vei (-veien) / -gate (-gata),badge,
+SE,,-vägen / -gatan / -gränd,badge,
+FI,,-tie / -katu / -kuja,badge,
+EE,,tänav (tn) / tee / pst,badge,
+LV,,iela / bulvāris / ceļš,badge,
+LT,,gatvė (g.) / al. / pr.,badge,
+DE,,-straße (-str.) / -weg / -platz,badge,
+AT,,-straße / -gasse / -weg,badge,
+CH,,-strasse / Rue / Via,badge,
+NL,,-straat / -laan / -weg / -plein,badge,
+BE,,Rue / -straat / -laan,badge,
+LU,,Rue / -strooss,badge,
+FR,,Rue / Av. / Bd / Impasse,badge,
+GB,,St / Rd / Ln / Ave / Close,badge,
+IE,,St / Rd / Sráid / Bóthar,badge,
+ES,,Calle (C/) / Av. / Carrer / Rúa / Kalea,badge,
+PT,,Rua (R.) / Av. / Travessa (Tv.),badge,
+IT,,Via / Viale / Piazza / Corso,badge,
+MT,,Triq / Misraħ,badge,
+PL,,ul. (Ulica) / al. (Aleja),badge,
+CZ,,ul. / tř. (třída) / nám.,badge,
+SK,,ul. (Ulica) / nám.,badge,
+HU,,utca (u.) / út / tér / köz,badge,
+RO,,Str. (Strada) / Bd. / Calea,badge,
+BG,,ул. (улица) / бул.,badge,
+SI,,Ulica (ul.) / Cesta (c.),badge,
+HR,,Ulica (Ul.) / Cesta / Trg,badge,
+RS,,Улица (ул.) / Ulica / Булевар,badge,
+ME,,Ulica / Улица / Bulevar,badge,
+MK,,Улица (ул.) / Бул.,badge,
+AL,,Rruga (Rr.) / Bulevardi,badge,
+GR,,Οδός (Odos) / Λεωφ. (Leof.),badge,
+CY,,Οδός (Odos) / Street,badge,
+TR,,Sokak (Sk.) / Caddesi (Cd.) / Bulvarı,badge,
+RU,,ул. (улица) / пр-т / пер. / ш.,badge,
+UA,,вул. (вулиця) / просп. / пров.,badge,
+TW,,路 / 街 / 段 / 巷 / 弄,badge,
+HK,,道 (Rd) / 街 (St) / 路 / 里,badge,
+JP,,通り / 丁目 - 番 - 号,badge,
+KR,,-로 (-ro) / -길 (-gil) / -대로,badge,
+VN,,Đường / Phố / Ngõ / Hẻm,badge,
+TH,,ถนน (Thanon / Th.) / ซอย (Soi),badge,
+LA,,ຖະໜົນ (Thanon) / ຮ່ອម (Hom),badge,
+KH,,ផ្លូវ (Phlov / St.) / មហាវិថី (Blvd),badge,
+MY,,Jalan (Jln) / Lorong (Lrg) / Persiaran,badge,
+ID,,Jl. (Jalan) / Gg. (Gang),badge,
+SG,,Rd / St / Ave / Dr / Jln,badge,
+PH,,St. / Ave. / Rd. / Kalye (K.),badge,
+MN,,гудамж / өргөн чөлөө,badge,
+KG,,көчөсү (көч.) / ул.,badge,
+KZ,,көшесі (көш.) / даңғылы / ул.,badge,
+IN,,Rd / Marg (मार्ग) / Street / Salai,badge,
+BD,,Road / সড়ক (Sarak) / লেন,badge,
+BT,,Lam (ལམ་),badge,
+LK,,Mawatha (මාවත) / Veediya / Rd,badge,
+IL,,רחוב (Rehov) / שדרות (Sderot),badge,
+AE,,St (شارع) / Rd (طريق),badge,
+JO,,St (شارع) / Rd,badge,
+QA,,St (شارع) / Zone,badge,
+OM,,Way (سكة) / St (شارع),badge,
+GL,,-vej / Aqqut / Aqquserna,badge,
+US,,St / Ave / Blvd / Rd / Dr / Ln,badge,
+CA,,St / Ave / Rd / Rue / Boul.,badge,
+MX,,Calle (C.) / Av. / Calz. / Blvd.,badge,
+GT,,Calle / Avenida (Av.) / Calzada,badge,
+PA,,Calle / Avenida / Vía,badge,
+DO,,Calle (C/) / Av.,badge,
+PR,,Calle / Ave. / Carr.,badge,
+CO,,Calle (Cl.) / Carrera (Kr. / Cra.) / Diag.,badge,
+EC,,Calle / Av. / Pasaje,badge,
+PE,,Jr. (Jirón) / Av. / Calle / Ca.,badge,
+BO,,Calle / Av. / Pasaje,badge,
+BR,,Rua (R.) / Av. / Alameda (Al.) / Trav.,badge,
+AR,,Calle / Av. / Pje. / Bv.,badge,
+CL,,Calle / Av. / Pasaje (Pje.),badge,
+UY,,Calle / Av. / Bv. / Rambla,badge,
+AU,,St / Rd / Ave / Dr / Pde / Hwy,badge,
+NZ,,St / Rd / Ave / Dr / Tce / Cres,badge,
+ZA,,St / Rd / Ave / Straat / Weg,badge,
+KE,,Rd / St / Ave / Way,badge,
+UG,,Rd / St / Close,badge,
+RW,,KG / KN / KK + Ave / St,badge,
+GH,,St / Rd / Ave / Link,badge,
+NG,,St / Rd / Ave / Close / Cres,badge,
+SN,,Rue / Av. / Bd / Corniche,badge,
+BW,,Rd / St / Way / Cres,badge,
+SZ,,St / Rd / Ave,badge,
+LS,,Rd / St / Way,badge,
+TN,,Rue (نهج) / Av. (شارع),badge,

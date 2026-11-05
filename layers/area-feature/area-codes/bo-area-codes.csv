@@ -10,7 +10,7 @@
 // @descriptionZh: 玻利維亞一碼區碼：西部高原 2 / 東部低地 3 / 中南部谷地 4
 // @goto: lat=-17&lon=-64.5&ratio=7.0
 
-regionId, text, label
-BO::L*|BO::O|BO::P, 2, 西部高原：拉巴斯、奧魯羅、波托西 (2)
-BO::S*|BO::B|BO::N, 3, 東部低地：聖克魯斯、貝尼、潘多 (3)
-BO::C*|BO::H|BO::T, 4, 中南部谷地：科恰班巴、丘基薩卡、塔里哈 (4)
+Target,Color,Label,LabelDisplayMethod,Description
+BO::L*|BO::O|BO::P,,2,badge,西部高原：拉巴斯、奧魯羅、波托西 (2)
+BO::S*|BO::B|BO::N,,3,badge,東部低地：聖克魯斯、貝尼、潘多 (3)
+BO::C*|BO::H|BO::T,,4,badge,中南部谷地：科恰班巴、丘基薩卡、塔里哈 (4)

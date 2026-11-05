@@ -10,5 +10,6 @@
 // @order: 22
 // @descriptionZh: 日本綠底白字高速自動車國道與都市高速路網 (E/C 編號系統)
 // @legend: #38bdf8: 高速自動車國道 (Expressway)
-roadId,color,label
-日本 高速公路,#38bdf8,日本 高速公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+日本 高速公路,#38bdf8,,,日本 高速公路

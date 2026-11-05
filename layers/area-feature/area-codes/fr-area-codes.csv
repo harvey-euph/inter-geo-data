@@ -11,10 +11,10 @@
 // @goto: lat=46.5&lon=3.5&ratio=12
 // @textSize: 1.2
 
-regionId, text, label
-FR::IDF, 01, 法蘭西島大區 (Île-de-France)
-FR::BRE|FR::NOR|FR::PDL|FR::CVL, 02, 西北區：布列塔尼、諾曼第、羅亞爾河、中央-羅亞爾河谷
-FR::HDF|FR::GES|FR::BFC, 03, 東北區：上法蘭西、大東部、勃艮第-弗朗什-孔泰
-FR::ARA|FR::PAC, 04, 東南區：奧弗涅-隆-阿爾卑斯、普羅旺斯-阿爾卑斯-蔚藍海岸
-FR::COR, 04, 科西嘉島 (Corse，04 95)
-FR::NAQ|FR::OCC, 05, 西南區：新亞奎丹、奧克西塔尼
+Target,Color,Label,LabelDisplayMethod,Description
+FR::IDF,,01,badge,法蘭西島大區 (Île-de-France)
+FR::BRE|FR::NOR|FR::PDL|FR::CVL,,02,badge,西北區：布列塔尼、諾曼第、羅亞爾河、中央-羅亞爾河谷
+FR::HDF|FR::GES|FR::BFC,,03,badge,東北區：上法蘭西、大東部、勃艮第-弗朗什-孔泰
+FR::ARA|FR::PAC,,04,badge,東南區：奧弗涅-隆-阿爾卑斯、普羅旺斯-阿爾卑斯-蔚藍海岸
+FR::COR,,04,badge,科西嘉島 (Corse，04 95)
+FR::NAQ|FR::OCC,,05,badge,西南區：新亞奎丹、奧克西塔尼

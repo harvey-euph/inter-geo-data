@@ -7,4 +7,5 @@
 // @shortBadge: 🌍 世界
 // @default-color: #38bdf8
 // @descriptionZh: 全球陸地基礎底圖輪廓
-regionId, color, label
+
+Target,Color,Label,LabelDisplayMethod,Description

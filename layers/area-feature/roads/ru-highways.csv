@@ -10,7 +10,8 @@
 // @order: 45
 // @descriptionZh: 俄羅斯橫跨歐亞大陸與西伯利亞之聯邦主要幹線公路網
 // @legend: #fbbf24: 聯邦主要公路 (R / A Federal Road)
-roadId,color,label
-A195,#fbbf24,A195
-A196,#fbbf24,A196
-俄羅斯 主要公路,#fbbf24,俄羅斯 主要公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+A195,#fbbf24,,,A195
+A196,#fbbf24,,,A196
+俄羅斯 主要公路,#fbbf24,,,俄羅斯 主要公路

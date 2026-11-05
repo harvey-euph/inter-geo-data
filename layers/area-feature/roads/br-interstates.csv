@@ -10,5 +10,6 @@
 // @order: 30
 // @descriptionZh: 巴西主要都會區與跨州雙向分隔高速公路網
 // @legend: #38bdf8: 高速公路與快速幹道 (Rodovia Duplicada)
-roadId,color,label
-巴西 高速公路,#38bdf8,巴西 高速公路
+
+Target,Color,Label,LabelDisplayMethod,Description
+巴西 高速公路,#38bdf8,,,巴西 高速公路
