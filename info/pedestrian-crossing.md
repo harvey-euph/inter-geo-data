@@ -229,9 +229,13 @@
 - tags: Geoguessr, Infrastructure
 - icon: 🚸
 - accent: #38bdf8
+- image: /images/crossing/se.svg
+- imageSize: 72
+- imagePosition: left
 - priority: 1
 
-- **【「走路先生 (Herr Gårman)」】**
+- **【4 條斑馬線與「走路先生 (Herr Gårman)」】**
+  - **條紋數量**：瑞典的行人穿越道標誌僅繪有 **4 條粗白斑馬線**（與德國、捷克、斯洛伐克同為 4 條組，而挪威、丹麥、芬蘭皆為 5 條）。
   - 此標誌由瑞典設計師 Kalle Bäckström 於 1955 年繪製，瑞典民間親暱稱呼圖中戴帽紳士為 **「Herr Gårman」**——在瑞典語中與 *「Här går man」*（意為「人們從這裡走」）完全同音！2008 年起部分城市亦增設穿裙女性版本 **「Fru Gårman」**。
 - ![streetview|lock|vertical|heading=208.5|pitch=3.5|fov=16.5](59.3329258,18.052266)
 
