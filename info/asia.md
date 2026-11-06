@@ -723,12 +723,236 @@
   - 這些地方沒有單一邦碼，徽章標的是首府或主島：西姆拉 `0177`、斯利那加 `0194`、查謨 `0191`、列城 `01982`、甘托克 `03592`、伊塔那加 `0360`、科希馬 `0370`（迪馬普爾另為 `03862`）、西隆 `0364`、因帕爾 `0385`、艾藻爾 `0389`、阿加爾塔拉 `0381`、布萊爾港 `03192`、卡瓦拉蒂 `04896`。
   - 達曼與錫爾瓦薩都是 `0260`，第烏是 **`02875`**。同一聯邦屬地不能看成只有一個碼。
 
-# 文章標題
-- id: 文章標題
-- targets: TW
-- icon: 🇹🇼
-- accent: #38bdf8
-- tags: Geoguessr
-- priority: 20
+# 東亞電線桿黃黑斜紋秒殺對比 (East Asia Utility Poles)
+- id: east-asia-poles-comparison
+- targets: TW, KR, JP
+- priority: 45
+- icon: 💈
+- accent: #eab308
+- tags: Geoguessr, Infrastructure
 
-- **【核心特徵】** 描述此地區最重要的街景識別線索...
+- **【為何電線桿紋路是東亞第一秒殺神器】** 台灣、韓國、日本三地道路均大量在水泥電線桿底部加裝防撞警示斑馬紋，但在**紋路延伸高度、顏色搭配與附屬標誌**上存在極為嚴格的法規差異：
+  - **台灣 (TW)**：**黃黑相間斜紋一路延伸至最底部地面**！整根防撞包覆緊貼地表，顏色偏暖橘黃，大街小巷普及率近乎 100%。且行車為**靠右行駛**。
+  - **韓國 (KR)**：**黃黑相間斜紋僅出現在桿身中段**（距離地面約 30 ~ 50 公分處才會開始出現貼紙，底部留白露出生水泥色），顏色為亮正黃色，且桿頂通常伸出一根尖銳金屬避雷針。行車同為**靠右行駛**。
+  - **日本 (JP)**：主要為**靠左行駛 (LHT)** 且全境為**低鏡頭視角 (Low Cam)**。日本電桿防撞板以垂直黃黑長條或黑白/灰白斜斑馬條紋為主；若在低鏡頭下看到獨特的**「灰白相間」反光板**，大多直接指向日本本州**東北地方 (Tohoku)** 寒帶防雪特有配置。
+
+
+# 菲律賓道路基礎設施：方塊混凝土路面與吉普尼 (Philippines Concrete Slabs & Jeepneys)
+- id: philippines-infrastructure
+- targets: PH
+- priority: 35
+- icon: 🇵🇭
+- accent: #3b82f6
+- tags: Geoguessr, Infrastructure
+
+- **【代表性路面：方塊水泥混凝土板 (Concrete Road Slabs)】**
+  - 菲律賓無論是國道、省道或鄉間道路，極高比例是由**一塊塊長方形水泥板拼接而成**，路中央與板塊之間有清晰的黑色瀝青填縫接縫線（Expansion Joints）。行駛時視角可明顯感受規律的拼接格線。
+- **交通工具與生活街景**：
+  - **吉普尼 (Jeepney)**：色彩斑斕、金屬鍍鉻車頭的改裝客運小巴，為菲律賓最無可取代的國寶級街景特徵。
+  - **三輪載客車 (Tricycle)**：側邊焊接乘客座艙的改裝摩托車滿街穿梭。
+  - **美式全英文路牌與標語**：東南亞唯一以純美式英文作為主要官方標牌的國家（*STOP*, *ONE WAY*, *BARANGAY HALL*, *VULCANIZING SHOP*）。
+  - **行車方向**：**靠右行駛**（與鄰近前英殖民地馬來西亞、印尼之左行形成鮮明對比）。
+
+
+# 柬埔寨高腳屋建築與執政黨藍色宣傳牌 (Cambodia Stilt Houses & CPP Signs)
+- id: cambodia-stilt-cpp
+- targets: KH
+- priority: 35
+- icon: 🇰🇭
+- accent: #ef4444
+- tags: Geoguessr, Architecture
+
+- **【高腳木屋建築 (Traditional Khmer Stilt Houses)】**
+  - 鄉間與城郊民居絕大多數為**架高懸空的木造或水泥高腳屋**，一樓底層架空作為通風遮陽、停放農具摩托車與吊掛吊床之生活空間，二樓才是木質居住區，屋頂多為紅瓦或波浪鐵皮。
+- **無所不在的藍色政治宣傳牌 (CPP Billboards)**：
+  - 沿著大小公路每隔數公里必能看見高聳直立的**大型淺藍色金屬告示牌**，頂部帶有柬埔寨人民黨（CPP）的「天女散花 (Devata)」金色黨徽，中間常印有長期領導人**洪森 (Hun Sen)** 與現任官員的大幅肖像，下方書寫高棉文（彎曲如小圓圈與波浪的吳哥文字）。
+- **交通法規**：**靠右行駛**。車牌通常為白底，上方或下方標註高棉文省份名稱。
+
+
+# 越南南北地景與建築差異：管狀街屋與屋脊尖頂裝飾 (Vietnam Architecture)
+- id: vietnam-north-south-architecture
+- targets: VN
+- priority: 35
+- icon: 🇻🇳
+- accent: #eab308
+- tags: Geoguessr, Architecture
+
+- **【法式瘦長管狀街屋 (Nhà Ống / Tube Houses)】**
+  - 越南城鄉最標誌性的住宅景觀：**面寬極窄（通常僅 3~4 公尺）、縱深極長、樓高 3~5 層**的彩色管狀街屋，外牆常漆成鵝黃、粉藍或翠綠色，正面帶有法式百葉窗或歐式小陽台。
+- **南北越快速盲猜技巧 (North vs South Roofs)**：
+  - **北越（紅河三角洲與河內周邊）**：住宅斜屋頂最高處的正中央與兩端，極高頻安裝**尖銳細長如天線或避雷針般的金屬/泥塑尖頂立柱裝飾**；氣候常年陰天多霧，植物偏溫帶常綠闊葉。
+  - **南越（胡志明市與湄公河三角洲）**：氣候常年烈日熱帶，建築以平頂、大波浪鐵皮屋頂或大型塑膠遮雨棚為主，罕見尖銳天線裝飾；遍佈熱帶椰林與寬闊稻田水道。
+- **國旗與政黨旗幟密度世界第一**：滿街民宅與電線桿高掛帶有大金星的**越南紅旗**以及**共產黨黃色鐮刀鐵鎚旗**。
+
+
+# 泰國路政與植被線索：南部油棕櫚樹園與黑白公里碑 (Thailand Landscape & Milestones)
+- id: thailand-landscape-markers
+- targets: TH
+- priority: 35
+- icon: 🇹🇭
+- accent: #8b5cf6
+- tags: Geoguessr, Landscape
+
+- **【全境特徵：圓頂白色水泥公里碑 (หลักกิโลเมตร)】**
+  - 泰國公路兩側每公里皆設有一座**頂部呈圓拱狀的白色水泥方柱 (Kilometer Stones)**，正面以泰文書寫公路編號與累積公里數，側面標示前後主要城鎮名稱與剩餘里程，是泰國最經典的路政特徵。
+- **植被與南北大區判定**：
+  - **南部狹長半島（靠近普吉島、宋卡、馬來西亞邊界）**：公路兩旁幾乎被**整齊排列、樹幹矮壯粗大的油棕櫚樹園 (Oil Palm Plantations)** 全面覆蓋，地面散落厚厚棕櫚落葉；雨量充沛，紅土道路常見。
+  - **北部山區（清邁、清萊）**：多崇山峻嶺與柚木熱帶季風林。
+  - **東北部高原（伊善地區 Isan）**：地勢開闊平緩、農田相對乾旱，多桉樹與木薯田。
+- **行車與文字**：**靠左行駛**。文字為帶有大量小圓圈封閉環的泰文字母。路口與橋頭高頻立有金碧輝煌的泰皇與皇室成員大型肖像相框。
+
+
+# 馬來西亞婆羅洲電線桿 Meta：沙巴雙橫桿 vs 砂拉越 (Malaysia Borneo Utility Poles)
+- id: malaysia-borneo-utility-poles
+- targets: MY, MY-12, MY-13
+- priority: 35
+- icon: 🇲🇾
+- accent: #0ea5e9
+- tags: Geoguessr, Infrastructure
+
+- **【婆羅洲兩邦秒殺電線桿神器】** 馬來西亞全境靠左行駛，但在婆羅洲島（東馬）的電力線路設計與西馬半島截然不同：
+  - **沙巴邦 (Sabah, 東北婆羅洲)**：電線桿通常為纖細的金屬柱，桿頂帶有**兩根平行對稱的水平金屬橫桿 (Two Parallel Crossbars)**，電纜分別架在雙橫桿兩端。此款雙橫桿是沙巴全境絕殺線索！
+  - **砂拉越邦 (Sarawak, 西南婆羅洲)**：桿頂通常僅有**單一根水平金屬橫桿 (Single Crossbar)**，且橫桿下方常附有一道斜向的加固金屬支撐斜桿。
+  - **西馬半島 (Peninsular Malaysia)**：電線普遍直接以絕緣子固定在混凝土圓桿身，較少見婆羅洲這類突出的金屬橫條框架。
+- **車牌辨識**：黑底白字長方形，沙巴車牌開頭字母為 **S**，砂拉越開頭為 **Q**，吉隆坡為 **W / V**。
+
+
+# 新加坡高標準道路工程：方框襯底速限牌與黑白路緣 (Singapore Road Standards)
+- id: singapore-road-standards
+- targets: SG
+- priority: 35
+- icon: 🇸🇬
+- accent: #ec4899
+- tags: Geoguessr, Infrastructure
+
+- **【圓形速限牌外接白色長方形襯底 (Backing Boards)】**
+  - 新加坡的紅圈白底速限標牌（如 50、60、70），外側**一律固定在一塊大型的長方形白色反光背板上**，極具辨識度。
+- **頂級都會維護特徵**：
+  - **黑白相間路緣石 (Black & White Curbs)**：所有分隔島、轉角人行道緣石皆漆成極為規整鮮明、乾淨無剝落的黑白相間色塊。
+  - **茂密熱帶雨林綠化**：道路中央分隔島普遍種植巨大的雨樹（Rain Trees）與修剪平整的九重葛花叢。
+  - **行車法規與語言**：**靠左行駛**，路面標線、公車專用道（BUS LANE）全為標準英國英式英文。
+
+
+# 印尼道路生活特徵：摩托車前置黑牌與鐵皮屋頂 (Indonesia Motorbikes & Roofs)
+- id: indonesia-motorbikes-roofs
+- targets: ID
+- priority: 35
+- icon: 🇮🇩
+- accent: #ef4444
+- tags: Geoguessr, Culture
+
+- **【摩托車強制懸掛黑色前車牌】**
+  - 印尼是全東南亞唯一嚴格法規強制所有機車**「車頭龍頭前方與車尾皆必須懸掛黑底白字金屬車牌」**的國家！停放在路邊或行駛中的摩托車頭必有一面黑色長方形車牌。
+- **城鄉建築景觀**：
+  - **波浪鐵皮屋頂 (Atap Seng)**：全印尼城鎮與農村房舍極高比例使用銀灰色或生鏽棕紅色的波浪鍍鋅鐵皮屋頂。
+  - **路面黃黑相間減速帶 (Polisi Tidur)**：大街小巷地表隨處可見漆有黃黑條紋的水泥減速丘。
+- **行車與文字語言**：
+  - **靠左行駛**。官方語言為印尼語（Bahasa Indonesia），大量拉丁字母書寫的 *Jalan*（路）、*Pangandaran*、*Bengkel*（修車店）、*Warung*（平民小吃攤）、*Puskesmas*（社區診所）。
+
+
+# 印度混凝土三叉電線桿 (India Trident Utility Poles)
+- id: india-trident-poles
+- targets: IN
+- priority: 35
+- icon: 🇮🇳
+- accent: #f97316
+- tags: Geoguessr, Infrastructure
+
+- **【頂部特有三叉戟造型 (Trident Poles)】**
+  - 在印度廣袤的鄉間道路與二三線城鎮，路旁水泥電線桿頂部極高頻出現**水泥向左右分叉再向上延伸的「三叉戟」或三柱支撐結構**，用以固定三相高壓電纜絕緣子。
+- **街景車鏡頭代數（秒殺印度）**：
+  - 印度全境官方街景覆蓋均於 2022 年後上線，**100% 採用最新的第四代鏡頭 (Gen 4)**，畫質極度銳利且色彩鮮明。
+- **車牌與文字**：
+  - 私家車白底黑字，商業載客計程車與黃綠嘟嘟車為**黃底黑字**，車尾常漆寫大字「*BLOW HORN*」或「*SOUND HORN*」。靠左行駛。
+
+
+# 尼泊爾私家車紅底車牌與喜馬拉雅山區谷地 (Nepal Red Plates & Landscapes)
+- id: nepal-plates-mountain
+- targets: NP
+- priority: 35
+- icon: 🇳🇵
+- accent: #dc2626
+- tags: Geoguessr, Infrastructure
+
+- **【私家車專屬紅底白字車牌 (Red License Plates)】**
+  - 尼泊爾傳統車輛登記系統中，**私人自用客車與休旅車配發極為罕見顯眼的「紅底白字」長方形車牌**（公務車為白底，出租商用為黑底）。
+- **地形與文字特徵**：
+  - 街景主要分佈於加德滿都谷地、博克拉及南部特萊平原公路，背景常可見層疊陡峭的山巒或遠方雪峰。
+  - 官方文字為天城體尼泊爾文（Devanagari），字母頂部有一條連續不斷的橫線貫穿連貫。靠左行駛。
+
+
+# 孟加拉高解析度街景與天然氣綠色嘟嘟車 (Bangladesh Gen 3 CNG Rickshaws)
+- id: bangladesh-gen3-cng
+- targets: BD
+- priority: 35
+- icon: 🇧🇩
+- accent: #16a34a
+- tags: Geoguessr, Infrastructure
+
+- **【綠色天然氣三輪嘟嘟車 (CNG Auto Rickshaws)】**
+  - 孟加拉街頭行駛的機動三輪車外觀極為統一：車身覆蓋**亮綠色烤漆與鐵網保護防盜欄**，車頭印有「CNG」字樣（壓縮天然氣動力），密度極高。
+- **畫質與鄰國對比**：
+  - 孟加拉早期大規模掃街全部採用高清晰度的 **Gen 3 鏡頭**，街景畫面乾淨清晰，無早期低解析度雜訊；文字全為密集的孟加拉文字母（外觀有連續橫樑頂線，形狀比印地文更方正帶有倒三角鈎）。靠左行駛。
+
+
+# 不丹山路白色方形公里水泥墩與宗堡建築 (Bhutan Road Markers & Architecture)
+- id: bhutan-mountain-markers
+- targets: BT
+- priority: 35
+- icon: 🇧🇹
+- accent: #f59e0b
+- tags: Geoguessr, Infrastructure
+
+- **【路旁白色巨型水泥方塊護墩】**
+  - 不丹境內全為盤山公路，懸崖外側每隔數公尺便放置一座**巨大的方形白色混凝土護欄方塊**，塗有白色或黑白雙色，部分刻有宗卡文（Dzongkha）里程標記。
+- **傳統宗堡風格民宅 (Dzong Architecture)**：
+  - 法律嚴格規定全國建築必須遵從傳統藏傳佛教木石雕刻風格：白色石砌牆體、屋簷下帶有繁複對稱的彩繪木製窗框與向外挑出的重簷大屋頂。靠左行駛。
+
+
+# 以色列路緣塗色規則、藍邊黃牌與耶路撒冷石 (Israel Curbs & Jerusalem Stone)
+- id: israel-curbs-jerusalem-stone
+- targets: IL
+- priority: 35
+- icon: 🇮🇱
+- accent: #0284c7
+- tags: Geoguessr, Infrastructure
+
+- **【極具系統性的路緣石塗色法規 (Curb Markings)】**
+  - **紅+白相間**：**絕對禁止停車**（No Parking at Any Time），各大路口與主要幹道最常見。
+  - **藍+白相間**：**收費停車區**（Paid Parking by Meter/App）。
+  - **黑+白相間**：**道路危險與障礙物警示**（如圓環島緣、安全島頭）。
+- **車牌與建築秒殺**：
+  - **車牌**：極似歐洲規格的長方形黃底黑字車牌，但**左側同樣帶有歐盟風格的藍色縱條**（內印以色列國旗與 IL）。
+  - **耶路撒冷石 (Jerusalem Stone)**：市府法令強制耶路撒冷全境所有建築外牆一律必須貼覆淡黃色/乳白色的特有沉積石灰岩石材，在陽光下泛著溫潤的米黃光澤，是秒殺耶路撒冷地區的終極法寶。
+
+
+# 土耳其金屬格狀 A 字型電線桿與轉彎箭頭 (Turkey Lattice Poles & Chevrons)
+- id: turkey-lattice-poles
+- targets: TR
+- priority: 35
+- icon: 🇹🇷
+- accent: #ef4444
+- tags: Geoguessr, Infrastructure
+
+- **【金屬格狀骨架電線桿 (Metal Lattice Poles)】**
+  - 土耳其鄉村與山路普遍使用**由四根細角鐵交叉焊接而成的 A 字型金屬鏤空格狀電線桿**，漆成淺灰色或鍍鋅銀色，外觀如同縮小版的高壓鐵塔。
+- **紅白雙色轉彎箭頭 (Red & White Chevrons)**：
+  - 轉彎處護欄上的轉彎導向標牌採用鮮豔的**紅底白色箭頭（或白底紅色箭頭）**，配合白底紅邊的倒三角形「YOL VER」（讓路）標誌。
+- **文字語言特徵**：
+  - 拉丁字母體系，帶有極高頻的特有字母：無點的 **ı**、帶下標的 **ç** 與 **ş**、帶揚抑符的 **ğ**、以及 **ö, ü**。公路網大量標示「D-XXX」國道編號。
+
+
+# 黎巴嫩 Gen 2 低解析度街景與黃色金屬骨架桿 (Lebanon Gen 2 & Yellow Poles)
+- id: lebanon-gen2-yellow-poles
+- targets: LB
+- priority: 35
+- icon: 🇱🇧
+- accent: #16a34a
+- tags: Geoguessr, Infrastructure
+
+- **【畫質特徵：稀有的中東 Gen 2 覆蓋】**
+  - 黎巴嫩為數不多的官方街景多攝於早期，呈現標準的 **Gen 2 模糊顆粒感與偏暗色調**，在近代遍佈 Gen 3/4 的中東地區極為罕見。
+- **街頭基礎設施**：
+  - 路旁電桿常為**鮮明黃色烤漆的直立鋼管柱或金屬格狀骨架桿**。
+  - 車輛車牌為白底藍字或帶有黎巴嫩雪松圖標的藍色側條；街道常可見阿拉伯文與法語雙語路牌。靠右行駛。
+
