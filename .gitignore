@@ -1,4 +1,5 @@
 dist-index/
+node_modules
 node_modules/
 data-source/
 .DS_Store

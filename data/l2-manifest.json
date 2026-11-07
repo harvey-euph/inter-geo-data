@@ -1,5 +1,18 @@
 [
   {
+    "iso2": "AF",
+    "countryId": "004",
+    "name": "Afghanistan",
+    "nameZh": "阿富汗",
+    "subdivisionCount": 34,
+    "bbox": {
+      "minX": 663,
+      "maxX": 713,
+      "minY": 379,
+      "maxY": 420
+    }
+  },
+  {
     "iso2": "AL",
     "countryId": "008",
     "name": "Albania",
@@ -13,6 +26,45 @@
     }
   },
   {
+    "iso2": "DZ",
+    "countryId": "012",
+    "name": "Algeria",
+    "nameZh": "阿爾及利亞",
+    "subdivisionCount": 48,
+    "bbox": {
+      "minX": 471,
+      "maxX": 538,
+      "minY": 384,
+      "maxY": 451
+    }
+  },
+  {
+    "iso2": "AO",
+    "countryId": "024",
+    "name": "Angola",
+    "nameZh": "安哥拉",
+    "subdivisionCount": 18,
+    "bbox": {
+      "minX": 527,
+      "maxX": 572,
+      "minY": 507,
+      "maxY": 556
+    }
+  },
+  {
+    "iso2": "AQ",
+    "countryId": "010",
+    "name": "Antarctica",
+    "nameZh": "南極洲",
+    "subdivisionCount": 2,
+    "bbox": {
+      "minX": 0,
+      "maxX": 1000,
+      "minY": 708,
+      "maxY": 1000
+    }
+  },
+  {
     "iso2": "AR",
     "countryId": "032",
     "name": "Argentina",
@@ -23,6 +75,19 @@
       "maxX": 356,
       "minY": 557,
       "maxY": 689
+    }
+  },
+  {
+    "iso2": "AM",
+    "countryId": "051",
+    "name": "Armenia",
+    "nameZh": "亞美尼亞",
+    "subdivisionCount": 11,
+    "bbox": {
+      "minX": 616,
+      "maxX": 634,
+      "minY": 369,
+      "maxY": 388
     }
   },
   {
@@ -52,6 +117,32 @@
     }
   },
   {
+    "iso2": "AZ",
+    "countryId": "031",
+    "name": "Azerbaijan",
+    "nameZh": "亞塞拜然",
+    "subdivisionCount": 78,
+    "bbox": {
+      "minX": 619,
+      "maxX": 646,
+      "minY": 367,
+      "maxY": 389
+    }
+  },
+  {
+    "iso2": "BS",
+    "countryId": "044",
+    "name": "Bahamas",
+    "nameZh": "巴哈馬",
+    "subdivisionCount": 29,
+    "bbox": {
+      "minX": 275,
+      "maxX": 303,
+      "minY": 417,
+      "maxY": 446
+    }
+  },
+  {
     "iso2": "BD",
     "countryId": "050",
     "name": "Bangladesh",
@@ -65,6 +156,19 @@
     }
   },
   {
+    "iso2": "BY",
+    "countryId": "112",
+    "name": "Belarus",
+    "nameZh": "白俄羅斯",
+    "subdivisionCount": 7,
+    "bbox": {
+      "minX": 559,
+      "maxX": 596,
+      "minY": 306,
+      "maxY": 339
+    }
+  },
+  {
     "iso2": "BE",
     "countryId": "056",
     "name": "Belgium",
@@ -75,6 +179,32 @@
       "maxX": 523,
       "minY": 328,
       "maxY": 346
+    }
+  },
+  {
+    "iso2": "BZ",
+    "countryId": "084",
+    "name": "Belize",
+    "nameZh": "貝里斯",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 247,
+      "maxX": 261,
+      "minY": 443,
+      "maxY": 460
+    }
+  },
+  {
+    "iso2": "BJ",
+    "countryId": "204",
+    "name": "Benin",
+    "nameZh": "貝南",
+    "subdivisionCount": 12,
+    "bbox": {
+      "minX": 497,
+      "maxX": 516,
+      "minY": 460,
+      "maxY": 488
     }
   },
   {
@@ -104,6 +234,19 @@
     }
   },
   {
+    "iso2": "BA",
+    "countryId": "070",
+    "name": "Bosnia and Herz.",
+    "nameZh": "波士尼亞與赫塞哥維納",
+    "subdivisionCount": 18,
+    "bbox": {
+      "minX": 539,
+      "maxX": 559,
+      "minY": 354,
+      "maxY": 374
+    }
+  },
+  {
     "iso2": "BW",
     "countryId": "072",
     "name": "Botswana",
@@ -130,6 +273,19 @@
     }
   },
   {
+    "iso2": "BN",
+    "countryId": "096",
+    "name": "Brunei",
+    "nameZh": "汶萊",
+    "subdivisionCount": 4,
+    "bbox": {
+      "minX": 812,
+      "maxX": 825,
+      "minY": 481,
+      "maxY": 494
+    }
+  },
+  {
     "iso2": "BG",
     "countryId": "100",
     "name": "Bulgaria",
@@ -140,6 +296,32 @@
       "maxX": 584,
       "minY": 358,
       "maxY": 379
+    }
+  },
+  {
+    "iso2": "BF",
+    "countryId": "854",
+    "name": "Burkina Faso",
+    "nameZh": "布吉納法索",
+    "subdivisionCount": 45,
+    "bbox": {
+      "minX": 480,
+      "maxX": 512,
+      "minY": 453,
+      "maxY": 479
+    }
+  },
+  {
+    "iso2": "BI",
+    "countryId": "108",
+    "name": "Burundi",
+    "nameZh": "蒲隆地",
+    "subdivisionCount": 17,
+    "bbox": {
+      "minX": 576,
+      "maxX": 591,
+      "minY": 501,
+      "maxY": 517
     }
   },
   {
@@ -156,6 +338,19 @@
     }
   },
   {
+    "iso2": "CM",
+    "countryId": "120",
+    "name": "Cameroon",
+    "nameZh": "喀麥隆",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 519,
+      "maxX": 550,
+      "minY": 458,
+      "maxY": 500
+    }
+  },
+  {
     "iso2": "CA",
     "countryId": "124",
     "name": "Canada",
@@ -166,6 +361,32 @@
       "maxX": 359,
       "minY": 48,
       "maxY": 377
+    }
+  },
+  {
+    "iso2": "CF",
+    "countryId": "140",
+    "name": "Central African Rep.",
+    "nameZh": "中非共和國",
+    "subdivisionCount": 17,
+    "bbox": {
+      "minX": 535,
+      "maxX": 581,
+      "minY": 464,
+      "maxY": 499
+    }
+  },
+  {
+    "iso2": "TD",
+    "countryId": "148",
+    "name": "Chad",
+    "nameZh": "查德",
+    "subdivisionCount": 22,
+    "bbox": {
+      "minX": 532,
+      "maxX": 572,
+      "minY": 428,
+      "maxY": 484
     }
   },
   {
@@ -182,6 +403,19 @@
     }
   },
   {
+    "iso2": "CN",
+    "countryId": "156",
+    "name": "China",
+    "nameZh": "中國",
+    "subdivisionCount": 31,
+    "bbox": {
+      "minX": 699,
+      "maxX": 879,
+      "minY": 318,
+      "maxY": 454
+    }
+  },
+  {
     "iso2": "CO",
     "countryId": "170",
     "name": "Colombia",
@@ -195,6 +429,45 @@
     }
   },
   {
+    "iso2": "CG",
+    "countryId": "178",
+    "name": "Congo",
+    "nameZh": "剛果共和國",
+    "subdivisionCount": 12,
+    "bbox": {
+      "minX": 526,
+      "maxX": 557,
+      "minY": 485,
+      "maxY": 519
+    }
+  },
+  {
+    "iso2": "CR",
+    "countryId": "188",
+    "name": "Costa Rica",
+    "nameZh": "哥斯大黎加",
+    "subdivisionCount": 7,
+    "bbox": {
+      "minX": 253,
+      "maxX": 276,
+      "minY": 464,
+      "maxY": 490
+    }
+  },
+  {
+    "iso2": "CI",
+    "countryId": "384",
+    "name": "Côte d'Ivoire",
+    "nameZh": "象牙海岸",
+    "subdivisionCount": 19,
+    "bbox": {
+      "minX": 471,
+      "maxX": 498,
+      "minY": 465,
+      "maxY": 493
+    }
+  },
+  {
     "iso2": "HR",
     "countryId": "191",
     "name": "Croatia",
@@ -205,6 +478,19 @@
       "maxX": 559,
       "minY": 349,
       "maxY": 375
+    }
+  },
+  {
+    "iso2": "CU",
+    "countryId": "192",
+    "name": "Cuba",
+    "nameZh": "古巴",
+    "subdivisionCount": 16,
+    "bbox": {
+      "minX": 259,
+      "maxX": 299,
+      "minY": 429,
+      "maxY": 449
     }
   },
   {
@@ -234,6 +520,19 @@
     }
   },
   {
+    "iso2": "CD",
+    "countryId": "180",
+    "name": "Dem. Rep. Congo",
+    "nameZh": "民主剛果",
+    "subdivisionCount": 11,
+    "bbox": {
+      "minX": 529,
+      "maxX": 592,
+      "minY": 480,
+      "maxY": 543
+    }
+  },
+  {
     "iso2": "DK",
     "countryId": "208",
     "name": "Denmark",
@@ -244,6 +543,19 @@
       "maxX": 547,
       "minY": 297,
       "maxY": 323
+    }
+  },
+  {
+    "iso2": "DJ",
+    "countryId": "262",
+    "name": "Djibouti",
+    "nameZh": "吉布地",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 611,
+      "maxX": 626,
+      "minY": 459,
+      "maxY": 474
     }
   },
   {
@@ -273,6 +585,58 @@
     }
   },
   {
+    "iso2": "EG",
+    "countryId": "818",
+    "name": "Egypt",
+    "nameZh": "埃及",
+    "subdivisionCount": 27,
+    "bbox": {
+      "minX": 564,
+      "maxX": 607,
+      "minY": 402,
+      "maxY": 442
+    }
+  },
+  {
+    "iso2": "SV",
+    "countryId": "222",
+    "name": "El Salvador",
+    "nameZh": "薩爾瓦多",
+    "subdivisionCount": 14,
+    "bbox": {
+      "minX": 245,
+      "maxX": 261,
+      "minY": 454,
+      "maxY": 468
+    }
+  },
+  {
+    "iso2": "GQ",
+    "countryId": "226",
+    "name": "Eq. Guinea",
+    "nameZh": "赤道幾內亞",
+    "subdivisionCount": 7,
+    "bbox": {
+      "minX": 511,
+      "maxX": 536,
+      "minY": 485,
+      "maxY": 509
+    }
+  },
+  {
+    "iso2": "ER",
+    "countryId": "232",
+    "name": "Eritrea",
+    "nameZh": "厄利垂亞",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 596,
+      "maxX": 625,
+      "minY": 444,
+      "maxY": 470
+    }
+  },
+  {
     "iso2": "EE",
     "countryId": "233",
     "name": "Estonia",
@@ -299,6 +663,45 @@
     }
   },
   {
+    "iso2": "ET",
+    "countryId": "231",
+    "name": "Ethiopia",
+    "nameZh": "衣索比亞",
+    "subdivisionCount": 11,
+    "bbox": {
+      "minX": 587,
+      "maxX": 638,
+      "minY": 453,
+      "maxY": 496
+    }
+  },
+  {
+    "iso2": "FK",
+    "countryId": "238",
+    "name": "Falkland Is.",
+    "nameZh": "福克蘭群島",
+    "subdivisionCount": 1,
+    "bbox": {
+      "minX": 325,
+      "maxX": 345,
+      "minY": 660,
+      "maxY": 677
+    }
+  },
+  {
+    "iso2": "FJ",
+    "countryId": "242",
+    "name": "Fiji",
+    "nameZh": "斐濟",
+    "subdivisionCount": 5,
+    "bbox": {
+      "minX": 0,
+      "maxX": 1000,
+      "minY": 530,
+      "maxY": 567
+    }
+  },
+  {
     "iso2": "FI",
     "countryId": "246",
     "name": "Finland",
@@ -312,6 +715,19 @@
     }
   },
   {
+    "iso2": "TF",
+    "countryId": "260",
+    "name": "Fr. S. Antarctic Lands",
+    "nameZh": "法屬南部領地",
+    "subdivisionCount": 4,
+    "bbox": {
+      "minX": 607,
+      "maxX": 721,
+      "minY": 543,
+      "maxY": 665
+    }
+  },
+  {
     "iso2": "FR",
     "countryId": "250",
     "name": "France",
@@ -322,6 +738,45 @@
       "maxX": 660,
       "minY": 329,
       "maxY": 566
+    }
+  },
+  {
+    "iso2": "GA",
+    "countryId": "266",
+    "name": "Gabon",
+    "nameZh": "加彭",
+    "subdivisionCount": 9,
+    "bbox": {
+      "minX": 519,
+      "maxX": 545,
+      "minY": 489,
+      "maxY": 516
+    }
+  },
+  {
+    "iso2": "GM",
+    "countryId": "270",
+    "name": "Gambia",
+    "nameZh": "甘比亞",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 448,
+      "maxX": 467,
+      "minY": 456,
+      "maxY": 468
+    }
+  },
+  {
+    "iso2": "GE",
+    "countryId": "268",
+    "name": "Georgia",
+    "nameZh": "喬治亞",
+    "subdivisionCount": 12,
+    "bbox": {
+      "minX": 606,
+      "maxX": 635,
+      "minY": 360,
+      "maxY": 380
     }
   },
   {
@@ -390,6 +845,71 @@
     }
   },
   {
+    "iso2": "GN",
+    "countryId": "324",
+    "name": "Guinea",
+    "nameZh": "幾內亞",
+    "subdivisionCount": 34,
+    "bbox": {
+      "minX": 453,
+      "maxX": 484,
+      "minY": 460,
+      "maxY": 485
+    }
+  },
+  {
+    "iso2": "GW",
+    "countryId": "624",
+    "name": "Guinea-Bissau",
+    "nameZh": "幾內亞比索",
+    "subdivisionCount": 9,
+    "bbox": {
+      "minX": 449,
+      "maxX": 467,
+      "minY": 459,
+      "maxY": 474
+    }
+  },
+  {
+    "iso2": "GY",
+    "countryId": "328",
+    "name": "Guyana",
+    "nameZh": "蓋亞那",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 324,
+      "maxX": 348,
+      "minY": 471,
+      "maxY": 502
+    }
+  },
+  {
+    "iso2": "HT",
+    "countryId": "332",
+    "name": "Haiti",
+    "nameZh": "海地",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 288,
+      "maxX": 306,
+      "minY": 438,
+      "maxY": 454
+    }
+  },
+  {
+    "iso2": "HN",
+    "countryId": "340",
+    "name": "Honduras",
+    "nameZh": "宏都拉斯",
+    "subdivisionCount": 18,
+    "bbox": {
+      "minX": 247,
+      "maxX": 274,
+      "minY": 448,
+      "maxY": 469
+    }
+  },
+  {
     "iso2": "HK",
     "countryId": "344",
     "name": "Hong Kong",
@@ -455,6 +975,32 @@
     }
   },
   {
+    "iso2": "IR",
+    "countryId": "364",
+    "name": "Iran",
+    "nameZh": "伊朗",
+    "subdivisionCount": 31,
+    "bbox": {
+      "minX": 617,
+      "maxX": 681,
+      "minY": 374,
+      "maxY": 433
+    }
+  },
+  {
+    "iso2": "IQ",
+    "countryId": "368",
+    "name": "Iraq",
+    "nameZh": "伊拉克",
+    "subdivisionCount": 18,
+    "bbox": {
+      "minX": 603,
+      "maxX": 640,
+      "minY": 383,
+      "maxY": 421
+    }
+  },
+  {
     "iso2": "IE",
     "countryId": "372",
     "name": "Ireland",
@@ -491,6 +1037,19 @@
       "maxX": 556,
       "minY": 346,
       "maxY": 399
+    }
+  },
+  {
+    "iso2": "JM",
+    "countryId": "388",
+    "name": "Jamaica",
+    "nameZh": "牙買加",
+    "subdivisionCount": 14,
+    "bbox": {
+      "minX": 277,
+      "maxX": 293,
+      "minY": 443,
+      "maxY": 455
     }
   },
   {
@@ -546,6 +1105,32 @@
     }
   },
   {
+    "iso2": "XK",
+    "countryId": "992",
+    "name": "Kosovo",
+    "nameZh": "科索沃",
+    "subdivisionCount": 30,
+    "bbox": {
+      "minX": 551,
+      "maxX": 565,
+      "minY": 361,
+      "maxY": 377
+    }
+  },
+  {
+    "iso2": "KW",
+    "countryId": "414",
+    "name": "Kuwait",
+    "nameZh": "科威特",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 624,
+      "maxX": 640,
+      "minY": 407,
+      "maxY": 422
+    }
+  },
+  {
     "iso2": "KG",
     "countryId": "417",
     "name": "Kyrgyzstan",
@@ -585,6 +1170,19 @@
     }
   },
   {
+    "iso2": "LB",
+    "countryId": "422",
+    "name": "Lebanon",
+    "nameZh": "黎巴嫩",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 592,
+      "maxX": 607,
+      "minY": 392,
+      "maxY": 408
+    }
+  },
+  {
     "iso2": "LS",
     "countryId": "426",
     "name": "Lesotho",
@@ -595,6 +1193,32 @@
       "maxX": 587,
       "minY": 578,
       "maxY": 595
+    }
+  },
+  {
+    "iso2": "LR",
+    "countryId": "430",
+    "name": "Liberia",
+    "nameZh": "賴比瑞亞",
+    "subdivisionCount": 15,
+    "bbox": {
+      "minX": 463,
+      "maxX": 484,
+      "minY": 471,
+      "maxY": 493
+    }
+  },
+  {
+    "iso2": "LY",
+    "countryId": "434",
+    "name": "Libya",
+    "nameZh": "利比亞",
+    "subdivisionCount": 22,
+    "bbox": {
+      "minX": 521,
+      "maxX": 575,
+      "minY": 397,
+      "maxY": 450
     }
   },
   {
@@ -624,6 +1248,32 @@
     }
   },
   {
+    "iso2": "MG",
+    "countryId": "450",
+    "name": "Madagascar",
+    "nameZh": "馬達加斯加",
+    "subdivisionCount": 22,
+    "bbox": {
+      "minX": 615,
+      "maxX": 645,
+      "minY": 528,
+      "maxY": 579
+    }
+  },
+  {
+    "iso2": "MW",
+    "countryId": "454",
+    "name": "Malawi",
+    "nameZh": "馬拉威",
+    "subdivisionCount": 28,
+    "bbox": {
+      "minX": 586,
+      "maxX": 605,
+      "minY": 521,
+      "maxY": 553
+    }
+  },
+  {
     "iso2": "MY",
     "countryId": "458",
     "name": "Malaysia",
@@ -634,6 +1284,19 @@
       "maxX": 836,
       "minY": 475,
       "maxY": 503
+    }
+  },
+  {
+    "iso2": "ML",
+    "countryId": "466",
+    "name": "Mali",
+    "nameZh": "馬利",
+    "subdivisionCount": 9,
+    "bbox": {
+      "minX": 461,
+      "maxX": 517,
+      "minY": 423,
+      "maxY": 477
     }
   },
   {
@@ -650,6 +1313,19 @@
     }
   },
   {
+    "iso2": "MR",
+    "countryId": "478",
+    "name": "Mauritania",
+    "nameZh": "茅利塔尼亞",
+    "subdivisionCount": 13,
+    "bbox": {
+      "minX": 448,
+      "maxX": 492,
+      "minY": 416,
+      "maxY": 464
+    }
+  },
+  {
     "iso2": "MX",
     "countryId": "484",
     "name": "Mexico",
@@ -660,6 +1336,19 @@
       "maxX": 264,
       "minY": 399,
       "maxY": 464
+    }
+  },
+  {
+    "iso2": "MD",
+    "countryId": "498",
+    "name": "Moldova",
+    "nameZh": "摩爾多瓦",
+    "subdivisionCount": 40,
+    "bbox": {
+      "minX": 569,
+      "maxX": 589,
+      "minY": 341,
+      "maxY": 363
     }
   },
   {
@@ -689,6 +1378,84 @@
     }
   },
   {
+    "iso2": "MA",
+    "countryId": "504",
+    "name": "Morocco",
+    "nameZh": "摩洛哥",
+    "subdivisionCount": 16,
+    "bbox": {
+      "minX": 448,
+      "maxX": 502,
+      "minY": 388,
+      "maxY": 444
+    }
+  },
+  {
+    "iso2": "MZ",
+    "countryId": "508",
+    "name": "Mozambique",
+    "nameZh": "莫三比克",
+    "subdivisionCount": 11,
+    "bbox": {
+      "minX": 579,
+      "maxX": 618,
+      "minY": 524,
+      "maxY": 583
+    }
+  },
+  {
+    "iso2": "MM",
+    "countryId": "104",
+    "name": "Myanmar",
+    "nameZh": "緬甸",
+    "subdivisionCount": 14,
+    "bbox": {
+      "minX": 751,
+      "maxX": 786,
+      "minY": 412,
+      "maxY": 478
+    }
+  },
+  {
+    "iso2": "XN",
+    "countryId": "990",
+    "name": "N. Cyprus",
+    "nameZh": "北賽普勒斯",
+    "subdivisionCount": 1,
+    "bbox": {
+      "minX": 586,
+      "maxX": 601,
+      "minY": 389,
+      "maxY": 401
+    }
+  },
+  {
+    "iso2": "NA",
+    "countryId": "516",
+    "name": "Namibia",
+    "nameZh": "納米比亞",
+    "subdivisionCount": 13,
+    "bbox": {
+      "minX": 528,
+      "maxX": 575,
+      "minY": 543,
+      "maxY": 589
+    }
+  },
+  {
+    "iso2": "NP",
+    "countryId": "524",
+    "name": "Nepal",
+    "nameZh": "尼泊爾",
+    "subdivisionCount": 14,
+    "bbox": {
+      "minX": 717,
+      "maxX": 750,
+      "minY": 406,
+      "maxY": 429
+    }
+  },
+  {
     "iso2": "NL",
     "countryId": "528",
     "name": "Netherlands",
@@ -699,6 +1466,19 @@
       "maxX": 525,
       "minY": 318,
       "maxY": 471
+    }
+  },
+  {
+    "iso2": "NC",
+    "countryId": "540",
+    "name": "New Caledonia",
+    "nameZh": "新喀里多尼亞",
+    "subdivisionCount": 3,
+    "bbox": {
+      "minX": 949,
+      "maxX": 972,
+      "minY": 551,
+      "maxY": 570
     }
   },
   {
@@ -715,6 +1495,32 @@
     }
   },
   {
+    "iso2": "NI",
+    "countryId": "558",
+    "name": "Nicaragua",
+    "nameZh": "尼加拉瓜",
+    "subdivisionCount": 17,
+    "bbox": {
+      "minX": 251,
+      "maxX": 275,
+      "minY": 453,
+      "maxY": 475
+    }
+  },
+  {
+    "iso2": "NE",
+    "countryId": "562",
+    "name": "Niger",
+    "nameZh": "尼日",
+    "subdivisionCount": 8,
+    "bbox": {
+      "minX": 495,
+      "maxX": 549,
+      "minY": 428,
+      "maxY": 472
+    }
+  },
+  {
     "iso2": "NG",
     "countryId": "566",
     "name": "Nigeria",
@@ -725,6 +1531,19 @@
       "maxX": 546,
       "minY": 456,
       "maxY": 493
+    }
+  },
+  {
+    "iso2": "KP",
+    "countryId": "408",
+    "name": "North Korea",
+    "nameZh": "北韓",
+    "subdivisionCount": 11,
+    "bbox": {
+      "minX": 840,
+      "maxX": 868,
+      "minY": 362,
+      "maxY": 392
     }
   },
   {
@@ -767,6 +1586,32 @@
     }
   },
   {
+    "iso2": "PK",
+    "countryId": "586",
+    "name": "Pakistan",
+    "nameZh": "巴基斯坦",
+    "subdivisionCount": 8,
+    "bbox": {
+      "minX": 664,
+      "maxX": 719,
+      "minY": 384,
+      "maxY": 437
+    }
+  },
+  {
+    "iso2": "PS",
+    "countryId": "275",
+    "name": "Palestine",
+    "nameZh": "巴勒斯坦",
+    "subdivisionCount": 2,
+    "bbox": {
+      "minX": 590,
+      "maxX": 604,
+      "minY": 399,
+      "maxY": 414
+    }
+  },
+  {
     "iso2": "PA",
     "countryId": "591",
     "name": "Panama",
@@ -777,6 +1622,32 @@
       "maxX": 291,
       "minY": 468,
       "maxY": 485
+    }
+  },
+  {
+    "iso2": "PG",
+    "countryId": "598",
+    "name": "Papua New Guinea",
+    "nameZh": "巴布亞紐幾內亞",
+    "subdivisionCount": 20,
+    "bbox": {
+      "minX": 886,
+      "maxX": 938,
+      "minY": 499,
+      "maxY": 538
+    }
+  },
+  {
+    "iso2": "PY",
+    "countryId": "600",
+    "name": "Paraguay",
+    "nameZh": "巴拉圭",
+    "subdivisionCount": 18,
+    "bbox": {
+      "minX": 321,
+      "maxX": 354,
+      "minY": 550,
+      "maxY": 585
     }
   },
   {
@@ -897,6 +1768,32 @@
     }
   },
   {
+    "iso2": "SS",
+    "countryId": "728",
+    "name": "S. Sudan",
+    "nameZh": "南蘇丹",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 562,
+      "maxX": 605,
+      "minY": 461,
+      "maxY": 495
+    }
+  },
+  {
+    "iso2": "SA",
+    "countryId": "682",
+    "name": "Saudi Arabia",
+    "nameZh": "沙烏地阿拉伯",
+    "subdivisionCount": 13,
+    "bbox": {
+      "minX": 591,
+      "maxX": 660,
+      "minY": 401,
+      "maxY": 459
+    }
+  },
+  {
     "iso2": "SN",
     "countryId": "686",
     "name": "Senegal",
@@ -920,6 +1817,19 @@
       "maxX": 569,
       "minY": 350,
       "maxY": 375
+    }
+  },
+  {
+    "iso2": "SL",
+    "countryId": "694",
+    "name": "Sierra Leone",
+    "nameZh": "獅子山",
+    "subdivisionCount": 4,
+    "bbox": {
+      "minX": 458,
+      "maxX": 476,
+      "minY": 467,
+      "maxY": 486
     }
   },
   {
@@ -959,6 +1869,45 @@
       "maxX": 551,
       "minY": 347,
       "maxY": 363
+    }
+  },
+  {
+    "iso2": "SB",
+    "countryId": "090",
+    "name": "Solomon Is.",
+    "nameZh": "索羅門群島",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 927,
+      "maxX": 974,
+      "minY": 513,
+      "maxY": 539
+    }
+  },
+  {
+    "iso2": "SO",
+    "countryId": "706",
+    "name": "Somalia",
+    "nameZh": "索馬利亞",
+    "subdivisionCount": 13,
+    "bbox": {
+      "minX": 609,
+      "maxX": 648,
+      "minY": 461,
+      "maxY": 510
+    }
+  },
+  {
+    "iso2": "XS",
+    "countryId": "991",
+    "name": "Somaliland",
+    "nameZh": "索馬利蘭",
+    "subdivisionCount": 1,
+    "bbox": {
+      "minX": 613,
+      "maxX": 641,
+      "minY": 463,
+      "maxY": 483
     }
   },
   {
@@ -1014,6 +1963,32 @@
     }
   },
   {
+    "iso2": "SD",
+    "countryId": "729",
+    "name": "Sudan",
+    "nameZh": "蘇丹",
+    "subdivisionCount": 17,
+    "bbox": {
+      "minX": 556,
+      "maxX": 612,
+      "minY": 432,
+      "maxY": 481
+    }
+  },
+  {
+    "iso2": "SR",
+    "countryId": "740",
+    "name": "Suriname",
+    "nameZh": "蘇利南",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 334,
+      "maxX": 355,
+      "minY": 478,
+      "maxY": 500
+    }
+  },
+  {
     "iso2": "SE",
     "countryId": "752",
     "name": "Sweden",
@@ -1040,6 +2015,19 @@
     }
   },
   {
+    "iso2": "SY",
+    "countryId": "760",
+    "name": "Syria",
+    "nameZh": "敘利亞",
+    "subdivisionCount": 15,
+    "bbox": {
+      "minX": 594,
+      "maxX": 623,
+      "minY": 383,
+      "maxY": 410
+    }
+  },
+  {
     "iso2": "TW",
     "countryId": "158",
     "name": "Taiwan",
@@ -1053,6 +2041,32 @@
     }
   },
   {
+    "iso2": "TJ",
+    "countryId": "762",
+    "name": "Tajikistan",
+    "nameZh": "塔吉克",
+    "subdivisionCount": 5,
+    "bbox": {
+      "minX": 682,
+      "maxX": 714,
+      "minY": 370,
+      "maxY": 395
+    }
+  },
+  {
+    "iso2": "TZ",
+    "countryId": "834",
+    "name": "Tanzania",
+    "nameZh": "坦尚尼亞",
+    "subdivisionCount": 30,
+    "bbox": {
+      "minX": 576,
+      "maxX": 617,
+      "minY": 498,
+      "maxY": 538
+    }
+  },
+  {
     "iso2": "TH",
     "countryId": "764",
     "name": "Thailand",
@@ -1063,6 +2077,45 @@
       "maxX": 798,
       "minY": 437,
       "maxY": 489
+    }
+  },
+  {
+    "iso2": "TL",
+    "countryId": "626",
+    "name": "Timor-Leste",
+    "nameZh": "東帝汶",
+    "subdivisionCount": 13,
+    "bbox": {
+      "minX": 840,
+      "maxX": 859,
+      "minY": 518,
+      "maxY": 532
+    }
+  },
+  {
+    "iso2": "TG",
+    "countryId": "768",
+    "name": "Togo",
+    "nameZh": "多哥",
+    "subdivisionCount": 5,
+    "bbox": {
+      "minX": 495,
+      "maxX": 510,
+      "minY": 464,
+      "maxY": 488
+    }
+  },
+  {
+    "iso2": "TT",
+    "countryId": "780",
+    "name": "Trinidad and Tobago",
+    "nameZh": "千里達及托巴哥",
+    "subdivisionCount": 16,
+    "bbox": {
+      "minX": 323,
+      "maxX": 337,
+      "minY": 463,
+      "maxY": 477
     }
   },
   {
@@ -1089,6 +2142,19 @@
       "maxX": 629,
       "minY": 366,
       "maxY": 398
+    }
+  },
+  {
+    "iso2": "TM",
+    "countryId": "795",
+    "name": "Turkmenistan",
+    "nameZh": "土庫曼",
+    "subdivisionCount": 5,
+    "bbox": {
+      "minX": 641,
+      "maxX": 690,
+      "minY": 363,
+      "maxY": 401
     }
   },
   {
@@ -1170,6 +2236,45 @@
     }
   },
   {
+    "iso2": "UZ",
+    "countryId": "860",
+    "name": "Uzbekistan",
+    "nameZh": "烏茲別克",
+    "subdivisionCount": 14,
+    "bbox": {
+      "minX": 650,
+      "maxX": 708,
+      "minY": 353,
+      "maxY": 394
+    }
+  },
+  {
+    "iso2": "VU",
+    "countryId": "548",
+    "name": "Vanuatu",
+    "nameZh": "萬那杜",
+    "subdivisionCount": 6,
+    "bbox": {
+      "minX": 958,
+      "maxX": 977,
+      "minY": 532,
+      "maxY": 562
+    }
+  },
+  {
+    "iso2": "VE",
+    "countryId": "862",
+    "name": "Venezuela",
+    "nameZh": "委內瑞拉",
+    "subdivisionCount": 25,
+    "bbox": {
+      "minX": 291,
+      "maxX": 339,
+      "minY": 461,
+      "maxY": 503
+    }
+  },
+  {
     "iso2": "VN",
     "countryId": "704",
     "name": "Vietnam",
@@ -1180,6 +2285,58 @@
       "maxX": 809,
       "minY": 428,
       "maxY": 481
+    }
+  },
+  {
+    "iso2": "EH",
+    "countryId": "732",
+    "name": "W. Sahara",
+    "nameZh": "西撒哈拉",
+    "subdivisionCount": 1,
+    "bbox": {
+      "minX": 447,
+      "maxX": 481,
+      "minY": 415,
+      "maxY": 446
+    }
+  },
+  {
+    "iso2": "YE",
+    "countryId": "887",
+    "name": "Yemen",
+    "nameZh": "葉門",
+    "subdivisionCount": 21,
+    "bbox": {
+      "minX": 613,
+      "maxX": 657,
+      "minY": 441,
+      "maxY": 471
+    }
+  },
+  {
+    "iso2": "ZM",
+    "countryId": "894",
+    "name": "Zambia",
+    "nameZh": "尚比亞",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 556,
+      "maxX": 599,
+      "minY": 518,
+      "maxY": 556
+    }
+  },
+  {
+    "iso2": "ZW",
+    "countryId": "716",
+    "name": "Zimbabwe",
+    "nameZh": "辛巴威",
+    "subdivisionCount": 10,
+    "bbox": {
+      "minX": 565,
+      "maxX": 597,
+      "minY": 539,
+      "maxY": 569
     }
   }
 ]

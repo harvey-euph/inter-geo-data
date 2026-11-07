@@ -11,7 +11,7 @@
 // @goto: lat=50&lon=16&ratio=4
 // @labelSize: 1
 // @textSize: 1
-// @imageSize: 1.8
+// @imageSize: 1.2
 
 Target,Color,Label,LabelDisplayMethod,NameZh,NameEn,Stripes,Direction,Shape,DescriptionZh
 DE,,images/crossing/de.svg,image,德國,Germany,4,left,blue_square,標準 StVO 350-10 標誌：藍底白三角，行人向左行，4 條粗斑馬線。與西歐多數 5 條國家區隔的關鍵特徵。

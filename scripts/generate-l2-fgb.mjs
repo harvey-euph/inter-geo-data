@@ -13,10 +13,11 @@ const __dirname = path.dirname(__filename);
 // Raw inputs live in this repo. Legacy public/data outputs and src manifests still write to the frontend repo.
 const dataRoot = path.resolve(__dirname, '..');
 const appRoot = path.resolve(dataRoot, '..', 'inter-geo');
-const rootDir = appRoot;
+const rootDir = dataRoot;
 const dataSourceDir = path.join(dataRoot, 'data-source');
-const outputDir = path.join(rootDir, 'public', 'data', 'l2');
-const manifestPath = path.join(rootDir, 'src', 'data', 'l2Manifest.ts');
+const outputDir = path.join(dataRoot, 'data');
+const l2ManifestJsonPath = path.join(dataRoot, 'data', 'l2-manifest.json');
+const manifestPath = path.join(appRoot, 'src', 'data', 'l2Manifest.ts');
 
 const MAP_W = 1000;
 const MAP_H = 1000;
@@ -266,33 +267,49 @@ async function ensureSourceData() {
   return geojsonPath;
 }
 
-function getOfficialCountries() {
-  const countriesTs = fs.readFileSync(path.join(rootDir, 'src', 'data', 'countries.ts'), 'utf8');
-  const regex = /id:\s*["'](\d+)["'][\s\S]*?iso2:\s*["']([A-Z]{2})["'][\s\S]*?name:\s*["']([^"']+)["'][\s\S]*?nameZh:\s*["']([^"']+)["'][\s\S]*?coverage:\s*["']([a-z]+)["']/g;
-  let m;
-  const officialMap = new Map();
-  while ((m = regex.exec(countriesTs)) !== null) {
-    if (m[5] === 'official') {
-      officialMap.set(m[2], {
-        id: m[1],
-        iso2: m[2],
-        name: m[3],
-        nameZh: m[4]
-      });
+function getAllCountries() {
+  const csvPath = path.join(dataRoot, 'data', 'countries.csv');
+  const content = fs.readFileSync(csvPath, 'utf8');
+  const lines = content.split(/\r?\n/);
+  const countryMap = new Map();
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line || line.startsWith('//')) continue;
+    const parts = line.split(',');
+    const id = parts[0];
+    const iso2 = parts[1];
+    const name = parts[3];
+    const nameZh = parts[4];
+    const coverage = parts[9];
+    if (iso2) {
+      countryMap.set(iso2, { id, iso2, name, nameZh, coverage });
     }
   }
-  return officialMap;
+  return countryMap;
 }
 
 async function main() {
+  const args = process.argv.slice(2);
+  const force = args.includes('--force');
+  const targetIso = args.find((_, idx) => args[idx - 1] === '--country')?.toUpperCase();
+
   console.log('=== Worldwide L2 Admin-1 Generator ===');
+  if (force) console.log('Mode: --force (will regenerate all files)');
+  if (targetIso) console.log(`Target: single country ${targetIso}`);
+
   const geojsonPath = await ensureSourceData();
-  const officialCountries = getOfficialCountries();
-  console.log(`Loaded ${officialCountries.size} official Street View countries from countries.ts`);
+  const allCountries = getAllCountries();
+  console.log(`Loaded ${allCountries.size} countries from countries.csv`);
 
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
+
+  // Load existing manifest entries
+  const existingManifest = fs.existsSync(l2ManifestJsonPath)
+    ? JSON.parse(fs.readFileSync(l2ManifestJsonPath, 'utf8'))
+    : [];
+  const manifestMap = new Map(existingManifest.map((m) => [m.iso2, m]));
 
   console.log('Reading and parsing Natural Earth GeoJSON...');
   const rawData = JSON.parse(fs.readFileSync(geojsonPath, 'utf8'));
@@ -311,6 +328,18 @@ async function main() {
       f.properties.type_en = 'Special Status City';
       f.properties.iso_3166_2 = 'KZ-BAY';
       f.properties.postal = 'BAY';
+    } else if (f.properties.adm0_a3 === 'SOL') {
+      iso2 = 'XS';
+    } else if (f.properties.adm0_a3 === 'CYN') {
+      iso2 = 'XN';
+    } else if (f.properties.adm0_a3 === 'KOS') {
+      iso2 = 'XK';
+    } else if (!iso2 || iso2 === '-99') {
+      const adm0 = f.properties.adm0_a3;
+      if (adm0 === 'PSX' || adm0 === 'PSE' || adm0 === 'WEB' || adm0 === 'GAZ') iso2 = 'PS';
+      else if (adm0 === 'SAH' || adm0 === 'ESH') iso2 = 'EH';
+      else if (adm0 === 'ATA') iso2 = 'AQ';
+      else if (adm0 === 'ATF') iso2 = 'TF';
     }
     if (!iso2 || iso2 === '-99') continue;
     if (!featuresByIso2.has(iso2)) {
@@ -319,15 +348,13 @@ async function main() {
     featuresByIso2.get(iso2).push(f);
   }
 
-  const manifestEntries = [];
-
   // 1. Process Japan (JP) specially using our existing high-precision JIS dataset if available
   const jpOutputPath = path.join(outputDir, 'JP.fgb');
-  const existingJpPath = path.join(rootDir, 'public', 'data', 'japan-prefectures.fgb');
+  const existingJpPath = path.join(dataRoot, 'data', 'japan-prefectures.fgb');
   const jpSourcePath = fs.existsSync(existingJpPath) ? existingJpPath : (fs.existsSync(jpOutputPath) ? jpOutputPath : null);
-  const jpInfo = officialCountries.get('JP') || { id: '392', name: 'Japan', nameZh: '日本' };
+  const jpInfo = allCountries.get('JP') || { id: '392', name: 'Japan', nameZh: '日本' };
 
-  if (jpSourcePath) {
+  if (jpSourcePath && (!fs.existsSync(jpOutputPath) || force)) {
     const buf = fs.readFileSync(jpSourcePath);
     const it = flatgeobuf.geojson.deserialize(new Uint8Array(buf));
     const jpRawFeatures = [];
@@ -346,7 +373,7 @@ async function main() {
         features: optimizedJpFeatures
       });
       fs.writeFileSync(jpOutputPath, Buffer.from(fgbBytes));
-      manifestEntries.push({
+      manifestMap.set('JP', {
         iso2: 'JP',
         countryId: jpInfo.id,
         name: jpInfo.name,
@@ -358,9 +385,37 @@ async function main() {
     }
   }
 
-  // 2. Process all other official Street View countries
-  for (const [iso2, info] of officialCountries.entries()) {
-    if (iso2 === 'JP' && jpSourcePath) continue;
+  // 2. Process all countries
+  for (const [iso2, info] of allCountries.entries()) {
+    if (targetIso && iso2 !== targetIso) continue;
+    if (iso2 === 'JP' && jpSourcePath && (!force || !targetIso)) {
+      continue;
+    }
+
+    const outPath = path.join(outputDir, `${iso2}.fgb`);
+    if (!force && fs.existsSync(outPath)) {
+      if (!manifestMap.has(iso2)) {
+        try {
+          const buf = fs.readFileSync(outPath);
+          const it = flatgeobuf.geojson.deserialize(new Uint8Array(buf));
+          const feats = [];
+          for await (const f of it) feats.push(f);
+          const bbox = computeBoundingBox(feats);
+          manifestMap.set(iso2, {
+            iso2,
+            countryId: info.id,
+            name: info.name,
+            nameZh: info.nameZh,
+            subdivisionCount: feats.length,
+            bbox
+          });
+        } catch {
+          // Keep without bbox
+        }
+      }
+      console.log(`[${iso2}] Preserving existing FGB: ${manifestMap.get(iso2)?.subdivisionCount || '?'} subdivisions`);
+      continue;
+    }
 
     const rawFeats = featuresByIso2.get(iso2) || [];
     if (rawFeats.length === 0) {
@@ -481,7 +536,7 @@ async function main() {
       const normalized = normalizeFeatureWinding(f);
       const p = normalized.properties || {};
 
-      let nameZh = p.name_zh || p.name || '';
+      let nameZh = p.name_zht || p.name_zh || p.name || '';
       if (iso2 === 'TW' && TW_ZH_MAP[nameZh]) {
         nameZh = TW_ZH_MAP[nameZh];
       } else if (iso2 === 'KZ' && (KZ_ZH_MAP[p.name] || KZ_ZH_MAP[nameZh])) {
@@ -518,10 +573,9 @@ async function main() {
       features: optimizedFeatures
     });
 
-    const outPath = path.join(outputDir, `${iso2}.fgb`);
     fs.writeFileSync(outPath, Buffer.from(fgbBytes));
 
-    manifestEntries.push({
+    manifestMap.set(iso2, {
       iso2,
       countryId: info.id,
       name: info.name,
@@ -534,33 +588,21 @@ async function main() {
   }
 
   // Sort manifest by country name
+  const manifestEntries = Array.from(manifestMap.values());
   manifestEntries.sort((a, b) => a.name.localeCompare(b.name));
 
-  // Write TypeScript manifest file
-  const tsContent = `// Auto-generated worldwide L2 Admin-1 country manifest
-export interface L2CountryMeta {
-  iso2: string;
-  countryId: string;
-  name: string;
-  nameZh: string;
-  subdivisionCount: number;
-  bbox: {
-    minX: number;
-    maxX: number;
-    minY: number;
-    maxY: number;
-  };
-}
+  // Write JSON manifest file
+  fs.writeFileSync(l2ManifestJsonPath, JSON.stringify(manifestEntries, null, 2));
+  console.log(`\nSaved ${manifestEntries.length} country entries to ${l2ManifestJsonPath}`);
 
-export const L2_MANIFEST: L2CountryMeta[] = ${JSON.stringify(manifestEntries, null, 2)};
+  // Run build-indexes.mjs automatically
+  try {
+    console.log('\nRunning build-indexes.mjs...');
+    execSync('node scripts/build-indexes.mjs', { cwd: dataRoot, stdio: 'inherit' });
+  } catch (err) {
+    console.warn('Warning: Failed to auto-run build-indexes.mjs:', err);
+  }
 
-export const L2_COUNTRY_MAP: Record<string, L2CountryMeta> = Object.fromEntries(
-  L2_MANIFEST.map((c) => [c.iso2, c])
-);
-`;
-
-  fs.writeFileSync(manifestPath, tsContent);
-  console.log(`\nGenerated ${manifestEntries.length} country entries in ${manifestPath}`);
   console.log('Done!');
 }
 
