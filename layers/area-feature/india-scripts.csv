@@ -16,7 +16,7 @@
 
 Target,Color,Label,LabelDisplayMethod,Description
 LK,,සිංහල (අ ආ ඇ) / தமிழ்,badge,
-BD,,বাংলা (ক খ গ),badge,
+BD::A|BD::B|BD::C*|BD::D|BD::E|BD::F|BD::G,,বাংলা (ক খ গ),badge,孟加拉 (বাংলা)
 IN::TN|IN::PY,,தமிழ் (ழ ற ன),badge,坦米爾納德邦、本地治里 (坦米爾文)
 IN::KL|IN::LD,,മലയാളം (ള ഴ ற),badge,喀拉拉邦、拉克沙群島 (馬拉雅拉姆文)
 IN::KA,,ಕನ್ನಡ (ಕ ಗ ಜ),badge,卡納塔克邦 (康納達文)
