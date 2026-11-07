@@ -344,6 +344,8 @@ function buildLayersIndex() {
       order: orderNum,
       accentColor: directives.accentColor || directives['default-color'] || null,
       defaultColor: directives['default-color'] || directives.accentColor || null,
+      defaultColorInterior: directives['default-color-interior'] || directives.defaultColorInterior || directives['default-color'] || null,
+      defaultColorBoundary: directives['default-color-boundary'] || directives.defaultColorBoundary || null,
       defaultStyle: directives.defaultStyle || directives['default-style'] || null,
       labelSize: parseSizeDirective(directives.labelSize),
       textSize: parseSizeDirective(directives.textSize),
