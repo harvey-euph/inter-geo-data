@@ -2,13 +2,13 @@
 // @id: indiaScripts
 // @order: 7
 // @type: TextWithStyle
-// @nameZh: 南亞文字特徵 (印/斯/孟)
-// @nameEn: South Asia Scripts (IN/LK/BD)
+// @nameZh: 南亞文字特徵 (印/斯/孟/尼/不)
+// @nameEn: South Asia Scripts (IN/LK/BD/NP/BT)
 // @shortBadge: 🕉️ 南亞文字
 // @accentColor: #f472b6
-// @descriptionZh: 顯示印度各邦、斯里蘭卡與孟加拉的專屬書寫文字與代表字特徵（如泰米爾文 தமிழ்、僧伽羅文 සිංහල、馬拉雅拉姆文 മലയാളം、孟加拉文 বাংলা 等）
+// @descriptionZh: 顯示印度各邦、斯里蘭卡、孟加拉、尼泊爾與不丹的專屬書寫文字與代表字特徵（如泰米爾文 தமிழ்、僧伽羅文 සිංහල、馬拉雅拉姆文 മലയാളം、孟加拉文 বাংলা、尼泊爾天城體 नेपाली、不丹宗喀文 རྫོང་ཁ 等）
 // @goto: lat=20&lon=80&ratio=8.000
-// Neighboring South Asian Countries (Sri Lanka & Bangladesh)
+// Neighboring South Asian Countries (Sri Lanka, Bangladesh, Nepal & Bhutan)
 // South India & Island Territories (Dravidian Scripts - 圓弧與鉤線特徵)
 // West India (無頂線或特殊字母 ळ)
 // East & Northeast India (孟加拉—阿薩姆文字圈、梅泰文、藏文與拉丁字母山區邦)
@@ -17,6 +17,8 @@
 Target,Color,Label,LabelDisplayMethod,Description
 LK,,සිංහල (අ ආ ඇ) / தமிழ்,badge,
 BD::A|BD::B|BD::C*|BD::D|BD::E|BD::F|BD::G,,বাংলা (ক খ গ),badge,孟加拉 (বাংলা)
+NP::KA|NP::MA|NP::SE|NP::DH|NP::GA|NP::BA*|NP::JA|NP::SA|NP::KO|NP::ME|NP::NA|NP::LU|NP::RA|NP::BH,,नेपाली (क ख ग),badge,尼泊爾 (नेपाली)
+BT::TY|BT::44|BT::33|BT::13|BT::14|BT::12|BT::31|BT::34|BT::45|BT::41|BT::15*|BT::11|BT::GA|BT::21|BT::24|BT::22|BT::23|BT::42|BT::32|BT::43,,རྫོང་ཁ (ཀ ཁ ག),badge,不丹 (རྫོང་ཁ)
 IN::TN|IN::PY,,தமிழ் (ழ ற ன),badge,坦米爾納德邦、本地治里 (坦米爾文)
 IN::KL|IN::LD,,മലയാളം (ള ഴ ற),badge,喀拉拉邦、拉克沙群島 (馬拉雅拉姆文)
 IN::KA,,ಕನ್ನಡ (ಕ ಗ ಜ),badge,卡納塔克邦 (康納達文)
