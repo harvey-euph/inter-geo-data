@@ -334,6 +334,16 @@ async function main() {
       iso2 = 'XN';
     } else if (f.properties.adm0_a3 === 'KOS') {
       iso2 = 'XK';
+    } else if (f.properties.adm0_a3 === 'KAS') {
+      iso2 = 'KAS';
+      f.properties.name = 'Siachen Glacier';
+      f.properties.name_en = 'Siachen Glacier';
+      f.properties.name_zh = '錫亞琴冰川';
+      f.properties.name_zht = '錫亞琴冰川';
+      f.properties.type_en = 'Disputed Area';
+      f.properties.iso_3166_2 = 'KAS-SIA';
+      f.properties.code = 'KAS-SIA';
+      f.properties.postal = 'SIA';
     } else if (!iso2 || iso2 === '-99') {
       const adm0 = f.properties.adm0_a3;
       if (adm0 === 'PSX' || adm0 === 'PSE' || adm0 === 'WEB' || adm0 === 'GAZ') iso2 = 'PS';

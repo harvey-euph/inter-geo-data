@@ -1820,6 +1820,19 @@
     }
   },
   {
+    "iso2": "KAS",
+    "countryId": "993",
+    "name": "Siachen Glacier",
+    "nameZh": "錫亞琴冰川",
+    "subdivisionCount": 1,
+    "bbox": {
+      "minX": 708,
+      "maxX": 721,
+      "minY": 389,
+      "maxY": 401
+    }
+  },
+  {
     "iso2": "SL",
     "countryId": "694",
     "name": "Sierra Leone",
